@@ -1,4 +1,5 @@
 import { processCSV } from '../utils/csvParser';
+import flashcardsData from './extracted_flashcards.json';
 
 const RAW_DATA_BEGINNER = `Frage,Option A,Option B,Option C,Option D,Option E,Option F,Option G,Option H,Richtige Antwort,Erklärung,User_Choice
 Ab wann ist eine natürliche Person in Österreich rechtsfähig?,14 Jahre,7 Jahre,Vollendete Geburt,18 Jahre,Zeugung,Pensionseintritt,Heirat,Firmengründung,Option C,Natürliche Personen sind nach dem Zivilrecht ab der vollendeten Geburt bis zum Tod rechtsfähig.,
@@ -267,5 +268,7 @@ export const QUIZ_MODULES = {
     'b_2': { title: 'Band 2', desc: 'Kfz-Haftpflicht, Kaskoversicherung, Sachversicherung (Eigenheim, Haushalt) und Rechtsschutz.', data: processCSV(RAW_DATA_2, 9) },
     'b_2_1': { title: 'Band 2.1', desc: 'Spezialversicherungen (Reise, Pflege, Cyber, Transport) und vertiefende Sachversicherungsthemen.', data: processCSV(RAW_DATA_2_1, 9) }
 };
+
+export const FLASHCARD_MODULES = flashcardsData;
 
 

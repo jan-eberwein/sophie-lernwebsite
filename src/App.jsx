@@ -2,14 +2,15 @@ import { useState } from 'react';
 import Header from './components/Header';
 import QuizCard from './components/QuizCard';
 import QuizPlayer from './components/QuizPlayer';
-import { QUIZ_MODULES } from './data/quizData';
+import { QUIZ_MODULES, FLASHCARD_MODULES } from './data/quizData';
 import { ThemeProvider } from './components/ThemeProvider';
 
 function App() {
   const [activeModule, setActiveModule] = useState(null);
 
-  const handleStartQuiz = (moduleId) => {
-    setActiveModule({ id: moduleId, ...QUIZ_MODULES[moduleId] });
+  const handleStartQuiz = (moduleId, isFlashcard = false) => {
+    const moduleData = isFlashcard ? FLASHCARD_MODULES[moduleId] : QUIZ_MODULES[moduleId];
+    setActiveModule({ id: moduleId, ...moduleData });
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -38,16 +39,34 @@ function App() {
                 </p>
               </div>
 
-              {/* Modules Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
-                {Object.entries(QUIZ_MODULES).map(([id, module]) => (
-                  <QuizCard
-                    key={id}
-                    title={module.title}
-                    desc={module.desc}
-                    onStart={() => handleStartQuiz(id)}
-                  />
-                ))}
+              {/* Original Modules Grid */}
+              <div className="mb-16">
+                <h2 className="text-2xl md:text-3xl font-bold mb-8 text-text border-b-2 border-primary/20 pb-4">Originale Module</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+                  {Object.entries(QUIZ_MODULES).map(([id, module]) => (
+                    <QuizCard
+                      key={id}
+                      title={module.title}
+                      desc={module.desc}
+                      onStart={() => handleStartQuiz(id, false)}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              {/* Flashcard Modules Grid */}
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold mb-8 text-primary border-b-2 border-primary/20 pb-4">Neue Lernkarten (aus PDFs)</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+                  {Object.entries(FLASHCARD_MODULES).map(([id, module]) => (
+                    <QuizCard
+                      key={id}
+                      title={module.title}
+                      desc={module.desc}
+                      onStart={() => handleStartQuiz(id, true)}
+                    />
+                  ))}
+                </div>
               </div>
             </div>
           )}

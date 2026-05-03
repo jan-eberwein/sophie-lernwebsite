@@ -9,7 +9,7 @@ const QuizCard = ({ title, desc, onStart }) => {
       <div className="bg-black/5 dark:bg-white/5 w-16 h-16 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
         <BookOpen className="text-text group-hover:text-primary w-8 h-8 transition-colors" />
       </div>
-      <h3 className="text-2xl font-black mb-4 tracking-tight group-hover:text-primary transition-colors">{title}</h3>
+      <h3 className="text-2xl font-black mb-4 tracking-tight group-hover:text-primary transition-colors break-words hyphens-auto" lang="de">{title}</h3>
       <p className="text-text-muted text-base md:text-lg mb-8 leading-relaxed flex-grow">
         {desc}
       </p>
