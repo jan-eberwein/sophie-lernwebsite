@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ec4899;
+  --color-primary-dark: #db2777;
+  --color-secondary: #f472b6;
+  --color-accent: #fbcfe8;
+
+  --color-bg-light: #f8fafc;
+  --color-bg-dark: #020617;
+  
+  --color-card-light: #ffffff;
+  --color-card-dark: #0f172a;
+
+  --color-text-light: #0f172a;
+  --color-text-dark: #f8fafc;
+  
+  --color-text-muted-light: #64748b;
+  --color-text-muted-dark: #94a3b8;
+
+  --animate-fade-in: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@layer base {
+  :root {
+    --background: var(--color-bg-light);
+    --card: var(--color-card-light);
+    --text: var(--color-text-light);
+    --text-muted: var(--color-text-muted-light);
+    --border-color: rgba(0, 0, 0, 0.05);
+    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-border: rgba(0, 0, 0, 0.05);
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  .dark {
+    --background: var(--color-bg-dark);
+    --card: var(--color-card-dark);
+    --text: var(--color-text-dark);
+    --text-muted: var(--color-text-muted-dark);
+    --border-color: rgba(255, 255, 255, 0.05);
+    --glass-bg: rgba(15, 23, 42, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.05);
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+@layer components {
+  .glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+  }
+  
+  .progress-bar {
+    transition: width 0.3s ease-in-out;
+  }
+}
