@@ -1,5 +1,5 @@
 import { processCSV } from '../utils/csvParser';
-import flashcardsData from './extracted_flashcards.json';
+import newQuizData from './new_QUIZ_questions.json';
 
 const RAW_DATA_BEGINNER = `Frage,Option A,Option B,Option C,Option D,Option E,Option F,Option G,Option H,Richtige Antwort,Erklärung,User_Choice
 Ab wann ist eine natürliche Person in Österreich rechtsfähig?,14 Jahre,7 Jahre,Vollendete Geburt,18 Jahre,Zeugung,Pensionseintritt,Heirat,Firmengründung,Option C,Natürliche Personen sind nach dem Zivilrecht ab der vollendeten Geburt bis zum Tod rechtsfähig.,
@@ -269,6 +269,43 @@ export const QUIZ_MODULES = {
     'b_2_1': { title: 'Band 2.1', desc: 'Spezialversicherungen (Reise, Pflege, Cyber, Transport) und vertiefende Sachversicherungsthemen.', data: processCSV(RAW_DATA_2_1, 9) }
 };
 
-export const FLASHCARD_MODULES = flashcardsData;
+const processNewQuizData = (data) => {
+    const modules = {};
+    
+    if (data.sections) {
+        data.sections.forEach(section => {
+            const processedItems = section.items.map(q => {
+                if (q.question_type === 'multiple_choice') {
+                    return {
+                        question: q.question,
+                        type: 'multiple_choice',
+                        options: q.options ? q.options.map(opt => ({
+                            text: opt.text,
+                            isCorrect: opt.is_correct
+                        })) : [],
+                        explanation: q.explanation || ''
+                    };
+                } else {
+                    return {
+                        question: q.question,
+                        type: 'flashcard',
+                        answer: q.expected_answer || '',
+                        explanation: q.explanation || ''
+                    };
+                }
+            });
+            
+            modules[section.section_key] = {
+                title: section.title,
+                desc: `Lernkarten zu ${section.title}`,
+                data: processedItems
+            };
+        });
+    }
+    
+    return modules;
+};
+
+export const FLASHCARD_MODULES = processNewQuizData(newQuizData);
 
 

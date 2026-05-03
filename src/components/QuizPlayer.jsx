@@ -143,7 +143,7 @@ const QuizPlayer = ({ module, onBack }) => {
           {currentQuestion.question}
         </h3>
 
-        {module.type === 'flashcard' ? (
+        {currentQuestion.type === 'flashcard' ? (
           <div className="space-y-6">
             {!showFlashcardAnswer ? (
               <button
@@ -238,7 +238,7 @@ const QuizPlayer = ({ module, onBack }) => {
       </div>
 
       <div className="flex justify-end mb-12">
-        {module.type !== 'flashcard' && (
+        {currentQuestion.type !== 'flashcard' && (
           !showResult ? (
             <button
               onClick={handleCheckAnswer}

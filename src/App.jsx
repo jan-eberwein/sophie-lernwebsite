@@ -39,8 +39,8 @@ function App() {
                 </p>
               </div>
 
-              {/* Original Modules Grid */}
-              <div className="mb-16">
+              {/* Original Modules Grid - Archived (Hidden) */}
+              <div className="mb-16 hidden">
                 <h2 className="text-2xl md:text-3xl font-bold mb-8 text-text border-b-2 border-primary/20 pb-4">Originale Module</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
                   {Object.entries(QUIZ_MODULES).map(([id, module]) => (
@@ -56,7 +56,7 @@ function App() {
 
               {/* Flashcard Modules Grid */}
               <div>
-                <h2 className="text-2xl md:text-3xl font-bold mb-8 text-primary border-b-2 border-primary/20 pb-4">Neue Lernkarten (aus PDFs)</h2>
+
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
                   {Object.entries(FLASHCARD_MODULES).map(([id, module]) => (
                     <QuizCard
