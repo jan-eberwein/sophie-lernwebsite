@@ -15,7 +15,7 @@ const Header = ({ onHome, user, onAuthClick }) => {
             <GraduationCap className="text-white w-6 h-6" />
           </div>
           <span className="text-xl md:text-2xl font-black tracking-tight text-text group-hover:text-primary transition-colors">
-            Sophie's Lernplattform 🩷🤍
+            Sophie's Lernplattform <span className="hidden sm:inline">🩷</span>🤍
           </span>
         </div>
 
