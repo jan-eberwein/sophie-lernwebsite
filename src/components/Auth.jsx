@@ -45,7 +45,7 @@ const Auth = ({ onBack }) => {
   return (
     <div className="w-full max-w-md mx-auto relative mt-10 md:mt-20 px-4">
       {onBack && (
-        <button 
+        <button
           onClick={onBack}
           className="absolute -top-16 left-4 flex items-center text-text-muted hover:text-primary transition-colors font-medium group"
         >
@@ -66,12 +66,12 @@ const Auth = ({ onBack }) => {
             {isLogin ? <LogIn className="w-8 h-8" /> : <UserPlus className="w-8 h-8" />}
           </div>
           <h2 className="text-3xl font-black text-text tracking-tight mb-2">
-            {isLogin ? 'Willkommen zurück' : 'Account erstellen'}
+            {isLogin ? 'Login' : 'Registrieren'}
           </h2>
           <p className="text-text-muted">
-            {isLogin 
-              ? 'Logge dich ein, um deinen Lernfortschritt zu speichern.' 
-              : 'Registriere dich, um deinen Fortschritt auf allen Geräten zu synchronisieren.'}
+            {isLogin
+              ? 'Speichere deinen Lernfortschritt und synchronisiere ihn auf allen Geräten.'
+              : 'Speichere deinen Lernfortschritt und synchronisiere ihn auf allen Geräten.'}
           </p>
         </div>
 
