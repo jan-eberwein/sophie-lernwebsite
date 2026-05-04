@@ -4,6 +4,7 @@ import Header from './components/Header';
 import QuizCard from './components/QuizCard';
 import QuizPlayer from './components/QuizPlayer';
 import Auth from './components/Auth';
+import { X, User } from 'lucide-react';
 import { QUIZ_MODULES, FLASHCARD_MODULES } from './data/quizData';
 import { ThemeProvider } from './components/ThemeProvider';
 
@@ -12,6 +13,7 @@ function App() {
   const [globalStats, setGlobalStats] = useState({});
   const [user, setUser] = useState(null);
   const [showAuth, setShowAuth] = useState(false);
+  const [guestPromptModule, setGuestPromptModule] = useState(null);
 
   useEffect(() => {
     // Check initial session
@@ -89,8 +91,12 @@ function App() {
 
   const handleStartQuiz = (moduleId, isFlashcard = false) => {
     const moduleData = isFlashcard ? FLASHCARD_MODULES[moduleId] : QUIZ_MODULES[moduleId];
-    setActiveModule({ id: moduleId, ...moduleData });
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (!user) {
+      setGuestPromptModule({ id: moduleId, ...moduleData });
+    } else {
+      setActiveModule({ id: moduleId, ...moduleData });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   };
 
   const handleGoHome = () => {
@@ -107,12 +113,56 @@ function App() {
         user={user}
         onAuthClick={handleAuthClick}
       />
+      
+      {guestPromptModule && (
+        <div className="fixed inset-0 bg-bg/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <div className="glass-card p-8 md:p-10 rounded-[2rem] shadow-xl max-w-md w-full relative animate-fade-in">
+            <button 
+              onClick={() => setGuestPromptModule(null)}
+              className="absolute top-4 right-4 p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/5 transition-colors"
+            >
+              <X className="w-5 h-5 text-text-muted" />
+            </button>
+            <div className="text-center mb-8 mt-2">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-black/5 dark:bg-white/5 mb-6 text-primary">
+                <User className="w-8 h-8" />
+              </div>
+              <h2 className="text-2xl font-black text-text mb-3">Kurzer Tipp!</h2>
+              <p className="text-text-muted leading-relaxed">
+                Wenn du dich einloggst, werden deine Spielstände gespeichert und das smarte Lernsystem merkt sich, welche Fragen du noch üben musst.
+              </p>
+            </div>
+            <div className="space-y-3">
+              <button
+                onClick={() => {
+                  setShowAuth(true);
+                  setGuestPromptModule(null);
+                }}
+                className="w-full py-4 bg-primary hover:bg-primary-hover text-white rounded-xl font-bold transition-all shadow-lg hover:shadow-primary/30"
+              >
+                Jetzt Einloggen
+              </button>
+              <button
+                onClick={() => {
+                  setActiveModule(guestPromptModule);
+                  setGuestPromptModule(null);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className="w-full py-4 bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10 text-text rounded-xl font-bold transition-all"
+              >
+                Als Gast fortfahren
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       <main className="container mx-auto px-4 py-8 md:py-12">
         {showAuth ? (
           <Auth onBack={() => setShowAuth(false)} />
         ) : activeModule ? (
           <QuizPlayer
-            module={activeModule.data}
+            module={activeModule}
             onBack={() => {
               handleGoHome();
               if (user) fetchUserStats(user.id);

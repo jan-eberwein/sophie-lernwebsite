@@ -4,7 +4,7 @@ import { LogIn, UserPlus, Mail, Lock, AlertCircle, ArrowLeft } from 'lucide-reac
 
 const Auth = ({ onBack }) => {
   const [isLogin, setIsLogin] = useState(true);
-  const [email, setEmail] = useState('');
+  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -17,16 +17,18 @@ const Auth = ({ onBack }) => {
     setMessage(null);
 
     try {
+      const authEmail = `${username.trim().toLowerCase().replace(/\s+/g, '')}@sophie.local`;
+
       if (isLogin) {
         const { error } = await supabase.auth.signInWithPassword({
-          email,
+          email: authEmail,
           password,
         });
         if (error) throw error;
         // Successful login will be handled by onAuthStateChange in App.jsx
       } else {
         const { error } = await supabase.auth.signUp({
-          email,
+          email: authEmail,
           password,
         });
         if (error) throw error;
@@ -89,18 +91,18 @@ const Auth = ({ onBack }) => {
 
         <form onSubmit={handleAuth} className="space-y-5 relative z-10">
           <div>
-            <label className="block text-sm font-semibold text-text mb-2">E-Mail Adresse</label>
+            <label className="block text-sm font-semibold text-text mb-2">Benutzername</label>
             <div className="relative">
               <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-text-muted">
-                <Mail className="w-5 h-5" />
+                <UserPlus className="w-5 h-5" />
               </div>
               <input
-                type="email"
+                type="text"
                 required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
                 className="w-full pl-11 pr-4 py-3 bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 rounded-xl text-text placeholder-text-muted focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
-                placeholder="deine@email.com"
+                placeholder="Benutzername"
               />
             </div>
           </div>
