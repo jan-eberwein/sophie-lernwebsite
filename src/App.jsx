@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import QuizCard from './components/QuizCard';
 import QuizPlayer from './components/QuizPlayer';
@@ -7,6 +7,16 @@ import { ThemeProvider } from './components/ThemeProvider';
 
 function App() {
   const [activeModule, setActiveModule] = useState(null);
+  const [globalStats, setGlobalStats] = useState({});
+
+  useEffect(() => {
+    try {
+      const stats = JSON.parse(localStorage.getItem('sophie_global_stats')) || {};
+      setGlobalStats(stats);
+    } catch (error) {
+      console.error("Error loading global stats", error);
+    }
+  }, [activeModule]); // Re-fetch when module changes (e.g. going back to home)
 
   const handleStartQuiz = (moduleId, isFlashcard = false) => {
     const moduleData = isFlashcard ? FLASHCARD_MODULES[moduleId] : QUIZ_MODULES[moduleId];
@@ -51,7 +61,8 @@ function App() {
                       <QuizCard
                         key={id}
                         title={module.title}
-                        desc={module.desc}
+                        questionCount={module.data?.length || 0}
+                        stats={globalStats[id]}
                         onStart={() => handleStartQuiz(id, false)}
                       />
                     ))}
@@ -59,7 +70,8 @@ function App() {
                       <QuizCard
                         key={id}
                         title={module.title}
-                        desc={module.desc}
+                        questionCount={module.data?.length || 0}
+                        stats={globalStats[id]}
                         onStart={() => handleStartQuiz(id, true)}
                       />
                     ))}
