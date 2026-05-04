@@ -284,12 +284,14 @@ const QuizPlayer = ({ module, onBack }) => {
             {currentQuestion.context}
           </p>
         )}
-        <div className={cn(
-          "font-bold leading-relaxed mb-10 text-text whitespace-pre-wrap",
-          currentQuestion.title || currentQuestion.context ? "text-xl md:text-2xl" : "text-2xl md:text-3xl"
-        )}>
-          {currentQuestion.question}
-        </div>
+        {currentQuestion.question && (
+          <div className={cn(
+            "font-bold leading-relaxed mb-10 text-text whitespace-pre-wrap",
+            currentQuestion.title || currentQuestion.context ? "text-xl md:text-2xl" : "text-2xl md:text-3xl"
+          )}>
+            {currentQuestion.question}
+          </div>
+        )}
 
         {currentQuestion.type === 'flashcard' ? (
           <div className="space-y-6">

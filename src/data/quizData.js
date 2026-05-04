@@ -1,4 +1,4809 @@
 export const QUIZ_MODULES = {
+  "band1": {
+    "title": "Band 1",
+    "data": [
+      {
+        "title": "1. Was regelt das Bürgerliche Recht?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Beziehungen zwischen Privatpersonen",
+            "isCorrect": true
+          },
+          {
+            "text": "Beziehungen zwischen Staat und Bürger",
+            "isCorrect": false
+          },
+          {
+            "text": "Kaufverträge und Schuldverhältnisse",
+            "isCorrect": true
+          },
+          {
+            "text": "Strafbare Handlungen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Rechtsgebiete gehören zum Privatrecht?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Sachenrecht",
+            "isCorrect": true
+          },
+          {
+            "text": "Familienrecht",
+            "isCorrect": true
+          },
+          {
+            "text": "Strafrecht",
+            "isCorrect": false
+          },
+          {
+            "text": "Schuldrecht",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Gesetze zählen zum Privatrecht in Österreich?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "ABGB",
+            "isCorrect": true
+          },
+          {
+            "text": "Konsumentenschutzgesetz",
+            "isCorrect": true
+          },
+          {
+            "text": "Strafgesetzbuch",
+            "isCorrect": false
+          },
+          {
+            "text": "Mietrechtsgesetz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Was kennzeichnet einen Vertrag?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Übereinstimmende Willenserklärungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Begründung von Rechten und Pflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Muss immer schriftlich sein",
+            "isCorrect": false
+          },
+          {
+            "text": "Mindestens zwei Parteien",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Wer kann Vertragspartei sein?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Natürliche Personen",
+            "isCorrect": true
+          },
+          {
+            "text": "Juristische Personen",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur volljährige Personen",
+            "isCorrect": false
+          },
+          {
+            "text": "Unternehmen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Was versteht man unter einer Person im rechtlichen Sinn?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Jeder Mensch",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur Erwachsene",
+            "isCorrect": false
+          },
+          {
+            "text": "Träger von Rechten und Pflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur Staatsbürger",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Beispiele sind juristische Personen?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "GmbH",
+            "isCorrect": true
+          },
+          {
+            "text": "Verein",
+            "isCorrect": true
+          },
+          {
+            "text": "Einzelperson",
+            "isCorrect": false
+          },
+          {
+            "text": "Aktiengesellschaft",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Was gilt für juristische Personen?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Sie handeln durch Organe",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie sind rechtsfähig",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie können heiraten",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie können Verträge abschließen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Was bedeutet Rechtsfähigkeit?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Fähigkeit, Verträge abzuschließen",
+            "isCorrect": false
+          },
+          {
+            "text": "Fähigkeit, Rechte zu haben",
+            "isCorrect": true
+          },
+          {
+            "text": "Fähigkeit, Pflichten zu haben",
+            "isCorrect": true
+          },
+          {
+            "text": "Fähigkeit zu wählen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Was umfasst die Handlungsfähigkeit?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Geschäftsfähigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Deliktsfähigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Wahlrecht",
+            "isCorrect": false
+          },
+          {
+            "text": "Besitzfähigkeit",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Wann ist eine Person voll geschäftsfähig?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Ab 18 Jahren",
+            "isCorrect": true
+          },
+          {
+            "text": "Ab Geburt",
+            "isCorrect": false
+          },
+          {
+            "text": "Bei vorhandener Einsichtsfähigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer automatisch",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Was gilt für Kinder (0–7 Jahre)?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Sie sind geschäftsunfähig",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie können alle Verträge abschließen",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie können geringfügige Alltagsgeschäfte tätigen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie benötigen einen gesetzlichen Vertreter",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Was gilt für unmündige Minderjährige (7–14 Jahre)?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Beschränkte Geschäftsfähigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Annahme von Schenkungen möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Voll geschäftsfähig",
+            "isCorrect": false
+          },
+          {
+            "text": "Alltagsgeschäfte erlaubt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Was gilt für mündige Minderjährige (14–18 Jahre)?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Verfügung über eigenes Einkommen",
+            "isCorrect": true
+          },
+          {
+            "text": "Voll geschäftsfähig",
+            "isCorrect": false
+          },
+          {
+            "text": "Teilweise Zustimmung erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Uneingeschränkte Vertragsfreiheit",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Was bedeutet Deliktsfähigkeit?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Fähigkeit, Verträge abzuschließen",
+            "isCorrect": false
+          },
+          {
+            "text": "Fähigkeit, für Schäden verantwortlich zu sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Fähigkeit, strafbar zu sein",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftung für eigenes Verhalten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "16. Was ist eine Sache im rechtlichen Sinn?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Alles, was vom Menschen verschieden ist",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur körperliche Gegenstände",
+            "isCorrect": false
+          },
+          {
+            "text": "Dient dem Gebrauch des Menschen",
+            "isCorrect": true
+          },
+          {
+            "text": "Tiere sind vollständig Sachen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "17. Was sind bewegliche Sachen?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Transportierbar",
+            "isCorrect": true
+          },
+          {
+            "text": "Grundstücke",
+            "isCorrect": false
+          },
+          {
+            "text": "Möbel",
+            "isCorrect": true
+          },
+          {
+            "text": "Fahrzeuge",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "18. Was sind unbewegliche Sachen?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Grundstücke",
+            "isCorrect": true
+          },
+          {
+            "text": "Gebäude",
+            "isCorrect": true
+          },
+          {
+            "text": "Autos",
+            "isCorrect": false
+          },
+          {
+            "text": "Fest verbundene Teile",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "19. Was gehört zum Besitz?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Tatsächliche Sachherrschaft",
+            "isCorrect": true
+          },
+          {
+            "text": "Besitzwille",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigentum",
+            "isCorrect": false
+          },
+          {
+            "text": "Nutzungsmöglichkeit",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "20. Was bedeutet Eigentum?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Volle rechtliche Herrschaft",
+            "isCorrect": true
+          },
+          {
+            "text": "Nutzungsmöglichkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Verfügungsrecht",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Einschränkungen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "21. Was sind Voraussetzungen für einen gültigen Vertrag?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Geschäftsfähigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Übereinstimmung (Konsens)",
+            "isCorrect": true
+          },
+          {
+            "text": "Schriftform immer erforderlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Erlaubter Inhalt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "22. Wie kommt ein Vertrag zustande?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Angebot",
+            "isCorrect": true
+          },
+          {
+            "text": "Annahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Schweigen",
+            "isCorrect": false
+          },
+          {
+            "text": "Einigung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "23. Was ist ein Angebot?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Verbindliche Willenserklärung",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer unverbindlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsvorschlag",
+            "isCorrect": true
+          },
+          {
+            "text": "Ausdruck eines Abschlusswillens",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "24. Was gilt für die Annahme?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Muss dem Angebot entsprechen",
+            "isCorrect": true
+          },
+          {
+            "text": "Darf geändert werden",
+            "isCorrect": false
+          },
+          {
+            "text": "Führt zum Vertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Erfolgt innerhalb einer Frist",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "25. Was gilt für Schweigen auf ein Angebot?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Gilt als Zustimmung",
+            "isCorrect": false
+          },
+          {
+            "text": "Gilt grundsätzlich nicht als Annahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Kann in Ausnahmefällen relevant sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Führt automatisch zu Vertrag",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "26. Was ist ein Motivirrtum?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Irrtum über Beweggründe",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer rechtlich relevant",
+            "isCorrect": false
+          },
+          {
+            "text": "Meist unbeachtlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Betrifft Vertragsinhalt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "27. Was ist ein Geschäftsirrtum?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Irrtum über Vertragsinhalt",
+            "isCorrect": true
+          },
+          {
+            "text": "Rechtlich relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Kann angefochten werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Betrifft persönliche Gefühle",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "28. Was gilt für die Irrtumsanfechtung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Muss gerichtlich erfolgen",
+            "isCorrect": true
+          },
+          {
+            "text": "Ist immer möglich",
+            "isCorrect": false
+          },
+          {
+            "text": "Hat Fristen",
+            "isCorrect": true
+          },
+          {
+            "text": "Macht Vertrag automatisch nichtig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "29. Was kennzeichnet den Kaufvertrag?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Ware gegen Geld",
+            "isCorrect": true
+          },
+          {
+            "text": "Einigung erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigentum entsteht sofort",
+            "isCorrect": false
+          },
+          {
+            "text": "Lieferung notwendig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "30. Was kennzeichnet den Werkvertrag?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Herstellung eines Werkes",
+            "isCorrect": true
+          },
+          {
+            "text": "Erfolg wird geschuldet",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur Tätigkeit geschuldet",
+            "isCorrect": false
+          },
+          {
+            "text": "Entgelt möglich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "31. Voraussetzungen für Schadenersatz?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Schaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Kausalität",
+            "isCorrect": true
+          },
+          {
+            "text": "Verschulden",
+            "isCorrect": true
+          },
+          {
+            "text": "Zufall",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "32. Was ist Verschulden?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vorsatz",
+            "isCorrect": true
+          },
+          {
+            "text": "Fahrlässigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Zufall",
+            "isCorrect": false
+          },
+          {
+            "text": "Vorwerfbarkeit",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "33. Was ist ein Versicherungsvertrag?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Risikoübertragung",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer Sparform",
+            "isCorrect": false
+          },
+          {
+            "text": "Absicherung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "34. Wer sind Parteien im Versicherungsvertrag?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Begünstigter",
+            "isCorrect": true
+          },
+          {
+            "text": "Richter",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "35. Was ist die Prämie?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Zahlung",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistung des Versicherungsnehmers",
+            "isCorrect": true
+          },
+          {
+            "text": "Strafe",
+            "isCorrect": false
+          },
+          {
+            "text": "Voraussetzung für Versicherungsschutz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "36. Pflichten des Versicherers?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Leistung im Schadensfall",
+            "isCorrect": true
+          },
+          {
+            "text": "Information",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer zahlen",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertrag erfüllen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "37. Was sind Obliegenheiten?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Verhaltenspflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsregeln",
+            "isCorrect": true
+          },
+          {
+            "text": "Unwichtig",
+            "isCorrect": false
+          },
+          {
+            "text": "Voraussetzung für Leistung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "38. Folgen der Obliegenheitsverletzung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Leistungskürzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Folgen",
+            "isCorrect": false
+          },
+          {
+            "text": "Leistungsverweigerung",
+            "isCorrect": true
+          },
+          {
+            "text": "Automatische Kündigung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "39. Wie entsteht ein Versicherungsvertrag?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Antrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Annahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko",
+            "isCorrect": false
+          },
+          {
+            "text": "Polizze",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "40. Was ist das versicherte Risiko?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Muss definiert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Ist egal",
+            "isCorrect": false
+          },
+          {
+            "text": "Bestimmt Prämie",
+            "isCorrect": true
+          },
+          {
+            "text": "Bestimmt Leistung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "41. Was sind AVB?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vertragsbestandteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Gesetz",
+            "isCorrect": false
+          },
+          {
+            "text": "Standardbedingungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Wichtig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "42. Anforderungen an AVB?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Verständlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Transparent",
+            "isCorrect": true
+          },
+          {
+            "text": "Geheim",
+            "isCorrect": false
+          },
+          {
+            "text": "Vereinbart",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "43. Wie endet ein Vertrag?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kündigung",
+            "isCorrect": true
+          },
+          {
+            "text": "Zeitablauf",
+            "isCorrect": true
+          },
+          {
+            "text": "Tod immer",
+            "isCorrect": false
+          },
+          {
+            "text": "Wegfall Risiko",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "44. Was gilt für Kündigung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Beendet Vertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Frist notwendig",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer sofort",
+            "isCorrect": false
+          },
+          {
+            "text": "Einseitig möglich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "45. Wer beaufsichtigt Versicherungen?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Staat",
+            "isCorrect": true
+          },
+          {
+            "text": "Finanzmarktaufsicht",
+            "isCorrect": true
+          },
+          {
+            "text": "EU",
+            "isCorrect": true
+          },
+          {
+            "text": "Kunden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "46. Ziele der Versicherungsaufsicht?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kundenschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Stabilität",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn",
+            "isCorrect": false
+          },
+          {
+            "text": "Kontrolle",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "47. Versicherungssteuer…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Auf Prämien",
+            "isCorrect": true
+          },
+          {
+            "text": "Staatlich geregelt",
+            "isCorrect": true
+          },
+          {
+            "text": "Freiwillig",
+            "isCorrect": false
+          },
+          {
+            "text": "Pflicht",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "48. Vertragsänderungen…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Zustimmung notwendig",
+            "isCorrect": true
+          },
+          {
+            "text": "Automatisch",
+            "isCorrect": false
+          },
+          {
+            "text": "Oft schriftlich sinnvoll",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "49. Vertragsinhalt umfasst…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Rechte",
+            "isCorrect": true
+          },
+          {
+            "text": "Pflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Zufall",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "50. Zweck der Versicherung…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Risikoabsicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn garantiert",
+            "isCorrect": false
+          },
+          {
+            "text": "Schutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Schadensausgleich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "51. Was versteht man unter Innehabung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Tatsächliche Gewalt über eine Sache",
+            "isCorrect": true
+          },
+          {
+            "text": "Besitzwille",
+            "isCorrect": false
+          },
+          {
+            "text": "Halten einer Sache für jemand anderen",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigentum an einer Sache",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "52. Was unterscheidet Besitz von Innehabung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Besitz erfordert Besitzwillen",
+            "isCorrect": true
+          },
+          {
+            "text": "Innehabung erfordert Eigentum",
+            "isCorrect": false
+          },
+          {
+            "text": "Besitz ist rechtlich geschützt",
+            "isCorrect": true
+          },
+          {
+            "text": "Innehabung ist immer Eigentum",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "53. Was sind Grundsätze des Sachenrechts?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Publizitätsprinzip",
+            "isCorrect": true
+          },
+          {
+            "text": "Titel und Modus",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsfreiheit",
+            "isCorrect": false
+          },
+          {
+            "text": "Spezialitätsprinzip",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "54. Was bedeutet „Titel und Modus“?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vertrag als Rechtsgrund",
+            "isCorrect": true
+          },
+          {
+            "text": "Übergabe als Erwerbsakt",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigentum entsteht automatisch",
+            "isCorrect": false
+          },
+          {
+            "text": "Zwei Voraussetzungen für Eigentumserwerb",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "55. Was ist ein gültiger Titel?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kaufvertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Diebstahl",
+            "isCorrect": false
+          },
+          {
+            "text": "Schenkung",
+            "isCorrect": true
+          },
+          {
+            "text": "Gerichtsurteil",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "56. Was ist ein Modus bei beweglichen Sachen?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Übergabe",
+            "isCorrect": true
+          },
+          {
+            "text": "Eintragung ins Grundbuch",
+            "isCorrect": false
+          },
+          {
+            "text": "Besitzverschaffung",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "57. Was gilt für unbewegliche Sachen beim Eigentumserwerb?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Eintragung ins Grundbuch notwendig",
+            "isCorrect": true
+          },
+          {
+            "text": "Übergabe reicht aus",
+            "isCorrect": false
+          },
+          {
+            "text": "Titel erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Einverleibung notwendig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "58. Was bedeutet Eigentumsvorbehalt?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Verkäufer bleibt Eigentümer bis Zahlung",
+            "isCorrect": true
+          },
+          {
+            "text": "Käufer wird sofort Eigentümer",
+            "isCorrect": false
+          },
+          {
+            "text": "Schutz bei Ratenkauf",
+            "isCorrect": true
+          },
+          {
+            "text": "Muss vereinbart werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "59. Wann ist gutgläubiger Erwerb möglich?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kauf im Geschäft",
+            "isCorrect": true
+          },
+          {
+            "text": "Kauf vom Dieb",
+            "isCorrect": false
+          },
+          {
+            "text": "Öffentliche Versteigerung",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrauen in Verkäufer",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "60. Wann ist jemand gutgläubig?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kennt Mangel nicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Muss Zweifel haben",
+            "isCorrect": false
+          },
+          {
+            "text": "Darf vertrauen",
+            "isCorrect": true
+          },
+          {
+            "text": "Weiß vom Diebstahl",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "61. Was ist das Grundbuch?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Öffentliches Register",
+            "isCorrect": true
+          },
+          {
+            "text": "Verzeichnis von Grundstücken",
+            "isCorrect": true
+          },
+          {
+            "text": "Privatdokument",
+            "isCorrect": false
+          },
+          {
+            "text": "Elektronische Datenbank",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "62. Was gilt im Grundbuch?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Öffentlichkeitsprinzip",
+            "isCorrect": true
+          },
+          {
+            "text": "Eintragungsgrundsatz",
+            "isCorrect": true
+          },
+          {
+            "text": "Geheimhaltung",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertrauensgrundsatz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "63. Was bedeutet Vertrauensgrundsatz?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Eintragungen gelten als richtig",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder darf vertrauen",
+            "isCorrect": true
+          },
+          {
+            "text": "Eintragungen sind unveränderbar",
+            "isCorrect": false
+          },
+          {
+            "text": "Schutz des gutgläubigen Erwerbers",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "64. Was steht im Eigentumsblatt?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Eigentümer",
+            "isCorrect": true
+          },
+          {
+            "text": "Grundstücksgröße",
+            "isCorrect": false
+          },
+          {
+            "text": "Anteile",
+            "isCorrect": true
+          },
+          {
+            "text": "Belastungen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "65. Was steht im Lastenblatt?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Hypotheken",
+            "isCorrect": true
+          },
+          {
+            "text": "Servituten",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigentümer",
+            "isCorrect": false
+          },
+          {
+            "text": "Belastungen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "66. Was sind Willenserklärungen?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Ausdruck eines Willens",
+            "isCorrect": true
+          },
+          {
+            "text": "Grundlage für Verträge",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer schriftlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Können mündlich sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "67. Was bedeutet Konsens?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Übereinstimmung",
+            "isCorrect": true
+          },
+          {
+            "text": "Streit",
+            "isCorrect": false
+          },
+          {
+            "text": "Einigung",
+            "isCorrect": true
+          },
+          {
+            "text": "Dissens",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "68. Wann liegt Dissens vor?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Uneinigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Unterschiedliche Vorstellungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag kommt zustande",
+            "isCorrect": false
+          },
+          {
+            "text": "Kein Vertrag",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "69. Was sind Formvorschriften?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Gesetzliche Anforderungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Schriftlichkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer notwendig",
+            "isCorrect": false
+          },
+          {
+            "text": "Bedingung für Gültigkeit",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "70. Was gilt für mündliche Verträge?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Grundsätzlich gültig",
+            "isCorrect": true
+          },
+          {
+            "text": "Ungültig",
+            "isCorrect": false
+          },
+          {
+            "text": "Beweisprobleme möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer schriftlich nötig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "71. Ein Angebot ist…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Bindend",
+            "isCorrect": true
+          },
+          {
+            "text": "Freibleibend möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer unverbindlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Grundlage für Vertrag",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "72. Was gilt für Angebote unter Anwesenden?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Sofort anzunehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Frist möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer schriftlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Telefon gilt auch",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "73. Was gilt für Angebote unter Abwesenden?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Annahmefrist",
+            "isCorrect": true
+          },
+          {
+            "text": "Schriftlich",
+            "isCorrect": true
+          },
+          {
+            "text": "E-Mail möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Sofortige Annahme nötig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "74. Was umfasst die Annahmefrist?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Übermittlungszeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Überlegungszeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Rückübermittlung",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Frist",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "75. Wann ist ein Angebot unverbindlich?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "„freibleibend“",
+            "isCorrect": true
+          },
+          {
+            "text": "„ohne Gewähr“",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer",
+            "isCorrect": false
+          },
+          {
+            "text": "Kennzeichnung notwendig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "76. Was ist ein Erklärungsirrtum?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Falsche Erklärung",
+            "isCorrect": true
+          },
+          {
+            "text": "Versprechen",
+            "isCorrect": true
+          },
+          {
+            "text": "Falsche Motivation",
+            "isCorrect": false
+          },
+          {
+            "text": "Schreibfehler",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "77. Geschäftsirrtum betrifft…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vertragsgegenstand",
+            "isCorrect": true
+          },
+          {
+            "text": "Person",
+            "isCorrect": true
+          },
+          {
+            "text": "Natur des Geschäfts",
+            "isCorrect": true
+          },
+          {
+            "text": "Gefühle",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "78. Wann ist Irrtum relevant?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vom anderen verursacht",
+            "isCorrect": true
+          },
+          {
+            "text": "Erkennbar",
+            "isCorrect": true
+          },
+          {
+            "text": "Rechtzeitig aufgeklärt",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer irrelevant",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "79. Frist für Irrtumsanfechtung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "3 Jahre",
+            "isCorrect": true
+          },
+          {
+            "text": "1 Jahr",
+            "isCorrect": false
+          },
+          {
+            "text": "Ab Vertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Unbegrenzt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "80. Was ist ein Vorvertrag?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Verpflichtung späteren Vertragsabschluss",
+            "isCorrect": true
+          },
+          {
+            "text": "Endgültiger Vertrag",
+            "isCorrect": false
+          },
+          {
+            "text": "Muss Inhalt bestimmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Zeit festlegen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "81. Was kann man aus Vorvertrag klagen?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vertragsabschluss",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Schadenersatz",
+            "isCorrect": false
+          },
+          {
+            "text": "Erfüllung sofort",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "82. Was gilt für Online-Verträge?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Normale Regeln",
+            "isCorrect": true
+          },
+          {
+            "text": "Sonderregeln",
+            "isCorrect": true
+          },
+          {
+            "text": "Ungültig",
+            "isCorrect": false
+          },
+          {
+            "text": "Informationspflichten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "83. Was ist eine elektronische Signatur?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Digitale Unterschrift",
+            "isCorrect": true
+          },
+          {
+            "text": "Identitätsnachweis",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer gleichwertig",
+            "isCorrect": false
+          },
+          {
+            "text": "Sicherung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "84. Qualifizierte Signatur…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Gleich wie handschriftlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Höhere Beweiskraft",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer notwendig",
+            "isCorrect": false
+          },
+          {
+            "text": "Gesetzlich geregelt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "85. Kaufvertrag Pflichten Käufer?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Zahlung",
+            "isCorrect": true
+          },
+          {
+            "text": "Abnahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Herstellung",
+            "isCorrect": false
+          },
+          {
+            "text": "Verwahrung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "86. Pflichten Verkäufer?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Lieferung",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigentum verschaffen",
+            "isCorrect": true
+          },
+          {
+            "text": "Zahlung",
+            "isCorrect": false
+          },
+          {
+            "text": "Verwahrung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "87. Werkvertrag Unternehmer…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Werk herstellen",
+            "isCorrect": true
+          },
+          {
+            "text": "Erfolg schulden",
+            "isCorrect": true
+          },
+          {
+            "text": "Weisungsgebunden",
+            "isCorrect": false
+          },
+          {
+            "text": "Risiko tragen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "88. Werkvertrag Besteller…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Werklohn zahlen",
+            "isCorrect": true
+          },
+          {
+            "text": "Werk abnehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko tragen",
+            "isCorrect": false
+          },
+          {
+            "text": "Leistung kontrollieren",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "89. Schaden ist…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vermögensnachteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Körperverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn",
+            "isCorrect": false
+          },
+          {
+            "text": "Nachteil",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "90. Kausalität bedeutet…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Ursache-Wirkung",
+            "isCorrect": true
+          },
+          {
+            "text": "Zusammenhang",
+            "isCorrect": true
+          },
+          {
+            "text": "Zufall",
+            "isCorrect": false
+          },
+          {
+            "text": "Voraussetzung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "91. Fahrlässigkeit ist…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Sorgfaltsverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Absicht",
+            "isCorrect": false
+          },
+          {
+            "text": "Leicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Grob",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "92. Vorsatz ist…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Absicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Wissen und Wollen",
+            "isCorrect": true
+          },
+          {
+            "text": "Fahrlässig",
+            "isCorrect": false
+          },
+          {
+            "text": "Bewusst",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "93. Was ist Versicherung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Risikoübertragung",
+            "isCorrect": true
+          },
+          {
+            "text": "Gemeinschaft",
+            "isCorrect": true
+          },
+          {
+            "text": "Sparform",
+            "isCorrect": false
+          },
+          {
+            "text": "Schutz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "94. Versicherungsnehmer ist…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vertragspartner",
+            "isCorrect": true
+          },
+          {
+            "text": "Zahler",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherer",
+            "isCorrect": false
+          },
+          {
+            "text": "Kunde",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "95. Versicherer ist…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Unternehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistungsverpflichtet",
+            "isCorrect": true
+          },
+          {
+            "text": "Kunde",
+            "isCorrect": false
+          },
+          {
+            "text": "Risikoübernehmer",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "96. Versicherungsfall ist…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Schadensereignis",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag",
+            "isCorrect": false
+          },
+          {
+            "text": "Risikoeintritt",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistungsauslöser",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "97. Prämienhöhe hängt ab von…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag",
+            "isCorrect": false
+          },
+          {
+            "text": "Schadenhöhe",
+            "isCorrect": false
+          },
+          {
+            "text": "Wahrscheinlichkeit",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "98. Obliegenheiten vor Schadenfall…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Anzeige",
+            "isCorrect": true
+          },
+          {
+            "text": "Sorgfalt",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko erhöhen",
+            "isCorrect": false
+          },
+          {
+            "text": "Mitwirkung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "99. Obliegenheiten nach Schadenfall…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Schaden melden",
+            "isCorrect": true
+          },
+          {
+            "text": "Mitwirken",
+            "isCorrect": true
+          },
+          {
+            "text": "Beweise sichern",
+            "isCorrect": true
+          },
+          {
+            "text": "Verschweigen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "100. Leistungsfreiheit Versicherer…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Obliegenheitsverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsatz",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer",
+            "isCorrect": false
+          },
+          {
+            "text": "Grobe Fahrlässigkeit möglich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "101. Was gehört zum Inhalt eines Versicherungsvertrags?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Prämie",
+            "isCorrect": true
+          },
+          {
+            "text": "Gericht",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "102. Wann beginnt der Versicherungsschutz?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Mit Vertragsabschluss",
+            "isCorrect": true
+          },
+          {
+            "text": "Mit Prämienzahlung",
+            "isCorrect": true
+          },
+          {
+            "text": "Laut Polizze",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer sofort",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "103. Was ist die Polizze?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vertragsurkunde",
+            "isCorrect": true
+          },
+          {
+            "text": "Beweis des Vertrags",
+            "isCorrect": true
+          },
+          {
+            "text": "Gesetz",
+            "isCorrect": false
+          },
+          {
+            "text": "Dokumentation",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "104. Was ist eine vorläufige Deckung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Sofortiger Schutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Vor Vertragsabschluss",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer kostenlos",
+            "isCorrect": false
+          },
+          {
+            "text": "Zeitlich begrenzt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "105. Was ist ein Versicherungsfall?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Schadensereignis",
+            "isCorrect": true
+          },
+          {
+            "text": "Eintritt des Risikos",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsabschluss",
+            "isCorrect": false
+          },
+          {
+            "text": "Auslöser der Leistung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "106. Risiko bedeutet im Versicherungsrecht…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Möglichkeit eines Schadens",
+            "isCorrect": true
+          },
+          {
+            "text": "Unsicherheit",
+            "isCorrect": true
+          },
+          {
+            "text": "Sicheres Ereignis",
+            "isCorrect": false
+          },
+          {
+            "text": "Grundlage der Versicherung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "107. Wovon hängt die Prämie ab?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Schadenhöhe",
+            "isCorrect": false
+          },
+          {
+            "text": "Wahrscheinlichkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherungsdauer",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "108. Was ist eine Nettoprämie?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Reine Risikoprämie",
+            "isCorrect": true
+          },
+          {
+            "text": "Ohne Kosten",
+            "isCorrect": true
+          },
+          {
+            "text": "Mit Steuern",
+            "isCorrect": false
+          },
+          {
+            "text": "Grundlage der Berechnung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "109. Was enthält die Bruttoprämie?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Nettoprämie",
+            "isCorrect": true
+          },
+          {
+            "text": "Kosten",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinnanteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Steuer",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "110. Was passiert bei Prämienverzug?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Mahnung",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistungsfreiheit möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag endet automatisch sofort",
+            "isCorrect": false
+          },
+          {
+            "text": "Kündigung möglich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "111. Was sind Obliegenheiten?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Verhaltenspflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Nebenpflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Gesetzliche Strafen",
+            "isCorrect": false
+          },
+          {
+            "text": "Voraussetzung für Leistung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "112. Obliegenheiten vor Vertragsabschluss…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Anzeigepflicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Wahrheitspflicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Verschweigen erlaubt",
+            "isCorrect": false
+          },
+          {
+            "text": "Risiko offenlegen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "113. Verletzung der Anzeigepflicht führt zu…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Rücktritt",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsanpassung",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistungsfreiheit",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Folgen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "114. Obliegenheiten während Vertragslaufzeit…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Risiko nicht erhöhen",
+            "isCorrect": true
+          },
+          {
+            "text": "Schaden melden",
+            "isCorrect": true
+          },
+          {
+            "text": "Mitwirkung",
+            "isCorrect": true
+          },
+          {
+            "text": "Täuschung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "115. Obliegenheiten nach Schadenfall…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Schadenanzeige",
+            "isCorrect": true
+          },
+          {
+            "text": "Beweissicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Mitwirkung",
+            "isCorrect": true
+          },
+          {
+            "text": "Verschweigen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "116. Versicherer muss leisten wenn…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Versicherungsfall eingetreten",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag gültig",
+            "isCorrect": true
+          },
+          {
+            "text": "Obliegenheiten eingehalten",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "117. Leistungsfreiheit bedeutet…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Keine Zahlung",
+            "isCorrect": true
+          },
+          {
+            "text": "Teilweise Zahlung",
+            "isCorrect": false
+          },
+          {
+            "text": "Sanktion",
+            "isCorrect": true
+          },
+          {
+            "text": "Pflichtverletzung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "118. Wann kann Leistung gekürzt werden?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Grobe Fahrlässigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsatz",
+            "isCorrect": false
+          },
+          {
+            "text": "Obliegenheitsverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "119. Wann zahlt Versicherung NICHT?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vorsatz",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag fehlt",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "120. Was ist Selbstbehalt?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Eigenanteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Reduziert Prämie",
+            "isCorrect": true
+          },
+          {
+            "text": "Erhöht Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Risikoübernahme",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "121. Personenversicherung umfasst…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Lebensversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Unfallversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftpflicht",
+            "isCorrect": false
+          },
+          {
+            "text": "Krankenversicherung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "122. Sachversicherung umfasst…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Gebäude",
+            "isCorrect": true
+          },
+          {
+            "text": "Haushalt",
+            "isCorrect": true
+          },
+          {
+            "text": "Leben",
+            "isCorrect": false
+          },
+          {
+            "text": "Kfz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "123. Haftpflichtversicherung deckt…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Eigenschäden",
+            "isCorrect": false
+          },
+          {
+            "text": "Fremdschäden",
+            "isCorrect": true
+          },
+          {
+            "text": "Schadenersatz",
+            "isCorrect": true
+          },
+          {
+            "text": "Körperverletzung anderer",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "124. Lebensversicherung ist…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Personenversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sparform möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Risikoabsicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sachversicherung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "125. Unfallversicherung deckt…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Unfälle",
+            "isCorrect": true
+          },
+          {
+            "text": "Krankheit",
+            "isCorrect": false
+          },
+          {
+            "text": "Invalidität",
+            "isCorrect": true
+          },
+          {
+            "text": "Tod",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "126. Was ist Gefahrenerhöhung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Höheres Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Muss gemeldet werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Bedeutung",
+            "isCorrect": false
+          },
+          {
+            "text": "Kann Leistung beeinflussen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "127. Was ist ein Risikoausschluss?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Nicht versichert",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertraglich geregelt",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer unwirksam",
+            "isCorrect": false
+          },
+          {
+            "text": "Begrenzung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "128. Was bedeutet Unterversicherung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Versicherungssumme zu niedrig",
+            "isCorrect": true
+          },
+          {
+            "text": "Voller Ersatz",
+            "isCorrect": false
+          },
+          {
+            "text": "Kürzung Leistung",
+            "isCorrect": true
+          },
+          {
+            "text": "Problem bei Schaden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "129. Was ist Überversicherung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Zu hohe Versicherungssumme",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn möglich",
+            "isCorrect": false
+          },
+          {
+            "text": "Unzulässig",
+            "isCorrect": true
+          },
+          {
+            "text": "Anpassung möglich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "130. Was ist Doppelversicherung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Mehrere Versicherungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Gleiche Gefahr",
+            "isCorrect": true
+          },
+          {
+            "text": "Mehrfachleistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Koordination notwendig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "131. Ordentliche Kündigung…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Fristgebunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Regelmäßig möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer sofort",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertraglich geregelt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "132. Außerordentliche Kündigung…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Bei besonderem Grund",
+            "isCorrect": true
+          },
+          {
+            "text": "Sofort möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer erlaubt",
+            "isCorrect": false
+          },
+          {
+            "text": "Risikoänderung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "133. Vertragsauflösung durch…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kündigung",
+            "isCorrect": true
+          },
+          {
+            "text": "Rücktritt",
+            "isCorrect": true
+          },
+          {
+            "text": "Zeitablauf",
+            "isCorrect": true
+          },
+          {
+            "text": "Gericht",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "134. FMA überwacht…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Versicherungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Banken",
+            "isCorrect": true
+          },
+          {
+            "text": "Kunden",
+            "isCorrect": false
+          },
+          {
+            "text": "Finanzmarkt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "135. Ziele der FMA…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Stabilität",
+            "isCorrect": true
+          },
+          {
+            "text": "Schutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertrauen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "136. Versicherungssteuer…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Auf Prämien",
+            "isCorrect": true
+          },
+          {
+            "text": "Gesetzlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Optional",
+            "isCorrect": false
+          },
+          {
+            "text": "Staatseinnahme",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "137. Wer zahlt Steuer?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherer",
+            "isCorrect": false
+          },
+          {
+            "text": "Staat",
+            "isCorrect": false
+          },
+          {
+            "text": "Vermittler",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "138. Warum Versicherung wichtig?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Risikoausgleich",
+            "isCorrect": true
+          },
+          {
+            "text": "Schutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn",
+            "isCorrect": false
+          },
+          {
+            "text": "Sicherheit",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "139. Prinzip der Versicherung…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kollektiv",
+            "isCorrect": true
+          },
+          {
+            "text": "Risikoausgleich",
+            "isCorrect": true
+          },
+          {
+            "text": "Zufall",
+            "isCorrect": false
+          },
+          {
+            "text": "Solidarität",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "140. Versicherungsprinzip basiert auf…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Wahrscheinlichkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Statistik",
+            "isCorrect": true
+          },
+          {
+            "text": "Sicherheit",
+            "isCorrect": false
+          },
+          {
+            "text": "Risiko",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "141. Was ist KEIN Versicherungsprinzip?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Risikoausgleich",
+            "isCorrect": false
+          },
+          {
+            "text": "Zufall",
+            "isCorrect": false
+          },
+          {
+            "text": "Gewinnmaximierung",
+            "isCorrect": true
+          },
+          {
+            "text": "Solidarität",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "142. Wann ist Versicherung unwirksam?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kein Vertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Illegaler Inhalt",
+            "isCorrect": true
+          },
+          {
+            "text": "Täuschung",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer bei Fehler",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "143. Was ist KEINE Pflicht des Versicherungsnehmers?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Prämie zahlen",
+            "isCorrect": false
+          },
+          {
+            "text": "Schaden melden",
+            "isCorrect": false
+          },
+          {
+            "text": "Versicherung leisten",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko anzeigen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "144. Was ist KEINE Pflicht des Versicherers?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Information",
+            "isCorrect": false
+          },
+          {
+            "text": "Prämie zahlen",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag erfüllen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "145. Vertrag benötigt…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Angebot",
+            "isCorrect": true
+          },
+          {
+            "text": "Annahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Konsens",
+            "isCorrect": true
+          },
+          {
+            "text": "Gericht",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "146. Schadenersatz braucht…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Schaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Kausalität",
+            "isCorrect": true
+          },
+          {
+            "text": "Verschulden",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "147. Eigentum braucht…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Titel",
+            "isCorrect": true
+          },
+          {
+            "text": "Modus",
+            "isCorrect": true
+          },
+          {
+            "text": "Besitz",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertrag",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "148. Versicherung braucht…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Prämie",
+            "isCorrect": true
+          },
+          {
+            "text": "Schaden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "149. Risiko ist…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Unsicherheit",
+            "isCorrect": true
+          },
+          {
+            "text": "Möglichkeit Schaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Sicher",
+            "isCorrect": false
+          },
+          {
+            "text": "Grundlage",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "150. Ziel der Versicherung…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Ausgleich",
+            "isCorrect": true
+          },
+          {
+            "text": "Schutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn",
+            "isCorrect": false
+          },
+          {
+            "text": "Sicherheit",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "151. Wann ist ein Vertrag NICHT gültig?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Bei Dissens",
+            "isCorrect": true
+          },
+          {
+            "text": "Bei gesetzeswidrigem Inhalt",
+            "isCorrect": true
+          },
+          {
+            "text": "Bei fehlender Geschäftsfähigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Bei fehlender Schriftform immer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "152. Welche Aussagen zu Formvorschriften sind richtig?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Nur gesetzliche Formen sind relevant",
+            "isCorrect": false
+          },
+          {
+            "text": "Vereinbarte Form muss eingehalten werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Formmangel kann zur Nichtigkeit führen",
+            "isCorrect": true
+          },
+          {
+            "text": "Verträge sind immer formfrei",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "153. Wann liegt ein verbindliches Angebot vor?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Bestimmt genug",
+            "isCorrect": true
+          },
+          {
+            "text": "Rechtsbindungswille",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer schriftlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Klarer Inhalt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "154. Wann kommt KEIN Vertrag zustande?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Annahme mit Änderungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Schweigen",
+            "isCorrect": true
+          },
+          {
+            "text": "Dissens",
+            "isCorrect": true
+          },
+          {
+            "text": "Verspätete Annahme",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "155. Wann ist Schweigen ausnahmsweise relevant?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Gesetzlich geregelt",
+            "isCorrect": true
+          },
+          {
+            "text": "Vereinbart",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer",
+            "isCorrect": false
+          },
+          {
+            "text": "Besondere Umstände",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "156. Wann ist ein Motivirrtum relevant?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Bei List",
+            "isCorrect": true
+          },
+          {
+            "text": "Bei Schenkung",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer",
+            "isCorrect": false
+          },
+          {
+            "text": "Wenn Vertragsinhalt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "157. Geschäftsirrtum ist relevant wenn…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Veranlasst",
+            "isCorrect": true
+          },
+          {
+            "text": "Erkennbar",
+            "isCorrect": true
+          },
+          {
+            "text": "Rechtzeitig aufgeklärt",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer automatisch",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "158. Was passiert bei erfolgreicher Irrtumsanfechtung?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vertrag wird aufgehoben",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag bleibt immer gültig",
+            "isCorrect": false
+          },
+          {
+            "text": "Anpassung möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Schadenersatz möglich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "159. Welche Aussage ist richtig zum Eigentumserwerb?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Titel alleine reicht",
+            "isCorrect": false
+          },
+          {
+            "text": "Modus alleine reicht",
+            "isCorrect": false
+          },
+          {
+            "text": "Beide notwendig",
+            "isCorrect": true
+          },
+          {
+            "text": "Ausnahme möglich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "160. Wann ist gutgläubiger Erwerb ausgeschlossen?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Bei Diebstahl bekannt",
+            "isCorrect": true
+          },
+          {
+            "text": "Auffällig niedriger Preis",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrauen gerechtfertigt",
+            "isCorrect": false
+          },
+          {
+            "text": "Bösgläubigkeit",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "161. Was ist KEIN Grundsatz des Sachenrechts?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Publizität",
+            "isCorrect": false
+          },
+          {
+            "text": "Spezialität",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsfreiheit",
+            "isCorrect": true
+          },
+          {
+            "text": "Typenzwang",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "162. Besitzstörungsklage dient…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Eigentum klären",
+            "isCorrect": false
+          },
+          {
+            "text": "Besitz wiederherstellen",
+            "isCorrect": true
+          },
+          {
+            "text": "Schneller Schutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Schadenersatz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "163. Unterschied Kauf- und Werkvertrag…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Erfolg geschuldet beim Werkvertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Ware vs Leistung",
+            "isCorrect": true
+          },
+          {
+            "text": "Beide identisch",
+            "isCorrect": false
+          },
+          {
+            "text": "Werkvertrag trägt Unternehmer Risiko",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "164. Wann trägt Käufer Risiko?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Nach Übergabe",
+            "isCorrect": true
+          },
+          {
+            "text": "Bei Annahmeverzug",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer",
+            "isCorrect": false
+          },
+          {
+            "text": "Bei Vertragsabschluss",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "165. Wann haftet jemand NICHT?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kein Verschulden",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein Schaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Kausalität",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer haftbar",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "166. Was ist Mitverschulden?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Beteiligung Geschädigter",
+            "isCorrect": true
+          },
+          {
+            "text": "Reduktion Anspruch",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein Einfluss",
+            "isCorrect": false
+          },
+          {
+            "text": "Aufteilung Schaden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "167. Was ist KEIN Schaden?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Gewinn",
+            "isCorrect": true
+          },
+          {
+            "text": "Vermögensnachteil",
+            "isCorrect": false
+          },
+          {
+            "text": "Schmerz",
+            "isCorrect": false
+          },
+          {
+            "text": "Verlust",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "168. Wann besteht KEIN Versicherungsschutz?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Risiko ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Obliegenheit verletzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag fehlt",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer bei Schaden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "169. Wann ist Versicherer leistungsfrei?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vorsatz",
+            "isCorrect": true
+          },
+          {
+            "text": "Obliegenheitsverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer bei Fahrlässigkeit",
+            "isCorrect": false
+          },
+          {
+            "text": "Risiko ausgeschlossen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "170. Grobe Fahrlässigkeit führt…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Immer keine Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Mögliche Kürzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Volle Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsende",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "171. Risikoerhöhung muss…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Gemeldet werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer erlaubt",
+            "isCorrect": false
+          },
+          {
+            "text": "Einfluss auf Vertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Folgen haben",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "172. Unterversicherung führt zu…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kürzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Voller Ersatz",
+            "isCorrect": false
+          },
+          {
+            "text": "Verhältnisregel",
+            "isCorrect": true
+          },
+          {
+            "text": "Problem",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "173. Überversicherung ist…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Unzulässig",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn möglich",
+            "isCorrect": false
+          },
+          {
+            "text": "Anpassbar",
+            "isCorrect": true
+          },
+          {
+            "text": "Problematisch",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "174. Haftpflicht zahlt…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Eigenschaden",
+            "isCorrect": false
+          },
+          {
+            "text": "Fremdschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Schadenersatz",
+            "isCorrect": true
+          },
+          {
+            "text": "Strafzahlung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "175. Lebensversicherung…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Risikoabsicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sparform",
+            "isCorrect": true
+          },
+          {
+            "text": "Sachversicherung",
+            "isCorrect": false
+          },
+          {
+            "text": "Kapitalbildung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "176. Unfallversicherung deckt NICHT…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Krankheit",
+            "isCorrect": true
+          },
+          {
+            "text": "Invalidität",
+            "isCorrect": false
+          },
+          {
+            "text": "Unfalltod",
+            "isCorrect": false
+          },
+          {
+            "text": "Dauerfolgen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "177. Vertrag endet NICHT durch…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kündigung",
+            "isCorrect": false
+          },
+          {
+            "text": "Zeitablauf",
+            "isCorrect": false
+          },
+          {
+            "text": "Schadenfall",
+            "isCorrect": true
+          },
+          {
+            "text": "Rücktritt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "178. Rücktritt bedeutet…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Auflösung",
+            "isCorrect": true
+          },
+          {
+            "text": "Ex tunc möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer verboten",
+            "isCorrect": false
+          },
+          {
+            "text": "Bei Pflichtverletzung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "179. FMA Aufgabe ist NICHT…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kontrolle",
+            "isCorrect": false
+          },
+          {
+            "text": "Schutz",
+            "isCorrect": false
+          },
+          {
+            "text": "Gewinn",
+            "isCorrect": true
+          },
+          {
+            "text": "Stabilität",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "180. Warum Aufsicht wichtig?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Schutz Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrauen",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn",
+            "isCorrect": false
+          },
+          {
+            "text": "Stabilität",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "181. Wann ist Vertrag automatisch ungültig?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Gesetzesverstoß",
+            "isCorrect": true
+          },
+          {
+            "text": "Sittenwidrigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Formmangel",
+            "isCorrect": false
+          },
+          {
+            "text": "Immer bei Irrtum",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "182. Was ist KEIN Vertragsbestandteil?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "AVB",
+            "isCorrect": false
+          },
+          {
+            "text": "Individuelle Vereinbarung",
+            "isCorrect": false
+          },
+          {
+            "text": "Gesetz automatisch immer",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "183. Wann entsteht Eigentum NICHT?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kein Modus",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein Titel",
+            "isCorrect": true
+          },
+          {
+            "text": "Besitz vorhanden",
+            "isCorrect": false
+          },
+          {
+            "text": "Fehlende Übergabe",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "184. Versicherung basiert auf…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Wahrscheinlichkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Statistik",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Sicherheit",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "185. Versicherungsprinzip NICHT…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Solidarität",
+            "isCorrect": false
+          },
+          {
+            "text": "Risikoausgleich",
+            "isCorrect": false
+          },
+          {
+            "text": "Gewinnmaximierung",
+            "isCorrect": true
+          },
+          {
+            "text": "Kollektiv",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "186. Vertrag braucht zwingend…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Angebot",
+            "isCorrect": true
+          },
+          {
+            "text": "Annahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Schriftform",
+            "isCorrect": false
+          },
+          {
+            "text": "Konsens",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "187. Schadenersatz ohne Verschulden…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Möglich selten",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer",
+            "isCorrect": false
+          },
+          {
+            "text": "Gefährdungshaftung",
+            "isCorrect": true
+          },
+          {
+            "text": "Unmöglich",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "188. Besitz ohne Eigentum…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Mieter",
+            "isCorrect": true
+          },
+          {
+            "text": "Dieb",
+            "isCorrect": true
+          },
+          {
+            "text": "Unmöglich",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "189. Welche Kombination ist notwendig für Eigentum?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Titel",
+            "isCorrect": true
+          },
+          {
+            "text": "Modus",
+            "isCorrect": true
+          },
+          {
+            "text": "Besitz",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertrag",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "190. Versicherungsvertrag braucht…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Prämie",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Schaden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "191. Wann wird Versicherer NICHT leisten?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vorsatz",
+            "isCorrect": true
+          },
+          {
+            "text": "Ausschluss",
+            "isCorrect": true
+          },
+          {
+            "text": "Obliegenheit verletzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer bei Schaden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "192. Wann ist Risiko versichert?",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Vertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Prämie bezahlt",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein Ausschluss",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "193. Wichtigstes Ziel Versicherung…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Schutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Risikoausgleich",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn",
+            "isCorrect": false
+          },
+          {
+            "text": "Sicherheit",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "194. Wichtig für Prüfung…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Verständnis",
+            "isCorrect": true
+          },
+          {
+            "text": "Begriffe",
+            "isCorrect": true
+          },
+          {
+            "text": "Auswendiglernen",
+            "isCorrect": false
+          },
+          {
+            "text": "Zusammenhänge",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "195. Häufiger Fehler…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Verwechslung Besitz/Eigentum",
+            "isCorrect": true
+          },
+          {
+            "text": "Irrtum falsch",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko falsch",
+            "isCorrect": true
+          },
+          {
+            "text": "Alles korrekt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "196. Versicherungsnehmer muss…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "zahlen",
+            "isCorrect": true
+          },
+          {
+            "text": "melden",
+            "isCorrect": true
+          },
+          {
+            "text": "informieren",
+            "isCorrect": true
+          },
+          {
+            "text": "leisten",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "197. Versicherer muss…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "leisten",
+            "isCorrect": true
+          },
+          {
+            "text": "prüfen",
+            "isCorrect": true
+          },
+          {
+            "text": "informieren",
+            "isCorrect": true
+          },
+          {
+            "text": "zahlen immer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "198. Risiko ist Grundlage für…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Prämie",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistung",
+            "isCorrect": true
+          },
+          {
+            "text": "Kündigung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "199. Vertrag endet durch…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Kündigung",
+            "isCorrect": true
+          },
+          {
+            "text": "Ablauf",
+            "isCorrect": true
+          },
+          {
+            "text": "Rücktritt",
+            "isCorrect": true
+          },
+          {
+            "text": "Schaden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "200. Wichtigstes Gesamtprinzip…",
+        "context": null,
+        "question": null,
+        "options": [
+          {
+            "text": "Konsens",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Ausgleich",
+            "isCorrect": true
+          },
+          {
+            "text": "Schutz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  },
   "band2": {
     "title": "Band 2",
     "data": [
