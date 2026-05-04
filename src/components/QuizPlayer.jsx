@@ -274,9 +274,22 @@ const QuizPlayer = ({ module, onBack }) => {
       </div>
 
       <div className="glass-card p-6 md:p-10 rounded-[2rem] mb-10 border-t-4 border-t-primary/50">
-        <h3 className="text-2xl md:text-3xl font-semibold leading-relaxed mb-10 text-text">
+        {currentQuestion.title && (
+          <h3 className="text-2xl md:text-3xl font-black leading-tight mb-6 text-text">
+            {currentQuestion.title}
+          </h3>
+        )}
+        {currentQuestion.context && (
+          <p className="text-lg md:text-xl font-medium leading-relaxed mb-8 text-text-muted whitespace-pre-wrap">
+            {currentQuestion.context}
+          </p>
+        )}
+        <div className={cn(
+          "font-bold leading-relaxed mb-10 text-text whitespace-pre-wrap",
+          currentQuestion.title || currentQuestion.context ? "text-xl md:text-2xl" : "text-2xl md:text-3xl"
+        )}>
           {currentQuestion.question}
-        </h3>
+        </div>
 
         {currentQuestion.type === 'flashcard' ? (
           <div className="space-y-6">

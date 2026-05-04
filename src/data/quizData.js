@@ -3,6 +3,8 @@ export const QUIZ_MODULES = {
     "title": "Band 2",
     "data": [
       {
+        "title": "Frage 1",
+        "context": null,
         "question": "Welche Aussagen zur gesetzlichen Unfallversicherung sind korrekt?",
         "options": [
           {
@@ -25,6 +27,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 2",
+        "context": null,
         "question": "Was kennzeichnet das Kausalitätsprinzip?",
         "options": [
           {
@@ -47,6 +51,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 3",
+        "context": null,
         "question": "Welche Institutionen führen die gesetzliche Unfallversicherung durch?",
         "options": [
           {
@@ -69,6 +75,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 4",
+        "context": null,
         "question": "Wann liegt ein Arbeitsunfall vor?",
         "options": [
           {
@@ -91,6 +99,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 5",
+        "context": null,
         "question": "Welche Kriterien müssen für einen Arbeitsunfall erfüllt sein?",
         "options": [
           {
@@ -113,6 +123,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 6",
+        "context": null,
         "question": "Welche Aussagen zum „Alles-oder-Nichts-Prinzip“ sind korrekt?",
         "options": [
           {
@@ -135,6 +147,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 7",
+        "context": null,
         "question": "Was gehört NICHT zum geschützten Lebensbereich?",
         "options": [
           {
@@ -157,6 +171,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 8",
+        "context": null,
         "question": "Wegunfälle sind:",
         "options": [
           {
@@ -179,6 +195,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 9",
+        "context": null,
         "question": "Welche Aussagen zu Berufskrankheiten stimmen?",
         "options": [
           {
@@ -201,6 +219,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 10",
+        "context": null,
         "question": "Was zählt zu Präventionsmaßnahmen?",
         "options": [
           {
@@ -223,6 +243,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 11",
+        "context": null,
         "question": "Welche Leistungen gibt es in der Unfallversicherung?",
         "options": [
           {
@@ -245,6 +267,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 12",
+        "context": null,
         "question": "Was zählt zu Sachleistungen?",
         "options": [
           {
@@ -267,6 +291,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 13",
+        "context": null,
         "question": "Welche Reha-Arten gibt es?",
         "options": [
           {
@@ -289,6 +315,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 14",
+        "context": null,
         "question": "Wann besteht Anspruch auf Versehrtenrente?",
         "options": [
           {
@@ -311,6 +339,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 15",
+        "context": null,
         "question": "Was beeinflusst die Höhe der Versehrtenrente?",
         "options": [
           {
@@ -333,6 +363,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 16",
+        "context": null,
         "question": "Welche Aussagen zur Vollrente sind korrekt?",
         "options": [
           {
@@ -355,6 +387,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 17",
+        "context": null,
         "question": "Wann gibt es Schwerversehrtenrente?",
         "options": [
           {
@@ -377,6 +411,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 18",
+        "context": null,
         "question": "Welche Hinterbliebenenleistungen gibt es?",
         "options": [
           {
@@ -399,6 +435,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 19",
+        "context": null,
         "question": "Was ist der klassische Unfallbegriff?",
         "options": [
           {
@@ -421,6 +459,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 20",
+        "context": null,
         "question": "Welche Elemente gehören zum Unfallbegriff?",
         "options": [
           {
@@ -443,6 +483,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 21",
+        "context": null,
         "question": "Was bedeutet „Unfreiwilligkeit“?",
         "options": [
           {
@@ -465,6 +507,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 22",
+        "context": null,
         "question": "Was gilt als Einwirkung von außen?",
         "options": [
           {
@@ -487,6 +531,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 23",
+        "context": null,
         "question": "Erweiterter Unfallbegriff umfasst:",
         "options": [
           {
@@ -509,6 +555,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 24",
+        "context": null,
         "question": "Was ist Voraussetzung für Invaliditätsleistung?",
         "options": [
           {
@@ -531,6 +579,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 25",
+        "context": null,
         "question": "Wann besteht KEIN Anspruch auf Invaliditätsleistung?",
         "options": [
           {
@@ -553,6 +603,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 26",
+        "context": null,
         "question": "Was ist eine Gliedertaxe?",
         "options": [
           {
@@ -575,6 +627,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 27",
+        "context": null,
         "question": "Was ist Progression?",
         "options": [
           {
@@ -597,6 +651,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 28",
+        "context": null,
         "question": "Wann wird Unfallrente bezahlt?",
         "options": [
           {
@@ -619,6 +675,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 29",
+        "context": null,
         "question": "Was umfasst Unfallkosten?",
         "options": [
           {
@@ -641,6 +699,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "Frage 30#1",
+        "context": null,
         "question": "Wann erfolgt Abzug wegen Vorinvalidität?",
         "options": [
           {
@@ -663,6 +723,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "30#2. Vorinvalidität & Leistungsbemessung",
+        "context": "Ein Versicherter erleidet einen Unfall, bei dem seine rechte Hand dauerhaft geschädigt wird. Bereits vor dem Unfall bestand eine eingeschränkte Beweglichkeit desselben Handgelenks aufgrund einer alten Erkrankung.",
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -685,6 +747,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: A ist zu absolut – Abzug nur funktionsbezogen"
       },
       {
+        "title": "31. Unfall + ärztlicher Behandlungsfehler",
+        "context": "Nach einem versicherten Unfall wird der Versicherte operiert. Aufgrund eines ärztlichen Kunstfehlers verschlechtert sich sein Zustand erheblich.",
         "question": "Wie ist die Leistungspflicht zu beurteilen?",
         "options": [
           {
@@ -707,6 +771,8 @@ export const QUIZ_MODULES = {
         "explanation": "Kernpunkt: Kausalität bleibt bestehen"
       },
       {
+        "title": "32. Kausalität bei Mischursachen",
+        "context": "Ein Arbeitnehmer verunfallt auf dem Heimweg. Er war gleichzeitig stark alkoholisiert.",
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -729,6 +795,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Kein automatischer Ausschluss"
       },
       {
+        "title": "33. Dienstreise mit privater Verlängerung",
+        "context": "Ein Arbeitnehmer befindet sich auf Dienstreise und verlängert diese privat. Während des privaten Aufenthalts erleidet er einen Unfall.",
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -751,6 +819,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "34. Geschützter Lebensbereich",
+        "context": null,
         "question": "Welche Aussagen zum geschützten Lebensbereich sind korrekt?",
         "options": [
           {
@@ -773,6 +843,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "35. Wegunfall mit Unterbrechung",
+        "context": "Ein Arbeitnehmer fährt nach der Arbeit nach Hause, macht jedoch einen längeren privaten Zwischenstopp zum Einkaufen und verunfallt danach.",
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -795,6 +867,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "36. Unfallbegriff – längere Einwirkung",
+        "context": "Ein Versicherter erleidet durch mehrstündiges Einatmen eines Gases eine Gesundheitsschädigung.",
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -817,6 +891,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "37. Einwirkung von außen",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -839,6 +915,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "38. Unfreiwilligkeit bei Risikohandlungen",
+        "context": "Ein Versicherter nimmt freiwillig an einer gefährlichen Mutprobe teil und verletzt sich dabei schwer.",
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -861,6 +939,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "39. Selbsttötungsversuch",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -883,6 +963,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "40. Erweiterter Unfallbegriff",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -905,6 +987,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "41. Erhöhte Kraftanstrengung",
+        "context": "Ein Tennisspieler verletzt sich beim Aufschlag.",
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -927,6 +1011,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "42. Invaliditätsleistung",
+        "context": null,
         "question": "Welche Voraussetzungen müssen erfüllt sein?",
         "options": [
           {
@@ -949,6 +1035,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "43. Tod innerhalb eines Jahres",
+        "context": "Ein Versicherter stirbt innerhalb eines Jahres an den Unfallfolgen.",
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -971,6 +1059,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "44. Gliedertaxe",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -993,6 +1083,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "45. Progression",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1015,6 +1107,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "91. Abgrenzung Kranken- und Unfallversicherung",
+        "context": "Ein Versicherter wird nach einem Sturz behandelt. Während der Behandlung stellt sich heraus, dass ein Teil der Beschwerden auf eine bereits bestehende Krankheit zurückzuführen ist.",
         "question": "Welche Aussagen zur Leistungspflicht sind korrekt?",
         "options": [
           {
@@ -1037,6 +1131,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Krankenversicherung = Finalitätsprinzip, Unfallversicherung = Kausalitätsprinzip"
       },
       {
+        "title": "92. Mehrfachversicherung",
+        "context": "Ein Versicherter ist gleichzeitig gesetzlich und privat unfallversichert und erleidet einen Unfall.",
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1059,6 +1155,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Private Unfallversicherung = Summenversicherung → unabhängig"
       },
       {
+        "title": "93. Pflichtversicherung – Umfang",
+        "context": null,
         "question": "Welche Aussagen zur gesetzlichen Sozialversicherung sind korrekt?",
         "options": [
           {
@@ -1081,6 +1179,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "94. Versicherungsfall – Abgrenzung",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1103,6 +1203,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "95. Leistungen der Sozialversicherung",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1125,6 +1227,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "96. Rehabilitation",
+        "context": "Ein Versicherter kann nach einem Unfall seinen Beruf nicht mehr ausüben.",
         "question": "Welche Aussagen zur Rehabilitation sind korrekt?",
         "options": [
           {
@@ -1147,6 +1251,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "97. Private Versicherung – Vertragsfreiheit",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1169,6 +1275,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "98. Versicherungsbedingungen",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1191,6 +1299,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "99. Unterschied Summen- vs. Schadenversicherung",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1213,6 +1323,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "100. Leistungsbegrenzungen",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1235,6 +1347,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "101. Mitwirkung von Krankheiten",
+        "context": "Ein Versicherter erleidet einen Unfall, wobei eine bestehende Krankheit den Schaden erheblich verstärkt.",
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1257,6 +1371,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "102. Hinterbliebenenleistungen (gesetzlich)",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1279,6 +1395,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "103. Private vs. gesetzliche Unfallversicherung",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1301,6 +1419,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "104. Versicherungsbeginn und Zahlung",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1323,6 +1443,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "105. Ziel der Sozialversicherung",
+        "context": null,
         "question": "Welche Aussagen sind korrekt?",
         "options": [
           {
@@ -1345,6 +1467,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "121. Versicherungsfall in der Lebensversicherung",
+        "context": "Ein Versicherungsnehmer schließt eine gemischte Lebensversicherung ab und erlebt das Vertragsende.",
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1367,6 +1491,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "122. Arten der Lebensversicherung",
+        "context": "Ein Kunde möchte eine Absicherung für Tod und Erleben.",
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1389,6 +1515,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "123. Prämienkalkulation in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1411,6 +1539,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "124. Sterbetafeln in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1433,6 +1563,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "125. Rückkaufswert in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1455,6 +1587,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "126. Bezugsberechtigung in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1477,6 +1611,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "127. Steuerliche Behandlung der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1499,6 +1635,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "128. Ablebensversicherung in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1521,6 +1659,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "129. Erlebensversicherung in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1543,6 +1683,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "130. Gemischte Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1565,6 +1707,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "131. Prämienanpassung in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1587,6 +1731,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "132. Vertragsdauer in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1609,6 +1755,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "133. Risiko- und Sparanteil in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1631,6 +1779,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "134. Kündigung der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1653,6 +1803,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "135. Leistungszeitpunkt in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1675,6 +1827,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "136. Laufzeit in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1697,6 +1851,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "137. Gesundheitsprüfung in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1719,6 +1875,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "138. Vertragsänderung in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1741,6 +1899,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "139. Kapitalbildung in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1763,6 +1923,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "140. Rollen in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1785,6 +1947,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "141. Polizze in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1807,6 +1971,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "142. Funktion der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1829,6 +1995,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "143. Prämienzahlung in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1851,6 +2019,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "144. Leistungsberechtigung in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1873,6 +2043,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "145. Vertragsabschluss in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1895,6 +2067,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "146. Risikoprüfung in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1917,6 +2091,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "147. Versicherungssumme in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1939,6 +2115,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "148. Vertragsende in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1961,6 +2139,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "149. Kombinationen in der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -1983,6 +2163,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "150. Zweck der Lebensversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
@@ -2005,6 +2187,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "151. Finalitätsprinzip in der gesetzlichen Krankenversicherung",
+        "context": "Ein Versicherter leidet an einer Erkrankung, deren Ursache nicht eindeutig geklärt werden kann.",
         "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2027,6 +2211,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "152. Versicherungsfall in der gesetzlichen Krankenversicherung",
+        "context": "Ein Arbeitnehmer wird krank und ist arbeitsunfähig.",
         "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2049,6 +2235,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "153. Krankengeld in der gesetzlichen Krankenversicherung",
+        "context": "Ein Versicherter erhält Krankengeld.",
         "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2071,6 +2259,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "154. Sachleistungen in der gesetzlichen Krankenversicherung",
+        "context": "Ein Versicherter nimmt medizinische Leistungen in Anspruch.",
         "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2093,6 +2283,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "155. Mutterschaft in der gesetzlichen Krankenversicherung",
+        "context": "Eine Versicherte ist schwanger.",
         "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2115,6 +2307,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "156. Leistungsumfang der gesetzlichen Krankenversicherung",
+        "context": null,
         "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2137,6 +2331,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "157. Heilbehandlung in der gesetzlichen Krankenversicherung",
+        "context": "Ein Versicherter wird behandelt.",
         "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2159,6 +2355,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "158. Pflegegeld in der Pflegeversicherung",
+        "context": "Eine Person benötigt Pflege.",
         "question": "Welche Aussagen zur Pflegeversicherung sind korrekt?",
         "options": [
           {
@@ -2181,6 +2379,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "159. Einstufung in der Pflegeversicherung",
+        "context": "Eine Person wird einer Pflegestufe zugeordnet.",
         "question": "Welche Aussagen zur Pflegeversicherung sind korrekt?",
         "options": [
           {
@@ -2203,6 +2403,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "160. Ruhen des Anspruchs in der Pflegeversicherung",
+        "context": "Der Pflegegeldanspruch wird überprüft.",
         "question": "Welche Aussagen zur Pflegeversicherung sind korrekt?",
         "options": [
           {
@@ -2225,6 +2427,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "161. Zuständigkeit in der Pflegeversicherung",
+        "context": "Eine Person beantragt Pflegegeld.",
         "question": "Welche Aussagen zur Pflegeversicherung sind korrekt?",
         "options": [
           {
@@ -2247,6 +2451,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "162. Unterstützungsfonds in der Pflegeversicherung",
+        "context": "Zusätzliche Leistungen werden gewährt.",
         "question": "Welche Aussagen zur Pflegeversicherung sind korrekt?",
         "options": [
           {
@@ -2269,6 +2475,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "163. Private Krankenversicherung – Grundstruktur",
+        "context": "Ein Versicherungsnehmer schließt eine Versicherung ab.",
         "question": "Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2291,6 +2499,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "164. Prämienkalkulation in der privaten Krankenversicherung",
+        "context": null,
         "question": "Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2313,6 +2523,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "165. Vertragsdauer in der privaten Krankenversicherung",
+        "context": null,
         "question": "Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2335,6 +2547,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "166. Prämienanpassung in der privaten Krankenversicherung",
+        "context": null,
         "question": "Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2357,6 +2571,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "167. Leistungsumfang in der privaten Krankenversicherung",
+        "context": null,
         "question": "Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2379,6 +2595,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "168. Tarife in der privaten Krankenversicherung",
+        "context": null,
         "question": "Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2401,6 +2619,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "169. Vergleich gesetzlich vs. privat",
+        "context": null,
         "question": "Welche Aussagen zur Krankenversicherung sind korrekt?",
         "options": [
           {
@@ -2423,6 +2643,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "170. Pflegebedarf in der Pflegeversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Pflegeversicherung sind korrekt?",
         "options": [
           {
@@ -2445,6 +2667,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "181. Begriff der Berufsunfähigkeit in der privaten Berufsunfähigkeitsvorsorge",
+        "context": "Ein Versicherter kann aufgrund einer Erkrankung seinen zuletzt ausgeübten Beruf nur noch eingeschränkt ausüben. Er kann jedoch theoretisch eine andere Tätigkeit übernehmen.",
         "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
@@ -2467,6 +2691,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Verweisung kann relevant sein → D falsch"
       },
       {
+        "title": "182. Voraussetzungen für den Leistungsanspruch in der privaten",
+        "context": "Berufsunfähigkeitsvorsorge Ein Versicherter beantragt Leistungen aus seiner Berufsunfähigkeitsversicherung.",
         "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
@@ -2489,6 +2715,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "183. Prognosezeitraum in der privaten Berufsunfähigkeitsvorsorge",
+        "context": "Ein Versicherter ist vorübergehend arbeitsunfähig, die langfristige Entwicklung ist unklar.",
         "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
@@ -2511,6 +2739,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "184. Verweisbarkeit in der privaten Berufsunfähigkeitsvorsorge",
+        "context": "Ein Versicherter kann seinen Beruf nicht mehr ausüben, könnte aber theoretisch eine andere Tätigkeit ausführen.",
         "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
@@ -2533,6 +2763,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "185. Karenzzeit in der privaten Berufsunfähigkeitsvorsorge",
+        "context": "Ein Versicherungsnehmer vereinbart eine Karenzzeit.",
         "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
@@ -2555,6 +2787,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "186. Versicherungsdauer und Leistungsdauer in der privaten",
+        "context": "Berufsunfähigkeitsvorsorge",
         "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
@@ -2577,6 +2811,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "187. Rentenleistung in der privaten Berufsunfähigkeitsvorsorge",
+        "context": "Ein Versicherter wird berufsunfähig und erhält eine monatliche Rente.",
         "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
@@ -2599,6 +2835,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "188. Nachversicherungsgarantie in der privaten Berufsunfähigkeitsvorsorge",
+        "context": "Ein Versicherter möchte seine BU-Rente später erhöhen.",
         "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
@@ -2621,6 +2859,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "189. Anzeige- und Mitwirkungspflichten in der privaten",
+        "context": "Berufsunfähigkeitsvorsorge Ein Versicherter verschweigt relevante Gesundheitsinformationen beim Vertragsabschluss.",
         "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
@@ -2643,6 +2883,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "190. Leistungsprüfung in der privaten Berufsunfähigkeitsvorsorge",
+        "context": "Ein Versicherter meldet Berufsunfähigkeit.",
         "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
@@ -2665,6 +2907,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "201. Grundprinzip der Abfertigung NEU",
+        "context": "Ein Arbeitnehmer beginnt ein neues Dienstverhältnis nach dem Inkrafttreten der Abfertigung NEU. Sein Arbeitgeber meldet ihn bei einer betrieblichen Vorsorgekasse an.",
         "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
@@ -2687,6 +2931,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Arbeitnehmer zahlt NICHT selbst"
       },
       {
+        "title": "202. Betriebliche Vorsorgekasse in der Abfertigung NEU",
+        "context": "Ein Arbeitgeber schließt für seine Mitarbeiter einen Vertrag mit einer BV-Kasse ab.",
         "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
@@ -2709,6 +2955,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "203. Beitrittsvertrag in der Abfertigung NEU",
+        "context": "Ein Unternehmen tritt einer BV-Kasse bei.",
         "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
@@ -2731,6 +2979,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "204. Beitragsrecht in der Abfertigung NEU",
+        "context": "Ein Arbeitnehmer ist im System der Abfertigung NEU versichert.",
         "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
@@ -2753,6 +3003,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "205. Leistungsanspruch in der Abfertigung NEU",
+        "context": "Ein Arbeitnehmer beendet sein Dienstverhältnis.",
         "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
@@ -2775,6 +3027,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "206. Unverfallbarkeit in der Abfertigung NEU",
+        "context": "Ein Arbeitnehmer wechselt den Arbeitgeber.",
         "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
@@ -2797,6 +3051,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "207. Kündigung des Beitrittsvertrags in der Abfertigung NEU",
+        "context": "Ein Arbeitgeber möchte den Vertrag mit der BV-Kasse kündigen.",
         "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
@@ -2819,6 +3075,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "208. Auswahl der BV-Kasse in der Abfertigung NEU",
+        "context": "Ein Arbeitgeber wählt eine BV-Kasse aus.",
         "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
@@ -2841,6 +3099,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "209. Zuweisung einer BV-Kasse in der Abfertigung NEU",
+        "context": "Wenn keine Auswahl erfolgt, wird eine BV-Kasse zugewiesen.",
         "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
@@ -2863,6 +3123,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "210. Leistungsrecht in der Abfertigung NEU",
+        "context": "Ein Arbeitnehmer möchte seine Abfertigung beziehen.",
         "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
@@ -2885,6 +3147,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "211. Selbständigenvorsorge (Abfertigung NEU-System)",
+        "context": "Ein Selbständiger nimmt am Vorsorgesystem teil.",
         "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
@@ -2907,6 +3171,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "212. Abfertigung ALT vs. NEU",
+        "context": "Ein Arbeitnehmer wechselt vom alten ins neue System.",
         "question": "Welche Aussagen zum Vergleich Abfertigung ALT und Abfertigung NEU sind korrekt?",
         "options": [
           {
@@ -2929,6 +3195,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "221. Grundprinzip der Abfertigung ALT",
+        "context": "Ein Arbeitnehmer ist seit vielen Jahren im selben Unternehmen beschäftigt und fällt unter das System der Abfertigung ALT.",
         "question": "Welche Aussagen zur Abfertigung ALT sind korrekt?",
         "options": [
           {
@@ -2951,6 +3219,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "222. Anspruchsvoraussetzungen in der Abfertigung ALT",
+        "context": "Ein Arbeitnehmer wird vom Arbeitgeber gekündigt.",
         "question": "Welche Aussagen zur Abfertigung ALT sind korrekt?",
         "options": [
           {
@@ -2973,6 +3243,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "223. Eigenkündigung in der Abfertigung ALT",
+        "context": "Ein Arbeitnehmer kündigt selbst sein Dienstverhältnis.",
         "question": "Welche Aussagen zur Abfertigung ALT sind korrekt?",
         "options": [
           {
@@ -2995,6 +3267,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "224. Verschuldete Entlassung in der Abfertigung ALT",
+        "context": "Ein Arbeitnehmer wird aufgrund schweren Fehlverhaltens entlassen.",
         "question": "Welche Aussagen zur Abfertigung ALT sind korrekt?",
         "options": [
           {
@@ -3017,6 +3291,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "225. Unverschuldete Entlassung in der Abfertigung ALT",
+        "context": "Ein Arbeitnehmer wird ohne eigenes Verschulden entlassen.",
         "question": "Welche Aussagen zur Abfertigung ALT sind korrekt?",
         "options": [
           {
@@ -3039,6 +3315,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "226. Höhe der Abfertigung in der Abfertigung ALT",
+        "context": "Ein Arbeitnehmer hat viele Jahre im Unternehmen gearbeitet.",
         "question": "Welche Aussagen zur Abfertigung ALT sind korrekt?",
         "options": [
           {
@@ -3061,6 +3339,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "241. Grundprinzip der Pensionszusage (direkte Leistungszusage)",
+        "context": "Ein Arbeitgeber sagt einem Arbeitnehmer eine Altersversorgung zu, ohne eine externe Versorgungseinrichtung einzuschalten.",
         "question": "Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "options": [
           {
@@ -3083,6 +3363,8 @@ export const QUIZ_MODULES = {
         "explanation": "Begründung: Die Pensionszusage (direkte Leistungszusage) ist eine interne Verpflichtung des Arbeitgebers"
       },
       {
+        "title": "242. Finanzierung der Pensionszusage (direkte Leistungszusage)",
+        "context": "Ein Unternehmen verpflichtet sich zu künftigen Pensionszahlungen.",
         "question": "Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "options": [
           {
@@ -3105,6 +3387,8 @@ export const QUIZ_MODULES = {
         "explanation": "Begründung: Die Finanzierung erfolgt intern; Rückstellungen sichern die Verpflichtung ab"
       },
       {
+        "title": "243. Rechtsanspruch bei der Pensionszusage (direkte Leistungszusage)",
+        "context": "Ein Arbeitnehmer erhält eine schriftliche Pensionszusage.",
         "question": "Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "options": [
           {
@@ -3127,6 +3411,8 @@ export const QUIZ_MODULES = {
         "explanation": "Begründung: Die Zusage begründet einen Anspruch; ein Widerruf ist nicht frei möglich"
       },
       {
+        "title": "244. Rückstellungen bei der Pensionszusage (direkte Leistungszusage)",
+        "context": "Ein Unternehmen bildet Rückstellungen für Pensionsverpflichtungen.",
         "question": "Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "options": [
           {
@@ -3149,6 +3435,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "245. Insolvenzrisiko bei der Pensionszusage (direkte Leistungszusage)",
+        "context": "Ein Unternehmen mit einer direkten Leistungszusage wird insolvent.",
         "question": "Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "options": [
           {
@@ -3171,6 +3459,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "261. Pflichtversicherung in der Kfz-Haftpflichtversicherung",
+        "context": "Ein Fahrzeughalter meldet ein Kraftfahrzeug zum Verkehr an und nimmt dieses am Straßenverkehr teil.",
         "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
@@ -3193,6 +3483,8 @@ export const QUIZ_MODULES = {
         "explanation": "Begründung: Pflichtversicherung zum Schutz geschädigter Dritter"
       },
       {
+        "title": "262. Versicherungsnehmer und Halter in der Kfz-Haftpflichtversicherung",
+        "context": "Ein Fahrzeug ist auf eine Person zugelassen, während eine andere Person den Versicherungsvertrag abgeschlossen hat.",
         "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
@@ -3215,6 +3507,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "263. Versicherungsfall in der Kfz-Haftpflichtversicherung",
+        "context": "Ein Verkehrsunfall verursacht einen Schaden bei einem Dritten.",
         "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
@@ -3237,6 +3531,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "264. Deckungsumfang der Kfz-Haftpflichtversicherung",
+        "context": "Ein Lenker verursacht einen Unfall.",
         "question": "Welche Schäden sind in der Kfz-Haftpflichtversicherung gedeckt?",
         "options": [
           {
@@ -3259,6 +3555,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Eigenschäden sind nicht von der Kfz-Haftpflichtversicherung gedeckt"
       },
       {
+        "title": "265. Haftungsgrundlage der Kfz-Haftpflichtversicherung",
+        "context": "Ein Fahrer verursacht fahrlässig einen Unfall.",
         "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
@@ -3281,6 +3579,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "266. Obliegenheiten in der Kfz-Haftpflichtversicherung",
+        "context": "Ein Versicherungsnehmer meldet einen Schaden nicht rechtzeitig.",
         "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
@@ -3303,6 +3603,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "267. Leistungsfreiheit in der Kfz-Haftpflichtversicherung",
+        "context": "Ein Versicherungsnehmer verletzt vorsätzlich Obliegenheiten.",
         "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
@@ -3325,6 +3627,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "268. Regress in der Kfz-Haftpflichtversicherung",
+        "context": "Ein Versicherer zahlt an den Geschädigten und fordert danach Geld zurück.",
         "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
@@ -3347,6 +3651,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "269. Deckungssumme in der Kfz-Haftpflichtversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
@@ -3369,6 +3675,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-01. Grundprinzip der Kfz-Kaskoversicherung",
+        "context": "Ein Versicherungsnehmer schließt eine Kfz-Kaskoversicherung für sein Fahrzeug ab, um sich gegen Schäden am eigenen Fahrzeug abzusichern.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3391,6 +3699,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Verwechslung mit Haftpflicht"
       },
       {
+        "title": "KASKO-02. Versicherungsfall in der Kfz-Kaskoversicherung",
+        "context": "Ein Fahrzeug wird durch einen selbst verursachten Unfall beschädigt.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3413,6 +3723,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-03. Teilkasko vs. Vollkasko in der Kfz-Kaskoversicherung",
+        "context": "Ein Versicherungsnehmer vergleicht verschiedene Deckungsarten.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3435,6 +3747,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-04. Deckungsumfang der Teilkasko",
+        "context": "Ein Fahrzeug wird durch einen Sturm beschädigt.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3457,6 +3771,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-05. Deckungsumfang der Vollkasko",
+        "context": "Ein Fahrer verursacht einen Unfall durch eigenes Verschulden.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3479,6 +3795,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-06. Selbstbehalt in der Kfz-Kaskoversicherung",
+        "context": "Ein Versicherungsnehmer vereinbart einen Selbstbehalt.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3501,6 +3819,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-07. Obliegenheiten in der Kfz-Kaskoversicherung",
+        "context": "Ein Versicherungsnehmer meldet einen Schaden verspätet.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3523,6 +3843,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-08. Leistungsfreiheit in der Kfz-Kaskoversicherung",
+        "context": "Ein Versicherungsnehmer verursacht vorsätzlich einen Schaden.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3545,6 +3867,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-09. Grobe Fahrlässigkeit in der Kfz-Kaskoversicherung",
+        "context": "Ein Schaden entsteht durch grob fahrlässiges Verhalten.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3567,6 +3891,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-10. Diebstahl in der Kfz-Kaskoversicherung",
+        "context": "Ein Fahrzeug wird gestohlen.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3589,6 +3915,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-11. Glasbruch in der Kfz-Kaskoversicherung",
+        "context": "Eine Windschutzscheibe wird beschädigt.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3611,6 +3939,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-12. Wildschäden in der Kfz-Kaskoversicherung",
+        "context": "Ein Fahrzeug kollidiert mit einem Wildtier.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3633,6 +3963,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-13. Versicherungswert in der Kfz-Kaskoversicherung",
+        "context": "Ein Fahrzeug erleidet einen Totalschaden.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3655,6 +3987,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-14. Totalschaden in der Kfz-Kaskoversicherung",
+        "context": "Ein Fahrzeug wird wirtschaftlich zerstört.",
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3677,6 +4011,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-15. Versicherungsdauer in der Kfz-Kaskoversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3699,6 +4035,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-16. Prämienhöhe in der Kfz-Kaskoversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3721,6 +4059,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-17. Unterschied Haftpflicht vs. Kasko",
+        "context": null,
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3743,6 +4083,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-18. Zweck der Kfz-Kaskoversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3765,6 +4107,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-19. Schadenmeldung in der Kfz-Kaskoversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3787,6 +4131,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "KASKO-20. Gesamtbewertung der Kfz-Kaskoversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
@@ -3809,6 +4155,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "301. Grundprinzip der Kfz-Zulassung",
+        "context": "Eine Person möchte ein Fahrzeug im öffentlichen Straßenverkehr verwenden.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -3831,6 +4179,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Privatfahrzeuge brauchen auch Zulassung"
       },
       {
+        "title": "302. Zulassungsbesitzer in der Kfz-Zulassung",
+        "context": "Ein Fahrzeug wird auf eine Person zugelassen.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -3853,6 +4203,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "303. Zulassungsstelle in der Kfz-Zulassung",
+        "context": "Eine Person beantragt die Zulassung eines Fahrzeugs.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -3875,6 +4227,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "304. Voraussetzungen der Kfz-Zulassung",
+        "context": "Ein Fahrzeug soll zugelassen werden.",
         "question": "Welche Voraussetzungen der Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -3897,6 +4251,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Führerschein ist NICHT Voraussetzung für Zulassung"
       },
       {
+        "title": "305. Versicherungsbestätigung in der Kfz-Zulassung",
+        "context": "Ein Fahrzeug wird angemeldet.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -3919,6 +4275,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "306. Kennzeichen in der Kfz-Zulassung",
+        "context": "Ein Fahrzeug erhält ein Kennzeichen.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -3941,6 +4299,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "307. Zulassungsschein in der Kfz-Zulassung",
+        "context": "Ein Fahrzeug wird zugelassen.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -3963,6 +4323,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "308. Abmeldung in der Kfz-Zulassung",
+        "context": "Ein Fahrzeug wird außer Betrieb genommen.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -3985,6 +4347,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "309. Ummeldung in der Kfz-Zulassung",
+        "context": "Ein Fahrzeug wechselt den Besitzer.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -4007,6 +4371,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "310. Wechselkennzeichen in der Kfz-Zulassung",
+        "context": "Eine Person nutzt mehrere Fahrzeuge.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -4029,6 +4395,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Fahrzeuge NICHT gleichzeitig"
       },
       {
+        "title": "311. Probefahrtkennzeichen in der Kfz-Zulassung",
+        "context": "Ein Händler testet ein Fahrzeug.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -4051,6 +4419,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "312. Überstellungskennzeichen in der Kfz-Zulassung",
+        "context": "Ein Fahrzeug wird überführt.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -4073,6 +4443,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "313. Technische Voraussetzungen in der Kfz-Zulassung",
+        "context": "Ein Fahrzeug wird geprüft.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -4095,6 +4467,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "314. Daten im Zulassungsschein",
+        "context": null,
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -4117,6 +4491,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "315. Verantwortung bei der Kfz-Zulassung",
+        "context": null,
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -4139,6 +4515,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "316. Verwendung ohne Kfz-Zulassung",
+        "context": "Ein Fahrzeug wird ohne Zulassung genutzt.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -4161,6 +4539,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "317. Kennzeichenmissbrauch",
+        "context": "Ein falsches Kennzeichen wird verwendet.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -4183,6 +4563,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "318. Änderungen im Fahrzeug",
+        "context": "Ein Fahrzeug wird technisch verändert.",
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -4205,6 +4587,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "319. Zweck der Kfz-Zulassung",
+        "context": null,
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -4227,6 +4611,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "320. Gesamtbewertung der Kfz-Zulassung",
+        "context": null,
         "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
@@ -4249,6 +4635,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "321. Grundprinzip der Kfz-Insassenunfallversicherung",
+        "context": "Ein Fahrzeughalter schließt eine Versicherung ab, die alle Insassen bei einem Unfall absichert.",
         "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
@@ -4271,6 +4659,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Keine Pflichtversicherung, keine Sachschäden"
       },
       {
+        "title": "322. Versicherte Personen in der Kfz-Insassenunfallversicherung",
+        "context": "Ein Unfall ereignet sich während der Fahrt.",
         "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
@@ -4293,6 +4683,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "323. Versicherungsfall in der Kfz-Insassenunfallversicherung",
+        "context": "Ein Insasse wird bei einem Verkehrsunfall verletzt.",
         "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
@@ -4315,6 +4707,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "324. Leistungsarten in der Kfz-Insassenunfallversicherung",
+        "context": "Nach einem Unfall werden Leistungen geprüft.",
         "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
@@ -4337,6 +4731,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "325. Verhältnis zur Kfz-Haftpflichtversicherung",
+        "context": "Ein Insasse wird bei einem selbstverschuldeten Unfall verletzt.",
         "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
@@ -4359,6 +4755,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Summenversicherung → unabhängig von Schuld"
       },
       {
+        "title": "326. Summenversicherung in der Kfz-Insassenunfallversicherung",
+        "context": "Ein Versicherter erhält eine Leistung nach einem Unfall.",
         "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
@@ -4381,6 +4779,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "327. Mitwirkung von Krankheiten in der Kfz-Insassenunfallversicherung",
+        "context": "Ein Insasse hat eine Vorerkrankung, die den Schaden verstärkt.",
         "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
@@ -4403,6 +4803,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "328. Unfallbegriff in der Kfz-Insassenunfallversicherung",
+        "context": "Ein Insasse verletzt sich bei einem Unfall.",
         "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
@@ -4425,6 +4827,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "329. Geltungsbereich der Kfz-Insassenunfallversicherung",
+        "context": "Ein Unfall passiert im Ausland.",
         "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
@@ -4447,6 +4851,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "330. Zweck der Kfz-Insassenunfallversicherung",
+        "context": null,
         "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
@@ -4469,6 +4875,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "331. Grundprinzip des Kfz-Leasings",
+        "context": "Eine Person nutzt ein Fahrzeug im Rahmen eines Leasingvertrags.",
         "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
@@ -4491,6 +4899,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Eigentum bleibt beim Leasinggeber"
       },
       {
+        "title": "332. Vertragsparteien im Kfz-Leasing",
+        "context": "Ein Leasingvertrag wird abgeschlossen.",
         "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
@@ -4513,6 +4923,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "333. Leasingrate im Kfz-Leasing",
+        "context": "Ein Leasingnehmer zahlt monatliche Raten.",
         "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
@@ -4535,6 +4947,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "334. Restwertleasing im Kfz-Leasing",
+        "context": "Ein Vertrag basiert auf einem kalkulierten Restwert.",
         "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
@@ -4557,6 +4971,8 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Risiko liegt oft beim Leasingnehmer"
       },
       {
+        "title": "335. Kilometerleasing im Kfz-Leasing",
+        "context": "Ein Leasingvertrag basiert auf einer vereinbarten Kilometerleistung.",
         "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
@@ -4579,6 +4995,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "336. Pflichten des Leasingnehmers im Kfz-Leasing",
+        "context": "Ein Leasingnehmer nutzt das Fahrzeug.",
         "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
@@ -4601,6 +5019,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "337. Versicherung im Kfz-Leasing",
+        "context": "Ein Leasingfahrzeug wird versichert.",
         "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
@@ -4623,6 +5043,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "338. Vertragsende im Kfz-Leasing",
+        "context": "Der Leasingvertrag läuft aus.",
         "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
@@ -4645,6 +5067,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "339. Risiko im Kfz-Leasing",
+        "context": "Während der Laufzeit entstehen Schäden am Fahrzeug.",
         "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
@@ -4667,6 +5091,8 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
+        "title": "340. Zweck des Kfz-Leasings",
+        "context": null,
         "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
