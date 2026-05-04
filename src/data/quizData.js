@@ -5115,6 +5115,3831 @@ export const QUIZ_MODULES = {
         "explanation": ""
       }
     ]
+  },
+  "band3": {
+    "title": "Band 3",
+    "data": [
+      {
+        "title": "1. Grundprinzip der Sachversicherung",
+        "context": "Ein Versicherungsnehmer schließt eine Sachversicherung (Feuerversicherung) für sein Wohnhaus ab. Nach einem Brand verlangt er eine Entschädigung, die deutlich über dem tatsächlichen Schaden liegt.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Die Sachversicherung dient dem Ausgleich eines konkret entstandenen Schadens",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsnehmer kann mehr als den tatsächlichen Schaden verlangen",
+            "isCorrect": false
+          },
+          {
+            "text": "In der Sachversicherung gilt das Bereicherungsverbot",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Leistung erfolgt unabhängig von der tatsächlichen Schadenhöhe",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Begründung: Sachversicherung = Schadensversicherung → nur realer Schaden wird ersetzt 💡 Falle: Verwechslung mit Lebens-/Unfallversicherung"
+      },
+      {
+        "title": "2. Abgrenzung innerhalb der Sachversicherung",
+        "context": "Ein Kunde informiert sich über die Unterschiede zwischen einer Sachversicherung und einer Summenversicherung.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Die Sachversicherung gehört zur Schadensversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird immer eine fix vereinbarte Summe ausbezahlt",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Schaden muss konkret festgestellt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Leistung richtet sich nach dem tatsächlichen Schaden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: B = Summenversicherung"
+      },
+      {
+        "title": "3. Versicherungsinteresse in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer schließt eine Sachversicherung für ein Gebäude ab, an dem er kein wirtschaftliches Interesse hat.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "In der Sachversicherung ist ein versicherbares Interesse erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Es kommt auf das Interesse am Sachwert an",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigentum ist zwingend Voraussetzung",
+            "isCorrect": false
+          },
+          {
+            "text": "Ohne Interesse besteht kein sinnvoller Versicherungsschutz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Eigentum ist NICHT zwingend"
+      },
+      {
+        "title": "4. Überversicherung in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer versichert sein Haus im Rahmen einer Sachversicherung deutlich über dem tatsächlichen Wert.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die volle Versicherungssumme wird immer ausbezahlt",
+            "isCorrect": false
+          },
+          {
+            "text": "Es wird nur der tatsächliche Schaden ersetzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Prämie ist unnötig hoch",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherungssumme kann angepasst werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Mehr Versicherungssumme ≠ mehr Leistung"
+      },
+      {
+        "title": "5. Unterversicherung in der Sachversicherung",
+        "context": "Ein Gebäude ist im Rahmen einer Sachversicherung unterversichert. Es kommt zu einem Teilschaden.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Schaden wird immer vollständig ersetzt",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Entschädigung wird verhältnismäßig gekürzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Proportionalitätsregel kommt zur Anwendung",
+            "isCorrect": true
+          },
+          {
+            "text": "Unterversicherung ist nur bei Totalschäden relevant",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Unterversicherung wirkt auch bei Teilschäden"
+      },
+      {
+        "title": "6. Versicherung auf erstes Risiko (Sachversicherung)",
+        "context": "Ein Versicherungsnehmer vereinbart in seiner Sachversicherung eine Versicherung auf erstes Risiko.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Proportionalitätsregel wird nicht angewendet",
+            "isCorrect": true
+          },
+          {
+            "text": "Schäden werden bis zur Versicherungssumme voll ersetzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Unterversicherung spielt keine Rolle",
+            "isCorrect": true
+          },
+          {
+            "text": "Schäden über der Versicherungssumme sind gedeckt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Über die Summe hinaus kein Schutz"
+      },
+      {
+        "title": "7. Mehrfachversicherung in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer schließt für dieselbe Sache mehrere Sachversicherungen ab.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es liegt eine Mehrfachversicherung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherer haften anteilig",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden kann mehrfach geltend gemacht werden",
+            "isCorrect": false
+          },
+          {
+            "text": "Das Bereicherungsverbot gilt weiterhin",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Keine doppelte Auszahlung!"
+      },
+      {
+        "title": "8. Obliegenheiten in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer verletzt im Rahmen seiner Sachversicherung eine vertragliche Obliegenheit.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Obliegenheiten müssen eingehalten werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Verletzungen können zur Leistungsfreiheit führen",
+            "isCorrect": true
+          },
+          {
+            "text": "Obliegenheiten sind einklagbare Pflichten",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Folgen hängen vom Verschulden ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Obliegenheiten ≠ einklagbare Pflichten"
+      },
+      {
+        "title": "9. Grobe Fahrlässigkeit in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer verursacht einen Schaden durch grobe Fahrlässigkeit im Rahmen seiner Sachversicherung.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherer kann leistungsfrei sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Grobe Fahrlässigkeit liegt bei auffallender Sorglosigkeit vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Jede Fahrlässigkeit führt zur Leistungsfreiheit",
+            "isCorrect": false
+          },
+          {
+            "text": "Deckung kann vertraglich erweitert werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: leichte Fahrlässigkeit reicht nicht"
+      },
+      {
+        "title": "10. Schadenminderungspflicht in der Sachversicherung",
+        "context": "Nach einem Schaden unternimmt der Versicherungsnehmer im Rahmen seiner Sachversicherung keine Maßnahmen zur Schadensbegrenzung.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es besteht eine Schadenminderungspflicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Zumutbare Maßnahmen müssen gesetzt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Unterlassung kann zu Leistungskürzungen führen",
+            "isCorrect": true
+          },
+          {
+            "text": "Diese Pflicht gilt nur vor dem Schaden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Pflicht gilt NACH dem Schaden"
+      },
+      {
+        "title": "11. Versicherungswert in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer schließt eine Sachversicherung für sein Einfamilienhaus ab. Bei Vertragsabschluss wird der Versicherungswert nicht korrekt ermittelt. Im Schadenfall stellt sich heraus, dass der tatsächliche Wert deutlich höher ist als die vereinbarte Versicherungssumme.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungswert ist Grundlage für die richtige Versicherungssumme",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine falsche Bewertung kann zu Unterversicherung führen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss immer den vollen Schaden ersetzen",
+            "isCorrect": false
+          },
+          {
+            "text": "Die korrekte Wertermittlung ist für den Versicherungsschutz entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Begründung: Versicherungswert = zentrale Basis für Entschädigung 💡 Falle: C ist falsch wegen Unterversicherung"
+      },
+      {
+        "title": "12. Zeitwert vs. Neuwert in der Sachversicherung",
+        "context": "Ein Gebäude ist im Rahmen einer Sachversicherung zum Neuwert versichert. Nach einem Schaden wird geprüft, welche Entschädigung zu leisten ist.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Der Neuwert entspricht den Kosten für die Wiederherstellung eines gleichartigen neuen Gegenstands",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Zeitwert berücksichtigt Alter und Abnutzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird immer nur der Zeitwert ersetzt",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Versicherungsart beeinflusst die Höhe der Entschädigung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: C ist falsch → abhängig vom Vertrag"
+      },
+      {
+        "title": "13. Selbstbehalt in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer vereinbart in seiner Sachversicherung einen Selbstbehalt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungsnehmer trägt einen Teil des Schadens selbst",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Selbstbehalt reduziert die Versicherungsleistung",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Selbstbehalt erhöht die Prämie",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Selbstbehalt kann vertraglich vereinbart werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Selbstbehalt senkt normalerweise die Prämie"
+      },
+      {
+        "title": "14. Gefahrerhöhung in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer lagert nach Vertragsabschluss leicht entzündliche Stoffe in seinem Gebäude, ohne dies dem Versicherer mitzuteilen.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Es liegt eine Gefahrerhöhung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Gefahrerhöhungen müssen angezeigt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Nichtanzeige kann zu Leistungsfreiheit führen",
+            "isCorrect": true
+          },
+          {
+            "text": "Gefahrerhöhungen sind rechtlich irrelevant",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Sehr häufige Prüfungsfrage!"
+      },
+      {
+        "title": "15. Versicherte Gefahr in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer hat eine Sachversicherung gegen Feuer abgeschlossen. Ein Schaden entsteht durch Hochwasser.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es besteht Versicherungsschutz",
+            "isCorrect": false
+          },
+          {
+            "text": "Es kommt auf die versicherte Gefahr an",
+            "isCorrect": true
+          },
+          {
+            "text": "Feuer und Hochwasser sind unterschiedliche Risiken",
+            "isCorrect": true
+          },
+          {
+            "text": "Ohne entsprechende Deckung keine Leistung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Gefahr ≠ allgemein alles versichert"
+      },
+      {
+        "title": "16. Totalschaden in der Sachversicherung",
+        "context": "Ein Gebäude wird durch ein Feuer vollständig zerstört und stellt einen Totalschaden dar.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Ein Totalschaden liegt vor, wenn Wiederherstellung wirtschaftlich nicht sinnvoll ist",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird automatisch die gesamte Versicherungssumme ausbezahlt",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Entschädigung richtet sich nach dem Versicherungswert",
+            "isCorrect": true
+          },
+          {
+            "text": "Das Bereicherungsverbot gilt auch beim Totalschaden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: B ist falsch → keine automatische volle Summe"
+      },
+      {
+        "title": "17. Teilschaden in der Sachversicherung",
+        "context": "Ein Sturm beschädigt nur Teile eines versicherten Gebäudes.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Es handelt sich um einen Teilschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird nur der tatsächlich entstandene Schaden ersetzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Die gesamte Versicherungssumme wird ausbezahlt",
+            "isCorrect": false
+          },
+          {
+            "text": "Unterversicherung kann auch hier relevant sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: C ist klassischer Fehler"
+      },
+      {
+        "title": "18. Obliegenheiten nach dem Schaden in der Sachversicherung",
+        "context": "Nach einem Schaden unterlässt der Versicherungsnehmer im Rahmen seiner Sachversicherung die Schadenmeldung über längere Zeit.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es besteht eine Pflicht zur unverzüglichen Schadenmeldung",
+            "isCorrect": true
+          },
+          {
+            "text": "Verzögerung kann negative Folgen haben",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss unabhängig davon leisten",
+            "isCorrect": false
+          },
+          {
+            "text": "Obliegenheiten gelten auch nach dem Schaden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Viele vergessen Obliegenheiten nach Schaden"
+      },
+      {
+        "title": "19. Mitversicherung fremder Sachen in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer lagert fremde Gegenstände in seinem Gebäude, das über eine Sachversicherung versichert ist.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Fremde Sachen können mitversichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es kommt auf den Vertrag an",
+            "isCorrect": true
+          },
+          {
+            "text": "Fremde Sachen sind automatisch ausgeschlossen",
+            "isCorrect": false
+          },
+          {
+            "text": "Das versicherte Interesse ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Immer vertraglich prüfen!"
+      },
+      {
+        "title": "20. Vertragsgestaltung in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer gestaltet seine Sachversicherung individuell.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Versicherungssumme wird vertraglich festgelegt",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckungsumfang kann variieren",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsgestaltung ist irrelevant",
+            "isCorrect": false
+          },
+          {
+            "text": "Bedingungen beeinflussen den Versicherungsschutz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Bedingungen sind extrem prüfungsrelevant"
+      },
+      {
+        "title": "21. Übergang von Ersatzansprüchen in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer hat eine Sachversicherung für sein Gebäude abgeschlossen. Ein Dritter verursacht fahrlässig einen Schaden am Gebäude. Der Versicherer ersetzt den Schaden und prüft anschließend weitere Schritte.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherer kann auf den Schädiger Rückgriff nehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Anspruch des Versicherungsnehmers geht auf den Versicherer über",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsnehmer darf zusätzlich den Schaden vom Schädiger verlangen",
+            "isCorrect": false
+          },
+          {
+            "text": "Es kommt zu einem gesetzlichen Forderungsübergang",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Begründung: Legalzession (Regress) 💡 Falle: Kein doppelter Anspruch!"
+      },
+      {
+        "title": "22. Wiederherstellungspflicht in der Sachversicherung",
+        "context": "Ein Gebäude wird durch einen Brand beschädigt. Der Versicherungsnehmer erhält eine Leistung aus seiner Sachversicherung, entscheidet sich jedoch gegen die Wiederherstellung.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Entschädigung kann vom tatsächlichen Wiederaufbau abhängen",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine volle Neuwertentschädigung setzt oft Wiederherstellung voraus",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsnehmer erhält immer den vollen Neuwert",
+            "isCorrect": false
+          },
+          {
+            "text": "Ohne Wiederherstellung kann nur der Zeitwert ersetzt werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Neuwert oft an Wiederaufbau gebunden"
+      },
+      {
+        "title": "23. Gefahrtragung in der Sachversicherung",
+        "context": "Ein Schaden entsteht während der Laufzeit einer Sachversicherung, jedoch wird strittig, ob dieser innerhalb der Versicherungsdauer eingetreten ist.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Maßgeblich ist der Zeitpunkt des Schadeneintritts",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherungsschutz besteht nur während der Vertragslaufzeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Spätere Meldung schließt Leistung automatisch aus",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Eintritt des Versicherungsfalls ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Meldung ≠ Zeitpunkt des Schadens"
+      },
+      {
+        "title": "24. Anzeigeobliegenheit bei Vertragsabschluss in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer verschweigt beim Abschluss einer Sachversicherung eine wesentliche Information über das Risiko.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es besteht eine vorvertragliche Anzeigepflicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Falschangaben können rechtliche Konsequenzen haben",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss unabhängig davon leisten",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherer kann vom Vertrag zurücktreten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Klassiker in Prüfungen"
+      },
+      {
+        "title": "25. Versicherte Sachen in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer hat eine Sachversicherung für sein Gebäude abgeschlossen. Ein Schaden betrifft bewegliche Gegenstände im Gebäude.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es kommt darauf an, welche Sachen versichert sind",
+            "isCorrect": true
+          },
+          {
+            "text": "Gebäudeversicherung deckt automatisch alle beweglichen Sachen",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherungsumfang ist vertraglich geregelt",
+            "isCorrect": true
+          },
+          {
+            "text": "Nicht versicherte Sachen sind nicht gedeckt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Gebäude ≠ Inhalt"
+      },
+      {
+        "title": "26. Ersatzleistung in der Sachversicherung",
+        "context": "Nach einem Schaden aus einer Sachversicherung wird die Höhe der Entschädigung ermittelt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Entschädigung richtet sich nach dem tatsächlichen Schaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherungssumme ist die maximale Grenze",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird immer die volle Versicherungssumme ausbezahlt",
+            "isCorrect": false
+          },
+          {
+            "text": "Das Bereicherungsverbot ist zu beachten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Versicherungssumme = Obergrenze, nicht Fixbetrag"
+      },
+      {
+        "title": "27. Zufallsprinzip in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer beschädigt seine Sache absichtlich und verlangt Leistung aus seiner Sachversicherung.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Versicherungsschutz setzt ein zufälliges Ereignis voraus",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsatz schließt die Leistung aus",
+            "isCorrect": true
+          },
+          {
+            "text": "Jede Beschädigung ist versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherer ist bei Vorsatz leistungsfrei",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Vorsatz = kein Versicherungsschutz"
+      },
+      {
+        "title": "28. Versicherung mehrerer Gefahren in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer kombiniert mehrere Risiken in seiner Sachversicherung (z. B. Feuer, Sturm, Leitungswasser).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Mehrere Gefahren können kombiniert versichert werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Jede Gefahr muss ausdrücklich vereinbart werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Alle Risiken sind automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Deckungsumfang ergibt sich aus dem Vertrag",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Kein automatischer Rundumschutz"
+      },
+      {
+        "title": "29. Vertragsänderung in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer möchte während der Laufzeit seiner Sachversicherung die Versicherungssumme erhöhen.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Vertragsänderungen sind möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Änderungen erfordern Zustimmung des Versicherers",
+            "isCorrect": true
+          },
+          {
+            "text": "Änderungen erfolgen automatisch",
+            "isCorrect": false
+          },
+          {
+            "text": "Anpassungen beeinflussen die Prämie",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Keine einseitige Änderung"
+      },
+      {
+        "title": "30. Risikoausschlüsse in der Sachversicherung",
+        "context": "Ein Schaden tritt ein, der laut Vertrag ausdrücklich ausgeschlossen ist.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Ausschlüsse sind vertraglich geregelt",
+            "isCorrect": true
+          },
+          {
+            "text": "Für ausgeschlossene Risiken besteht kein Versicherungsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss trotzdem leisten",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsbedingungen sind entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Bedingungen IMMER lesen"
+      },
+      {
+        "title": "31. Sorgfaltspflichten in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer schließt eine Sachversicherung für ein Gebäude ab. Im Laufe der Zeit unterlässt er notwendige Wartungs- und Sicherungsmaßnahmen, wodurch sich das Risiko eines Schadens deutlich erhöht. Schließlich tritt ein Schaden ein.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Die Einhaltung von Sorgfaltspflichten ist für den Versicherungsschutz relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Pflichtverletzungen können Auswirkungen auf die Leistung haben",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer ist unabhängig vom Verhalten des Versicherungsnehmers immer leistungspflichtig",
+            "isCorrect": false
+          },
+          {
+            "text": "Eine Verletzung von Obliegenheiten kann zur Leistungsfreiheit führen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Versicherer muss nicht immer leisten"
+      },
+      {
+        "title": "32. Berücksichtigung von Vorschäden in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer hat eine Sachversicherung für sein Inventar abgeschlossen. Nach einem Schaden stellt sich heraus, dass einige Gegenstände bereits vorher beschädigt waren.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Es wird nur der neu entstandene Schaden ersetzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorschäden werden bei der Entschädigung berücksichtigt",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer ersetzt auch frühere Schäden vollständig",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Zustand der Sache vor dem Schaden ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Keine „Reparatur alter Schäden“"
+      },
+      {
+        "title": "33. Mitwirkungspflichten bei der Schadensermittlung in der Sachversicherung",
+        "context": "Nach einem Schaden aus einer Sachversicherung verlangt der Versicherer Unterlagen und Informationen zur Klärung des Sachverhalts. Der Versicherungsnehmer verweigert die Mitwirkung.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungsnehmer ist zur Mitwirkung verpflichtet",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Verweigerung kann negative Folgen haben",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss dennoch leisten",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Aufklärung des Schadens ist Voraussetzung für die Leistung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Ohne Mitwirkung oft keine Leistung"
+      },
+      {
+        "title": "34. Versicherte und nicht versicherte Kosten in der Sachversicherung",
+        "context": "Nach einem Schaden im Rahmen einer Sachversicherung entstehen neben dem eigentlichen Schaden zusätzliche Kosten.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Es kommt darauf an, welche Kosten im Vertrag eingeschlossen sind",
+            "isCorrect": true
+          },
+          {
+            "text": "Alle Kosten werden automatisch ersetzt",
+            "isCorrect": false
+          },
+          {
+            "text": "Nur versicherte Kosten werden ersetzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsbedingungen bestimmen den Umfang der Leistungen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Nicht alles ist automatisch gedeckt"
+      },
+      {
+        "title": "35. Gefahrtragung bei zeitlich unklaren Schäden in der Sachversicherung",
+        "context": "Ein Schaden wird im Rahmen einer Sachversicherung erst später entdeckt, obwohl er möglicherweise schon früher entstanden ist.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Entscheidend ist der Zeitpunkt des Schadeneintritts",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Zeitpunkt der Entdeckung ist immer maßgeblich",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherungsschutz hängt von der Vertragslaufzeit ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsfall muss während der Laufzeit eingetreten sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Entdeckung ≠ Eintritt"
+      },
+      {
+        "title": "36. Wirtschaftliches Interesse in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer schließt eine Sachversicherung für eine Sache ab, an der er ein wirtschaftliches Interesse hat, obwohl er nicht Eigentümer ist.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Ein wirtschaftliches Interesse ist ausreichend",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigentum ist zwingend erforderlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Das versicherte Interesse ist entscheidend",
+            "isCorrect": true
+          },
+          {
+            "text": "Die rechtliche Stellung des Versicherungsnehmers kann variieren",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Eigentum ist NICHT Voraussetzung"
+      },
+      {
+        "title": "37. Einfluss der Vertragsbedingungen in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer liest die Bedingungen seiner Sachversicherung nicht genau und geht davon aus, dass alle Schäden gedeckt sind.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Vertragsbedingungen bestimmen den Umfang des Versicherungsschutzes",
+            "isCorrect": true
+          },
+          {
+            "text": "Alle Schäden sind automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Einschränkungen können bestehen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsschutz ist immer gleich",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Bedingungen sind entscheidend!"
+      },
+      {
+        "title": "38. Deckungsumfang bei mehreren Risiken in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer schließt eine Sachversicherung ab und geht davon aus, dass alle möglichen Gefahren automatisch versichert sind.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Der Deckungsumfang hängt vom Vertrag ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiken müssen konkret vereinbart werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Alle Gefahren sind automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherungsumfang kann variieren",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Kein „All-Risk“ ohne Vereinbarung"
+      },
+      {
+        "title": "39. Leistungspflicht bei teilweisem Risikoausschluss in der Sachversicherung",
+        "context": "Ein Schaden tritt ein, der teilweise unter einen Risikoausschluss der Sachversicherung fällt.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Ausschlüsse sind vertraglich geregelt",
+            "isCorrect": true
+          },
+          {
+            "text": "Für ausgeschlossene Teile besteht kein Versicherungsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss immer voll leisten",
+            "isCorrect": false
+          },
+          {
+            "text": "Der konkrete Schaden ist zu prüfen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Teilweise Ausschlüsse sind möglich"
+      },
+      {
+        "title": "40. Verhalten im Schadenfall in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer reagiert nach einem Schaden im Rahmen seiner Sachversicherung nicht angemessen und unterlässt wichtige Maßnahmen.",
+        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungsnehmer muss im Schadenfall korrekt handeln",
+            "isCorrect": true
+          },
+          {
+            "text": "Pflichtverletzungen können die Leistung beeinflussen",
+            "isCorrect": true
+          },
+          {
+            "text": "Verhalten nach dem Schaden ist irrelevant",
+            "isCorrect": false
+          },
+          {
+            "text": "Es bestehen Obliegenheiten auch nach Eintritt des Schadens",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Verhalten nach Schaden ist extrem wichtig"
+      },
+      {
+        "title": "41. Maschinenbruch in der Sachversicherung",
+        "context": "Ein Unternehmen betreibt eine Produktionsmaschine, die im Rahmen einer Sachversicherung (technische Sparte – Maschinenbruch) versichert ist. Während des Betriebs kommt es durch einen Bedienungsfehler zu einem plötzlichen Defekt der Maschine.",
+        "question": "Welche Aussagen zur Sachversicherung (Maschinenbruch) sind korrekt?",
+        "options": [
+          {
+            "text": "Bedienungsfehler können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es muss sich um ein plötzliches Ereignis handeln",
+            "isCorrect": true
+          },
+          {
+            "text": "Abnutzung ist automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Innere Ursachen können vom Versicherungsschutz umfasst sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Abnutzung ist typischer Ausschluss"
+      },
+      {
+        "title": "42. Abgrenzung Verschleiß in der Sachversicherung",
+        "context": "Eine Maschine fällt aufgrund langjähriger Nutzung und Materialermüdung aus. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (technische Sparte).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Verschleiß ist in der Regel nicht versichert",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Sachversicherung deckt nur unvorhergesehene Schäden",
+            "isCorrect": true
+          },
+          {
+            "text": "Alterungsprozesse fallen unter den Versicherungsschutz",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherer kann die Leistung ablehnen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Verschleiß ≠ Versicherungsfall"
+      },
+      {
+        "title": "43. Elektronikversicherung in der Sachversicherung",
+        "context": "Ein Unternehmen versichert seine IT-Anlage über eine Sachversicherung (technische Sparte – Elektronikversicherung). Durch eine Überspannung wird ein Server beschädigt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Elektronikversicherung kann auch Überspannungsschäden decken",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um eine technische Sachversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur äußere mechanische Schäden sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Elektronische Schäden können versichert sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Nicht nur mechanische Schäden"
+      },
+      {
+        "title": "44. Allgefahrenprinzip in der Sachversicherung (technische Sparte)",
+        "context": "Ein Versicherungsnehmer hat eine Sachversicherung (technische Sparte) abgeschlossen, die nach dem Allgefahrenprinzip funktioniert.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Grundsätzlich sind alle Gefahren gedeckt, die nicht ausgeschlossen sind",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur ausdrücklich genannte Gefahren sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Ausschlüsse sind entscheidend",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsschutz ist umfassender als bei benannten Gefahren",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Gegenteil von klassischen Sachversicherungen"
+      },
+      {
+        "title": "45. Montageversicherung in der Sachversicherung",
+        "context": "Ein Unternehmen errichtet eine große Industrieanlage, die über eine Sachversicherung (technische Sparte – Montageversicherung) abgesichert ist. Während der Montage entsteht ein Schaden.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Schäden während der Montage können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherung endet automatisch vor Fertigstellung",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um eine technische Sachversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiken während der Bauphase können abgedeckt sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Schutz besteht gerade während der Bau-/Montagephase"
+      },
+      {
+        "title": "46. Bauwesenversicherung in der Sachversicherung",
+        "context": "Ein Bauherr schließt eine Sachversicherung (technische Sparte – Bauwesenversicherung) für ein Bauprojekt ab. Während der Bauphase kommt es zu einem Schaden durch einen Sturm.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Schäden während der Bauphase können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um eine Sachversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Fertige Gebäude sind immer automatisch versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Unvorhergesehene Schäden sind relevant",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Nur Bauphase abgesichert"
+      },
+      {
+        "title": "47. Selbstbehalt in technischen Sachversicherungen",
+        "context": "Ein Unternehmen vereinbart in seiner Sachversicherung (technische Sparte) einen Selbstbehalt für Maschinen.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Ein Teil des Schadens wird selbst getragen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Selbstbehalt reduziert die Entschädigung",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Selbstbehalt erhöht die Versicherungsleistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Selbstbehalt kann vertraglich festgelegt werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Klassiker!"
+      },
+      {
+        "title": "48. Versicherte Sachen in der technischen Sachversicherung",
+        "context": "Ein Unternehmen versichert mehrere Maschinen im Rahmen einer Sachversicherung (technische Sparte). Nach einem Schaden stellt sich die Frage, ob alle Geräte gedeckt sind.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es kommt darauf an, welche Sachen konkret versichert sind",
+            "isCorrect": true
+          },
+          {
+            "text": "Alle Maschinen sind automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Vertrag bestimmt den Umfang",
+            "isCorrect": true
+          },
+          {
+            "text": "Nicht erfasste Sachen sind nicht versichert",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Keine automatische Deckung"
+      },
+      {
+        "title": "49. Betriebsbereitschaft in der Sachversicherung (technische Sparte)",
+        "context": "Eine Maschine wird im Rahmen einer Sachversicherung (technische Sparte) versichert. Zum Zeitpunkt des Schadens ist sie noch nicht betriebsbereit.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Betriebsbereitschaft kann Voraussetzung sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherungsschutz besteht immer unabhängig vom Zustand",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Zeitpunkt der Inbetriebnahme kann entscheidend sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsbedingungen sind maßgeblich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Zustand der Maschine entscheidend"
+      },
+      {
+        "title": "50. Schadenursachen in der technischen Sachversicherung",
+        "context": "Eine Maschine wird durch einen Kurzschluss beschädigt. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (technische Sparte).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Elektrische Schäden können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Innere Ursachen können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur äußere Einwirkungen sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der konkrete Schadenhergang ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Technische Versicherungen decken oft auch „innere Schäden“"
+      },
+      {
+        "title": "51. Bauwesenversicherung – unvorhergesehener Schaden in der Sachversicherung",
+        "context": "Ein Bauherr errichtet ein Wohngebäude und hat eine Sachversicherung (technische Sparte – Bauwesenversicherung) abgeschlossen. Während der Bauphase kommt es durch einen unerwarteten Starkregen zu erheblichen Schäden am Rohbau.",
+        "question": "Welche Aussagen zur Sachversicherung (Bauwesenversicherung) sind korrekt?",
+        "options": [
+          {
+            "text": "Unvorhergesehene Schäden während der Bauphase können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Witterungseinflüsse sind grundsätzlich ausgeschlossen",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Bauwesenversicherung ist eine Form der Sachversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Schäden vor Fertigstellung können versichert sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Witterung ist oft mitversichert, wenn unvorhergesehen"
+      },
+      {
+        "title": "52. Bauwesenversicherung – versicherte Sachen in der Sachversicherung",
+        "context": "Ein Bauprojekt ist über eine Sachversicherung (Bauwesenversicherung) abgesichert. Es kommt zu Schäden an bereits eingebauten Materialien sowie an noch nicht verbauten Baustoffen auf der Baustelle.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Eingebaute Teile sind versichert",
+            "isCorrect": true
+          },
+          {
+            "text": "Nicht eingebaute Baustoffe können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur fertige Bauwerke sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherungsschutz umfasst die Bauleistung insgesamt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Nicht nur fertige Teile sind gedeckt"
+      },
+      {
+        "title": "53. Bauwesenversicherung – Eigenleistung in der Sachversicherung",
+        "context": "Ein Bauherr führt Teile des Baus selbst aus und verursacht dabei einen Schaden. Das Bauvorhaben ist über eine Sachversicherung (Bauwesenversicherung) versichert.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Eigenleistungen können mitversichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Schäden durch Eigenleistung sind automatisch ausgeschlossen",
+            "isCorrect": false
+          },
+          {
+            "text": "Es kommt auf den Vertrag an",
+            "isCorrect": true
+          },
+          {
+            "text": "Auch selbst verursachte Schäden können gedeckt sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Eigenleistung ist oft eingeschlossen"
+      },
+      {
+        "title": "54. Bauwesenversicherung – Ausschluss von Verschleiß in der Sachversicherung",
+        "context": "Während eines Bauprojekts treten Schäden durch mangelhafte Bauausführung auf. Der Bauherr fordert Leistung aus seiner Sachversicherung (Bauwesenversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Reine Baumängel können ausgeschlossen sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Nicht jeder Schaden ist automatisch gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Unvorhergesehene Schäden sind entscheidend",
+            "isCorrect": true
+          },
+          {
+            "text": "Schlechte Bauausführung ist immer versichert",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Mängel ≠ Versicherungsfall"
+      },
+      {
+        "title": "55. Bauherrnhaftpflicht – Abgrenzung zur Sachversicherung",
+        "context": "Ein Bauherr schließt zusätzlich zur Sachversicherung (Bauwesenversicherung) eine Bauherrnhaftpflichtversicherung ab. Ein Dritter wird auf der Baustelle verletzt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Bauherrnhaftpflicht deckt Schäden an Dritten",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Sachversicherung deckt Personenschäden Dritter",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Bauherrnhaftpflicht ist keine Sachversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Beide Versicherungen haben unterschiedliche Funktionen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Sachversicherung ≠ Haftpflicht"
+      },
+      {
+        "title": "56. Bauherrnhaftpflicht – Haftungsprinzip",
+        "context": "Ein Bauherr sichert seine Baustelle nicht ausreichend ab. Ein Passant stürzt und verletzt sich.",
+        "question": "Welche Aussagen zur Sachversicherung (Abgrenzung Bauherrnhaftpflicht) sind korrekt?",
+        "options": [
+          {
+            "text": "Der Bauherr kann haftbar gemacht werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Bauherrnhaftpflicht deckt solche Schäden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Sachversicherung ersetzt diesen Personenschaden",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht eine Verkehrssicherungspflicht",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Sachversicherung zahlt KEINE Personenschäden"
+      },
+      {
+        "title": "57. Bauwesenversicherung – Bauphase in der Sachversicherung",
+        "context": "Ein Gebäude ist noch nicht fertiggestellt und wird durch ein unerwartetes Ereignis beschädigt. Es besteht eine Sachversicherung (Bauwesenversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Bauphase ist versichert",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schutz endet mit Fertigstellung",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur fertige Gebäude sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Zeitpunkt des Schadens ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Bauwesen ≠ fertiges Gebäude"
+      },
+      {
+        "title": "58. Bauwesenversicherung – Mehrere Beteiligte in der Sachversicherung",
+        "context": "An einem Bauprojekt sind mehrere Unternehmen beteiligt. Es besteht eine Sachversicherung (Bauwesenversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Mehrere Beteiligte können mitversichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Bauherr ist zentraler Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Beteiligte braucht zwingend eine eigene Sachversicherung",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherungsschutz kann gemeinschaftlich gestaltet sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Oft „alle am Bau Beteiligten“ mitversichert"
+      },
+      {
+        "title": "59. Bauherrnhaftpflicht – Schaden durch Bauarbeiten",
+        "context": "Während Bauarbeiten fällt ein Gegenstand von der Baustelle und beschädigt ein parkendes Auto.",
+        "question": "Welche Aussagen zur Sachversicherung (Abgrenzung Bauherrnhaftpflicht) sind korrekt?",
+        "options": [
+          {
+            "text": "Der Bauherr kann haftbar sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Bauherrnhaftpflicht deckt den Schaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Sachversicherung ersetzt diesen Fremdschaden",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um einen Haftpflichtfall",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Sachversicherung zahlt NICHT für fremde Sachen"
+      },
+      {
+        "title": "60. Bauwesenversicherung – Versicherungssumme in der Sachversicherung",
+        "context": "Ein Bauprojekt wird im Rahmen einer Sachversicherung (Bauwesenversicherung) zu niedrig versichert. Es tritt ein Schaden ein.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Unterversicherung kann vorliegen",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Entschädigung kann gekürzt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird immer der volle Schaden ersetzt",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Versicherungssumme ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Klassiker wie bei jeder Sachversicherung"
+      },
+      {
+        "title": "61. Montageversicherung – Grundprinzip in der Sachversicherung",
+        "context": "Ein Unternehmen errichtet im Rahmen eines Projekts eine komplexe Industrieanlage. Für die Dauer der Montage besteht eine Sachversicherung (technische Sparte – Montageversicherung). Während der Installation wird ein bereits montiertes Bauteil durch einen Fehler beschädigt.",
+        "question": "Welche Aussagen zur Sachversicherung (Montageversicherung) sind korrekt?",
+        "options": [
+          {
+            "text": "Schäden während der Montagephase können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Montageversicherung ist eine Form der Sachversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur fertiggestellte Anlagen sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Unvorhergesehene Schäden während der Montage sind relevant",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Schutz gilt gerade während der Montage, nicht erst danach"
+      },
+      {
+        "title": "62. Montageversicherung – versicherte Sachen in der Sachversicherung",
+        "context": "Im Rahmen einer Sachversicherung (Montageversicherung) werden sowohl bereits installierte Teile als auch noch nicht verbaute Komponenten auf der Baustelle beschädigt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Bereits montierte Teile können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Noch nicht montierte Teile können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur vollständig fertiggestellte Anlagen sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherungsschutz umfasst das Montageprojekt insgesamt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Auch „noch nicht verbaute Teile“ sind oft gedeckt"
+      },
+      {
+        "title": "63. Montageversicherung – Ausschluss von Mängeln in der Sachversicherung",
+        "context": "Während der Montage kommt es aufgrund eines Konstruktionsfehlers zu Schäden an der Anlage. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (Montageversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Reine Konstruktions- oder Materialmängel können ausgeschlossen sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Nicht jeder Schaden ist automatisch gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Unvorhergesehene Schäden sind entscheidend für den Versicherungsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Montagefehler ist automatisch versichert",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Mängel ≠ versicherter Schaden"
+      },
+      {
+        "title": "64. Montageversicherung – Zeitraum des Versicherungsschutzes in der Sachversicherung",
+        "context": "Ein Schaden tritt kurz vor Abschluss der Montage auf. Es besteht eine Sachversicherung (Montageversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungsschutz gilt während der Montagephase",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schutz endet mit Fertigstellung oder Abnahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Schäden nach Abschluss der Montage sind immer gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Zeitpunkt des Schadens ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Nach Abnahme oft kein Schutz mehr"
+      },
+      {
+        "title": "65. Montageversicherung – Beteiligte Personen in der Sachversicherung",
+        "context": "An einem Montageprojekt sind mehrere Unternehmen beteiligt (z. B. Auftraggeber, Subunternehmer). Es besteht eine Sachversicherung (Montageversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Mehrere am Projekt Beteiligte können mitversichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsschutz kann gemeinschaftlich gestaltet sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Beteiligte muss zwingend eine eigene Versicherung haben",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Vertrag bestimmt, wer versichert ist",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Oft „alle Beteiligten“ mitversichert – aber nur wenn vertraglich geregelt"
+      },
+      {
+        "title": "66. Maschinengarantieversicherung – Grundprinzip in der Sachversicherung",
+        "context": "Ein Unternehmen kauft eine neue Produktionsmaschine. Nach Ablauf der Herstellergarantie schließt es eine Sachversicherung (technische Sparte – Maschinengarantieversicherung) ab. Einige Monate später tritt ein Defekt auf, der auf einen Materialfehler zurückzuführen ist.",
+        "question": "Welche Aussagen zur Sachversicherung (Maschinengarantieversicherung) sind korrekt?",
+        "options": [
+          {
+            "text": "Sie knüpft an die Herstellergarantie an",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie übernimmt typischerweise Schäden durch Material- oder Konstruktionsfehler",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ersetzt auch Schäden durch normalen Verschleiß",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie dient der Absicherung technischer Defekte",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Verschleiß bleibt meist ausgeschlossen"
+      },
+      {
+        "title": "67. Maschinengarantieversicherung – Abgrenzung zur Maschinenbruchversicherung in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer vergleicht eine Sachversicherung (Maschinengarantieversicherung) mit einer Maschinenbruchversicherung.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Maschinengarantieversicherung bezieht sich auf Garantie- bzw. Gewährleistungsrisiken",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Maschinenbruchversicherung deckt plötzliche, unvorhergesehene Schäden",
+            "isCorrect": true
+          },
+          {
+            "text": "Beide Versicherungen sind inhaltlich ident",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Maschinengarantieversicherung konzentriert sich stärker auf innere Mängel",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Unterschied Garantie vs. „plötzliches Ereignis“"
+      },
+      {
+        "title": "68. Maschinengarantieversicherung – versicherte Ursachen in der Sachversicherung",
+        "context": "Eine Maschine fällt im Rahmen einer Sachversicherung (Maschinengarantieversicherung) aufgrund eines versteckten Produktionsfehlers aus.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Produktionsfehler können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Innere Ursachen stehen im Mittelpunkt",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur äußere Einwirkungen sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Technische Defekte können vom Versicherungsschutz umfasst sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Fokus liegt auf „inneren Schäden“"
+      },
+      {
+        "title": "69. Maschinengarantieversicherung – Vertragsabhängigkeit in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer geht davon aus, dass jede Art von Schaden automatisch durch seine Sachversicherung (Maschinengarantieversicherung) gedeckt ist.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Deckungsumfang ist vertraglich geregelt",
+            "isCorrect": true
+          },
+          {
+            "text": "Nicht alle Schäden sind automatisch versichert",
+            "isCorrect": true
+          },
+          {
+            "text": "Ausschlüsse können bestehen",
+            "isCorrect": true
+          },
+          {
+            "text": "Jede technische Störung ist gedeckt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Kein Vollschutz!"
+      },
+      {
+        "title": "70. Maschinengarantieversicherung – zeitlicher Anwendungsbereich in der Sachversicherung",
+        "context": "Ein Unternehmen nutzt eine Maschine mehrere Jahre. Die Herstellergarantie läuft ab und wird durch eine Sachversicherung (Maschinengarantieversicherung) ergänzt. Danach tritt ein Defekt auf.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Maschinengarantieversicherung kann nach Ablauf der Herstellergarantie greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ersetzt automatisch alle späteren Schäden",
+            "isCorrect": false
+          },
+          {
+            "text": "Der zeitliche Anschluss an die Garantie ist typisch",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsschutz hängt vom Vertragsbeginn ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Nicht jeder Schaden nach Garantie ist gedeckt"
+      },
+      {
+        "title": "71. Maschinenbruchversicherung – Grundprinzip in der Sachversicherung",
+        "context": "Ein Unternehmen betreibt eine große Produktionsmaschine, die über eine Sachversicherung (technische Sparte – Maschinenbruchversicherung) versichert ist. Während des laufenden Betriebs kommt es plötzlich zu einem mechanischen Defekt, wodurch die Maschine ausfällt.",
+        "question": "Welche Aussagen zur Sachversicherung (Maschinenbruchversicherung) sind korrekt?",
+        "options": [
+          {
+            "text": "Die Maschinenbruchversicherung deckt unvorhergesehene Schäden",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist eine Form der Sachversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Schäden müssen plötzlich eintreten",
+            "isCorrect": true
+          },
+          {
+            "text": "Normale Abnutzung ist mitversichert",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Verschleiß ist ausgeschlossen"
+      },
+      {
+        "title": "72. Maschinenbruchversicherung – innere Ursachen in der Sachversicherung",
+        "context": "Eine Maschine wird im Rahmen einer Sachversicherung (Maschinenbruchversicherung) versichert. Es kommt zu einem Schaden durch einen inneren Materialfehler.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Innere Ursachen können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur äußere Einwirkungen sind gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Materialfehler können unter den Versicherungsschutz fallen",
+            "isCorrect": true
+          },
+          {
+            "text": "Technische Defekte können versichert sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Gegensatz zur klassischen Sachversicherung"
+      },
+      {
+        "title": "73. Maschinenbruchversicherung – Ausschluss von Verschleiß in der Sachversicherung",
+        "context": "Eine Maschine fällt aufgrund langfristiger Abnutzung aus. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (Maschinenbruchversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Verschleiß ist typischerweise ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur plötzliche Schäden sind relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Defekt ist versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherer kann die Leistung verweigern",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Abnutzung ≠ Versicherungsfall"
+      },
+      {
+        "title": "74. Maschinenbruchversicherung – Bedienungsfehler in der Sachversicherung",
+        "context": "Ein Mitarbeiter verursacht durch falsche Bedienung einen Schaden an einer Maschine. Die Maschine ist durch eine Sachversicherung (Maschinenbruchversicherung) versichert.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Bedienungsfehler können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Fahrlässigkeit führt automatisch zum Verlust des Versicherungsschutzes",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Schaden kann gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsatz ist ausgeschlossen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Fahrlässigkeit ist oft gedeckt"
+      },
+      {
+        "title": "75. Maschinenbruchversicherung – Betriebsbereitschaft in der Sachversicherung",
+        "context": "Eine Maschine wird im Rahmen einer Sachversicherung (Maschinenbruchversicherung) versichert. Zum Zeitpunkt des Schadens befindet sie sich noch in der Aufbauphase und ist nicht betriebsbereit.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Betriebsbereitschaft kann Voraussetzung für den Versicherungsschutz sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherungsschutz besteht unabhängig vom Zustand",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Zeitpunkt der Inbetriebnahme kann entscheidend sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsbedingungen sind maßgeblich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Montagephase ≠ Maschinenbruchversicherung"
+      },
+      {
+        "title": "76. Elektrogeräteversicherung – Grundprinzip in der Sachversicherung",
+        "context": "Ein Unternehmen betreibt eine IT-Infrastruktur (Server, Computer, Netzwerktechnik), die über eine Sachversicherung (technische Sparte – Elektrogeräteversicherung) abgesichert ist. Durch einen internen Kurzschluss fällt ein Server plötzlich aus.",
+        "question": "Welche Aussagen zur Sachversicherung (Elektrogeräteversicherung) sind korrekt?",
+        "options": [
+          {
+            "text": "Elektronische Geräte können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Innere Schäden wie Kurzschluss können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur äußere mechanische Schäden sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um eine technische Sachversicherung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Nicht nur äußere Einwirkungen zählen"
+      },
+      {
+        "title": "77. Elektrogeräteversicherung – Allgefahrenprinzip in der Sachversicherung",
+        "context": "Ein Versicherungsnehmer schließt eine Sachversicherung (Elektrogeräteversicherung) ab, die nach dem Allgefahrenprinzip aufgebaut ist. Ein Gerät wird durch ein nicht ausdrücklich genanntes Ereignis beschädigt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Grundsätzlich sind alle Gefahren gedeckt, die nicht ausgeschlossen sind",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur ausdrücklich genannte Gefahren sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Ausschlüsse sind entscheidend für den Umfang",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsschutz ist umfassend ausgestaltet",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Gegenteil von klassischen Gefahrenkatalogen"
+      },
+      {
+        "title": "78. Elektrogeräteversicherung – Bedienungsfehler in der Sachversicherung",
+        "context": "Ein Mitarbeiter verursacht durch falsche Handhabung einen Schaden an einem elektronischen Gerät, das über eine Sachversicherung (Elektrogeräteversicherung) versichert ist.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Bedienungsfehler können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Fahrlässigkeit führt immer zur Leistungsfreiheit",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Schaden kann gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsätzliche Schäden sind ausgeschlossen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Fahrlässigkeit ist oft gedeckt"
+      },
+      {
+        "title": "79. Elektrogeräteversicherung – Verschleiß und Alterung in der Sachversicherung",
+        "context": "Ein elektronisches Gerät fällt nach längerer Nutzung aufgrund von Alterung aus. Der Versicherungsnehmer fordert Leistung aus seiner Sachversicherung (Elektrogeräteversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Verschleiß ist typischerweise ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur unvorhergesehene Schäden sind relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Alterungsschäden sind automatisch versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherer kann die Leistung ablehnen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Alterung ≠ Versicherungsfall"
+      },
+      {
+        "title": "80. Elektrogeräteversicherung – Versicherte Sachen und Nutzung in der Sachversicherung",
+        "context": "Ein Unternehmen nutzt mobile elektronische Geräte, die über eine Sachversicherung (Elektrogeräteversicherung) versichert sind. Ein Schaden tritt außerhalb des Unternehmensstandorts ein.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Mobile Geräte können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsort kann erweitert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherungsschutz besteht immer weltweit automatisch",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Umfang hängt vom Vertrag ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Geltungsbereich ist vertraglich geregelt"
+      },
+      {
+        "title": "81. Kurzschluss im Serverraum in der Sachversicherung (Elektronikversicherung)",
+        "context": "Ein Unternehmen betreibt einen Serverraum, der über eine Sachversicherung (technische Sparte – Elektronikversicherung) abgesichert ist. Durch einen internen Kurzschluss fällt ein zentraler Server plötzlich aus und muss ersetzt werden.",
+        "question": "Welche Aussagen zur Sachversicherung (Elektronikversicherung) sind korrekt?",
+        "options": [
+          {
+            "text": "Ein interner Kurzschluss stellt einen versicherten Schaden dar",
+            "isCorrect": true
+          },
+          {
+            "text": "Innere elektrische Schäden können vom Versicherungsschutz umfasst sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur Schäden durch äußere Einwirkungen sind gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um einen typischen Schadenfall der Elektronikversicherung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Elektronikversicherung deckt gerade auch innere Schäden"
+      },
+      {
+        "title": "82. Fehlbedienung eines medizinischen Geräts in der Sachversicherung (Elektronikversicherung)",
+        "context": "In einem Krankenhaus wird ein diagnostisches Gerät durch falsche Bedienung beschädigt. Das Gerät ist über eine Sachversicherung (technische Sparte – Elektronikversicherung) versichert.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Fehlbedienung kann versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Fahrlässige Handlungen schließen den Versicherungsschutz automatisch aus",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Schaden kann ersetzt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsätzliche Beschädigung ist ausgeschlossen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Fahrlässigkeit ≠ automatisch ausgeschlossen"
+      },
+      {
+        "title": "83. Diebstahl eines mobilen Geräts in der Sachversicherung (Elektronikversicherung)",
+        "context": "Ein Mitarbeiter nimmt ein versichertes Notebook mit auf Dienstreise. Das Gerät wird gestohlen. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Mobile Geräte können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Diebstahl kann ein versichertes Risiko darstellen",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherungsschutz besteht immer unabhängig vom Ort",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherungsschutz hängt vom vertraglichen Geltungsbereich ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Ort/Geltungsbereich ist entscheidend"
+      },
+      {
+        "title": "84. Überspannungsschaden durch Blitz in der Sachversicherung (Elektronikversicherung)",
+        "context": "Ein Blitz schlägt in die Nähe eines Betriebsgebäudes ein. Dadurch entsteht eine Überspannung, die mehrere elektronische Geräte beschädigt. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Überspannungsschäden können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Elektrische Einwirkungen sind typische Risiken",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur direkte Blitzschäden sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um einen klassischen Versicherungsfall",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Auch indirekte Schäden sind relevant"
+      },
+      {
+        "title": "85. Softwarefehler vs. Hardwareschaden in der Sachversicherung (Elektronikversicherung)",
+        "context": "Ein Unternehmen hat eine Sachversicherung (technische Sparte – Elektronikversicherung) abgeschlossen. Ein Softwarefehler führt zu Datenverlust, ohne dass die Hardware beschädigt wird.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Reine Softwareprobleme sind oft nicht gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Sachversicherung bezieht sich primär auf Sachschäden",
+            "isCorrect": true
+          },
+          {
+            "text": "Datenverluste sind automatisch versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Hardwarebeschädigung ist entscheidend für die Leistung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Daten ≠ automatisch versichert"
+      },
+      {
+        "title": "86. Transport eines Geräts in der Sachversicherung (Elektronikversicherung)",
+        "context": "Ein versichertes Gerät wird zu Wartungszwecken transportiert und dabei beschädigt. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Transportschäden sind nicht automatisch gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsschutz hängt vom Vertrag ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Schaden ist unabhängig vom Ort versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Transport kann gesondert geregelt sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Transport = eigener Risikobereich"
+      },
+      {
+        "title": "87. Alterung eines Geräts in der Sachversicherung (Elektronikversicherung)",
+        "context": "Ein elektronisches Gerät fällt aufgrund langfristiger Nutzung und Alterung aus. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (technische Sparte – Elektronikversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Alterung ist typischerweise ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich nicht um ein plötzliches Ereignis",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden ist versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherer kann die Leistung ablehnen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Verschleiß ist immer Klassiker!"
+      },
+      {
+        "title": "88. Unklare Schadenursache in der Sachversicherung (Elektronikversicherung)",
+        "context": "Ein Gerät fällt plötzlich aus, die genaue Ursache kann nicht eindeutig festgestellt werden. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungsnehmer muss den Schaden nachweisen",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Ursache muss im versicherten Risiko liegen",
+            "isCorrect": true
+          },
+          {
+            "text": "Ohne klare Ursache besteht automatisch Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherer prüft den Zusammenhang",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Beweislast!"
+      },
+      {
+        "title": "89. Teilbeschädigung eines Geräts in der Sachversicherung (Elektronikversicherung)",
+        "context": "Ein Gerät wird beschädigt, kann jedoch repariert werden. Der Versicherungsnehmer verlangt den Ersatz eines neuen Geräts aus seiner Sachversicherung (technische Sparte – Elektronikversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es wird grundsätzlich der Reparaturschaden ersetzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Ein Totalschaden ist Voraussetzung für Ersatz eines Neugeräts",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird immer ein neues Gerät bezahlt",
+            "isCorrect": false
+          },
+          {
+            "text": "Das Bereicherungsverbot gilt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Kein Upgrade durch Versicherung!"
+      },
+      {
+        "title": "90. Mehrere Schadensursachen in der Sachversicherung (Elektronikversicherung)",
+        "context": "Ein elektronisches Gerät wird durch eine Kombination aus Bedienungsfehler und Vorschaden beschädigt. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Mehrere Ursachen können berücksichtigt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorschäden können Einfluss auf die Leistung haben",
+            "isCorrect": true
+          },
+          {
+            "text": "Es erfolgt immer volle Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Der konkrete Schadenhergang ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Kombinationen sind prüfungsrelevant!"
+      },
+      {
+        "title": "91. Sturmschaden an einer PV-Anlage in der Sachversicherung (Photovoltaikversicherung)",
+        "context": "Ein Betreiber hat seine Photovoltaikanlage über eine Sachversicherung (technische Sparte – Photovoltaikversicherung) abgesichert. Ein starker Sturm beschädigt mehrere Module auf dem Dach.",
+        "question": "Welche Aussagen zur Sachversicherung (Photovoltaikversicherung) sind korrekt?",
+        "options": [
+          {
+            "text": "Sturmschäden können vom Versicherungsschutz umfasst sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Witterungseinflüsse sind grundsätzlich ausgeschlossen",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um eine technische Sachversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Schäden an Modulen können ersetzt werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Witterung ist oft gedeckt, wenn unvorhergesehen"
+      },
+      {
+        "title": "92. Ertragsausfall bei PV-Anlage in der Sachversicherung (Photovoltaikversicherung)",
+        "context": "Nach einem versicherten Schaden fällt die Photovoltaikanlage mehrere Wochen aus. Der Betreiber verlangt Ersatz für entgangene Einspeiseerlöse aus seiner Sachversicherung (technische Sparte – Photovoltaikversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Ertragsausfälle sind nicht automatisch Teil der Sachversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine separate Ertragsausfallversicherung kann erforderlich sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Sachversicherung deckt primär Sachschäden",
+            "isCorrect": true
+          },
+          {
+            "text": "Ertragsausfälle sind immer automatisch gedeckt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Einnahmen ≠ automatisch versichert"
+      },
+      {
+        "title": "93. Diebstahl von PV-Komponenten in der Sachversicherung (Photovoltaikversicherung)",
+        "context": "Von einer frei zugänglichen Photovoltaikanlage werden mehrere Module entwendet. Die Anlage ist über eine Sachversicherung (technische Sparte – Photovoltaikversicherung) versichert.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Diebstahl kann ein versichertes Risiko darstellen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsschutz hängt von den Sicherungsmaßnahmen ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Diebstahl ist immer ausgeschlossen",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsbedingungen bestimmen den Umfang",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Sicherungspflichten sind wichtig!"
+      },
+      {
+        "title": "94. Technischer Defekt (Wechselrichter) in der Sachversicherung (Photovoltaikversicherung)",
+        "context": "Ein Wechselrichter fällt aufgrund eines internen Defekts aus. Die Anlage ist über eine Sachversicherung (technische Sparte – Photovoltaikversicherung) abgesichert.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Technische Defekte können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Innere Schäden können unter den Versicherungsschutz fallen",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur äußere Einwirkungen sind gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Der konkrete Schadenhergang ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Innere Schäden sind typisch gedeckt"
+      },
+      {
+        "title": "95. Verschleiß und Alterung in der Sachversicherung (Photovoltaikversicherung)",
+        "context": "Nach mehreren Jahren sinkt die Leistung der Photovoltaikanlage aufgrund natürlicher Alterung. Der Betreiber verlangt Leistung aus seiner Sachversicherung (technische Sparte – Photovoltaikversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Alterung ist typischerweise ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich nicht um ein plötzliches Ereignis",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Leistungsabfall ist versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherer kann die Leistung ablehnen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Verschleiß ≠ Versicherungsfal"
+      },
+      {
+        "title": "96. Ransomware-Angriff und Kostenarten in der Sachversicherung (Cyberversicherung)",
+        "context": "Ein Unternehmen wird Opfer eines gezielten Ransomware-Angriffs. Sämtliche Unternehmensdaten werden verschlüsselt. Es entstehen Kosten für IT-Forensik, Datenwiederherstellung sowie externe IT-Spezialisten. Eine Sachversicherung (technische Sparte – Cyberversicherung) besteht.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Kosten für IT-Forensik können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Kosten zur Datenwiederherstellung können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur physische Schäden an Hardware sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Externe Dienstleisterkosten können Bestandteil der Leistung sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Cyberversicherung deckt gerade NICHT nur Sachschäden"
+      },
+      {
+        "title": "97. Cyber-Erpressung (Lösegeld) in der Sachversicherung (Cyberversicherung)",
+        "context": "Ein Unternehmen erhält nach einem Hackerangriff eine Lösegeldforderung zur Freigabe der Daten. Das Unternehmen hat eine Sachversicherung (technische Sparte – Cyberversicherung) abgeschlossen.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Lösegeldzahlungen können unter bestimmten Voraussetzungen gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Lösegeld ist immer ausgeschlossen",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Leistung hängt von den vertraglichen Bedingungen ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer prüft die Zulässigkeit der Zahlung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Lösegeld ist NICHT automatisch gedeckt"
+      },
+      {
+        "title": "98. Datenwiederherstellung vs. Datenverlust in der Sachversicherung (Cyberversicherung)",
+        "context": "Nach einem Cyberangriff sind wichtige Unternehmensdaten verloren gegangen. Eine Wiederherstellung ist nur teilweise möglich. Das Unternehmen verlangt Ersatz aus seiner Sachversicherung (technische Sparte – Cyberversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Kosten für Datenrekonstruktion können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Der reine Verlust von Daten wird immer vollständig ersetzt",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Wiederherstellungskosten stehen im Vordergrund",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Umfang der Leistung richtet sich nach dem Vertrag",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Daten selbst haben oft keinen „Sachwert“"
+      },
+      {
+        "title": "99. Betriebsunterbrechung nach Cybervorfall in der Sachversicherung (Cyberversicherung)",
+        "context": "Ein Produktionsbetrieb muss nach einem Cyberangriff den Betrieb für mehrere Tage einstellen. Es entstehen erhebliche Umsatzausfälle. Es besteht eine Sachversicherung (technische Sparte – Cyberversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Betriebsunterbrechung kann Bestandteil der Cyberdeckung sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Umsatzausfälle sind automatisch immer gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um eine Erweiterung über die klassische Sachversicherung hinaus",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Deckungsumfang ist vertraglich festgelegt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: BU ist NICHT automatisch inkludiert"
+      },
+      {
+        "title": "100. Datenschutzverletzung und Haftung in der Sachversicherung (Cyberversicherung)",
+        "context": "Durch einen Cyberangriff werden personenbezogene Daten von Kunden veröffentlicht. Mehrere Betroffene machen Schadenersatzansprüche geltend. Das Unternehmen hat eine Sachversicherung (technische Sparte – Cyberversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Ansprüche Dritter können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Cyberversicherung kann Haftpflichtkomponenten enthalten",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich ausschließlich um eine reine Sachversicherung",
+            "isCorrect": false
+          },
+          {
+            "text": "Kosten für Rechtsverteidigung können übernommen werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Cyberversicherung = Mischform (Sach + Haftpflicht)"
+      },
+      {
+        "title": "101. Unterschlagung durch Mitarbeiter in der Sachversicherung (Vertrauensschadenversicherung)",
+        "context": "Ein langjähriger Mitarbeiter eines Unternehmens überweist über mehrere Monate hinweg heimlich Geld auf sein eigenes Konto. Der Schaden wird erst spät entdeckt. Das Unternehmen hat eine Sachversicherung (technische Sparte – Vertrauensschadenversicherung) abgeschlossen.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Vorsätzliche Handlungen von Mitarbeitern können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um einen typischen Anwendungsfall der Vertrauensschadenversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Sachversicherung deckt nur zufällige Ereignisse",
+            "isCorrect": false
+          },
+          {
+            "text": "Vermögensschäden können gedeckt sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Hier geht es gerade um vorsätzliche Handlungen Dritter"
+      },
+      {
+        "title": "102. Abgrenzung zur Diebstahlversicherung in der Sachversicherung (Vertrauensschadenversicherung)",
+        "context": "Ein Mitarbeiter entwendet Bargeld aus der Firmenkasse. Das Unternehmen fordert Leistung aus seiner Sachversicherung (technische Sparte – Vertrauensschadenversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Vertrauensschadenversicherung deckt interne Täter",
+            "isCorrect": true
+          },
+          {
+            "text": "Diebstahl durch externe Täter fällt nicht primär darunter",
+            "isCorrect": true
+          },
+          {
+            "text": "Diebstahlversicherung und Vertrauensschadenversicherung sind ident",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Abgrenzung hängt von der Täterstellung ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: INTERN vs. EXTERN ist entscheidend"
+      },
+      {
+        "title": "103. Social Engineering in der Sachversicherung (Vertrauensschadenversicherung)",
+        "context": "Ein Mitarbeiter wird durch eine gefälschte E-Mail (CEO-Fraud) dazu gebracht, eine hohe Geldsumme auf ein fremdes Konto zu überweisen. Es besteht eine Sachversicherung (technische Sparte – Vertrauensschadenversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Social Engineering kann unter bestimmten Bedingungen gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um einen klassischen Vertrauensschadenfall",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Betrug ist automatisch versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der konkrete Vertragsinhalt ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Nicht automatisch gedeckt – oft spezielle Klauseln nötig"
+      },
+      {
+        "title": "104. Mehrere Täter und Schadensermittlung in der Sachversicherung (Vertrauensschadenversicherung)",
+        "context": "In einem Unternehmen sind mehrere Mitarbeiter an einem Betrug beteiligt. Der Gesamtschaden ist schwer zu ermitteln. Das Unternehmen hat eine Sachversicherung (technische Sparte – Vertrauensschadenversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Mehrere Täter können gleichzeitig erfasst sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Schadenhöhe muss festgestellt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer zahlt unabhängig von der Schadenshöhe",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Aufklärung des Sachverhalts ist erforderlich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Beweis und Schadensermittlung sind zentral"
+      },
+      {
+        "title": "105. Abgrenzung zur Haftpflicht in der Sachversicherung (Vertrauensschadenversicherung)",
+        "context": "Ein Mitarbeiter verursacht durch vorsätzliches Verhalten einen Vermögensschaden im eigenen Unternehmen. Es besteht eine Sachversicherung (technische Sparte – Vertrauensschadenversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es handelt sich um einen Eigenschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Vertrauensschadenversicherung ist keine Haftpflichtversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Schäden Dritter stehen im Vordergrund",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Versicherung dient der Absicherung interner Vermögensverluste",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Eigenschaden ≠ Haftpflichtfall"
+      },
+      {
+        "title": "106. Ausfall eines Cloud-Dienstleisters in der Sachversicherung (Cloud-Ausfallversicherung)",
+        "context": "Ein Unternehmen nutzt ausschließlich cloudbasierte Software. Aufgrund eines technischen Ausfalls beim externen Cloud-Anbieter steht das System mehrere Stunden still. Es besteht eine Sachversicherung (technische Sparte – Cloud-Ausfallversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Ausfälle externer IT-Dienstleister können versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden muss im eigenen Unternehmen entstehen",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um eine Absicherung von Betriebsunterbrechung",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Ausfall beim Cloud-Anbieter kann den Versicherungsfall darstellen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Schaden entsteht extern, wirkt aber intern"
+      },
+      {
+        "title": "107. Abgrenzung zur Cyberversicherung in der Sachversicherung (Cloud-Ausfallversicherung)",
+        "context": "Ein Unternehmen vergleicht seine Sachversicherung (Cloud-Ausfallversicherung) mit einer Cyberversicherung.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Cloud-Ausfallversicherung deckt primär Ausfälle von IT-Dienstleistern",
+            "isCorrect": true
+          },
+          {
+            "text": "Cyberversicherung konzentriert sich stärker auf Angriffe und IT-Sicherheit",
+            "isCorrect": true
+          },
+          {
+            "text": "Beide Versicherungen sind ident",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Cloud-Ausfallversicherung betrifft Verfügbarkeitsrisiken",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Cloud = Verfügbarkeit, Cyber = Angriff"
+      },
+      {
+        "title": "108. Betriebsunterbrechung durch Cloud-Ausfall in der Sachversicherung (Cloud-Ausfallversicherung)",
+        "context": "Ein Online-Shop kann aufgrund eines Cloud-Ausfalls keine Bestellungen abwickeln. Es entstehen Umsatzausfälle. Eine Sachversicherung (technische Sparte – Cloud-Ausfallversicherung) besteht.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Umsatzausfälle können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um eine Form der Betriebsunterbrechungsdeckung",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Umsatzausfall ist automatisch versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Umfang hängt von den Vertragsbedingungen ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Nicht jeder Ausfall ist gedeckt"
+      },
+      {
+        "title": "109. Technische Ursache vs. Fehlbedienung in der Sachversicherung (Cloud-Ausfallversicherung)",
+        "context": "Ein Cloud-System fällt aufgrund eines technischen Fehlers beim Anbieter aus. In einem anderen Fall liegt die Ursache in einer Fehlbedienung durch das Unternehmen selbst. Es besteht eine Sachversicherung (technische Sparte – Cloud-Ausfallversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Technische Ausfälle beim Anbieter können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigene Bedienungsfehler sind immer automatisch versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherungsfall hängt von der Ursache ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsbedingungen bestimmen den Umfang",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Eigene Fehler ≠ automatisch gedeckt"
+      },
+      {
+        "title": "110. Mehrere Ausfallursachen in der Sachversicherung (Cloud-Ausfallversicherung)",
+        "context": "Ein Systemausfall entsteht durch eine Kombination aus externem Cloud-Problem und interner Fehlkonfiguration. Es besteht eine Sachversicherung (technische Sparte – Cloud-Ausfallversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Mehrere Ursachen können berücksichtigt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der konkrete Schadenhergang ist entscheidend",
+            "isCorrect": true
+          },
+          {
+            "text": "Es erfolgt immer volle Leistung unabhängig von der Ursache",
+            "isCorrect": false
+          },
+          {
+            "text": "Mitursachen können Einfluss auf die Leistung haben",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Mitursachen sind prüfungsrelevant! Perfekt – jetzt Sachversicherung (Betriebsunterbrechungsversicherung) exakt im prüfungsnahen Stil deines Skripts: ➡ 20 sehr konkrete, voll ausformulierte Fragen ➡ immer „Sachversicherung (Betriebsunterbrechungsversicherung)“ enthalten ➡ klare, lange Fragestellungen ➡ 1–4 richtige Antworten möglich ➡ inkl. Begründung + typische Fallen ➡ keine Wiederholungen"
+      },
+      {
+        "title": "111. Abhängigkeit vom Sachschaden in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Produktionsbetrieb muss nach einem Brand die Tätigkeit einstellen. Es besteht eine Sachversicherung (Betriebsunterbrechungsversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Voraussetzung ist ein versicherter Sachschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Betriebsunterbrechung kann daraus resultieren",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird unabhängig vom Sachschaden geleistet",
+            "isCorrect": false
+          },
+          {
+            "text": "Die BU-Versicherung ist an eine Sachversicherung gekoppelt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: BU ohne Sachschaden meist kein Anspruch"
+      },
+      {
+        "title": "112. Versicherte Kostenarten in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Unternehmen hat nach einem Schaden laufende Fixkosten und entgangenen Gewinn.",
+        "question": "Welche Aussagen zur Sachversicherung (Betriebsunterbrechungsversicherung) sind korrekt?",
+        "options": [
+          {
+            "text": "Fixkosten können ersetzt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Entgangener Gewinn kann gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Private Kosten sind immer versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Umfang ergibt sich aus dem Vertrag",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "113. Haftzeit in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Betrieb steht nach einem Schaden mehrere Monate still.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Haftzeit begrenzt die Leistungsdauer",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Haftzeit ist vertraglich festgelegt",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird unbegrenzt geleistet",
+            "isCorrect": false
+          },
+          {
+            "text": "Nach Ablauf der Haftzeit endet die Leistung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Haftzeit = Klassiker!"
+      },
+      {
+        "title": "114. Unterversicherung in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Unternehmen setzt die Versicherungssumme zu niedrig an.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Unterversicherung kann eintreten",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistungen können gekürzt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird immer voll ersetzt",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Versicherungssumme ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "115. Beginn der Haftung in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Schaden tritt ein, die Produktion steht still.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Leistung beginnt nach Eintritt des Schadens",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Zeitpunkt des Schadens ist entscheidend",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistung beginnt vor dem Schaden",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsbedingungen bestimmen Details",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "116. Selbstbehalt / Karenzzeit in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Unternehmen hat eine Karenzzeit vereinbart.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Während der Karenzzeit erfolgt keine Leistung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie reduziert die Prämie",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie erhöht die Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie ist vertraglich geregelt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "117. Mehrkosten in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Unternehmen weicht auf Ersatzmaschinen aus.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Mehrkosten können ersetzt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie dienen der Schadensminderung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie sind immer ausgeschlossen",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertrag bestimmt Umfang",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "118. Abhängigkeit von der Ursache in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Schaden entsteht durch ein nicht versichertes Risiko.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Kein Versicherungsschutz ohne gedeckten Sachschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Ursache ist entscheidend",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistung erfolgt unabhängig davon",
+            "isCorrect": false
+          },
+          {
+            "text": "Deckung hängt vom Grundschaden ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "119. Deckungsbeitrag in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Unternehmen berechnet seinen Schaden.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Deckungsbeitrag ist relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinnanteil wird berücksichtigt",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur Umsatz zählt",
+            "isCorrect": false
+          },
+          {
+            "text": "Kalkulation ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "120. Wiederaufnahme des Betriebs in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Der Betrieb nimmt früher als erwartet wieder auf.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Leistung endet mit Wiederaufnahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Schadenzeitraum verkürzt sich",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistung läuft weiter",
+            "isCorrect": false
+          },
+          {
+            "text": "Realität ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "121. Teilausfall in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Nur ein Teil des Betriebs fällt aus.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Teilunterbrechung ist möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur Totalausfall ist versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Schaden wird anteilig berechnet",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag bestimmt Umfang",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "122. Versicherungsort in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Schaden tritt an einem Nebenstandort auf.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Versicherungsort ist relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Alle Standorte sind automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertrag bestimmt Umfang",
+            "isCorrect": true
+          },
+          {
+            "text": "Nicht versicherte Orte sind ausgeschlossen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "123. Zeitliche Verzögerung in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Die Wiederherstellung dauert länger als geplant.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Haftzeit begrenzt Leistung",
+            "isCorrect": true
+          },
+          {
+            "text": "Verzögerungen können relevant sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird unbegrenzt gezahlt",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertrag ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "124. Abhängigkeit von Lieferanten in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein wichtiger Lieferant fällt aus.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Lieferantenabhängigkeit kann versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertraglich regelbar",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein Einfluss",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "125. Abhängigkeit von Kunden in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Großkunde fällt weg.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Kundenabhängigkeit kann versichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertrag bestimmt Umfang",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein Einfluss",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "126. Berechnung des Schadens in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Unternehmen ermittelt den Schaden.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Fixkosten werden berücksichtigt",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn wird berücksichtigt",
+            "isCorrect": true
+          },
+          {
+            "text": "Privatkosten werden berücksichtigt",
+            "isCorrect": false
+          },
+          {
+            "text": "Kalkulation ist erforderlich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "127. Versicherungssumme in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Die Versicherungssumme ist falsch gewählt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Sie beeinflusst die Leistung",
+            "isCorrect": true
+          },
+          {
+            "text": "Unterversicherung möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer volle Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Grundlage der Entschädigung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "128. Schadenminderung in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Unternehmen reagiert nicht optimal.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Schadenminderungspflicht besteht",
+            "isCorrect": true
+          },
+          {
+            "text": "Maßnahmen müssen gesetzt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Verhalten ist irrelevant",
+            "isCorrect": false
+          },
+          {
+            "text": "Pflichtverletzung kann Folgen haben",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "129. Mehrere Ursachen in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Schaden hat mehrere Ursachen.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Ursache ist entscheidend",
+            "isCorrect": true
+          },
+          {
+            "text": "Mitursachen sind relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer volle Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Prüfung erforderlich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "130. Vertragsabhängigkeit in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "context": "Ein Versicherungsnehmer kennt die Bedingungen nicht.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Vertrag bestimmt Umfang",
+            "isCorrect": true
+          },
+          {
+            "text": "Alle Schäden sind gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Einschränkungen möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Bedingungen sind entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "131. Unfall beim Straßentransport in der Sachversicherung (Transportversicherung)",
+        "context": "Ein Unternehmen transportiert Waren per LKW. Durch einen Verkehrsunfall wird die Ware beschädigt. Es besteht eine Sachversicherung (Transportversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Schaden ist grundsätzlich versichert",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden ist nur bei Verschulden des Fahrers versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Transportweg fällt unter den Versicherungsschutz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Kein Verschulden erforderlich"
+      },
+      {
+        "title": "132. Verpackungsmangel in der Sachversicherung (Transportversicherung)",
+        "context": "Ware wird unzureichend verpackt und während des Transports beschädigt. Es besteht eine Sachversicherung (Transportversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Schlechte Verpackung kann zum Leistungsausschluss führen",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherung zahlt unabhängig von der Verpackung",
+            "isCorrect": false
+          },
+          {
+            "text": "Verpackung ist eine Obliegenheit",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Verpackung ist extrem prüfungsrelevant"
+      },
+      {
+        "title": "133. Eigenmangel der Ware in der Sachversicherung (Transportversicherung)",
+        "context": "Lebensmittel verderben während des Transports aufgrund ihrer natürlichen Eigenschaften. Es besteht eine Sachversicherung (Transportversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Eigenmängel sind typischerweise ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden ist immer versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Ursache ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Nicht jeder Schaden = Versicherungsfall"
+      },
+      {
+        "title": "134. Beginn des Versicherungsschutzes in der Sachversicherung (Transportversicherung)",
+        "context": "Ein Transport beginnt im Lager des Absenders.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungsschutz beginnt mit dem Transportbeginn",
+            "isCorrect": true
+          },
+          {
+            "text": "Schutz besteht erst während der Fahrt",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Beginn ist vertraglich geregelt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "135. Zwischenlagerung in der Sachversicherung (Transportversicherung)",
+        "context": "Ware wird während des Transports zwischengelagert und beschädigt. Es besteht eine Sachversicherung (Transportversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Zwischenlagerung kann mitversichert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Schutz besteht nur während der Bewegung",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsbedingungen sind entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "136. Kriegsausschluss in der Sachversicherung (Transportversicherung)",
+        "context": "Ware wird durch politische Unruhen beschädigt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Krieg ist meist ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Diese Schäden sind immer gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Zusatzdeckungen können möglich sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "137. Teilschaden in der Sachversicherung (Transportversicherung)",
+        "context": "Ein Teil der Ware wird beschädigt, der Rest bleibt intakt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Teilschäden sind ersatzfähig",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur Totalschäden sind versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Schaden wird anteilig ersetzt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "138. Unterversicherung in der Sachversicherung (Transportversicherung)",
+        "context": "Der Warenwert wurde zu niedrig angegeben.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Entschädigung kann gekürzt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird immer der volle Schaden ersetzt",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Versicherungssumme ist maßgeblich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "139. Mehrere Ursachen in der Sachversicherung (Transportversicherung)",
+        "context": "Schaden entsteht durch Unfall und schlechte Verpackung.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Beide Ursachen werden berücksichtigt",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherung zahlt immer voll",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Schaden kann gekürzt werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Mitverschulden reduziert Leistung"
+      },
+      {
+        "title": "140. Ende des Versicherungsschutzes in der Sachversicherung (Transportversicherung)",
+        "context": "Die Ware wird beim Empfänger abgeladen.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungsschutz endet mit der Ablieferung",
+            "isCorrect": true
+          },
+          {
+            "text": "Schutz besteht unbegrenzt weiter",
+            "isCorrect": false
+          },
+          {
+            "text": "Das Vertragsende ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "141. Verspätete Lieferung ohne Sachschaden in der Sachversicherung (Transportversicherung)",
+        "context": "Eine Ware trifft verspätet beim Empfänger ein, ohne beschädigt zu sein. Es besteht eine Sachversicherung (Transportversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es liegt kein versicherter Schaden vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Verspätung stellt einen Versicherungsfall dar",
+            "isCorrect": false
+          },
+          {
+            "text": "Ein Sachschaden ist Voraussetzung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Reine Verzögerung ist nicht gedeckt"
+      },
+      {
+        "title": "142. Unsachgemäße Verladung in der Sachversicherung (Transportversicherung)",
+        "context": "Die Ware wird unsachgemäß verladen und während des Transports beschädigt. Es besteht eine Sachversicherung (Transportversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Verladefehler beeinflussen die Leistung",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherung ersetzt jeden Schaden unabhängig davon",
+            "isCorrect": false
+          },
+          {
+            "text": "Obliegenheiten wurden verletzt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Verladung gehört zu den Pflichten"
+      },
+      {
+        "title": "143. Diebstahl während des Transports in der Sachversicherung (Transportversicherung)",
+        "context": "Während eines Transports wird die Ware gestohlen. Es besteht eine Sachversicherung (Transportversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Diebstahl ist ein versichertes Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Diebstahl ist grundsätzlich ausgeschlossen",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Absicherung hängt vom vereinbarten Umfang ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "144. Temperaturabweichung bei Kühlware in der Sachversicherung (Transportversicherung)",
+        "context": "Kühlware verdirbt aufgrund falscher Temperatur während des Transports. Es besteht eine Sachversicherung (Transportversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Falsche Temperaturführung führt zum Schaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigenart der Ware spielt eine Rolle",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Verderb ist automatisch versichert",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Kühlketten sind kritisch"
+      },
+      {
+        "title": "145. Falsche Deklaration der Ware in der Sachversicherung (Transportversicherung)",
+        "context": "Der Versicherungsnehmer gibt einen falschen Warenwert an.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Entschädigung richtet sich nach dem tatsächlichen Wert",
+            "isCorrect": true
+          },
+          {
+            "text": "Falsche Angaben beeinflussen die Leistung",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherung zahlt unabhängig davon vollständig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "146. Transport durch mehrere Verkehrsmittel in der Sachversicherung (Transportversicherung)",
+        "context": "Eine Ware wird per LKW und Schiff transportiert. Während des Seetransports entsteht ein Schaden. Es besteht eine Sachversicherung (Transportversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der gesamte Transport ist versichert",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden fällt unter den Versicherungsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schutz gilt nur für ein Transportmittel",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "147. Beschädigung beim Be- und Entladen in der Sachversicherung (Transportversicherung)",
+        "context": "Die Ware wird beim Entladen beschädigt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Be- und Entladevorgänge gehören zum Transport",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden ist vom Versicherungsschutz umfasst",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schutz endet vor dem Entladen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "148. Unbekannter Schadeneintritt in der Sachversicherung (Transportversicherung)",
+        "context": "Die Ware kommt beschädigt an, die Ursache bleibt unklar.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungsnehmer muss den Schaden nachweisen",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Ursache muss im versicherten Zeitraum liegen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer leistet automatisch",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Beweislast!"
+      },
+      {
+        "title": "149. Naturereignis während des Transports in der Sachversicherung (Transportversicherung)",
+        "context": "Eine Ware wird durch ein Naturereignis während des Transports beschädigt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Naturereignisse fallen unter typische Transportrisiken",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Naturschaden ist ausgeschlossen",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Schaden ist vom Deckungsumfang abhängig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "150. Verlust einzelner Teile der Sendung in der Sachversicherung (Transportversicherung)",
+        "context": "Ein Teil der Lieferung geht verloren.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Teilverluste sind versichert",
+            "isCorrect": true
+          },
+          {
+            "text": "Es muss ein Totalschaden vorliegen",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Entschädigung erfolgt anteilig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "151. Beginn des Versicherungsschutzes laut Polizze in der Sachversicherung (Transportversicherung)",
+        "context": "Die Polizze einer Sachversicherung (Transportversicherung) legt fest, dass der Versicherungsschutz mit dem Verlassen des Lagers beginnt. Die Ware wird bereits im Lager beschädigt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Beginn richtet sich nach der Polizze",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden ist gedeckt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Zeitpunkt laut Polizze entscheidend"
+      },
+      {
+        "title": "152. Ende des Versicherungsschutzes in der Sachversicherung (Transportversicherung)",
+        "context": "Die Polizze bestimmt, dass der Versicherungsschutz mit Ablieferung beim Empfänger endet. Nach der Ablieferung wird die Ware beschädigt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungsschutz ist beendet",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden ist gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Das Ende ergibt sich aus der Polizze",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Nach Ablieferung kein Schutz"
+      },
+      {
+        "title": "153. Verspäteter Transportbeginn in der Sachversicherung (Transportversicherung)",
+        "context": "Die Polizze nennt einen fixen Zeitraum für den Transport. Der Versand erfolgt später als vorgesehen, und es tritt ein Schaden auf.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der zeitliche Rahmen der Polizze ist relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsschutz besteht unabhängig vom Zeitpunkt",
+            "isCorrect": false
+          },
+          {
+            "text": "Abweichungen können den Schutz beeinflussen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Zeitliche Bindung!"
+      },
+      {
+        "title": "154. Generalpolizze in der Sachversicherung (Transportversicherung)",
+        "context": "Ein Unternehmen verwendet eine Generalpolizze für laufende Transporte. Ein einzelner Transport wird nicht gemeldet.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Generalpolizze deckt mehrere Transporte ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Meldepflichten sind einzuhalten",
+            "isCorrect": true
+          },
+          {
+            "text": "Nicht gemeldete Transporte sind automatisch gedeckt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Meldung ist entscheidend!"
+      },
+      {
+        "title": "155. Einzelpolizze in der Sachversicherung (Transportversicherung)",
+        "context": "Für einen konkreten Transport wird eine Einzelpolizze abgeschlossen. Der Transport weicht vom vereinbarten Ablauf ab.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Einzelpolizze gilt nur für den vereinbarten Transport",
+            "isCorrect": true
+          },
+          {
+            "text": "Abweichungen beeinflussen den Versicherungsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schutz besteht unabhängig von den vereinbarten Bedingungen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Einzelpolizze = genau definiert!"
+      },
+      {
+        "title": "156. Grundprinzip der Frachtführerhaftpflicht in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)",
+        "context": "Ein Frachtführer übernimmt eine Sendung und beschädigt diese während des Transports.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Frachtführer haftet für den Schaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Haftung ergibt sich aus dem Transportvertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherung ersetzt automatisch jeden Schaden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Haftung ≠ unbegrenzt"
+      },
+      {
+        "title": "157. Haftungsbegrenzung in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)",
+        "context": "Ein Schaden übersteigt den Wert der gesetzlich vorgesehenen Haftungsgrenze.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Haftung des Frachtführers ist begrenzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Es wird immer der volle Schaden ersetzt",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Haftungsgrenze ist gesetzlich geregelt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Begrenzung ist Standard!"
+      },
+      {
+        "title": "158. Haftungsausschluss in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)",
+        "context": "Ein Schaden entsteht durch unzureichende Verpackung durch den Absender.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Frachtführer haftet nicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Verpackungsmängel führen zum Haftungsausschluss",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherung zahlt unabhängig davon",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Verpackung = Klassiker"
+      },
+      {
+        "title": "159. Beginn und Ende der Haftung in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)",
+        "context": "Der Frachtführer übernimmt die Ware und liefert sie später ab.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Haftung beginnt mit der Übernahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Haftung endet mit der Ablieferung",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Haftung besteht unbegrenzt weiter",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "160. Haftung bei unbekannter Schadensursache in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)",
+        "context": "Die Ware wird beschädigt abgeliefert, die genaue Ursache bleibt unklar.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Frachtführer haftet grundsätzlich während der Obhut",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden wird automatisch abgelehnt",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Obhutshaftung ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "💡 Falle: Obhut = zentraler Begriff!"
+      },
+      {
+        "title": "161. Hakenlastversicherung – Schaden beim Hebevorgang in der Sachversicherung (Transportversicherung – Hakenlastversicherung)",
+        "context": "Ein Kran hebt eine schwere Maschine. Während des Hebevorgangs löst sich die Last und wird beschädigt. Es besteht eine Sachversicherung (Transportversicherung – Hakenlastversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die gehobene Last ist versichert",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden fällt unter die Hakenlastversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht nur Schutz für das Hebegerät",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Es geht um die Last, nicht um den Kran"
+      },
+      {
+        "title": "162. Hakenlastversicherung – Abgrenzung zur Maschinenversicherung in der Sachversicherung (Transportversicherung – Hakenlastversicherung)",
+        "context": "Beim Heben einer Last wird nicht die Last, sondern der Kran beschädigt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Hakenlastversicherung deckt den Schaden nicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden betrifft das Arbeitsgerät",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Last ist versichert",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Objekt der Versicherung genau beachten!"
+      },
+      {
+        "title": "163. Wechselbrückenversicherung – versicherte Sachen in der Sachversicherung (Transportversicherung – Wechselbrückenversicherung)",
+        "context": "Ein Transportunternehmen verwendet Wechselbrücken. Eine Wechselbrücke wird beim Abstellen beschädigt. Es besteht eine Sachversicherung (Transportversicherung – Wechselbrückenversicherung).",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Wechselbrücke ist versichert",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden fällt unter die Wechselbrückenversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur die transportierte Ware ist versichert",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "164. Wechselbrückenversicherung – Schaden ohne Transport in der Sachversicherung (Transportversicherung – Wechselbrückenversicherung)",
+        "context": "Eine Wechselbrücke wird im Stand beschädigt, ohne dass ein Transport stattfindet.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungsschutz besteht auch außerhalb der Fahrt",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schaden ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Schutz besteht nur während des Transports",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Nicht nur während Bewegung!"
+      },
+      {
+        "title": "165. Abgrenzung Hakenlast vs. Wechselbrücke in der Sachversicherung (Transportversicherung)",
+        "context": "Beim Umladen fällt eine transportierte Einheit von der Hebevorrichtung und wird beschädigt. Gleichzeitig wird die Wechselbrücke nicht beschädigt.",
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Schaden fällt unter die Hakenlastversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Wechselbrückenversicherung ist nicht betroffen",
+            "isCorrect": true
+          },
+          {
+            "text": "Beide Versicherungen leisten gleichzeitig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "💡 Falle: Immer genau prüfen, was beschädigt wurde!"
+      }
+    ]
   }
 };
 
