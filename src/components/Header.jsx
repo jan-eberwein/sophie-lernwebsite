@@ -1,7 +1,7 @@
-import { GraduationCap, Moon, Sun } from 'lucide-react';
+import { GraduationCap, Moon, Sun, User, LogOut } from 'lucide-react';
 import { useTheme } from './ThemeProvider';
 
-const Header = ({ onHome }) => {
+const Header = ({ onHome, user, onAuthClick }) => {
   const { theme, toggleTheme } = useTheme();
 
   return (
@@ -20,13 +20,42 @@ const Header = ({ onHome }) => {
         </div>
 
         <nav className="flex items-center">
-          <button
-            onClick={toggleTheme}
-            className="p-2.5 rounded-full bg-black/5 dark:bg-white/5 hover:bg-primary/10 dark:hover:bg-primary/20 text-text hover:text-primary transition-all"
-            aria-label="Toggle Theme"
-          >
-            {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-          </button>
+          <div className="flex items-center space-x-3">
+            {user ? (
+              <div className="flex items-center space-x-3 bg-black/5 dark:bg-white/5 rounded-full pl-3 pr-1 py-1">
+                <span className="text-sm font-medium text-text hidden sm:block">
+                  {user.email.split('@')[0]}
+                </span>
+                <button
+                  onClick={() => onAuthClick('logout')}
+                  className="p-2 rounded-full bg-black/5 dark:bg-white/5 hover:bg-red-500/10 hover:text-red-500 text-text transition-colors"
+                  title="Abmelden"
+                >
+                  <LogOut className="w-5 h-5" />
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={() => onAuthClick('login')}
+                className="flex items-center space-x-2 px-4 py-2 rounded-full bg-primary hover:bg-primary-hover text-white transition-colors font-medium shadow-sm"
+              >
+                <User className="w-4 h-4" />
+                <span>Login</span>
+              </button>
+            )}
+
+            <button
+              onClick={toggleTheme}
+              className="p-3 rounded-full bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10 transition-colors text-text"
+              aria-label="Toggle theme"
+            >
+              {theme === 'dark' ? (
+                <Sun className="w-5 h-5" />
+              ) : (
+                <Moon className="w-5 h-5" />
+              )}
+            </button>
+          </div>
         </nav>
       </div>
     </header>

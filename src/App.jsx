@@ -1,22 +1,91 @@
 import { useState, useEffect } from 'react';
+import { supabase } from './lib/supabase';
 import Header from './components/Header';
 import QuizCard from './components/QuizCard';
 import QuizPlayer from './components/QuizPlayer';
+import Auth from './components/Auth';
 import { QUIZ_MODULES, FLASHCARD_MODULES } from './data/quizData';
 import { ThemeProvider } from './components/ThemeProvider';
 
 function App() {
   const [activeModule, setActiveModule] = useState(null);
   const [globalStats, setGlobalStats] = useState({});
+  const [user, setUser] = useState(null);
+  const [showAuth, setShowAuth] = useState(false);
 
   useEffect(() => {
+    // Check initial session
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setUser(session?.user ?? null);
+      if (session?.user) fetchUserStats(session.user.id);
+    });
+
+    // Listen for auth changes
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+      if (session?.user) {
+        fetchUserStats(session.user.id);
+        setShowAuth(false);
+      } else {
+        // Fallback to local storage if logged out
+        loadLocalStats();
+      }
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
+
+  function loadLocalStats() {
     try {
       const stats = JSON.parse(localStorage.getItem('sophie_global_stats')) || {};
       setGlobalStats(stats);
     } catch (error) {
       console.error("Error loading global stats", error);
     }
-  }, [activeModule]); // Re-fetch when module changes (e.g. going back to home)
+  }
+
+  async function fetchUserStats(userId) {
+    try {
+      const { data, error } = await supabase
+        .from('user_profiles')
+        .select('global_stats, module_stats')
+        .eq('user_id', userId)
+        .single();
+        
+      if (error && error.code !== 'PGRST116') throw error; // Ignore not found
+      
+      if (data) {
+        if (data.global_stats) {
+          setGlobalStats(data.global_stats);
+          localStorage.setItem('sophie_global_stats', JSON.stringify(data.global_stats));
+        }
+        if (data.module_stats) {
+          // Restore module specific stats for Spaced Repetition
+          Object.keys(data.module_stats).forEach(moduleId => {
+            localStorage.setItem(`sophie_quiz_stats_${moduleId}`, JSON.stringify(data.module_stats[moduleId]));
+          });
+        }
+      } else {
+        loadLocalStats(); // If no cloud data, try local
+      }
+    } catch (error) {
+      console.error('Error fetching user stats:', error);
+      loadLocalStats();
+    }
+  }
+
+  useEffect(() => {
+    if (!user) loadLocalStats();
+  }, [activeModule, user]);
+
+  const handleAuthClick = async (action) => {
+    if (action === 'logout') {
+      await supabase.auth.signOut();
+    } else if (action === 'login') {
+      setShowAuth(true);
+      setActiveModule(null);
+    }
+  };
 
   const handleStartQuiz = (moduleId, isFlashcard = false) => {
     const moduleData = isFlashcard ? FLASHCARD_MODULES[moduleId] : QUIZ_MODULES[moduleId];
@@ -26,18 +95,30 @@ function App() {
 
   const handleGoHome = () => {
     setActiveModule(null);
+    setShowAuth(false);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
     <ThemeProvider>
-      <div className="min-h-screen flex flex-col selection:bg-primary/30 selection:text-primary transition-colors duration-300">
-        <Header onHome={handleGoHome} />
-
-        <main className="flex-grow w-full max-w-7xl mx-auto px-4 md:px-8 pt-8 pb-20">
-          {activeModule ? (
-            <QuizPlayer module={activeModule} onBack={handleGoHome} />
-          ) : (
+    <div className="min-h-screen bg-bg text-text font-sans transition-colors duration-300">
+      <Header 
+        onHome={handleGoHome} 
+        user={user}
+        onAuthClick={handleAuthClick}
+      />
+      <main className="container mx-auto px-4 py-8 md:py-12">
+        {showAuth ? (
+          <Auth onBack={() => setShowAuth(false)} />
+        ) : activeModule ? (
+          <QuizPlayer
+            module={activeModule.data}
+            onBack={() => {
+              handleGoHome();
+              if (user) fetchUserStats(user.id);
+            }}
+            user={user}
+          />) : (
             <div className="animate-fade-in w-full h-full flex flex-col justify-center">
 
               <div className="text-center mb-16 md:mb-24 mt-10 md:mt-20">

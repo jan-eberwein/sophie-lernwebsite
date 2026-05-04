@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { supabase } from '../lib/supabase';
 import { ArrowLeft, Check, X, HelpCircle, Trophy, RefreshCcw, ArrowRight, Clock, StopCircle } from 'lucide-react';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
@@ -7,7 +8,7 @@ function cn(...inputs) {
   return twMerge(clsx(inputs));
 }
 
-const QuizPlayer = ({ module, onBack }) => {
+const QuizPlayer = ({ module, onBack, user }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [showResult, setShowResult] = useState(false);
@@ -63,7 +64,7 @@ const QuizPlayer = ({ module, onBack }) => {
   const currentQuestion = shuffledQuestions[currentQuestionIndex];
   const totalQuestions = shuffledQuestions.length;
 
-  const updateStats = (isCorrect) => {
+  const updateStats = async (isCorrect) => {
     try {
       const stats = JSON.parse(localStorage.getItem(`sophie_quiz_stats_${module.id}`)) || {};
       const qStats = stats[currentQuestion.originalIndex] || { correct: 0, wrong: 0 };
@@ -78,8 +79,36 @@ const QuizPlayer = ({ module, onBack }) => {
       if (isCorrect) modStats.correct += 1;
       globalStats[module.id] = modStats;
       localStorage.setItem('sophie_global_stats', JSON.stringify(globalStats));
+
+      // Sync to Supabase if logged in
+      if (user) {
+        // Collect all module stats from localStorage to sync
+        const allModuleStats = {};
+        for (let i = 0; i < localStorage.length; i++) {
+          const key = localStorage.key(i);
+          if (key && key.startsWith('sophie_quiz_stats_')) {
+            const modId = key.replace('sophie_quiz_stats_', '');
+            try {
+              allModuleStats[modId] = JSON.parse(localStorage.getItem(key));
+            } catch(error) {
+              console.error("Failed to parse local module stats", error);
+            }
+          }
+        }
+
+        const { error } = await supabase
+          .from('user_profiles')
+          .upsert({ 
+            user_id: user.id, 
+            global_stats: globalStats,
+            module_stats: allModuleStats
+          }, { onConflict: 'user_id' });
+          
+        if (error) console.error("Error syncing stats to Supabase:", error);
+      }
+
     } catch (error) {
-      console.error("Error saving stats to localStorage", error);
+      console.error("Error saving stats", error);
     }
   };
 
