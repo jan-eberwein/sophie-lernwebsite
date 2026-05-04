@@ -45,7 +45,7 @@ function App() {
                   Wähle dein <span className="text-primary">Lernmodul</span>
                 </h1>
                 <p className="text-text-muted text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-                  Bereite dich optimal auf die Prüfung vor. Interaktiv, fokussiert und effektiv.
+                  Optimale Prüfungsvorbereitung. Interaktiv, fokussiert und effektiv.
                 </p>
               </div>
 
