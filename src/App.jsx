@@ -39,34 +39,32 @@ function App() {
                 </p>
               </div>
 
-              {/* Original Modules Grid - Archived (Hidden) */}
-              <div className="mb-16 hidden">
-                <h2 className="text-2xl md:text-3xl font-bold mb-8 text-text border-b-2 border-primary/20 pb-4">Originale Module</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
-                  {Object.entries(QUIZ_MODULES).map(([id, module]) => (
-                    <QuizCard
-                      key={id}
-                      title={module.title}
-                      desc={module.desc}
-                      onStart={() => handleStartQuiz(id, false)}
-                    />
-                  ))}
-                </div>
-              </div>
-
-              {/* Flashcard Modules Grid */}
-              <div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
-                  {Object.entries(FLASHCARD_MODULES).map(([id, module]) => (
-                    <QuizCard
-                      key={id}
-                      title={module.title}
-                      desc={module.desc}
-                      onStart={() => handleStartQuiz(id, true)}
-                    />
-                  ))}
-                </div>
+              {/* Modules Grid - New data will be added here */}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+                {Object.keys(FLASHCARD_MODULES).length === 0 && Object.keys(QUIZ_MODULES).length === 0 ? (
+                  <div className="col-span-full text-center py-20 bg-secondary/30 rounded-3xl border-2 border-dashed border-primary/20">
+                    <p className="text-text-muted text-lg">Keine Module verfügbar. Neue Inhalte werden in Kürze hinzugefügt.</p>
+                  </div>
+                ) : (
+                  <>
+                    {Object.entries(QUIZ_MODULES).map(([id, module]) => (
+                      <QuizCard
+                        key={id}
+                        title={module.title}
+                        desc={module.desc}
+                        onStart={() => handleStartQuiz(id, false)}
+                      />
+                    ))}
+                    {Object.entries(FLASHCARD_MODULES).map(([id, module]) => (
+                      <QuizCard
+                        key={id}
+                        title={module.title}
+                        desc={module.desc}
+                        onStart={() => handleStartQuiz(id, true)}
+                      />
+                    ))}
+                  </>
+                )}
               </div>
             </div>
           )}
