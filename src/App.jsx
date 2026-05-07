@@ -1,85 +1,132 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { supabase } from './lib/supabase';
 import Header from './components/Header';
 import QuizCard from './components/QuizCard';
 import QuizPlayer from './components/QuizPlayer';
 import Auth from './components/Auth';
-import { X, User } from 'lucide-react';
+import { X, User, RotateCcw, CloudOff, Cloud } from 'lucide-react';
 import { QUIZ_MODULES, FLASHCARD_MODULES } from './data/quizData';
 import { ThemeProvider } from './components/ThemeProvider';
+import {
+  loadProgress,
+  resetProgress,
+  buildGlobalStats,
+} from './utils/progressService';
 
 function App() {
-  const [activeModule, setActiveModule] = useState(null);
-  const [globalStats, setGlobalStats] = useState({});
-  const [user, setUser] = useState(null);
-  const [showAuth, setShowAuth] = useState(false);
+  const [activeModule, setActiveModule]       = useState(null);
+  const [globalStats, setGlobalStats]         = useState({});
+  const [user, setUser]                       = useState(null);
+  const [showAuth, setShowAuth]               = useState(false);
   const [guestPromptModule, setGuestPromptModule] = useState(null);
+  const [showResetConfirm, setShowResetConfirm]   = useState(false);
+  const [resetLoading, setResetLoading]           = useState(false);
+  const [progressLoaded, setProgressLoaded]       = useState(false); // guard against double-fetch
 
+  // ── Load progress from Supabase ──────────────────────────────────────────
+  const fetchAndApplyProgress = useCallback(async (userId) => {
+    const data = await loadProgress(userId);
+    if (data) {
+      // module_stats is the source of truth; build globalStats from it
+      const ms = data.module_stats || {};
+      const gs = buildGlobalStats(ms);
+
+      // Merge with persisted global_stats blob (legacy fallback)
+      const legacyGs = data.global_stats || {};
+      const merged = {};
+      const allModuleIds = new Set([...Object.keys(gs), ...Object.keys(legacyGs)]);
+      for (const id of allModuleIds) {
+        merged[id] = {
+          correct: Math.max(gs[id]?.correct ?? 0, legacyGs[id]?.correct ?? 0),
+          total:   Math.max(gs[id]?.total   ?? 0, legacyGs[id]?.total   ?? 0),
+          wrong:   Math.max(gs[id]?.wrong   ?? 0, legacyGs[id]?.wrong   ?? 0),
+        };
+      }
+
+      setGlobalStats(merged);
+      // Also cache locally as fallback for guests / offline
+      localStorage.setItem('sophie_global_stats', JSON.stringify(merged));
+
+      // Restore per-module stats (wrong question IDs etc.) into localStorage
+      // so QuizPlayer can pick them up during shuffle
+      for (const [moduleId, mStats] of Object.entries(ms)) {
+        const key = `sophie_quiz_stats_${moduleId}`;
+        // Only write if Supabase data has more/richer data than what's local
+        const local = safeParseJSON(localStorage.getItem(key)) || {};
+        const merged = mergeModuleStats(local, mStats);
+        localStorage.setItem(key, JSON.stringify(merged));
+      }
+    } else {
+      // No Supabase record yet → fall back to localStorage
+      loadLocalStats();
+    }
+    setProgressLoaded(true);
+  }, []);
+
+  // ── Auth listener ────────────────────────────────────────────────────────
   useEffect(() => {
-    // Check initial session
     supabase.auth.getSession().then(({ data: { session } }) => {
       setUser(session?.user ?? null);
-      if (session?.user) fetchUserStats(session.user.id);
+      if (session?.user) {
+        fetchAndApplyProgress(session.user.id);
+      } else {
+        loadLocalStats();
+        setProgressLoaded(true);
+      }
     });
 
-    // Listen for auth changes
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       setUser(session?.user ?? null);
       if (session?.user) {
-        fetchUserStats(session.user.id);
+        fetchAndApplyProgress(session.user.id);
         setShowAuth(false);
       } else {
-        // Fallback to local storage if logged out
         loadLocalStats();
       }
     });
 
     return () => subscription.unsubscribe();
+  }, [fetchAndApplyProgress]);
+
+  // ── Local stats fallback (guests / offline) ──────────────────────────────
+  function loadLocalStats() {
+    const stats = safeParseJSON(localStorage.getItem('sophie_global_stats')) || {};
+    setGlobalStats(stats);
+  }
+
+  // ── Called by QuizPlayer after each answer so dashboard stays live ───────
+  const handleProgressUpdate = useCallback((moduleId, moduleStats) => {
+    setGlobalStats(prev => {
+      const next = {
+        ...prev,
+        [moduleId]: {
+          correct: moduleStats.correct ?? 0,
+          total:   moduleStats.total   ?? 0,
+          wrong:   moduleStats.wrong   ?? 0,
+        },
+      };
+      localStorage.setItem('sophie_global_stats', JSON.stringify(next));
+      return next;
+    });
   }, []);
 
-  function loadLocalStats() {
-    try {
-      const stats = JSON.parse(localStorage.getItem('sophie_global_stats')) || {};
-      setGlobalStats(stats);
-    } catch (error) {
-      console.error("Error loading global stats", error);
-    }
-  }
-
-  async function fetchUserStats(userId) {
-    try {
-      const { data, error } = await supabase
-        .from('user_profiles')
-        .select('global_stats, module_stats')
-        .eq('user_id', userId)
-        .single();
-        
-      if (error && error.code !== 'PGRST116') throw error; // Ignore not found
-      
-      if (data) {
-        if (data.global_stats) {
-          setGlobalStats(data.global_stats);
-          localStorage.setItem('sophie_global_stats', JSON.stringify(data.global_stats));
-        }
-        if (data.module_stats) {
-          // Restore module specific stats for Spaced Repetition
-          Object.keys(data.module_stats).forEach(moduleId => {
-            localStorage.setItem(`sophie_quiz_stats_${moduleId}`, JSON.stringify(data.module_stats[moduleId]));
-          });
-        }
-      } else {
-        loadLocalStats(); // If no cloud data, try local
+  // ── Reset progress ────────────────────────────────────────────────────────
+  const handleResetProgress = async () => {
+    setResetLoading(true);
+    if (user) await resetProgress(user.id);
+    // Clear localStorage
+    for (let i = localStorage.length - 1; i >= 0; i--) {
+      const key = localStorage.key(i);
+      if (key && (key.startsWith('sophie_quiz_stats_') || key === 'sophie_global_stats')) {
+        localStorage.removeItem(key);
       }
-    } catch (error) {
-      console.error('Error fetching user stats:', error);
-      loadLocalStats();
     }
-  }
+    setGlobalStats({});
+    setShowResetConfirm(false);
+    setResetLoading(false);
+  };
 
-  useEffect(() => {
-    if (!user) loadLocalStats();
-  }, [activeModule, user]);
-
+  // ── Auth action ───────────────────────────────────────────────────────────
   const handleAuthClick = async (action) => {
     if (action === 'logout') {
       await supabase.auth.signOut();
@@ -89,6 +136,7 @@ function App() {
     }
   };
 
+  // ── Start quiz ────────────────────────────────────────────────────────────
   const handleStartQuiz = (moduleId, isFlashcard = false) => {
     const moduleData = isFlashcard ? FLASHCARD_MODULES[moduleId] : QUIZ_MODULES[moduleId];
     if (!user) {
@@ -105,73 +153,115 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // ── Overall stats for header bar ─────────────────────────────────────────
+  const overallTotals = Object.values(globalStats).reduce(
+    (acc, s) => ({ correct: acc.correct + (s.correct ?? 0), total: acc.total + (s.total ?? 0) }),
+    { correct: 0, total: 0 }
+  );
+  const overallAccuracy = overallTotals.total > 0
+    ? Math.round((overallTotals.correct / overallTotals.total) * 100)
+    : null;
+
   return (
     <ThemeProvider>
-    <div className="min-h-screen bg-bg text-text font-sans transition-colors duration-300">
-      <Header 
-        onHome={handleGoHome} 
-        user={user}
-        onAuthClick={handleAuthClick}
-      />
-      
-      {guestPromptModule && (
-        <div className="fixed inset-0 bg-bg/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-          <div className="glass-card p-8 md:p-10 rounded-[2rem] shadow-xl max-w-md w-full relative animate-fade-in">
-            <button 
-              onClick={() => setGuestPromptModule(null)}
-              className="absolute top-4 right-4 p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/5 transition-colors"
-            >
-              <X className="w-5 h-5 text-text-muted" />
-            </button>
-            <div className="text-center mb-8 mt-2">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-black/5 dark:bg-white/5 mb-6 text-primary">
-                <User className="w-8 h-8" />
+      <div className="min-h-screen bg-bg text-text font-sans transition-colors duration-300">
+        <Header
+          onHome={handleGoHome}
+          user={user}
+          onAuthClick={handleAuthClick}
+        />
+
+        {/* Guest prompt modal ─────────────────────────────────────────── */}
+        {guestPromptModule && (
+          <div className="fixed inset-0 bg-bg/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+            <div className="glass-card p-8 md:p-10 rounded-[2rem] shadow-xl max-w-md w-full relative animate-fade-in">
+              <button
+                onClick={() => setGuestPromptModule(null)}
+                className="absolute top-4 right-4 p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/5 transition-colors"
+              >
+                <X className="w-5 h-5 text-text-muted" />
+              </button>
+              <div className="text-center mb-8 mt-2">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-black/5 dark:bg-white/5 mb-6 text-primary">
+                  <User className="w-8 h-8" />
+                </div>
+                <h2 className="text-2xl font-black text-text mb-3">Kurzer Tipp!</h2>
+                <p className="text-text-muted leading-relaxed">
+                  Wenn du dich einloggst, werden deine Spielstände gespeichert und das smarte
+                  Lernsystem merkt sich, welche Fragen du noch üben musst.
+                </p>
               </div>
-              <h2 className="text-2xl font-black text-text mb-3">Kurzer Tipp!</h2>
-              <p className="text-text-muted leading-relaxed">
-                Wenn du dich einloggst, werden deine Spielstände gespeichert und das smarte Lernsystem merkt sich, welche Fragen du noch üben musst.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <button
-                onClick={() => {
-                  setShowAuth(true);
-                  setGuestPromptModule(null);
-                }}
-                className="w-full py-4 bg-primary hover:bg-primary-hover text-white rounded-xl font-bold transition-all shadow-lg hover:shadow-primary/30"
-              >
-                Jetzt Einloggen
-              </button>
-              <button
-                onClick={() => {
-                  setActiveModule(guestPromptModule);
-                  setGuestPromptModule(null);
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
-                className="w-full py-4 bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10 text-text rounded-xl font-bold transition-all"
-              >
-                Als Gast fortfahren
-              </button>
+              <div className="space-y-3">
+                <button
+                  onClick={() => { setShowAuth(true); setGuestPromptModule(null); }}
+                  className="w-full py-4 bg-primary hover:bg-primary-hover text-white rounded-xl font-bold transition-all shadow-lg hover:shadow-primary/30"
+                >
+                  Jetzt Einloggen
+                </button>
+                <button
+                  onClick={() => {
+                    setActiveModule(guestPromptModule);
+                    setGuestPromptModule(null);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className="w-full py-4 bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10 text-text rounded-xl font-bold transition-all"
+                >
+                  Als Gast fortfahren
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      )}
+        )}
 
-      <main className="container mx-auto px-4 py-8 md:py-12">
-        {showAuth ? (
-          <Auth onBack={() => setShowAuth(false)} />
-        ) : activeModule ? (
-          <QuizPlayer
-            module={activeModule}
-            onBack={() => {
-              handleGoHome();
-              if (user) fetchUserStats(user.id);
-            }}
-            user={user}
-          />) : (
+        {/* Reset confirmation modal ───────────────────────────────────── */}
+        {showResetConfirm && (
+          <div className="fixed inset-0 bg-bg/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+            <div className="glass-card p-8 md:p-10 rounded-[2rem] shadow-xl max-w-sm w-full relative animate-fade-in text-center">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-red-500/10 mb-6 text-red-500">
+                <RotateCcw className="w-8 h-8" />
+              </div>
+              <h2 className="text-2xl font-black text-text mb-3">Fortschritt zurücksetzen?</h2>
+              <p className="text-text-muted leading-relaxed mb-8">
+                Alle deine Statistiken – richtige Antworten, falsche Antworten und Genauigkeit –
+                werden unwiderruflich auf 0 zurückgesetzt.
+              </p>
+              <div className="space-y-3">
+                <button
+                  onClick={handleResetProgress}
+                  disabled={resetLoading}
+                  className="w-full py-4 bg-red-500 hover:bg-red-600 disabled:opacity-60 text-white rounded-xl font-bold transition-all"
+                >
+                  {resetLoading ? 'Wird zurückgesetzt…' : 'Ja, zurücksetzen'}
+                </button>
+                <button
+                  onClick={() => setShowResetConfirm(false)}
+                  className="w-full py-4 bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10 text-text rounded-xl font-bold transition-all"
+                >
+                  Abbrechen
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
+        <main className="container mx-auto px-4 py-8 md:py-12">
+          {showAuth ? (
+            <Auth onBack={() => setShowAuth(false)} />
+          ) : activeModule ? (
+            <QuizPlayer
+              module={activeModule}
+              onBack={() => {
+                handleGoHome();
+                if (user) fetchAndApplyProgress(user.id);
+              }}
+              user={user}
+              onProgressUpdate={handleProgressUpdate}
+            />
+          ) : (
             <div className="animate-fade-in w-full h-full flex flex-col justify-center">
 
-              <div className="text-center mb-16 md:mb-24 mt-10 md:mt-20">
+              {/* Hero ───────────────────────────────────────────────── */}
+              <div className="text-center mb-12 md:mb-20 mt-10 md:mt-20">
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight">
                   Wähle dein <span className="text-primary">Lernmodul</span>
                 </h1>
@@ -180,11 +270,68 @@ function App() {
                 </p>
               </div>
 
-              {/* Modules Grid - New data will be added here */}
+              {/* Overall progress bar (only when there's data) ──────── */}
+              {overallTotals.total > 0 && (
+                <div className="mb-10 glass-card p-6 rounded-2xl">
+                  <div className="flex flex-wrap items-center justify-between gap-4 mb-4">
+                    <div className="flex items-center gap-2">
+                      {user ? (
+                        <Cloud className="w-4 h-4 text-primary" />
+                      ) : (
+                        <CloudOff className="w-4 h-4 text-text-muted" />
+                      )}
+                      <span className="font-bold text-text">
+                        Gesamtfortschritt {user ? '(gespeichert)' : '(lokal)'}
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-4 text-sm font-semibold flex-wrap">
+                      {overallAccuracy !== null && (
+                        <span className="text-primary">{overallAccuracy}% Genauigkeit</span>
+                      )}
+                      <span className="text-text-muted">{overallTotals.total} Antworten gesamt</span>
+                      {user && (
+                        <button
+                          onClick={() => setShowResetConfirm(true)}
+                          className="flex items-center gap-1.5 text-red-500 hover:text-red-600 transition-colors text-xs font-bold px-3 py-1.5 rounded-lg bg-red-500/10 hover:bg-red-500/20"
+                        >
+                          <RotateCcw className="w-3.5 h-3.5" />
+                          Fortschritt zurücksetzen
+                        </button>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Accuracy bar */}
+                  {overallTotals.total > 0 && (
+                    <div className="w-full h-3 bg-black/5 dark:bg-white/5 rounded-full overflow-hidden flex">
+                      <div
+                        className="bg-green-500 h-full rounded-l-full transition-all duration-700"
+                        style={{ width: `${(overallTotals.correct / overallTotals.total) * 100}%` }}
+                      />
+                      <div
+                        className="bg-red-400 h-full transition-all duration-700"
+                        style={{ width: `${((overallTotals.total - overallTotals.correct) / overallTotals.total) * 100}%` }}
+                      />
+                    </div>
+                  )}
+
+                  {/* Save notice */}
+                  {user && (
+                    <p className="text-xs text-text-muted mt-3 flex items-center gap-1">
+                      <Cloud className="w-3 h-3" />
+                      Dein Fortschritt wird automatisch gespeichert und ist auf allen Geräten verfügbar.
+                    </p>
+                  )}
+                </div>
+              )}
+
+              {/* Modules Grid ───────────────────────────────────────── */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
                 {Object.keys(FLASHCARD_MODULES).length === 0 && Object.keys(QUIZ_MODULES).length === 0 ? (
                   <div className="col-span-full text-center py-20 bg-secondary/30 rounded-3xl border-2 border-dashed border-primary/20">
-                    <p className="text-text-muted text-lg">Keine Module verfügbar. Neue Inhalte werden in Kürze hinzugefügt.</p>
+                    <p className="text-text-muted text-lg">
+                      Keine Module verfügbar. Neue Inhalte werden in Kürze hinzugefügt.
+                    </p>
                   </div>
                 ) : (
                   <>
@@ -217,5 +364,45 @@ function App() {
   );
 }
 
-export default App;
+// ── Utilities ─────────────────────────────────────────────────────────────────
 
+function safeParseJSON(str) {
+  try { return str ? JSON.parse(str) : null; } catch { return null; }
+}
+
+/**
+ * Merges two module stat objects, taking the higher value for each counter
+ * and combining wrong question ID arrays without duplicates.
+ */
+function mergeModuleStats(local, remote) {
+  return {
+    correct:          Math.max(local.correct ?? 0, remote.correct ?? 0),
+    wrong:            Math.max(local.wrong   ?? 0, remote.wrong   ?? 0),
+    total:            Math.max(local.total   ?? 0, remote.total   ?? 0),
+    wrongQuestionIds: [
+      ...new Set([
+        ...(local.wrongQuestionIds  || []),
+        ...(remote.wrongQuestionIds || []),
+      ]),
+    ],
+    // per-question stats: take the max of correct/wrong for each question index
+    questionStats: mergeQuestionStats(local.questionStats, remote.questionStats),
+  };
+}
+
+function mergeQuestionStats(a, b) {
+  const result = { ...(a || {}) };
+  for (const [idx, stats] of Object.entries(b || {})) {
+    if (result[idx]) {
+      result[idx] = {
+        correct: Math.max(result[idx].correct ?? 0, stats.correct ?? 0),
+        wrong:   Math.max(result[idx].wrong   ?? 0, stats.wrong   ?? 0),
+      };
+    } else {
+      result[idx] = stats;
+    }
+  }
+  return result;
+}
+
+export default App;
