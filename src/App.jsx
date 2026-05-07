@@ -10,7 +10,6 @@ import { ThemeProvider } from './components/ThemeProvider';
 import {
   loadProgress,
   resetProgress,
-  buildGlobalStats,
 } from './utils/progressService';
 
 function App() {
@@ -21,47 +20,55 @@ function App() {
   const [guestPromptModule, setGuestPromptModule] = useState(null);
   const [showResetConfirm, setShowResetConfirm]   = useState(false);
   const [resetLoading, setResetLoading]           = useState(false);
-  const [progressLoaded, setProgressLoaded]       = useState(false); // guard against double-fetch
+
+  // ── Local stats fallback (guests / offline) ──────────────────────────────
+  const loadLocalStats = useCallback(() => {
+    const stats = safeParseJSON(localStorage.getItem('sophie_global_stats')) || {};
+    setGlobalStats(stats);
+  }, []);
 
   // ── Load progress from Supabase ──────────────────────────────────────────
   const fetchAndApplyProgress = useCallback(async (userId) => {
     const data = await loadProgress(userId);
     if (data) {
-      // module_stats is the source of truth; build globalStats from it
+      // module_stats is the source of truth
       const ms = data.module_stats || {};
-      const gs = buildGlobalStats(ms);
-
-      // Merge with persisted global_stats blob (legacy fallback)
       const legacyGs = data.global_stats || {};
       const merged = {};
-      const allModuleIds = new Set([...Object.keys(gs), ...Object.keys(legacyGs)]);
+      
+      const allModuleIds = new Set([...Object.keys(ms), ...Object.keys(legacyGs)]);
       for (const id of allModuleIds) {
+        // Prefer module_stats (the new format), fallback to legacy global_stats
+        const mStats = ms[id] || {};
+        const lStats = legacyGs[id] || {};
         merged[id] = {
-          correct: Math.max(gs[id]?.correct ?? 0, legacyGs[id]?.correct ?? 0),
-          total:   Math.max(gs[id]?.total   ?? 0, legacyGs[id]?.total   ?? 0),
-          wrong:   Math.max(gs[id]?.wrong   ?? 0, legacyGs[id]?.wrong   ?? 0),
+          correct: mStats.correct ?? lStats.correct ?? 0,
+          total:   mStats.total   ?? lStats.total   ?? 0,
+          wrong:   mStats.wrong   ?? lStats.wrong   ?? 0,
         };
       }
 
       setGlobalStats(merged);
-      // Also cache locally as fallback for guests / offline
       localStorage.setItem('sophie_global_stats', JSON.stringify(merged));
 
-      // Restore per-module stats (wrong question IDs etc.) into localStorage
-      // so QuizPlayer can pick them up during shuffle
+      // Clear all existing local module stats to prevent old data from resurrecting
+      for (let i = localStorage.length - 1; i >= 0; i--) {
+        const key = localStorage.key(i);
+        if (key && key.startsWith('sophie_quiz_stats_')) {
+          localStorage.removeItem(key);
+        }
+      }
+
+      // Restore per-module stats from Supabase directly
       for (const [moduleId, mStats] of Object.entries(ms)) {
         const key = `sophie_quiz_stats_${moduleId}`;
-        // Only write if Supabase data has more/richer data than what's local
-        const local = safeParseJSON(localStorage.getItem(key)) || {};
-        const merged = mergeModuleStats(local, mStats);
-        localStorage.setItem(key, JSON.stringify(merged));
+        localStorage.setItem(key, JSON.stringify(mStats));
       }
     } else {
       // No Supabase record yet → fall back to localStorage
       loadLocalStats();
     }
-    setProgressLoaded(true);
-  }, []);
+  }, [loadLocalStats]);
 
   // ── Auth listener ────────────────────────────────────────────────────────
   useEffect(() => {
@@ -71,7 +78,6 @@ function App() {
         fetchAndApplyProgress(session.user.id);
       } else {
         loadLocalStats();
-        setProgressLoaded(true);
       }
     });
 
@@ -86,13 +92,9 @@ function App() {
     });
 
     return () => subscription.unsubscribe();
-  }, [fetchAndApplyProgress]);
+  }, [fetchAndApplyProgress, loadLocalStats]);
 
-  // ── Local stats fallback (guests / offline) ──────────────────────────────
-  function loadLocalStats() {
-    const stats = safeParseJSON(localStorage.getItem('sophie_global_stats')) || {};
-    setGlobalStats(stats);
-  }
+
 
   // ── Called by QuizPlayer after each answer so dashboard stays live ───────
   const handleProgressUpdate = useCallback((moduleId, moduleStats) => {
@@ -370,39 +372,6 @@ function safeParseJSON(str) {
   try { return str ? JSON.parse(str) : null; } catch { return null; }
 }
 
-/**
- * Merges two module stat objects, taking the higher value for each counter
- * and combining wrong question ID arrays without duplicates.
- */
-function mergeModuleStats(local, remote) {
-  return {
-    correct:          Math.max(local.correct ?? 0, remote.correct ?? 0),
-    wrong:            Math.max(local.wrong   ?? 0, remote.wrong   ?? 0),
-    total:            Math.max(local.total   ?? 0, remote.total   ?? 0),
-    wrongQuestionIds: [
-      ...new Set([
-        ...(local.wrongQuestionIds  || []),
-        ...(remote.wrongQuestionIds || []),
-      ]),
-    ],
-    // per-question stats: take the max of correct/wrong for each question index
-    questionStats: mergeQuestionStats(local.questionStats, remote.questionStats),
-  };
-}
-
-function mergeQuestionStats(a, b) {
-  const result = { ...(a || {}) };
-  for (const [idx, stats] of Object.entries(b || {})) {
-    if (result[idx]) {
-      result[idx] = {
-        correct: Math.max(result[idx].correct ?? 0, stats.correct ?? 0),
-        wrong:   Math.max(result[idx].wrong   ?? 0, stats.wrong   ?? 0),
-      };
-    } else {
-      result[idx] = stats;
-    }
-  }
-  return result;
-}
+// Removed mergeModuleStats and mergeQuestionStats as Supabase is now the absolute source of truth
 
 export default App;
