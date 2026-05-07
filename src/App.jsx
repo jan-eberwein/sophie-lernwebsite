@@ -13,13 +13,13 @@ import {
 } from './utils/progressService';
 
 function App() {
-  const [activeModule, setActiveModule]       = useState(null);
-  const [globalStats, setGlobalStats]         = useState({});
-  const [user, setUser]                       = useState(null);
-  const [showAuth, setShowAuth]               = useState(false);
+  const [activeModule, setActiveModule] = useState(null);
+  const [globalStats, setGlobalStats] = useState({});
+  const [user, setUser] = useState(null);
+  const [showAuth, setShowAuth] = useState(false);
   const [guestPromptModule, setGuestPromptModule] = useState(null);
-  const [showResetConfirm, setShowResetConfirm]   = useState(false);
-  const [resetLoading, setResetLoading]           = useState(false);
+  const [showResetConfirm, setShowResetConfirm] = useState(false);
+  const [resetLoading, setResetLoading] = useState(false);
 
   // ── Local stats fallback (guests / offline) ──────────────────────────────
   const loadLocalStats = useCallback(() => {
@@ -35,7 +35,7 @@ function App() {
       const ms = data.module_stats || {};
       const legacyGs = data.global_stats || {};
       const merged = {};
-      
+
       const allModuleIds = new Set([...Object.keys(ms), ...Object.keys(legacyGs)]);
       for (const id of allModuleIds) {
         // Prefer module_stats (the new format), fallback to legacy global_stats
@@ -43,8 +43,8 @@ function App() {
         const lStats = legacyGs[id] || {};
         merged[id] = {
           correct: mStats.correct ?? lStats.correct ?? 0,
-          total:   mStats.total   ?? lStats.total   ?? 0,
-          wrong:   mStats.wrong   ?? lStats.wrong   ?? 0,
+          total: mStats.total ?? lStats.total ?? 0,
+          wrong: mStats.wrong ?? lStats.wrong ?? 0,
         };
       }
 
@@ -103,8 +103,8 @@ function App() {
         ...prev,
         [moduleId]: {
           correct: moduleStats.correct ?? 0,
-          total:   moduleStats.total   ?? 0,
-          wrong:   moduleStats.wrong   ?? 0,
+          total: moduleStats.total ?? 0,
+          wrong: moduleStats.wrong ?? 0,
         },
       };
       localStorage.setItem('sophie_global_stats', JSON.stringify(next));
@@ -283,7 +283,7 @@ function App() {
                         <CloudOff className="w-4 h-4 text-text-muted" />
                       )}
                       <span className="font-bold text-text">
-                        Gesamtfortschritt {user ? '(gespeichert)' : '(lokal)'}
+                        Gesamtfortschritt
                       </span>
                     </div>
                     <div className="flex items-center gap-4 text-sm font-semibold flex-wrap">
