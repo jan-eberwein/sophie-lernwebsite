@@ -5,7 +5,7 @@ export const QUIZ_MODULES = {
       {
         "title": "1. Was regelt das Bürgerliche Recht?",
         "context": null,
-        "question": null,
+        "question": "Was regelt das Bürgerliche Recht?",
         "options": [
           {
             "text": "Beziehungen zwischen Privatpersonen",
@@ -29,7 +29,7 @@ export const QUIZ_MODULES = {
       {
         "title": "2. Welche Rechtsgebiete gehören zum Privatrecht?",
         "context": null,
-        "question": null,
+        "question": "Welche Rechtsgebiete gehören zum Privatrecht?",
         "options": [
           {
             "text": "Sachenrecht",
@@ -53,7 +53,7 @@ export const QUIZ_MODULES = {
       {
         "title": "3. Welche Gesetze zählen zum Privatrecht in Österreich?",
         "context": null,
-        "question": null,
+        "question": "Welche Gesetze zählen zum Privatrecht in Österreich?",
         "options": [
           {
             "text": "ABGB",
@@ -77,7 +77,7 @@ export const QUIZ_MODULES = {
       {
         "title": "4. Was kennzeichnet einen Vertrag?",
         "context": null,
-        "question": null,
+        "question": "Was kennzeichnet einen Vertrag?",
         "options": [
           {
             "text": "Übereinstimmende Willenserklärungen",
@@ -101,7 +101,7 @@ export const QUIZ_MODULES = {
       {
         "title": "5. Wer kann Vertragspartei sein?",
         "context": null,
-        "question": null,
+        "question": "Wer kann Vertragspartei sein?",
         "options": [
           {
             "text": "Natürliche Personen",
@@ -125,7 +125,7 @@ export const QUIZ_MODULES = {
       {
         "title": "6. Was versteht man unter einer Person im rechtlichen Sinn?",
         "context": null,
-        "question": null,
+        "question": "Was versteht man unter einer Person im rechtlichen Sinn?",
         "options": [
           {
             "text": "Jeder Mensch",
@@ -149,7 +149,7 @@ export const QUIZ_MODULES = {
       {
         "title": "7. Welche Beispiele sind juristische Personen?",
         "context": null,
-        "question": null,
+        "question": "Welche Beispiele sind juristische Personen?",
         "options": [
           {
             "text": "GmbH",
@@ -173,7 +173,7 @@ export const QUIZ_MODULES = {
       {
         "title": "8. Was gilt für juristische Personen?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für juristische Personen?",
         "options": [
           {
             "text": "Sie handeln durch Organe",
@@ -197,7 +197,7 @@ export const QUIZ_MODULES = {
       {
         "title": "9. Was bedeutet Rechtsfähigkeit?",
         "context": null,
-        "question": null,
+        "question": "Was bedeutet Rechtsfähigkeit?",
         "options": [
           {
             "text": "Fähigkeit, Verträge abzuschließen",
@@ -221,7 +221,7 @@ export const QUIZ_MODULES = {
       {
         "title": "10. Was umfasst die Handlungsfähigkeit?",
         "context": null,
-        "question": null,
+        "question": "Was umfasst die Handlungsfähigkeit?",
         "options": [
           {
             "text": "Geschäftsfähigkeit",
@@ -245,7 +245,7 @@ export const QUIZ_MODULES = {
       {
         "title": "11. Wann ist eine Person voll geschäftsfähig?",
         "context": null,
-        "question": null,
+        "question": "Wann ist eine Person voll geschäftsfähig?",
         "options": [
           {
             "text": "Ab 18 Jahren",
@@ -269,7 +269,7 @@ export const QUIZ_MODULES = {
       {
         "title": "12. Was gilt für Kinder (0–7 Jahre)?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für Kinder (0–7 Jahre)?",
         "options": [
           {
             "text": "Sie sind geschäftsunfähig",
@@ -293,7 +293,7 @@ export const QUIZ_MODULES = {
       {
         "title": "13. Was gilt für unmündige Minderjährige (7–14 Jahre)?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für unmündige Minderjährige (7–14 Jahre)?",
         "options": [
           {
             "text": "Beschränkte Geschäftsfähigkeit",
@@ -317,7 +317,7 @@ export const QUIZ_MODULES = {
       {
         "title": "14. Was gilt für mündige Minderjährige (14–18 Jahre)?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für mündige Minderjährige (14–18 Jahre)?",
         "options": [
           {
             "text": "Verfügung über eigenes Einkommen",
@@ -341,7 +341,7 @@ export const QUIZ_MODULES = {
       {
         "title": "15. Was bedeutet Deliktsfähigkeit?",
         "context": null,
-        "question": null,
+        "question": "Was bedeutet Deliktsfähigkeit?",
         "options": [
           {
             "text": "Fähigkeit, Verträge abzuschließen",
@@ -365,7 +365,7 @@ export const QUIZ_MODULES = {
       {
         "title": "16. Was ist eine Sache im rechtlichen Sinn?",
         "context": null,
-        "question": null,
+        "question": "Was ist eine Sache im rechtlichen Sinn?",
         "options": [
           {
             "text": "Alles, was vom Menschen verschieden ist",
@@ -389,7 +389,7 @@ export const QUIZ_MODULES = {
       {
         "title": "17. Was sind bewegliche Sachen?",
         "context": null,
-        "question": null,
+        "question": "Was sind bewegliche Sachen?",
         "options": [
           {
             "text": "Transportierbar",
@@ -413,7 +413,7 @@ export const QUIZ_MODULES = {
       {
         "title": "18. Was sind unbewegliche Sachen?",
         "context": null,
-        "question": null,
+        "question": "Was sind unbewegliche Sachen?",
         "options": [
           {
             "text": "Grundstücke",
@@ -437,7 +437,7 @@ export const QUIZ_MODULES = {
       {
         "title": "19. Was gehört zum Besitz?",
         "context": null,
-        "question": null,
+        "question": "Was gehört zum Besitz?",
         "options": [
           {
             "text": "Tatsächliche Sachherrschaft",
@@ -461,7 +461,7 @@ export const QUIZ_MODULES = {
       {
         "title": "20. Was bedeutet Eigentum?",
         "context": null,
-        "question": null,
+        "question": "Was bedeutet Eigentum?",
         "options": [
           {
             "text": "Volle rechtliche Herrschaft",
@@ -485,7 +485,7 @@ export const QUIZ_MODULES = {
       {
         "title": "21. Was sind Voraussetzungen für einen gültigen Vertrag?",
         "context": null,
-        "question": null,
+        "question": "Was sind Voraussetzungen für einen gültigen Vertrag?",
         "options": [
           {
             "text": "Geschäftsfähigkeit",
@@ -509,7 +509,7 @@ export const QUIZ_MODULES = {
       {
         "title": "22. Wie kommt ein Vertrag zustande?",
         "context": null,
-        "question": null,
+        "question": "Wie kommt ein Vertrag zustande?",
         "options": [
           {
             "text": "Angebot",
@@ -533,7 +533,7 @@ export const QUIZ_MODULES = {
       {
         "title": "23. Was ist ein Angebot?",
         "context": null,
-        "question": null,
+        "question": "Was ist ein Angebot?",
         "options": [
           {
             "text": "Verbindliche Willenserklärung",
@@ -557,7 +557,7 @@ export const QUIZ_MODULES = {
       {
         "title": "24. Was gilt für die Annahme?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für die Annahme?",
         "options": [
           {
             "text": "Muss dem Angebot entsprechen",
@@ -581,7 +581,7 @@ export const QUIZ_MODULES = {
       {
         "title": "25. Was gilt für Schweigen auf ein Angebot?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für Schweigen auf ein Angebot?",
         "options": [
           {
             "text": "Gilt als Zustimmung",
@@ -605,7 +605,7 @@ export const QUIZ_MODULES = {
       {
         "title": "26. Was ist ein Motivirrtum?",
         "context": null,
-        "question": null,
+        "question": "Was ist ein Motivirrtum?",
         "options": [
           {
             "text": "Irrtum über Beweggründe",
@@ -629,7 +629,7 @@ export const QUIZ_MODULES = {
       {
         "title": "27. Was ist ein Geschäftsirrtum?",
         "context": null,
-        "question": null,
+        "question": "Was ist ein Geschäftsirrtum?",
         "options": [
           {
             "text": "Irrtum über Vertragsinhalt",
@@ -653,7 +653,7 @@ export const QUIZ_MODULES = {
       {
         "title": "28. Was gilt für die Irrtumsanfechtung?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für die Irrtumsanfechtung?",
         "options": [
           {
             "text": "Muss gerichtlich erfolgen",
@@ -677,7 +677,7 @@ export const QUIZ_MODULES = {
       {
         "title": "29. Was kennzeichnet den Kaufvertrag?",
         "context": null,
-        "question": null,
+        "question": "Was kennzeichnet den Kaufvertrag?",
         "options": [
           {
             "text": "Ware gegen Geld",
@@ -701,7 +701,7 @@ export const QUIZ_MODULES = {
       {
         "title": "30. Was kennzeichnet den Werkvertrag?",
         "context": null,
-        "question": null,
+        "question": "Was kennzeichnet den Werkvertrag?",
         "options": [
           {
             "text": "Herstellung eines Werkes",
@@ -725,7 +725,7 @@ export const QUIZ_MODULES = {
       {
         "title": "31. Voraussetzungen für Schadenersatz?",
         "context": null,
-        "question": null,
+        "question": "Voraussetzungen für Schadenersatz?",
         "options": [
           {
             "text": "Schaden",
@@ -749,7 +749,7 @@ export const QUIZ_MODULES = {
       {
         "title": "32. Was ist Verschulden?",
         "context": null,
-        "question": null,
+        "question": "Was ist Verschulden?",
         "options": [
           {
             "text": "Vorsatz",
@@ -773,7 +773,7 @@ export const QUIZ_MODULES = {
       {
         "title": "33. Was ist ein Versicherungsvertrag?",
         "context": null,
-        "question": null,
+        "question": "Was ist ein Versicherungsvertrag?",
         "options": [
           {
             "text": "Risikoübertragung",
@@ -797,7 +797,7 @@ export const QUIZ_MODULES = {
       {
         "title": "34. Wer sind Parteien im Versicherungsvertrag?",
         "context": null,
-        "question": null,
+        "question": "Wer sind Parteien im Versicherungsvertrag?",
         "options": [
           {
             "text": "Versicherer",
@@ -821,7 +821,7 @@ export const QUIZ_MODULES = {
       {
         "title": "35. Was ist die Prämie?",
         "context": null,
-        "question": null,
+        "question": "Was ist die Prämie?",
         "options": [
           {
             "text": "Zahlung",
@@ -845,7 +845,7 @@ export const QUIZ_MODULES = {
       {
         "title": "36. Pflichten des Versicherers?",
         "context": null,
-        "question": null,
+        "question": "Pflichten des Versicherers?",
         "options": [
           {
             "text": "Leistung im Schadensfall",
@@ -869,7 +869,7 @@ export const QUIZ_MODULES = {
       {
         "title": "37. Was sind Obliegenheiten?",
         "context": null,
-        "question": null,
+        "question": "Was sind Obliegenheiten?",
         "options": [
           {
             "text": "Verhaltenspflichten",
@@ -893,7 +893,7 @@ export const QUIZ_MODULES = {
       {
         "title": "38. Folgen der Obliegenheitsverletzung?",
         "context": null,
-        "question": null,
+        "question": "Folgen der Obliegenheitsverletzung?",
         "options": [
           {
             "text": "Leistungskürzung",
@@ -917,7 +917,7 @@ export const QUIZ_MODULES = {
       {
         "title": "39. Wie entsteht ein Versicherungsvertrag?",
         "context": null,
-        "question": null,
+        "question": "Wie entsteht ein Versicherungsvertrag?",
         "options": [
           {
             "text": "Antrag",
@@ -941,7 +941,7 @@ export const QUIZ_MODULES = {
       {
         "title": "40. Was ist das versicherte Risiko?",
         "context": null,
-        "question": null,
+        "question": "Was ist das versicherte Risiko?",
         "options": [
           {
             "text": "Muss definiert sein",
@@ -965,7 +965,7 @@ export const QUIZ_MODULES = {
       {
         "title": "41. Was sind AVB?",
         "context": null,
-        "question": null,
+        "question": "Was sind AVB?",
         "options": [
           {
             "text": "Vertragsbestandteil",
@@ -989,7 +989,7 @@ export const QUIZ_MODULES = {
       {
         "title": "42. Anforderungen an AVB?",
         "context": null,
-        "question": null,
+        "question": "Anforderungen an AVB?",
         "options": [
           {
             "text": "Verständlich",
@@ -1013,7 +1013,7 @@ export const QUIZ_MODULES = {
       {
         "title": "43. Wie endet ein Vertrag?",
         "context": null,
-        "question": null,
+        "question": "Wie endet ein Vertrag?",
         "options": [
           {
             "text": "Kündigung",
@@ -1037,7 +1037,7 @@ export const QUIZ_MODULES = {
       {
         "title": "44. Was gilt für Kündigung?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für Kündigung?",
         "options": [
           {
             "text": "Beendet Vertrag",
@@ -1061,7 +1061,7 @@ export const QUIZ_MODULES = {
       {
         "title": "45. Wer beaufsichtigt Versicherungen?",
         "context": null,
-        "question": null,
+        "question": "Wer beaufsichtigt Versicherungen?",
         "options": [
           {
             "text": "Staat",
@@ -1085,7 +1085,7 @@ export const QUIZ_MODULES = {
       {
         "title": "46. Ziele der Versicherungsaufsicht?",
         "context": null,
-        "question": null,
+        "question": "Ziele der Versicherungsaufsicht?",
         "options": [
           {
             "text": "Kundenschutz",
@@ -1109,7 +1109,7 @@ export const QUIZ_MODULES = {
       {
         "title": "47. Versicherungssteuer…",
         "context": null,
-        "question": null,
+        "question": "Versicherungssteuer…",
         "options": [
           {
             "text": "Auf Prämien",
@@ -1133,7 +1133,7 @@ export const QUIZ_MODULES = {
       {
         "title": "48. Vertragsänderungen…",
         "context": null,
-        "question": null,
+        "question": "Vertragsänderungen…",
         "options": [
           {
             "text": "Möglich",
@@ -1157,7 +1157,7 @@ export const QUIZ_MODULES = {
       {
         "title": "49. Vertragsinhalt umfasst…",
         "context": null,
-        "question": null,
+        "question": "Vertragsinhalt umfasst…",
         "options": [
           {
             "text": "Rechte",
@@ -1181,7 +1181,7 @@ export const QUIZ_MODULES = {
       {
         "title": "50. Zweck der Versicherung…",
         "context": null,
-        "question": null,
+        "question": "Zweck der Versicherung…",
         "options": [
           {
             "text": "Risikoabsicherung",
@@ -1205,7 +1205,7 @@ export const QUIZ_MODULES = {
       {
         "title": "51. Was versteht man unter Innehabung?",
         "context": null,
-        "question": null,
+        "question": "Was versteht man unter Innehabung?",
         "options": [
           {
             "text": "Tatsächliche Gewalt über eine Sache",
@@ -1229,7 +1229,7 @@ export const QUIZ_MODULES = {
       {
         "title": "52. Was unterscheidet Besitz von Innehabung?",
         "context": null,
-        "question": null,
+        "question": "Was unterscheidet Besitz von Innehabung?",
         "options": [
           {
             "text": "Besitz erfordert Besitzwillen",
@@ -1253,7 +1253,7 @@ export const QUIZ_MODULES = {
       {
         "title": "53. Was sind Grundsätze des Sachenrechts?",
         "context": null,
-        "question": null,
+        "question": "Was sind Grundsätze des Sachenrechts?",
         "options": [
           {
             "text": "Publizitätsprinzip",
@@ -1277,7 +1277,7 @@ export const QUIZ_MODULES = {
       {
         "title": "54. Was bedeutet „Titel und Modus“?",
         "context": null,
-        "question": null,
+        "question": "Was bedeutet „Titel und Modus“?",
         "options": [
           {
             "text": "Vertrag als Rechtsgrund",
@@ -1301,7 +1301,7 @@ export const QUIZ_MODULES = {
       {
         "title": "55. Was ist ein gültiger Titel?",
         "context": null,
-        "question": null,
+        "question": "Was ist ein gültiger Titel?",
         "options": [
           {
             "text": "Kaufvertrag",
@@ -1325,7 +1325,7 @@ export const QUIZ_MODULES = {
       {
         "title": "56. Was ist ein Modus bei beweglichen Sachen?",
         "context": null,
-        "question": null,
+        "question": "Was ist ein Modus bei beweglichen Sachen?",
         "options": [
           {
             "text": "Übergabe",
@@ -1349,7 +1349,7 @@ export const QUIZ_MODULES = {
       {
         "title": "57. Was gilt für unbewegliche Sachen beim Eigentumserwerb?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für unbewegliche Sachen beim Eigentumserwerb?",
         "options": [
           {
             "text": "Eintragung ins Grundbuch notwendig",
@@ -1373,7 +1373,7 @@ export const QUIZ_MODULES = {
       {
         "title": "58. Was bedeutet Eigentumsvorbehalt?",
         "context": null,
-        "question": null,
+        "question": "Was bedeutet Eigentumsvorbehalt?",
         "options": [
           {
             "text": "Verkäufer bleibt Eigentümer bis Zahlung",
@@ -1397,7 +1397,7 @@ export const QUIZ_MODULES = {
       {
         "title": "59. Wann ist gutgläubiger Erwerb möglich?",
         "context": null,
-        "question": null,
+        "question": "Wann ist gutgläubiger Erwerb möglich?",
         "options": [
           {
             "text": "Kauf im Geschäft",
@@ -1421,7 +1421,7 @@ export const QUIZ_MODULES = {
       {
         "title": "60. Wann ist jemand gutgläubig?",
         "context": null,
-        "question": null,
+        "question": "Wann ist jemand gutgläubig?",
         "options": [
           {
             "text": "Kennt Mangel nicht",
@@ -1445,7 +1445,7 @@ export const QUIZ_MODULES = {
       {
         "title": "61. Was ist das Grundbuch?",
         "context": null,
-        "question": null,
+        "question": "Was ist das Grundbuch?",
         "options": [
           {
             "text": "Öffentliches Register",
@@ -1469,7 +1469,7 @@ export const QUIZ_MODULES = {
       {
         "title": "62. Was gilt im Grundbuch?",
         "context": null,
-        "question": null,
+        "question": "Was gilt im Grundbuch?",
         "options": [
           {
             "text": "Öffentlichkeitsprinzip",
@@ -1493,7 +1493,7 @@ export const QUIZ_MODULES = {
       {
         "title": "63. Was bedeutet Vertrauensgrundsatz?",
         "context": null,
-        "question": null,
+        "question": "Was bedeutet Vertrauensgrundsatz?",
         "options": [
           {
             "text": "Eintragungen gelten als richtig",
@@ -1517,7 +1517,7 @@ export const QUIZ_MODULES = {
       {
         "title": "64. Was steht im Eigentumsblatt?",
         "context": null,
-        "question": null,
+        "question": "Was steht im Eigentumsblatt?",
         "options": [
           {
             "text": "Eigentümer",
@@ -1541,7 +1541,7 @@ export const QUIZ_MODULES = {
       {
         "title": "65. Was steht im Lastenblatt?",
         "context": null,
-        "question": null,
+        "question": "Was steht im Lastenblatt?",
         "options": [
           {
             "text": "Hypotheken",
@@ -1565,7 +1565,7 @@ export const QUIZ_MODULES = {
       {
         "title": "66. Was sind Willenserklärungen?",
         "context": null,
-        "question": null,
+        "question": "Was sind Willenserklärungen?",
         "options": [
           {
             "text": "Ausdruck eines Willens",
@@ -1589,7 +1589,7 @@ export const QUIZ_MODULES = {
       {
         "title": "67. Was bedeutet Konsens?",
         "context": null,
-        "question": null,
+        "question": "Was bedeutet Konsens?",
         "options": [
           {
             "text": "Übereinstimmung",
@@ -1613,7 +1613,7 @@ export const QUIZ_MODULES = {
       {
         "title": "68. Wann liegt Dissens vor?",
         "context": null,
-        "question": null,
+        "question": "Wann liegt Dissens vor?",
         "options": [
           {
             "text": "Uneinigkeit",
@@ -1637,7 +1637,7 @@ export const QUIZ_MODULES = {
       {
         "title": "69. Was sind Formvorschriften?",
         "context": null,
-        "question": null,
+        "question": "Was sind Formvorschriften?",
         "options": [
           {
             "text": "Gesetzliche Anforderungen",
@@ -1661,7 +1661,7 @@ export const QUIZ_MODULES = {
       {
         "title": "70. Was gilt für mündliche Verträge?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für mündliche Verträge?",
         "options": [
           {
             "text": "Grundsätzlich gültig",
@@ -1685,7 +1685,7 @@ export const QUIZ_MODULES = {
       {
         "title": "71. Ein Angebot ist…",
         "context": null,
-        "question": null,
+        "question": "Ein Angebot ist…",
         "options": [
           {
             "text": "Bindend",
@@ -1709,7 +1709,7 @@ export const QUIZ_MODULES = {
       {
         "title": "72. Was gilt für Angebote unter Anwesenden?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für Angebote unter Anwesenden?",
         "options": [
           {
             "text": "Sofort anzunehmen",
@@ -1733,7 +1733,7 @@ export const QUIZ_MODULES = {
       {
         "title": "73. Was gilt für Angebote unter Abwesenden?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für Angebote unter Abwesenden?",
         "options": [
           {
             "text": "Annahmefrist",
@@ -1757,7 +1757,7 @@ export const QUIZ_MODULES = {
       {
         "title": "74. Was umfasst die Annahmefrist?",
         "context": null,
-        "question": null,
+        "question": "Was umfasst die Annahmefrist?",
         "options": [
           {
             "text": "Übermittlungszeit",
@@ -1781,7 +1781,7 @@ export const QUIZ_MODULES = {
       {
         "title": "75. Wann ist ein Angebot unverbindlich?",
         "context": null,
-        "question": null,
+        "question": "Wann ist ein Angebot unverbindlich?",
         "options": [
           {
             "text": "„freibleibend“",
@@ -1805,7 +1805,7 @@ export const QUIZ_MODULES = {
       {
         "title": "76. Was ist ein Erklärungsirrtum?",
         "context": null,
-        "question": null,
+        "question": "Was ist ein Erklärungsirrtum?",
         "options": [
           {
             "text": "Falsche Erklärung",
@@ -1829,7 +1829,7 @@ export const QUIZ_MODULES = {
       {
         "title": "77. Geschäftsirrtum betrifft…",
         "context": null,
-        "question": null,
+        "question": "Geschäftsirrtum betrifft…",
         "options": [
           {
             "text": "Vertragsgegenstand",
@@ -1853,7 +1853,7 @@ export const QUIZ_MODULES = {
       {
         "title": "78. Wann ist Irrtum relevant?",
         "context": null,
-        "question": null,
+        "question": "Wann ist Irrtum relevant?",
         "options": [
           {
             "text": "Vom anderen verursacht",
@@ -1877,7 +1877,7 @@ export const QUIZ_MODULES = {
       {
         "title": "79. Frist für Irrtumsanfechtung?",
         "context": null,
-        "question": null,
+        "question": "Frist für Irrtumsanfechtung?",
         "options": [
           {
             "text": "3 Jahre",
@@ -1901,7 +1901,7 @@ export const QUIZ_MODULES = {
       {
         "title": "80. Was ist ein Vorvertrag?",
         "context": null,
-        "question": null,
+        "question": "Was ist ein Vorvertrag?",
         "options": [
           {
             "text": "Verpflichtung späteren Vertragsabschluss",
@@ -1925,7 +1925,7 @@ export const QUIZ_MODULES = {
       {
         "title": "81. Was kann man aus Vorvertrag klagen?",
         "context": null,
-        "question": null,
+        "question": "Was kann man aus Vorvertrag klagen?",
         "options": [
           {
             "text": "Vertragsabschluss",
@@ -1949,7 +1949,7 @@ export const QUIZ_MODULES = {
       {
         "title": "82. Was gilt für Online-Verträge?",
         "context": null,
-        "question": null,
+        "question": "Was gilt für Online-Verträge?",
         "options": [
           {
             "text": "Normale Regeln",
@@ -1973,7 +1973,7 @@ export const QUIZ_MODULES = {
       {
         "title": "83. Was ist eine elektronische Signatur?",
         "context": null,
-        "question": null,
+        "question": "Was ist eine elektronische Signatur?",
         "options": [
           {
             "text": "Digitale Unterschrift",
@@ -1997,7 +1997,7 @@ export const QUIZ_MODULES = {
       {
         "title": "84. Qualifizierte Signatur…",
         "context": null,
-        "question": null,
+        "question": "Qualifizierte Signatur…",
         "options": [
           {
             "text": "Gleich wie handschriftlich",
@@ -2021,7 +2021,7 @@ export const QUIZ_MODULES = {
       {
         "title": "85. Kaufvertrag Pflichten Käufer?",
         "context": null,
-        "question": null,
+        "question": "Kaufvertrag Pflichten Käufer?",
         "options": [
           {
             "text": "Zahlung",
@@ -2045,7 +2045,7 @@ export const QUIZ_MODULES = {
       {
         "title": "86. Pflichten Verkäufer?",
         "context": null,
-        "question": null,
+        "question": "Pflichten Verkäufer?",
         "options": [
           {
             "text": "Lieferung",
@@ -2069,7 +2069,7 @@ export const QUIZ_MODULES = {
       {
         "title": "87. Werkvertrag Unternehmer…",
         "context": null,
-        "question": null,
+        "question": "Werkvertrag Unternehmer…",
         "options": [
           {
             "text": "Werk herstellen",
@@ -2093,7 +2093,7 @@ export const QUIZ_MODULES = {
       {
         "title": "88. Werkvertrag Besteller…",
         "context": null,
-        "question": null,
+        "question": "Werkvertrag Besteller…",
         "options": [
           {
             "text": "Werklohn zahlen",
@@ -2117,7 +2117,7 @@ export const QUIZ_MODULES = {
       {
         "title": "89. Schaden ist…",
         "context": null,
-        "question": null,
+        "question": "Schaden ist…",
         "options": [
           {
             "text": "Vermögensnachteil",
@@ -2141,7 +2141,7 @@ export const QUIZ_MODULES = {
       {
         "title": "90. Kausalität bedeutet…",
         "context": null,
-        "question": null,
+        "question": "Kausalität bedeutet…",
         "options": [
           {
             "text": "Ursache-Wirkung",
@@ -2165,7 +2165,7 @@ export const QUIZ_MODULES = {
       {
         "title": "91. Fahrlässigkeit ist…",
         "context": null,
-        "question": null,
+        "question": "Fahrlässigkeit ist…",
         "options": [
           {
             "text": "Sorgfaltsverletzung",
@@ -2189,7 +2189,7 @@ export const QUIZ_MODULES = {
       {
         "title": "92. Vorsatz ist…",
         "context": null,
-        "question": null,
+        "question": "Vorsatz ist…",
         "options": [
           {
             "text": "Absicht",
@@ -2213,7 +2213,7 @@ export const QUIZ_MODULES = {
       {
         "title": "93. Was ist Versicherung?",
         "context": null,
-        "question": null,
+        "question": "Was ist Versicherung?",
         "options": [
           {
             "text": "Risikoübertragung",
@@ -2237,7 +2237,7 @@ export const QUIZ_MODULES = {
       {
         "title": "94. Versicherungsnehmer ist…",
         "context": null,
-        "question": null,
+        "question": "Versicherungsnehmer ist…",
         "options": [
           {
             "text": "Vertragspartner",
@@ -2261,7 +2261,7 @@ export const QUIZ_MODULES = {
       {
         "title": "95. Versicherer ist…",
         "context": null,
-        "question": null,
+        "question": "Versicherer ist…",
         "options": [
           {
             "text": "Unternehmen",
@@ -2285,7 +2285,7 @@ export const QUIZ_MODULES = {
       {
         "title": "96. Versicherungsfall ist…",
         "context": null,
-        "question": null,
+        "question": "Versicherungsfall ist…",
         "options": [
           {
             "text": "Schadensereignis",
@@ -2309,7 +2309,7 @@ export const QUIZ_MODULES = {
       {
         "title": "97. Prämienhöhe hängt ab von…",
         "context": null,
-        "question": null,
+        "question": "Prämienhöhe hängt ab von…",
         "options": [
           {
             "text": "Risiko",
@@ -2333,7 +2333,7 @@ export const QUIZ_MODULES = {
       {
         "title": "98. Obliegenheiten vor Schadenfall…",
         "context": null,
-        "question": null,
+        "question": "Obliegenheiten vor Schadenfall…",
         "options": [
           {
             "text": "Anzeige",
@@ -2357,7 +2357,7 @@ export const QUIZ_MODULES = {
       {
         "title": "99. Obliegenheiten nach Schadenfall…",
         "context": null,
-        "question": null,
+        "question": "Obliegenheiten nach Schadenfall…",
         "options": [
           {
             "text": "Schaden melden",
@@ -2381,7 +2381,7 @@ export const QUIZ_MODULES = {
       {
         "title": "100. Leistungsfreiheit Versicherer…",
         "context": null,
-        "question": null,
+        "question": "Leistungsfreiheit Versicherer…",
         "options": [
           {
             "text": "Obliegenheitsverletzung",
@@ -2405,7 +2405,7 @@ export const QUIZ_MODULES = {
       {
         "title": "101. Was gehört zum Inhalt eines Versicherungsvertrags?",
         "context": null,
-        "question": null,
+        "question": "Was gehört zum Inhalt eines Versicherungsvertrags?",
         "options": [
           {
             "text": "Versicherungsnehmer",
@@ -2429,7 +2429,7 @@ export const QUIZ_MODULES = {
       {
         "title": "102. Wann beginnt der Versicherungsschutz?",
         "context": null,
-        "question": null,
+        "question": "Wann beginnt der Versicherungsschutz?",
         "options": [
           {
             "text": "Mit Vertragsabschluss",
@@ -2453,7 +2453,7 @@ export const QUIZ_MODULES = {
       {
         "title": "103. Was ist die Polizze?",
         "context": null,
-        "question": null,
+        "question": "Was ist die Polizze?",
         "options": [
           {
             "text": "Vertragsurkunde",
@@ -2477,7 +2477,7 @@ export const QUIZ_MODULES = {
       {
         "title": "104. Was ist eine vorläufige Deckung?",
         "context": null,
-        "question": null,
+        "question": "Was ist eine vorläufige Deckung?",
         "options": [
           {
             "text": "Sofortiger Schutz",
@@ -2501,7 +2501,7 @@ export const QUIZ_MODULES = {
       {
         "title": "105. Was ist ein Versicherungsfall?",
         "context": null,
-        "question": null,
+        "question": "Was ist ein Versicherungsfall?",
         "options": [
           {
             "text": "Schadensereignis",
@@ -2525,7 +2525,7 @@ export const QUIZ_MODULES = {
       {
         "title": "106. Risiko bedeutet im Versicherungsrecht…",
         "context": null,
-        "question": null,
+        "question": "Risiko bedeutet im Versicherungsrecht…",
         "options": [
           {
             "text": "Möglichkeit eines Schadens",
@@ -2549,7 +2549,7 @@ export const QUIZ_MODULES = {
       {
         "title": "107. Wovon hängt die Prämie ab?",
         "context": null,
-        "question": null,
+        "question": "Wovon hängt die Prämie ab?",
         "options": [
           {
             "text": "Risiko",
@@ -2573,7 +2573,7 @@ export const QUIZ_MODULES = {
       {
         "title": "108. Was ist eine Nettoprämie?",
         "context": null,
-        "question": null,
+        "question": "Was ist eine Nettoprämie?",
         "options": [
           {
             "text": "Reine Risikoprämie",
@@ -2597,7 +2597,7 @@ export const QUIZ_MODULES = {
       {
         "title": "109. Was enthält die Bruttoprämie?",
         "context": null,
-        "question": null,
+        "question": "Was enthält die Bruttoprämie?",
         "options": [
           {
             "text": "Nettoprämie",
@@ -2621,7 +2621,7 @@ export const QUIZ_MODULES = {
       {
         "title": "110. Was passiert bei Prämienverzug?",
         "context": null,
-        "question": null,
+        "question": "Was passiert bei Prämienverzug?",
         "options": [
           {
             "text": "Mahnung",
@@ -2645,7 +2645,7 @@ export const QUIZ_MODULES = {
       {
         "title": "111. Was sind Obliegenheiten?",
         "context": null,
-        "question": null,
+        "question": "Was sind Obliegenheiten?",
         "options": [
           {
             "text": "Verhaltenspflichten",
@@ -2669,7 +2669,7 @@ export const QUIZ_MODULES = {
       {
         "title": "112. Obliegenheiten vor Vertragsabschluss…",
         "context": null,
-        "question": null,
+        "question": "Obliegenheiten vor Vertragsabschluss…",
         "options": [
           {
             "text": "Anzeigepflicht",
@@ -2693,7 +2693,7 @@ export const QUIZ_MODULES = {
       {
         "title": "113. Verletzung der Anzeigepflicht führt zu…",
         "context": null,
-        "question": null,
+        "question": "Verletzung der Anzeigepflicht führt zu…",
         "options": [
           {
             "text": "Rücktritt",
@@ -2717,7 +2717,7 @@ export const QUIZ_MODULES = {
       {
         "title": "114. Obliegenheiten während Vertragslaufzeit…",
         "context": null,
-        "question": null,
+        "question": "Obliegenheiten während Vertragslaufzeit…",
         "options": [
           {
             "text": "Risiko nicht erhöhen",
@@ -2741,7 +2741,7 @@ export const QUIZ_MODULES = {
       {
         "title": "115. Obliegenheiten nach Schadenfall…",
         "context": null,
-        "question": null,
+        "question": "Obliegenheiten nach Schadenfall…",
         "options": [
           {
             "text": "Schadenanzeige",
@@ -2765,7 +2765,7 @@ export const QUIZ_MODULES = {
       {
         "title": "116. Versicherer muss leisten wenn…",
         "context": null,
-        "question": null,
+        "question": "Versicherer muss leisten wenn…",
         "options": [
           {
             "text": "Versicherungsfall eingetreten",
@@ -2789,7 +2789,7 @@ export const QUIZ_MODULES = {
       {
         "title": "117. Leistungsfreiheit bedeutet…",
         "context": null,
-        "question": null,
+        "question": "Leistungsfreiheit bedeutet…",
         "options": [
           {
             "text": "Keine Zahlung",
@@ -2813,7 +2813,7 @@ export const QUIZ_MODULES = {
       {
         "title": "118. Wann kann Leistung gekürzt werden?",
         "context": null,
-        "question": null,
+        "question": "Wann kann Leistung gekürzt werden?",
         "options": [
           {
             "text": "Grobe Fahrlässigkeit",
@@ -2837,7 +2837,7 @@ export const QUIZ_MODULES = {
       {
         "title": "119. Wann zahlt Versicherung NICHT?",
         "context": null,
-        "question": null,
+        "question": "Wann zahlt Versicherung NICHT?",
         "options": [
           {
             "text": "Vorsatz",
@@ -2861,7 +2861,7 @@ export const QUIZ_MODULES = {
       {
         "title": "120. Was ist Selbstbehalt?",
         "context": null,
-        "question": null,
+        "question": "Was ist Selbstbehalt?",
         "options": [
           {
             "text": "Eigenanteil",
@@ -2885,7 +2885,7 @@ export const QUIZ_MODULES = {
       {
         "title": "121. Personenversicherung umfasst…",
         "context": null,
-        "question": null,
+        "question": "Personenversicherung umfasst…",
         "options": [
           {
             "text": "Lebensversicherung",
@@ -2909,7 +2909,7 @@ export const QUIZ_MODULES = {
       {
         "title": "122. Sachversicherung umfasst…",
         "context": null,
-        "question": null,
+        "question": "Sachversicherung umfasst…",
         "options": [
           {
             "text": "Gebäude",
@@ -2933,7 +2933,7 @@ export const QUIZ_MODULES = {
       {
         "title": "123. Haftpflichtversicherung deckt…",
         "context": null,
-        "question": null,
+        "question": "Haftpflichtversicherung deckt…",
         "options": [
           {
             "text": "Eigenschäden",
@@ -2957,7 +2957,7 @@ export const QUIZ_MODULES = {
       {
         "title": "124. Lebensversicherung ist…",
         "context": null,
-        "question": null,
+        "question": "Lebensversicherung ist…",
         "options": [
           {
             "text": "Personenversicherung",
@@ -2981,7 +2981,7 @@ export const QUIZ_MODULES = {
       {
         "title": "125. Unfallversicherung deckt…",
         "context": null,
-        "question": null,
+        "question": "Unfallversicherung deckt…",
         "options": [
           {
             "text": "Unfälle",
@@ -3005,7 +3005,7 @@ export const QUIZ_MODULES = {
       {
         "title": "126. Was ist Gefahrenerhöhung?",
         "context": null,
-        "question": null,
+        "question": "Was ist Gefahrenerhöhung?",
         "options": [
           {
             "text": "Höheres Risiko",
@@ -3029,7 +3029,7 @@ export const QUIZ_MODULES = {
       {
         "title": "127. Was ist ein Risikoausschluss?",
         "context": null,
-        "question": null,
+        "question": "Was ist ein Risikoausschluss?",
         "options": [
           {
             "text": "Nicht versichert",
@@ -3053,7 +3053,7 @@ export const QUIZ_MODULES = {
       {
         "title": "128. Was bedeutet Unterversicherung?",
         "context": null,
-        "question": null,
+        "question": "Was bedeutet Unterversicherung?",
         "options": [
           {
             "text": "Versicherungssumme zu niedrig",
@@ -3077,7 +3077,7 @@ export const QUIZ_MODULES = {
       {
         "title": "129. Was ist Überversicherung?",
         "context": null,
-        "question": null,
+        "question": "Was ist Überversicherung?",
         "options": [
           {
             "text": "Zu hohe Versicherungssumme",
@@ -3101,7 +3101,7 @@ export const QUIZ_MODULES = {
       {
         "title": "130. Was ist Doppelversicherung?",
         "context": null,
-        "question": null,
+        "question": "Was ist Doppelversicherung?",
         "options": [
           {
             "text": "Mehrere Versicherungen",
@@ -3125,7 +3125,7 @@ export const QUIZ_MODULES = {
       {
         "title": "131. Ordentliche Kündigung…",
         "context": null,
-        "question": null,
+        "question": "Ordentliche Kündigung…",
         "options": [
           {
             "text": "Fristgebunden",
@@ -3149,7 +3149,7 @@ export const QUIZ_MODULES = {
       {
         "title": "132. Außerordentliche Kündigung…",
         "context": null,
-        "question": null,
+        "question": "Außerordentliche Kündigung…",
         "options": [
           {
             "text": "Bei besonderem Grund",
@@ -3173,7 +3173,7 @@ export const QUIZ_MODULES = {
       {
         "title": "133. Vertragsauflösung durch…",
         "context": null,
-        "question": null,
+        "question": "Vertragsauflösung durch…",
         "options": [
           {
             "text": "Kündigung",
@@ -3197,7 +3197,7 @@ export const QUIZ_MODULES = {
       {
         "title": "134. FMA überwacht…",
         "context": null,
-        "question": null,
+        "question": "FMA überwacht…",
         "options": [
           {
             "text": "Versicherungen",
@@ -3221,7 +3221,7 @@ export const QUIZ_MODULES = {
       {
         "title": "135. Ziele der FMA…",
         "context": null,
-        "question": null,
+        "question": "Ziele der FMA…",
         "options": [
           {
             "text": "Stabilität",
@@ -3245,7 +3245,7 @@ export const QUIZ_MODULES = {
       {
         "title": "136. Versicherungssteuer…",
         "context": null,
-        "question": null,
+        "question": "Versicherungssteuer…",
         "options": [
           {
             "text": "Auf Prämien",
@@ -3269,7 +3269,7 @@ export const QUIZ_MODULES = {
       {
         "title": "137. Wer zahlt Steuer?",
         "context": null,
-        "question": null,
+        "question": "Wer zahlt Steuer?",
         "options": [
           {
             "text": "Versicherungsnehmer",
@@ -3293,7 +3293,7 @@ export const QUIZ_MODULES = {
       {
         "title": "138. Warum Versicherung wichtig?",
         "context": null,
-        "question": null,
+        "question": "Warum Versicherung wichtig?",
         "options": [
           {
             "text": "Risikoausgleich",
@@ -3317,7 +3317,7 @@ export const QUIZ_MODULES = {
       {
         "title": "139. Prinzip der Versicherung…",
         "context": null,
-        "question": null,
+        "question": "Prinzip der Versicherung…",
         "options": [
           {
             "text": "Kollektiv",
@@ -3341,7 +3341,7 @@ export const QUIZ_MODULES = {
       {
         "title": "140. Versicherungsprinzip basiert auf…",
         "context": null,
-        "question": null,
+        "question": "Versicherungsprinzip basiert auf…",
         "options": [
           {
             "text": "Wahrscheinlichkeit",
@@ -3365,7 +3365,7 @@ export const QUIZ_MODULES = {
       {
         "title": "141. Was ist KEIN Versicherungsprinzip?",
         "context": null,
-        "question": null,
+        "question": "Was ist KEIN Versicherungsprinzip?",
         "options": [
           {
             "text": "Risikoausgleich",
@@ -3389,7 +3389,7 @@ export const QUIZ_MODULES = {
       {
         "title": "142. Wann ist Versicherung unwirksam?",
         "context": null,
-        "question": null,
+        "question": "Wann ist Versicherung unwirksam?",
         "options": [
           {
             "text": "Kein Vertrag",
@@ -3413,7 +3413,7 @@ export const QUIZ_MODULES = {
       {
         "title": "143. Was ist KEINE Pflicht des Versicherungsnehmers?",
         "context": null,
-        "question": null,
+        "question": "Was ist KEINE Pflicht des Versicherungsnehmers?",
         "options": [
           {
             "text": "Prämie zahlen",
@@ -3437,7 +3437,7 @@ export const QUIZ_MODULES = {
       {
         "title": "144. Was ist KEINE Pflicht des Versicherers?",
         "context": null,
-        "question": null,
+        "question": "Was ist KEINE Pflicht des Versicherers?",
         "options": [
           {
             "text": "Leistung",
@@ -3461,7 +3461,7 @@ export const QUIZ_MODULES = {
       {
         "title": "145. Vertrag benötigt…",
         "context": null,
-        "question": null,
+        "question": "Vertrag benötigt…",
         "options": [
           {
             "text": "Angebot",
@@ -3485,7 +3485,7 @@ export const QUIZ_MODULES = {
       {
         "title": "146. Schadenersatz braucht…",
         "context": null,
-        "question": null,
+        "question": "Schadenersatz braucht…",
         "options": [
           {
             "text": "Schaden",
@@ -3509,7 +3509,7 @@ export const QUIZ_MODULES = {
       {
         "title": "147. Eigentum braucht…",
         "context": null,
-        "question": null,
+        "question": "Eigentum braucht…",
         "options": [
           {
             "text": "Titel",
@@ -3533,7 +3533,7 @@ export const QUIZ_MODULES = {
       {
         "title": "148. Versicherung braucht…",
         "context": null,
-        "question": null,
+        "question": "Versicherung braucht…",
         "options": [
           {
             "text": "Risiko",
@@ -3557,7 +3557,7 @@ export const QUIZ_MODULES = {
       {
         "title": "149. Risiko ist…",
         "context": null,
-        "question": null,
+        "question": "Risiko ist…",
         "options": [
           {
             "text": "Unsicherheit",
@@ -3581,7 +3581,7 @@ export const QUIZ_MODULES = {
       {
         "title": "150. Ziel der Versicherung…",
         "context": null,
-        "question": null,
+        "question": "Ziel der Versicherung…",
         "options": [
           {
             "text": "Ausgleich",
@@ -3605,7 +3605,7 @@ export const QUIZ_MODULES = {
       {
         "title": "151. Wann ist ein Vertrag NICHT gültig?",
         "context": null,
-        "question": null,
+        "question": "Wann ist ein Vertrag NICHT gültig?",
         "options": [
           {
             "text": "Bei Dissens",
@@ -3629,7 +3629,7 @@ export const QUIZ_MODULES = {
       {
         "title": "152. Welche Aussagen zu Formvorschriften sind richtig?",
         "context": null,
-        "question": null,
+        "question": "Welche Aussagen zu Formvorschriften sind richtig?",
         "options": [
           {
             "text": "Nur gesetzliche Formen sind relevant",
@@ -3653,7 +3653,7 @@ export const QUIZ_MODULES = {
       {
         "title": "153. Wann liegt ein verbindliches Angebot vor?",
         "context": null,
-        "question": null,
+        "question": "Wann liegt ein verbindliches Angebot vor?",
         "options": [
           {
             "text": "Bestimmt genug",
@@ -3677,7 +3677,7 @@ export const QUIZ_MODULES = {
       {
         "title": "154. Wann kommt KEIN Vertrag zustande?",
         "context": null,
-        "question": null,
+        "question": "Wann kommt KEIN Vertrag zustande?",
         "options": [
           {
             "text": "Annahme mit Änderungen",
@@ -3701,7 +3701,7 @@ export const QUIZ_MODULES = {
       {
         "title": "155. Wann ist Schweigen ausnahmsweise relevant?",
         "context": null,
-        "question": null,
+        "question": "Wann ist Schweigen ausnahmsweise relevant?",
         "options": [
           {
             "text": "Gesetzlich geregelt",
@@ -3725,7 +3725,7 @@ export const QUIZ_MODULES = {
       {
         "title": "156. Wann ist ein Motivirrtum relevant?",
         "context": null,
-        "question": null,
+        "question": "Wann ist ein Motivirrtum relevant?",
         "options": [
           {
             "text": "Bei List",
@@ -3749,7 +3749,7 @@ export const QUIZ_MODULES = {
       {
         "title": "157. Geschäftsirrtum ist relevant wenn…",
         "context": null,
-        "question": null,
+        "question": "Geschäftsirrtum ist relevant wenn…",
         "options": [
           {
             "text": "Veranlasst",
@@ -3773,7 +3773,7 @@ export const QUIZ_MODULES = {
       {
         "title": "158. Was passiert bei erfolgreicher Irrtumsanfechtung?",
         "context": null,
-        "question": null,
+        "question": "Was passiert bei erfolgreicher Irrtumsanfechtung?",
         "options": [
           {
             "text": "Vertrag wird aufgehoben",
@@ -3797,7 +3797,7 @@ export const QUIZ_MODULES = {
       {
         "title": "159. Welche Aussage ist richtig zum Eigentumserwerb?",
         "context": null,
-        "question": null,
+        "question": "Welche Aussage ist richtig zum Eigentumserwerb?",
         "options": [
           {
             "text": "Titel alleine reicht",
@@ -3821,7 +3821,7 @@ export const QUIZ_MODULES = {
       {
         "title": "160. Wann ist gutgläubiger Erwerb ausgeschlossen?",
         "context": null,
-        "question": null,
+        "question": "Wann ist gutgläubiger Erwerb ausgeschlossen?",
         "options": [
           {
             "text": "Bei Diebstahl bekannt",
@@ -3845,7 +3845,7 @@ export const QUIZ_MODULES = {
       {
         "title": "161. Was ist KEIN Grundsatz des Sachenrechts?",
         "context": null,
-        "question": null,
+        "question": "Was ist KEIN Grundsatz des Sachenrechts?",
         "options": [
           {
             "text": "Publizität",
@@ -3869,7 +3869,7 @@ export const QUIZ_MODULES = {
       {
         "title": "162. Besitzstörungsklage dient…",
         "context": null,
-        "question": null,
+        "question": "Besitzstörungsklage dient…",
         "options": [
           {
             "text": "Eigentum klären",
@@ -3893,7 +3893,7 @@ export const QUIZ_MODULES = {
       {
         "title": "163. Unterschied Kauf- und Werkvertrag…",
         "context": null,
-        "question": null,
+        "question": "Unterschied Kauf- und Werkvertrag…",
         "options": [
           {
             "text": "Erfolg geschuldet beim Werkvertrag",
@@ -3917,7 +3917,7 @@ export const QUIZ_MODULES = {
       {
         "title": "164. Wann trägt Käufer Risiko?",
         "context": null,
-        "question": null,
+        "question": "Wann trägt Käufer Risiko?",
         "options": [
           {
             "text": "Nach Übergabe",
@@ -3941,7 +3941,7 @@ export const QUIZ_MODULES = {
       {
         "title": "165. Wann haftet jemand NICHT?",
         "context": null,
-        "question": null,
+        "question": "Wann haftet jemand NICHT?",
         "options": [
           {
             "text": "Kein Verschulden",
@@ -3965,7 +3965,7 @@ export const QUIZ_MODULES = {
       {
         "title": "166. Was ist Mitverschulden?",
         "context": null,
-        "question": null,
+        "question": "Was ist Mitverschulden?",
         "options": [
           {
             "text": "Beteiligung Geschädigter",
@@ -3989,7 +3989,7 @@ export const QUIZ_MODULES = {
       {
         "title": "167. Was ist KEIN Schaden?",
         "context": null,
-        "question": null,
+        "question": "Was ist KEIN Schaden?",
         "options": [
           {
             "text": "Gewinn",
@@ -4013,7 +4013,7 @@ export const QUIZ_MODULES = {
       {
         "title": "168. Wann besteht KEIN Versicherungsschutz?",
         "context": null,
-        "question": null,
+        "question": "Wann besteht KEIN Versicherungsschutz?",
         "options": [
           {
             "text": "Risiko ausgeschlossen",
@@ -4037,7 +4037,7 @@ export const QUIZ_MODULES = {
       {
         "title": "169. Wann ist Versicherer leistungsfrei?",
         "context": null,
-        "question": null,
+        "question": "Wann ist Versicherer leistungsfrei?",
         "options": [
           {
             "text": "Vorsatz",
@@ -4061,7 +4061,7 @@ export const QUIZ_MODULES = {
       {
         "title": "170. Grobe Fahrlässigkeit führt…",
         "context": null,
-        "question": null,
+        "question": "Grobe Fahrlässigkeit führt…",
         "options": [
           {
             "text": "Immer keine Leistung",
@@ -4085,7 +4085,7 @@ export const QUIZ_MODULES = {
       {
         "title": "171. Risikoerhöhung muss…",
         "context": null,
-        "question": null,
+        "question": "Risikoerhöhung muss…",
         "options": [
           {
             "text": "Gemeldet werden",
@@ -4109,7 +4109,7 @@ export const QUIZ_MODULES = {
       {
         "title": "172. Unterversicherung führt zu…",
         "context": null,
-        "question": null,
+        "question": "Unterversicherung führt zu…",
         "options": [
           {
             "text": "Kürzung",
@@ -4133,7 +4133,7 @@ export const QUIZ_MODULES = {
       {
         "title": "173. Überversicherung ist…",
         "context": null,
-        "question": null,
+        "question": "Überversicherung ist…",
         "options": [
           {
             "text": "Unzulässig",
@@ -4157,7 +4157,7 @@ export const QUIZ_MODULES = {
       {
         "title": "174. Haftpflicht zahlt…",
         "context": null,
-        "question": null,
+        "question": "Haftpflicht zahlt…",
         "options": [
           {
             "text": "Eigenschaden",
@@ -4181,7 +4181,7 @@ export const QUIZ_MODULES = {
       {
         "title": "175. Lebensversicherung…",
         "context": null,
-        "question": null,
+        "question": "Lebensversicherung…",
         "options": [
           {
             "text": "Risikoabsicherung",
@@ -4205,7 +4205,7 @@ export const QUIZ_MODULES = {
       {
         "title": "176. Unfallversicherung deckt NICHT…",
         "context": null,
-        "question": null,
+        "question": "Unfallversicherung deckt NICHT…",
         "options": [
           {
             "text": "Krankheit",
@@ -4229,7 +4229,7 @@ export const QUIZ_MODULES = {
       {
         "title": "177. Vertrag endet NICHT durch…",
         "context": null,
-        "question": null,
+        "question": "Vertrag endet NICHT durch…",
         "options": [
           {
             "text": "Kündigung",
@@ -4253,7 +4253,7 @@ export const QUIZ_MODULES = {
       {
         "title": "178. Rücktritt bedeutet…",
         "context": null,
-        "question": null,
+        "question": "Rücktritt bedeutet…",
         "options": [
           {
             "text": "Auflösung",
@@ -4277,7 +4277,7 @@ export const QUIZ_MODULES = {
       {
         "title": "179. FMA Aufgabe ist NICHT…",
         "context": null,
-        "question": null,
+        "question": "FMA Aufgabe ist NICHT…",
         "options": [
           {
             "text": "Kontrolle",
@@ -4301,7 +4301,7 @@ export const QUIZ_MODULES = {
       {
         "title": "180. Warum Aufsicht wichtig?",
         "context": null,
-        "question": null,
+        "question": "Warum Aufsicht wichtig?",
         "options": [
           {
             "text": "Schutz Kunden",
@@ -4325,7 +4325,7 @@ export const QUIZ_MODULES = {
       {
         "title": "181. Wann ist Vertrag automatisch ungültig?",
         "context": null,
-        "question": null,
+        "question": "Wann ist Vertrag automatisch ungültig?",
         "options": [
           {
             "text": "Gesetzesverstoß",
@@ -4349,7 +4349,7 @@ export const QUIZ_MODULES = {
       {
         "title": "182. Was ist KEIN Vertragsbestandteil?",
         "context": null,
-        "question": null,
+        "question": "Was ist KEIN Vertragsbestandteil?",
         "options": [
           {
             "text": "AVB",
@@ -4373,7 +4373,7 @@ export const QUIZ_MODULES = {
       {
         "title": "183. Wann entsteht Eigentum NICHT?",
         "context": null,
-        "question": null,
+        "question": "Wann entsteht Eigentum NICHT?",
         "options": [
           {
             "text": "Kein Modus",
@@ -4397,7 +4397,7 @@ export const QUIZ_MODULES = {
       {
         "title": "184. Versicherung basiert auf…",
         "context": null,
-        "question": null,
+        "question": "Versicherung basiert auf…",
         "options": [
           {
             "text": "Wahrscheinlichkeit",
@@ -4421,7 +4421,7 @@ export const QUIZ_MODULES = {
       {
         "title": "185. Versicherungsprinzip NICHT…",
         "context": null,
-        "question": null,
+        "question": "Versicherungsprinzip NICHT…",
         "options": [
           {
             "text": "Solidarität",
@@ -4445,7 +4445,7 @@ export const QUIZ_MODULES = {
       {
         "title": "186. Vertrag braucht zwingend…",
         "context": null,
-        "question": null,
+        "question": "Vertrag braucht zwingend…",
         "options": [
           {
             "text": "Angebot",
@@ -4469,7 +4469,7 @@ export const QUIZ_MODULES = {
       {
         "title": "187. Schadenersatz ohne Verschulden…",
         "context": null,
-        "question": null,
+        "question": "Schadenersatz ohne Verschulden…",
         "options": [
           {
             "text": "Möglich selten",
@@ -4493,7 +4493,7 @@ export const QUIZ_MODULES = {
       {
         "title": "188. Besitz ohne Eigentum…",
         "context": null,
-        "question": null,
+        "question": "Besitz ohne Eigentum…",
         "options": [
           {
             "text": "Möglich",
@@ -4517,7 +4517,7 @@ export const QUIZ_MODULES = {
       {
         "title": "189. Welche Kombination ist notwendig für Eigentum?",
         "context": null,
-        "question": null,
+        "question": "Welche Kombination ist notwendig für Eigentum?",
         "options": [
           {
             "text": "Titel",
@@ -4541,7 +4541,7 @@ export const QUIZ_MODULES = {
       {
         "title": "190. Versicherungsvertrag braucht…",
         "context": null,
-        "question": null,
+        "question": "Versicherungsvertrag braucht…",
         "options": [
           {
             "text": "Risiko",
@@ -4565,7 +4565,7 @@ export const QUIZ_MODULES = {
       {
         "title": "191. Wann wird Versicherer NICHT leisten?",
         "context": null,
-        "question": null,
+        "question": "Wann wird Versicherer NICHT leisten?",
         "options": [
           {
             "text": "Vorsatz",
@@ -4589,7 +4589,7 @@ export const QUIZ_MODULES = {
       {
         "title": "192. Wann ist Risiko versichert?",
         "context": null,
-        "question": null,
+        "question": "Wann ist Risiko versichert?",
         "options": [
           {
             "text": "Vertrag",
@@ -4613,7 +4613,7 @@ export const QUIZ_MODULES = {
       {
         "title": "193. Wichtigstes Ziel Versicherung…",
         "context": null,
-        "question": null,
+        "question": "Wichtigstes Ziel Versicherung…",
         "options": [
           {
             "text": "Schutz",
@@ -4637,7 +4637,7 @@ export const QUIZ_MODULES = {
       {
         "title": "194. Wichtig für Prüfung…",
         "context": null,
-        "question": null,
+        "question": "Wichtig für Prüfung…",
         "options": [
           {
             "text": "Verständnis",
@@ -4661,7 +4661,7 @@ export const QUIZ_MODULES = {
       {
         "title": "195. Häufiger Fehler…",
         "context": null,
-        "question": null,
+        "question": "Häufiger Fehler…",
         "options": [
           {
             "text": "Verwechslung Besitz/Eigentum",
@@ -4685,7 +4685,7 @@ export const QUIZ_MODULES = {
       {
         "title": "196. Versicherungsnehmer muss…",
         "context": null,
-        "question": null,
+        "question": "Versicherungsnehmer muss…",
         "options": [
           {
             "text": "zahlen",
@@ -4709,7 +4709,7 @@ export const QUIZ_MODULES = {
       {
         "title": "197. Versicherer muss…",
         "context": null,
-        "question": null,
+        "question": "Versicherer muss…",
         "options": [
           {
             "text": "leisten",
@@ -4733,7 +4733,7 @@ export const QUIZ_MODULES = {
       {
         "title": "198. Risiko ist Grundlage für…",
         "context": null,
-        "question": null,
+        "question": "Risiko ist Grundlage für…",
         "options": [
           {
             "text": "Prämie",
@@ -4757,7 +4757,7 @@ export const QUIZ_MODULES = {
       {
         "title": "199. Vertrag endet durch…",
         "context": null,
-        "question": null,
+        "question": "Vertrag endet durch…",
         "options": [
           {
             "text": "Kündigung",
@@ -4781,7 +4781,7 @@ export const QUIZ_MODULES = {
       {
         "title": "200. Wichtigstes Gesamtprinzip…",
         "context": null,
-        "question": null,
+        "question": "Wichtigstes Gesamtprinzip…",
         "options": [
           {
             "text": "Konsens",
@@ -4808,7 +4808,7 @@ export const QUIZ_MODULES = {
     "title": "Band 2",
     "data": [
       {
-        "title": "Frage 1",
+        "title": "1. Welche Aussagen zur gesetzlichen Unfallversicherung sind korrekt?",
         "context": null,
         "question": "Welche Aussagen zur gesetzlichen Unfallversicherung sind korrekt?",
         "options": [
@@ -4832,7 +4832,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 2",
+        "title": "2. Was kennzeichnet das Kausalitätsprinzip?",
         "context": null,
         "question": "Was kennzeichnet das Kausalitätsprinzip?",
         "options": [
@@ -4856,7 +4856,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 3",
+        "title": "3. Welche Institutionen führen die gesetzliche Unfallversicherung durch?",
         "context": null,
         "question": "Welche Institutionen führen die gesetzliche Unfallversicherung durch?",
         "options": [
@@ -4880,7 +4880,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 4",
+        "title": "4. Wann liegt ein Arbeitsunfall vor?",
         "context": null,
         "question": "Wann liegt ein Arbeitsunfall vor?",
         "options": [
@@ -4904,7 +4904,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 5",
+        "title": "5. Welche Kriterien müssen für einen Arbeitsunfall erfüllt sein?",
         "context": null,
         "question": "Welche Kriterien müssen für einen Arbeitsunfall erfüllt sein?",
         "options": [
@@ -4928,7 +4928,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 6",
+        "title": "6. Welche Aussagen zum „Alles-oder-Nichts-Prinzip“ sind korrekt?",
         "context": null,
         "question": "Welche Aussagen zum „Alles-oder-Nichts-Prinzip“ sind korrekt?",
         "options": [
@@ -4952,7 +4952,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 7",
+        "title": "7. Was gehört NICHT zum geschützten Lebensbereich?",
         "context": null,
         "question": "Was gehört NICHT zum geschützten Lebensbereich?",
         "options": [
@@ -4976,7 +4976,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 8",
+        "title": "8. Wegunfälle sind:",
         "context": null,
         "question": "Wegunfälle sind:",
         "options": [
@@ -5000,7 +5000,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 9",
+        "title": "9. Welche Aussagen zu Berufskrankheiten stimmen?",
         "context": null,
         "question": "Welche Aussagen zu Berufskrankheiten stimmen?",
         "options": [
@@ -5024,7 +5024,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 10",
+        "title": "10. Was zählt zu Präventionsmaßnahmen?",
         "context": null,
         "question": "Was zählt zu Präventionsmaßnahmen?",
         "options": [
@@ -5048,7 +5048,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 11",
+        "title": "11. Welche Leistungen gibt es in der Unfallversicherung?",
         "context": null,
         "question": "Welche Leistungen gibt es in der Unfallversicherung?",
         "options": [
@@ -5072,7 +5072,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 12",
+        "title": "12. Was zählt zu Sachleistungen?",
         "context": null,
         "question": "Was zählt zu Sachleistungen?",
         "options": [
@@ -5096,7 +5096,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 13",
+        "title": "13. Welche Reha-Arten gibt es?",
         "context": null,
         "question": "Welche Reha-Arten gibt es?",
         "options": [
@@ -5120,7 +5120,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 14",
+        "title": "14. Wann besteht Anspruch auf Versehrtenrente?",
         "context": null,
         "question": "Wann besteht Anspruch auf Versehrtenrente?",
         "options": [
@@ -5144,7 +5144,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 15",
+        "title": "15. Was beeinflusst die Höhe der Versehrtenrente?",
         "context": null,
         "question": "Was beeinflusst die Höhe der Versehrtenrente?",
         "options": [
@@ -5168,7 +5168,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 16",
+        "title": "16. Welche Aussagen zur Vollrente sind korrekt?",
         "context": null,
         "question": "Welche Aussagen zur Vollrente sind korrekt?",
         "options": [
@@ -5192,7 +5192,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 17",
+        "title": "17. Wann gibt es Schwerversehrtenrente?",
         "context": null,
         "question": "Wann gibt es Schwerversehrtenrente?",
         "options": [
@@ -5216,7 +5216,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 18",
+        "title": "18. Welche Hinterbliebenenleistungen gibt es?",
         "context": null,
         "question": "Welche Hinterbliebenenleistungen gibt es?",
         "options": [
@@ -5240,7 +5240,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 19",
+        "title": "19. Was ist der klassische Unfallbegriff?",
         "context": null,
         "question": "Was ist der klassische Unfallbegriff?",
         "options": [
@@ -5264,7 +5264,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 20",
+        "title": "20. Welche Elemente gehören zum Unfallbegriff?",
         "context": null,
         "question": "Welche Elemente gehören zum Unfallbegriff?",
         "options": [
@@ -5288,7 +5288,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 21",
+        "title": "21. Was bedeutet „Unfreiwilligkeit“?",
         "context": null,
         "question": "Was bedeutet „Unfreiwilligkeit“?",
         "options": [
@@ -5312,7 +5312,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 22",
+        "title": "22. Was gilt als Einwirkung von außen?",
         "context": null,
         "question": "Was gilt als Einwirkung von außen?",
         "options": [
@@ -5336,7 +5336,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 23",
+        "title": "23. Erweiterter Unfallbegriff umfasst:",
         "context": null,
         "question": "Erweiterter Unfallbegriff umfasst:",
         "options": [
@@ -5360,7 +5360,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 24",
+        "title": "24. Was ist Voraussetzung für Invaliditätsleistung?",
         "context": null,
         "question": "Was ist Voraussetzung für Invaliditätsleistung?",
         "options": [
@@ -5384,7 +5384,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 25",
+        "title": "25. Wann besteht KEIN Anspruch auf Invaliditätsleistung?",
         "context": null,
         "question": "Wann besteht KEIN Anspruch auf Invaliditätsleistung?",
         "options": [
@@ -5408,7 +5408,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 26",
+        "title": "26. Was ist eine Gliedertaxe?",
         "context": null,
         "question": "Was ist eine Gliedertaxe?",
         "options": [
@@ -5432,7 +5432,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 27",
+        "title": "27. Was ist Progression?",
         "context": null,
         "question": "Was ist Progression?",
         "options": [
@@ -5456,7 +5456,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 28",
+        "title": "28. Wann wird Unfallrente bezahlt?",
         "context": null,
         "question": "Wann wird Unfallrente bezahlt?",
         "options": [
@@ -5480,7 +5480,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 29",
+        "title": "29. Was umfasst Unfallkosten?",
         "context": null,
         "question": "Was umfasst Unfallkosten?",
         "options": [
@@ -5504,7 +5504,7 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "Frage 30#1",
+        "title": "30. Wann erfolgt Abzug wegen Vorinvalidität?",
         "context": null,
         "question": "Wann erfolgt Abzug wegen Vorinvalidität?",
         "options": [
@@ -5528,9 +5528,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "30#2. Vorinvalidität & Leistungsbemessung",
+        "title": "30. Welche Aussagen sind korrekt?",
         "context": "Ein Versicherter erleidet einen Unfall, bei dem seine rechte Hand dauerhaft geschädigt wird. Bereits vor dem Unfall bestand eine eingeschränkte Beweglichkeit desselben Handgelenks aufgrund einer alten Erkrankung.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Vorinvalidität & Leistungsbemessung\n\nEin Versicherter erleidet einen Unfall, bei dem seine rechte Hand dauerhaft geschädigt wird. Bereits vor dem Unfall bestand eine eingeschränkte Beweglichkeit desselben Handgelenks aufgrund einer alten Erkrankung.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Vorinvalidität wird immer vollständig von der Gesamtinvalidität abgezogen",
@@ -5552,9 +5552,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: A ist zu absolut – Abzug nur funktionsbezogen"
       },
       {
-        "title": "31. Unfall + ärztlicher Behandlungsfehler",
+        "title": "31. Wie ist die Leistungspflicht zu beurteilen?",
         "context": "Nach einem versicherten Unfall wird der Versicherte operiert. Aufgrund eines ärztlichen Kunstfehlers verschlechtert sich sein Zustand erheblich.",
-        "question": "Wie ist die Leistungspflicht zu beurteilen?",
+        "question": "Unfall + ärztlicher Behandlungsfehler\n\nNach einem versicherten Unfall wird der Versicherte operiert. Aufgrund eines ärztlichen Kunstfehlers verschlechtert sich sein Zustand erheblich.\n\nWie ist die Leistungspflicht zu beurteilen?",
         "options": [
           {
             "text": "Kein Versicherungsschutz, da Fremdverschulden",
@@ -5576,9 +5576,9 @@ export const QUIZ_MODULES = {
         "explanation": "Kernpunkt: Kausalität bleibt bestehen"
       },
       {
-        "title": "32. Kausalität bei Mischursachen",
+        "title": "32. Welche Aussagen sind korrekt?",
         "context": "Ein Arbeitnehmer verunfallt auf dem Heimweg. Er war gleichzeitig stark alkoholisiert.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Kausalität bei Mischursachen\n\nEin Arbeitnehmer verunfallt auf dem Heimweg. Er war gleichzeitig stark alkoholisiert.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Alkoholisierung schließt automatisch den Versicherungsschutz aus",
@@ -5600,9 +5600,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Kein automatischer Ausschluss"
       },
       {
-        "title": "33. Dienstreise mit privater Verlängerung",
+        "title": "33. Welche Aussagen sind korrekt?",
         "context": "Ein Arbeitnehmer befindet sich auf Dienstreise und verlängert diese privat. Während des privaten Aufenthalts erleidet er einen Unfall.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Dienstreise mit privater Verlängerung\n\nEin Arbeitnehmer befindet sich auf Dienstreise und verlängert diese privat. Während des privaten Aufenthalts erleidet er einen Unfall.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Unfall ist automatisch ein Arbeitsunfall",
@@ -5624,9 +5624,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "34. Geschützter Lebensbereich",
+        "title": "34. Welche Aussagen zum geschützten Lebensbereich sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zum geschützten Lebensbereich sind korrekt?",
+        "question": "Geschützter Lebensbereich\n\nWelche Aussagen zum geschützten Lebensbereich sind korrekt?",
         "options": [
           {
             "text": "Er umfasst ausschließlich berufliche Tätigkeiten",
@@ -5648,9 +5648,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "35. Wegunfall mit Unterbrechung",
+        "title": "35. Welche Aussagen sind korrekt?",
         "context": "Ein Arbeitnehmer fährt nach der Arbeit nach Hause, macht jedoch einen längeren privaten Zwischenstopp zum Einkaufen und verunfallt danach.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Wegunfall mit Unterbrechung\n\nEin Arbeitnehmer fährt nach der Arbeit nach Hause, macht jedoch einen längeren privaten Zwischenstopp zum Einkaufen und verunfallt danach.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsschutz besteht immer",
@@ -5672,9 +5672,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "36. Unfallbegriff – längere Einwirkung",
+        "title": "36. Welche Aussagen sind korrekt?",
         "context": "Ein Versicherter erleidet durch mehrstündiges Einatmen eines Gases eine Gesundheitsschädigung.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Unfallbegriff – längere Einwirkung\n\nEin Versicherter erleidet durch mehrstündiges Einatmen eines Gases eine Gesundheitsschädigung.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Kein Unfall, da keine plötzliche Einwirkung",
@@ -5696,9 +5696,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "37. Einwirkung von außen",
+        "title": "37. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Einwirkung von außen\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Einwirkung muss mechanisch sein",
@@ -5720,9 +5720,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "38. Unfreiwilligkeit bei Risikohandlungen",
+        "title": "38. Welche Aussagen sind korrekt?",
         "context": "Ein Versicherter nimmt freiwillig an einer gefährlichen Mutprobe teil und verletzt sich dabei schwer.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Unfreiwilligkeit bei Risikohandlungen\n\nEin Versicherter nimmt freiwillig an einer gefährlichen Mutprobe teil und verletzt sich dabei schwer.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Kein Unfall, da freiwillig",
@@ -5744,9 +5744,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "39. Selbsttötungsversuch",
+        "title": "39. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Selbsttötungsversuch\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Selbsttötung gilt immer als Unfall",
@@ -5768,9 +5768,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "40. Erweiterter Unfallbegriff",
+        "title": "40. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Erweiterter Unfallbegriff\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Verrenkungen können umfasst sein",
@@ -5792,9 +5792,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "41. Erhöhte Kraftanstrengung",
+        "title": "41. Welche Aussagen sind korrekt?",
         "context": "Ein Tennisspieler verletzt sich beim Aufschlag.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Erhöhte Kraftanstrengung\n\nEin Tennisspieler verletzt sich beim Aufschlag.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Normale Sportbewegung schließt Unfall aus",
@@ -5816,9 +5816,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "42. Invaliditätsleistung",
+        "title": "42. Welche Voraussetzungen müssen erfüllt sein?",
         "context": null,
-        "question": "Welche Voraussetzungen müssen erfüllt sein?",
+        "question": "Invaliditätsleistung\n\nWelche Voraussetzungen müssen erfüllt sein?",
         "options": [
           {
             "text": "Dauerhafte Beeinträchtigung",
@@ -5840,9 +5840,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "43. Tod innerhalb eines Jahres",
+        "title": "43. Welche Aussagen sind korrekt?",
         "context": "Ein Versicherter stirbt innerhalb eines Jahres an den Unfallfolgen.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Tod innerhalb eines Jahres\n\nEin Versicherter stirbt innerhalb eines Jahres an den Unfallfolgen.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Invaliditätsleistung entfällt",
@@ -5864,9 +5864,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "44. Gliedertaxe",
+        "title": "44. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Gliedertaxe\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Sie ist gesetzlich fix vorgegeben",
@@ -5888,9 +5888,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "45. Progression",
+        "title": "45. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Progression\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Höherer Invaliditätsgrad → überproportionale Leistung",
@@ -5912,9 +5912,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "91. Abgrenzung Kranken- und Unfallversicherung",
+        "title": "91. Welche Aussagen zur Leistungspflicht sind korrekt?",
         "context": "Ein Versicherter wird nach einem Sturz behandelt. Während der Behandlung stellt sich heraus, dass ein Teil der Beschwerden auf eine bereits bestehende Krankheit zurückzuführen ist.",
-        "question": "Welche Aussagen zur Leistungspflicht sind korrekt?",
+        "question": "Abgrenzung Kranken- und Unfallversicherung\n\nEin Versicherter wird nach einem Sturz behandelt. Während der Behandlung stellt sich heraus, dass ein Teil der Beschwerden auf eine bereits bestehende Krankheit zurückzuführen ist.\n\nWelche Aussagen zur Leistungspflicht sind korrekt?",
         "options": [
           {
             "text": "Die gesetzliche Krankenversicherung erbringt Leistungen unabhängig von der Ursache der Erkrankung",
@@ -5936,9 +5936,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Krankenversicherung = Finalitätsprinzip, Unfallversicherung = Kausalitätsprinzip"
       },
       {
-        "title": "92. Mehrfachversicherung",
+        "title": "92. Welche Aussagen sind korrekt?",
         "context": "Ein Versicherter ist gleichzeitig gesetzlich und privat unfallversichert und erleidet einen Unfall.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Mehrfachversicherung\n\nEin Versicherter ist gleichzeitig gesetzlich und privat unfallversichert und erleidet einen Unfall.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Leistungen aus beiden Versicherungen können nebeneinander bestehen",
@@ -5960,9 +5960,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Private Unfallversicherung = Summenversicherung → unabhängig"
       },
       {
-        "title": "93. Pflichtversicherung – Umfang",
+        "title": "93. Welche Aussagen zur gesetzlichen Sozialversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur gesetzlichen Sozialversicherung sind korrekt?",
+        "question": "Pflichtversicherung – Umfang\n\nWelche Aussagen zur gesetzlichen Sozialversicherung sind korrekt?",
         "options": [
           {
             "text": "Sie umfasst mehrere Zweige (z. B. Kranken-, Unfall-, Pensionsversicherung)",
@@ -5984,9 +5984,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "94. Versicherungsfall – Abgrenzung",
+        "title": "94. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Versicherungsfall – Abgrenzung\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "In der Unfallversicherung ist der Versicherungsfall der Unfall",
@@ -6008,9 +6008,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "95. Leistungen der Sozialversicherung",
+        "title": "95. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Leistungen der Sozialversicherung\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Es gibt Sach- und Geldleistungen",
@@ -6032,9 +6032,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "96. Rehabilitation",
+        "title": "96. Welche Aussagen zur Rehabilitation sind korrekt?",
         "context": "Ein Versicherter kann nach einem Unfall seinen Beruf nicht mehr ausüben.",
-        "question": "Welche Aussagen zur Rehabilitation sind korrekt?",
+        "question": "Rehabilitation\n\nEin Versicherter kann nach einem Unfall seinen Beruf nicht mehr ausüben.\n\nWelche Aussagen zur Rehabilitation sind korrekt?",
         "options": [
           {
             "text": "Medizinische Rehabilitation dient der Wiederherstellung der Gesundheit",
@@ -6056,9 +6056,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "97. Private Versicherung – Vertragsfreiheit",
+        "title": "97. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Private Versicherung – Vertragsfreiheit\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Vertragsbedingungen können individuell gestaltet werden",
@@ -6080,9 +6080,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "98. Versicherungsbedingungen",
+        "title": "98. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Versicherungsbedingungen\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "AUVB regeln Details des Versicherungsschutzes",
@@ -6104,9 +6104,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "99. Unterschied Summen- vs. Schadenversicherung",
+        "title": "99. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Unterschied Summen- vs. Schadenversicherung\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die private Unfallversicherung ist eine Summenversicherung",
@@ -6128,9 +6128,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "100. Leistungsbegrenzungen",
+        "title": "100. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Leistungsbegrenzungen\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Leistungen können vertraglich begrenzt sein",
@@ -6152,9 +6152,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "101. Mitwirkung von Krankheiten",
+        "title": "101. Welche Aussagen sind korrekt?",
         "context": "Ein Versicherter erleidet einen Unfall, wobei eine bestehende Krankheit den Schaden erheblich verstärkt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Mitwirkung von Krankheiten\n\nEin Versicherter erleidet einen Unfall, wobei eine bestehende Krankheit den Schaden erheblich verstärkt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Leistung kann gekürzt werden",
@@ -6176,9 +6176,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "102. Hinterbliebenenleistungen (gesetzlich)",
+        "title": "102. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Hinterbliebenenleistungen (gesetzlich)\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Witwen- bzw. Witwerrenten sind möglich",
@@ -6200,9 +6200,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "103. Private vs. gesetzliche Unfallversicherung",
+        "title": "103. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Private vs. gesetzliche Unfallversicherung\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die gesetzliche Unfallversicherung deckt nur bestimmte Lebensbereiche",
@@ -6224,9 +6224,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "104. Versicherungsbeginn und Zahlung",
+        "title": "104. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Versicherungsbeginn und Zahlung\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsschutz hängt oft von der Prämienzahlung ab",
@@ -6248,9 +6248,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "105. Ziel der Sozialversicherung",
+        "title": "105. Welche Aussagen sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Ziel der Sozialversicherung\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Absicherung gegen soziale Risiken",
@@ -6272,9 +6272,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "121. Versicherungsfall in der Lebensversicherung",
+        "title": "121. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer schließt eine gemischte Lebensversicherung ab und erlebt das Vertragsende.",
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Versicherungsfall in der Lebensversicherung\n\nEin Versicherungsnehmer schließt eine gemischte Lebensversicherung ab und erlebt das Vertragsende.\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsfall liegt vor, da der vereinbarte Zeitpunkt erreicht wurde",
@@ -6296,9 +6296,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "122. Arten der Lebensversicherung",
+        "title": "122. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": "Ein Kunde möchte eine Absicherung für Tod und Erleben.",
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Arten der Lebensversicherung\n\nEin Kunde möchte eine Absicherung für Tod und Erleben.\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Es handelt sich um eine gemischte Lebensversicherung",
@@ -6320,9 +6320,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "123. Prämienkalkulation in der Lebensversicherung",
+        "title": "123. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Prämienkalkulation in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Eintrittsalter ist relevant",
@@ -6344,9 +6344,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "124. Sterbetafeln in der Lebensversicherung",
+        "title": "124. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Sterbetafeln in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Sie dienen der Abschätzung der Lebenserwartung",
@@ -6368,9 +6368,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "125. Rückkaufswert in der Lebensversicherung",
+        "title": "125. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Rückkaufswert in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Anspruch auf Rückkaufswert besteht",
@@ -6392,9 +6392,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "126. Bezugsberechtigung in der Lebensversicherung",
+        "title": "126. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Bezugsberechtigung in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Bezugsberechtigter erhält die Leistung",
@@ -6416,9 +6416,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "127. Steuerliche Behandlung der Lebensversicherung",
+        "title": "127. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Steuerliche Behandlung der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Steuerliche Begünstigungen bestehen",
@@ -6440,9 +6440,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "128. Ablebensversicherung in der Lebensversicherung",
+        "title": "128. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Ablebensversicherung in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Leistung erfolgt nur im Todesfall",
@@ -6464,9 +6464,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "129. Erlebensversicherung in der Lebensversicherung",
+        "title": "129. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Erlebensversicherung in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Leistung erfolgt bei Erleben",
@@ -6488,9 +6488,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "130. Gemischte Lebensversicherung",
+        "title": "130. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Gemischte Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Kombination aus Risiko und Sparen",
@@ -6512,9 +6512,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "131. Prämienanpassung in der Lebensversicherung",
+        "title": "131. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Prämienanpassung in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Anpassung ist möglich",
@@ -6536,9 +6536,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "132. Vertragsdauer in der Lebensversicherung",
+        "title": "132. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Vertragsdauer in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Vertragsdauer ist vereinbart",
@@ -6560,9 +6560,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "133. Risiko- und Sparanteil in der Lebensversicherung",
+        "title": "133. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Risiko- und Sparanteil in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Beide Anteile sind möglich",
@@ -6584,9 +6584,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "134. Kündigung der Lebensversicherung",
+        "title": "134. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Kündigung der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Kündigung ist möglich",
@@ -6608,9 +6608,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "135. Leistungszeitpunkt in der Lebensversicherung",
+        "title": "135. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Leistungszeitpunkt in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Leistung bei Ablauf",
@@ -6632,9 +6632,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "136. Laufzeit in der Lebensversicherung",
+        "title": "136. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Laufzeit in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Längere Laufzeit senkt oft Prämie",
@@ -6656,9 +6656,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "137. Gesundheitsprüfung in der Lebensversicherung",
+        "title": "137. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Gesundheitsprüfung in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Prüfung ist zulässig",
@@ -6680,9 +6680,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "138. Vertragsänderung in der Lebensversicherung",
+        "title": "138. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Vertragsänderung in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Änderungen sind möglich",
@@ -6704,9 +6704,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "139. Kapitalbildung in der Lebensversicherung",
+        "title": "139. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Kapitalbildung in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Erfolgt über Sparanteil",
@@ -6728,9 +6728,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "140. Rollen in der Lebensversicherung",
+        "title": "140. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Rollen in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Versicherungsnehmer und Person können ident sein",
@@ -6752,9 +6752,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "141. Polizze in der Lebensversicherung",
+        "title": "141. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Polizze in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Vertragsurkunde",
@@ -6776,9 +6776,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "142. Funktion der Lebensversicherung",
+        "title": "142. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Funktion der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Risiko- und Sparfunktion",
@@ -6800,9 +6800,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "143. Prämienzahlung in der Lebensversicherung",
+        "title": "143. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Prämienzahlung in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Regelmäßige Zahlung möglich",
@@ -6824,9 +6824,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "144. Leistungsberechtigung in der Lebensversicherung",
+        "title": "144. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Leistungsberechtigung in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Bezugsberechtigter erhält Leistung",
@@ -6848,9 +6848,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "145. Vertragsabschluss in der Lebensversicherung",
+        "title": "145. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Vertragsabschluss in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Antrag und Annahme",
@@ -6872,9 +6872,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "146. Risikoprüfung in der Lebensversicherung",
+        "title": "146. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Risikoprüfung in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Gesundheit wird geprüft",
@@ -6896,9 +6896,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "147. Versicherungssumme in der Lebensversicherung",
+        "title": "147. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Versicherungssumme in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Vertraglich festgelegt",
@@ -6920,9 +6920,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "148. Vertragsende in der Lebensversicherung",
+        "title": "148. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Vertragsende in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Ablauf beendet Vertrag",
@@ -6944,9 +6944,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "149. Kombinationen in der Lebensversicherung",
+        "title": "149. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Kombinationen in der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Kombinationen möglich",
@@ -6968,9 +6968,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "150. Zweck der Lebensversicherung",
+        "title": "150. Welche Aussagen zur Lebensversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Lebensversicherung sind korrekt?",
+        "question": "Zweck der Lebensversicherung\n\nWelche Aussagen zur Lebensversicherung sind korrekt?",
         "options": [
           {
             "text": "Vorsorge",
@@ -6992,9 +6992,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "151. Finalitätsprinzip in der gesetzlichen Krankenversicherung",
+        "title": "151. Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "context": "Ein Versicherter leidet an einer Erkrankung, deren Ursache nicht eindeutig geklärt werden kann.",
-        "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
+        "question": "Finalitätsprinzip in der gesetzlichen Krankenversicherung\n\nEin Versicherter leidet an einer Erkrankung, deren Ursache nicht eindeutig geklärt werden kann.\n\nWelche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Die Leistungspflicht besteht unabhängig von der Ursache der Erkrankung",
@@ -7016,9 +7016,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "152. Versicherungsfall in der gesetzlichen Krankenversicherung",
+        "title": "152. Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "context": "Ein Arbeitnehmer wird krank und ist arbeitsunfähig.",
-        "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
+        "question": "Versicherungsfall in der gesetzlichen Krankenversicherung\n\nEin Arbeitnehmer wird krank und ist arbeitsunfähig.\n\nWelche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Krankheit stellt einen Versicherungsfall dar",
@@ -7040,9 +7040,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "153. Krankengeld in der gesetzlichen Krankenversicherung",
+        "title": "153. Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "context": "Ein Versicherter erhält Krankengeld.",
-        "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
+        "question": "Krankengeld in der gesetzlichen Krankenversicherung\n\nEin Versicherter erhält Krankengeld.\n\nWelche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Krankengeld ersetzt Einkommen",
@@ -7064,9 +7064,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "154. Sachleistungen in der gesetzlichen Krankenversicherung",
+        "title": "154. Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "context": "Ein Versicherter nimmt medizinische Leistungen in Anspruch.",
-        "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
+        "question": "Sachleistungen in der gesetzlichen Krankenversicherung\n\nEin Versicherter nimmt medizinische Leistungen in Anspruch.\n\nWelche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Ärztliche Behandlung ist eine Sachleistung",
@@ -7088,9 +7088,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "155. Mutterschaft in der gesetzlichen Krankenversicherung",
+        "title": "155. Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "context": "Eine Versicherte ist schwanger.",
-        "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
+        "question": "Mutterschaft in der gesetzlichen Krankenversicherung\n\nEine Versicherte ist schwanger.\n\nWelche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Mutterschaft ist ein Versicherungsfall",
@@ -7112,9 +7112,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "156. Leistungsumfang der gesetzlichen Krankenversicherung",
+        "title": "156. Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
+        "question": "Leistungsumfang der gesetzlichen Krankenversicherung\n\nWelche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Es gibt Sach- und Geldleistungen",
@@ -7136,9 +7136,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "157. Heilbehandlung in der gesetzlichen Krankenversicherung",
+        "title": "157. Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "context": "Ein Versicherter wird behandelt.",
-        "question": "Welche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
+        "question": "Heilbehandlung in der gesetzlichen Krankenversicherung\n\nEin Versicherter wird behandelt.\n\nWelche Aussagen zur gesetzlichen Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Ärztliche Hilfe ist umfasst",
@@ -7160,9 +7160,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "158. Pflegegeld in der Pflegeversicherung",
+        "title": "158. Welche Aussagen zur Pflegeversicherung sind korrekt?",
         "context": "Eine Person benötigt Pflege.",
-        "question": "Welche Aussagen zur Pflegeversicherung sind korrekt?",
+        "question": "Pflegegeld in der Pflegeversicherung\n\nEine Person benötigt Pflege.\n\nWelche Aussagen zur Pflegeversicherung sind korrekt?",
         "options": [
           {
             "text": "Anspruch auf Pflegegeld besteht bei Voraussetzungen",
@@ -7184,9 +7184,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "159. Einstufung in der Pflegeversicherung",
+        "title": "159. Welche Aussagen zur Pflegeversicherung sind korrekt?",
         "context": "Eine Person wird einer Pflegestufe zugeordnet.",
-        "question": "Welche Aussagen zur Pflegeversicherung sind korrekt?",
+        "question": "Einstufung in der Pflegeversicherung\n\nEine Person wird einer Pflegestufe zugeordnet.\n\nWelche Aussagen zur Pflegeversicherung sind korrekt?",
         "options": [
           {
             "text": "Höhe richtet sich nach Pflegebedarf",
@@ -7208,9 +7208,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "160. Ruhen des Anspruchs in der Pflegeversicherung",
+        "title": "160. Welche Aussagen zur Pflegeversicherung sind korrekt?",
         "context": "Der Pflegegeldanspruch wird überprüft.",
-        "question": "Welche Aussagen zur Pflegeversicherung sind korrekt?",
+        "question": "Ruhen des Anspruchs in der Pflegeversicherung\n\nDer Pflegegeldanspruch wird überprüft.\n\nWelche Aussagen zur Pflegeversicherung sind korrekt?",
         "options": [
           {
             "text": "Anspruch kann ruhen",
@@ -7232,9 +7232,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "161. Zuständigkeit in der Pflegeversicherung",
+        "title": "161. Welche Aussagen zur Pflegeversicherung sind korrekt?",
         "context": "Eine Person beantragt Pflegegeld.",
-        "question": "Welche Aussagen zur Pflegeversicherung sind korrekt?",
+        "question": "Zuständigkeit in der Pflegeversicherung\n\nEine Person beantragt Pflegegeld.\n\nWelche Aussagen zur Pflegeversicherung sind korrekt?",
         "options": [
           {
             "text": "Unterschiedliche Träger sind zuständig",
@@ -7256,9 +7256,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "162. Unterstützungsfonds in der Pflegeversicherung",
+        "title": "162. Welche Aussagen zur Pflegeversicherung sind korrekt?",
         "context": "Zusätzliche Leistungen werden gewährt.",
-        "question": "Welche Aussagen zur Pflegeversicherung sind korrekt?",
+        "question": "Unterstützungsfonds in der Pflegeversicherung\n\nZusätzliche Leistungen werden gewährt.\n\nWelche Aussagen zur Pflegeversicherung sind korrekt?",
         "options": [
           {
             "text": "Unterstützungsfonds leisten zusätzliche Hilfe",
@@ -7280,9 +7280,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "163. Private Krankenversicherung – Grundstruktur",
+        "title": "163. Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer schließt eine Versicherung ab.",
-        "question": "Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
+        "question": "Private Krankenversicherung – Grundstruktur\n\nEin Versicherungsnehmer schließt eine Versicherung ab.\n\nWelche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Leistungen sind vertraglich geregelt",
@@ -7304,9 +7304,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "164. Prämienkalkulation in der privaten Krankenversicherung",
+        "title": "164. Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
+        "question": "Prämienkalkulation in der privaten Krankenversicherung\n\nWelche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Alter beeinflusst die Prämie",
@@ -7328,9 +7328,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "165. Vertragsdauer in der privaten Krankenversicherung",
+        "title": "165. Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
+        "question": "Vertragsdauer in der privaten Krankenversicherung\n\nWelche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Vertragsdauer ist vertraglich geregelt",
@@ -7352,9 +7352,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "166. Prämienanpassung in der privaten Krankenversicherung",
+        "title": "166. Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
+        "question": "Prämienanpassung in der privaten Krankenversicherung\n\nWelche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Anpassung ist möglich",
@@ -7376,9 +7376,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "167. Leistungsumfang in der privaten Krankenversicherung",
+        "title": "167. Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
+        "question": "Leistungsumfang in der privaten Krankenversicherung\n\nWelche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Leistungen sind individuell vereinbar",
@@ -7400,9 +7400,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "168. Tarife in der privaten Krankenversicherung",
+        "title": "168. Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur privaten Krankenversicherung sind korrekt?",
+        "question": "Tarife in der privaten Krankenversicherung\n\nWelche Aussagen zur privaten Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Es gibt unterschiedliche Tarife",
@@ -7424,9 +7424,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "169. Vergleich gesetzlich vs. privat",
+        "title": "169. Welche Aussagen zur Krankenversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Krankenversicherung sind korrekt?",
+        "question": "Vergleich gesetzlich vs. privat\n\nWelche Aussagen zur Krankenversicherung sind korrekt?",
         "options": [
           {
             "text": "Gesetzliche KV = Pflichtsystem",
@@ -7448,9 +7448,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "170. Pflegebedarf in der Pflegeversicherung",
+        "title": "170. Welche Aussagen zur Pflegeversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Pflegeversicherung sind korrekt?",
+        "question": "Pflegebedarf in der Pflegeversicherung\n\nWelche Aussagen zur Pflegeversicherung sind korrekt?",
         "options": [
           {
             "text": "Pflegebedarf ist Voraussetzung",
@@ -7472,9 +7472,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "181. Begriff der Berufsunfähigkeit in der privaten Berufsunfähigkeitsvorsorge",
+        "title": "181. Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "context": "Ein Versicherter kann aufgrund einer Erkrankung seinen zuletzt ausgeübten Beruf nur noch eingeschränkt ausüben. Er kann jedoch theoretisch eine andere Tätigkeit übernehmen.",
-        "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
+        "question": "Begriff der Berufsunfähigkeit in der privaten Berufsunfähigkeitsvorsorge\n\nEin Versicherter kann aufgrund einer Erkrankung seinen zuletzt ausgeübten Beruf nur noch eingeschränkt ausüben. Er kann jedoch theoretisch eine andere Tätigkeit übernehmen.\n\nWelche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
             "text": "Maßgeblich ist der zuletzt ausgeübte Beruf",
@@ -7496,9 +7496,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Verweisung kann relevant sein → D falsch"
       },
       {
-        "title": "182. Voraussetzungen für den Leistungsanspruch in der privaten",
+        "title": "182. Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "context": "Berufsunfähigkeitsvorsorge Ein Versicherter beantragt Leistungen aus seiner Berufsunfähigkeitsversicherung.",
-        "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
+        "question": "Voraussetzungen für den Leistungsanspruch in der privaten\n\nBerufsunfähigkeitsvorsorge Ein Versicherter beantragt Leistungen aus seiner Berufsunfähigkeitsversicherung.\n\nWelche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
             "text": "Es muss eine gesundheitliche Beeinträchtigung vorliegen",
@@ -7520,9 +7520,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "183. Prognosezeitraum in der privaten Berufsunfähigkeitsvorsorge",
+        "title": "183. Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "context": "Ein Versicherter ist vorübergehend arbeitsunfähig, die langfristige Entwicklung ist unklar.",
-        "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
+        "question": "Prognosezeitraum in der privaten Berufsunfähigkeitsvorsorge\n\nEin Versicherter ist vorübergehend arbeitsunfähig, die langfristige Entwicklung ist unklar.\n\nWelche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
             "text": "Es muss eine voraussichtlich dauerhafte Einschränkung vorliegen",
@@ -7544,9 +7544,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "184. Verweisbarkeit in der privaten Berufsunfähigkeitsvorsorge",
+        "title": "184. Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "context": "Ein Versicherter kann seinen Beruf nicht mehr ausüben, könnte aber theoretisch eine andere Tätigkeit ausführen.",
-        "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
+        "question": "Verweisbarkeit in der privaten Berufsunfähigkeitsvorsorge\n\nEin Versicherter kann seinen Beruf nicht mehr ausüben, könnte aber theoretisch eine andere Tätigkeit ausführen.\n\nWelche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
             "text": "Verweisung ist vertraglich geregelt",
@@ -7568,9 +7568,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "185. Karenzzeit in der privaten Berufsunfähigkeitsvorsorge",
+        "title": "185. Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "context": "Ein Versicherungsnehmer vereinbart eine Karenzzeit.",
-        "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
+        "question": "Karenzzeit in der privaten Berufsunfähigkeitsvorsorge\n\nEin Versicherungsnehmer vereinbart eine Karenzzeit.\n\nWelche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
             "text": "Während der Karenzzeit besteht kein Leistungsanspruch",
@@ -7592,9 +7592,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "186. Versicherungsdauer und Leistungsdauer in der privaten",
+        "title": "186. Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "context": "Berufsunfähigkeitsvorsorge",
-        "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
+        "question": "Versicherungsdauer und Leistungsdauer in der privaten\n\nBerufsunfähigkeitsvorsorge\n\nWelche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
             "text": "Versicherungsdauer und Leistungsdauer können unterschiedlich festgelegt sein",
@@ -7616,9 +7616,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "187. Rentenleistung in der privaten Berufsunfähigkeitsvorsorge",
+        "title": "187. Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "context": "Ein Versicherter wird berufsunfähig und erhält eine monatliche Rente.",
-        "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
+        "question": "Rentenleistung in der privaten Berufsunfähigkeitsvorsorge\n\nEin Versicherter wird berufsunfähig und erhält eine monatliche Rente.\n\nWelche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
             "text": "Die Leistung erfolgt typischerweise als Rente",
@@ -7640,9 +7640,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "188. Nachversicherungsgarantie in der privaten Berufsunfähigkeitsvorsorge",
+        "title": "188. Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "context": "Ein Versicherter möchte seine BU-Rente später erhöhen.",
-        "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
+        "question": "Nachversicherungsgarantie in der privaten Berufsunfähigkeitsvorsorge\n\nEin Versicherter möchte seine BU-Rente später erhöhen.\n\nWelche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
             "text": "Eine Nachversicherung erfolgt ohne erneute Gesundheitsprüfung, sofern vertraglich vereinbart",
@@ -7664,9 +7664,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "189. Anzeige- und Mitwirkungspflichten in der privaten",
+        "title": "189. Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "context": "Berufsunfähigkeitsvorsorge Ein Versicherter verschweigt relevante Gesundheitsinformationen beim Vertragsabschluss.",
-        "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
+        "question": "Anzeige- und Mitwirkungspflichten in der privaten\n\nBerufsunfähigkeitsvorsorge Ein Versicherter verschweigt relevante Gesundheitsinformationen beim Vertragsabschluss.\n\nWelche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
             "text": "Eine Verletzung der Anzeigepflicht hat rechtliche Folgen",
@@ -7688,9 +7688,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "190. Leistungsprüfung in der privaten Berufsunfähigkeitsvorsorge",
+        "title": "190. Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "context": "Ein Versicherter meldet Berufsunfähigkeit.",
-        "question": "Welche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
+        "question": "Leistungsprüfung in der privaten Berufsunfähigkeitsvorsorge\n\nEin Versicherter meldet Berufsunfähigkeit.\n\nWelche Aussagen zur privaten Berufsunfähigkeitsvorsorge sind korrekt?",
         "options": [
           {
             "text": "Der Versicherer prüft den Leistungsanspruch",
@@ -7712,9 +7712,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "201. Grundprinzip der Abfertigung NEU",
+        "title": "201. Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "context": "Ein Arbeitnehmer beginnt ein neues Dienstverhältnis nach dem Inkrafttreten der Abfertigung NEU. Sein Arbeitgeber meldet ihn bei einer betrieblichen Vorsorgekasse an.",
-        "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
+        "question": "Grundprinzip der Abfertigung NEU\n\nEin Arbeitnehmer beginnt ein neues Dienstverhältnis nach dem Inkrafttreten der Abfertigung NEU. Sein Arbeitgeber meldet ihn bei einer betrieblichen Vorsorgekasse an.\n\nWelche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
             "text": "Es handelt sich um ein kapitalgedecktes System",
@@ -7736,9 +7736,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Arbeitnehmer zahlt NICHT selbst"
       },
       {
-        "title": "202. Betriebliche Vorsorgekasse in der Abfertigung NEU",
+        "title": "202. Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "context": "Ein Arbeitgeber schließt für seine Mitarbeiter einen Vertrag mit einer BV-Kasse ab.",
-        "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
+        "question": "Betriebliche Vorsorgekasse in der Abfertigung NEU\n\nEin Arbeitgeber schließt für seine Mitarbeiter einen Vertrag mit einer BV-Kasse ab.\n\nWelche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
             "text": "Die BV-Kasse verwaltet die Beiträge",
@@ -7760,9 +7760,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "203. Beitrittsvertrag in der Abfertigung NEU",
+        "title": "203. Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "context": "Ein Unternehmen tritt einer BV-Kasse bei.",
-        "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
+        "question": "Beitrittsvertrag in der Abfertigung NEU\n\nEin Unternehmen tritt einer BV-Kasse bei.\n\nWelche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
             "text": "Er regelt die Beziehung zwischen Arbeitgeber und BV-Kasse",
@@ -7784,9 +7784,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "204. Beitragsrecht in der Abfertigung NEU",
+        "title": "204. Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "context": "Ein Arbeitnehmer ist im System der Abfertigung NEU versichert.",
-        "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
+        "question": "Beitragsrecht in der Abfertigung NEU\n\nEin Arbeitnehmer ist im System der Abfertigung NEU versichert.\n\nWelche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
             "text": "Beiträge werden laufend geleistet",
@@ -7808,9 +7808,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "205. Leistungsanspruch in der Abfertigung NEU",
+        "title": "205. Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "context": "Ein Arbeitnehmer beendet sein Dienstverhältnis.",
-        "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
+        "question": "Leistungsanspruch in der Abfertigung NEU\n\nEin Arbeitnehmer beendet sein Dienstverhältnis.\n\nWelche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
             "text": "Es besteht Anspruch auf die angesparten Beiträge",
@@ -7832,9 +7832,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "206. Unverfallbarkeit in der Abfertigung NEU",
+        "title": "206. Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "context": "Ein Arbeitnehmer wechselt den Arbeitgeber.",
-        "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
+        "question": "Unverfallbarkeit in der Abfertigung NEU\n\nEin Arbeitnehmer wechselt den Arbeitgeber.\n\nWelche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
             "text": "Die Ansprüche bleiben erhalten",
@@ -7856,9 +7856,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "207. Kündigung des Beitrittsvertrags in der Abfertigung NEU",
+        "title": "207. Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "context": "Ein Arbeitgeber möchte den Vertrag mit der BV-Kasse kündigen.",
-        "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
+        "question": "Kündigung des Beitrittsvertrags in der Abfertigung NEU\n\nEin Arbeitgeber möchte den Vertrag mit der BV-Kasse kündigen.\n\nWelche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
             "text": "Kündigung ist unter bestimmten Voraussetzungen möglich",
@@ -7880,9 +7880,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "208. Auswahl der BV-Kasse in der Abfertigung NEU",
+        "title": "208. Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "context": "Ein Arbeitgeber wählt eine BV-Kasse aus.",
-        "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
+        "question": "Auswahl der BV-Kasse in der Abfertigung NEU\n\nEin Arbeitgeber wählt eine BV-Kasse aus.\n\nWelche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
             "text": "Arbeitgeber trifft die Auswahl",
@@ -7904,9 +7904,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "209. Zuweisung einer BV-Kasse in der Abfertigung NEU",
+        "title": "209. Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "context": "Wenn keine Auswahl erfolgt, wird eine BV-Kasse zugewiesen.",
-        "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
+        "question": "Zuweisung einer BV-Kasse in der Abfertigung NEU\n\nWenn keine Auswahl erfolgt, wird eine BV-Kasse zugewiesen.\n\nWelche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
             "text": "Es gibt gesetzliche Regelungen zur Zuweisung",
@@ -7928,9 +7928,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "210. Leistungsrecht in der Abfertigung NEU",
+        "title": "210. Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "context": "Ein Arbeitnehmer möchte seine Abfertigung beziehen.",
-        "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
+        "question": "Leistungsrecht in der Abfertigung NEU\n\nEin Arbeitnehmer möchte seine Abfertigung beziehen.\n\nWelche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
             "text": "Auszahlung ist möglich",
@@ -7952,9 +7952,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "211. Selbständigenvorsorge (Abfertigung NEU-System)",
+        "title": "211. Welche Aussagen zur Abfertigung NEU sind korrekt?",
         "context": "Ein Selbständiger nimmt am Vorsorgesystem teil.",
-        "question": "Welche Aussagen zur Abfertigung NEU sind korrekt?",
+        "question": "Selbständigenvorsorge (Abfertigung NEU-System)\n\nEin Selbständiger nimmt am Vorsorgesystem teil.\n\nWelche Aussagen zur Abfertigung NEU sind korrekt?",
         "options": [
           {
             "text": "Es gibt auch Vorsorge für Selbständige",
@@ -7976,9 +7976,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "212. Abfertigung ALT vs. NEU",
+        "title": "212. Welche Aussagen zum Vergleich Abfertigung ALT und Abfertigung NEU sind korrekt?",
         "context": "Ein Arbeitnehmer wechselt vom alten ins neue System.",
-        "question": "Welche Aussagen zum Vergleich Abfertigung ALT und Abfertigung NEU sind korrekt?",
+        "question": "Abfertigung ALT vs. NEU\n\nEin Arbeitnehmer wechselt vom alten ins neue System.\n\nWelche Aussagen zum Vergleich Abfertigung ALT und Abfertigung NEU sind korrekt?",
         "options": [
           {
             "text": "Unterschiede bestehen zwischen ALT und NEU",
@@ -8000,9 +8000,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "221. Grundprinzip der Abfertigung ALT",
+        "title": "221. Welche Aussagen zur Abfertigung ALT sind korrekt?",
         "context": "Ein Arbeitnehmer ist seit vielen Jahren im selben Unternehmen beschäftigt und fällt unter das System der Abfertigung ALT.",
-        "question": "Welche Aussagen zur Abfertigung ALT sind korrekt?",
+        "question": "Grundprinzip der Abfertigung ALT\n\nEin Arbeitnehmer ist seit vielen Jahren im selben Unternehmen beschäftigt und fällt unter das System der Abfertigung ALT.\n\nWelche Aussagen zur Abfertigung ALT sind korrekt?",
         "options": [
           {
             "text": "Die Abfertigung wird direkt vom Arbeitgeber finanziert",
@@ -8024,9 +8024,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "222. Anspruchsvoraussetzungen in der Abfertigung ALT",
+        "title": "222. Welche Aussagen zur Abfertigung ALT sind korrekt?",
         "context": "Ein Arbeitnehmer wird vom Arbeitgeber gekündigt.",
-        "question": "Welche Aussagen zur Abfertigung ALT sind korrekt?",
+        "question": "Anspruchsvoraussetzungen in der Abfertigung ALT\n\nEin Arbeitnehmer wird vom Arbeitgeber gekündigt.\n\nWelche Aussagen zur Abfertigung ALT sind korrekt?",
         "options": [
           {
             "text": "Es besteht ein Anspruch auf Abfertigung",
@@ -8048,9 +8048,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "223. Eigenkündigung in der Abfertigung ALT",
+        "title": "223. Welche Aussagen zur Abfertigung ALT sind korrekt?",
         "context": "Ein Arbeitnehmer kündigt selbst sein Dienstverhältnis.",
-        "question": "Welche Aussagen zur Abfertigung ALT sind korrekt?",
+        "question": "Eigenkündigung in der Abfertigung ALT\n\nEin Arbeitnehmer kündigt selbst sein Dienstverhältnis.\n\nWelche Aussagen zur Abfertigung ALT sind korrekt?",
         "options": [
           {
             "text": "Es besteht grundsätzlich kein Anspruch auf Abfertigung",
@@ -8072,9 +8072,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "224. Verschuldete Entlassung in der Abfertigung ALT",
+        "title": "224. Welche Aussagen zur Abfertigung ALT sind korrekt?",
         "context": "Ein Arbeitnehmer wird aufgrund schweren Fehlverhaltens entlassen.",
-        "question": "Welche Aussagen zur Abfertigung ALT sind korrekt?",
+        "question": "Verschuldete Entlassung in der Abfertigung ALT\n\nEin Arbeitnehmer wird aufgrund schweren Fehlverhaltens entlassen.\n\nWelche Aussagen zur Abfertigung ALT sind korrekt?",
         "options": [
           {
             "text": "Es besteht kein Anspruch auf Abfertigung",
@@ -8096,9 +8096,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "225. Unverschuldete Entlassung in der Abfertigung ALT",
+        "title": "225. Welche Aussagen zur Abfertigung ALT sind korrekt?",
         "context": "Ein Arbeitnehmer wird ohne eigenes Verschulden entlassen.",
-        "question": "Welche Aussagen zur Abfertigung ALT sind korrekt?",
+        "question": "Unverschuldete Entlassung in der Abfertigung ALT\n\nEin Arbeitnehmer wird ohne eigenes Verschulden entlassen.\n\nWelche Aussagen zur Abfertigung ALT sind korrekt?",
         "options": [
           {
             "text": "Anspruch besteht",
@@ -8120,9 +8120,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "226. Höhe der Abfertigung in der Abfertigung ALT",
+        "title": "226. Welche Aussagen zur Abfertigung ALT sind korrekt?",
         "context": "Ein Arbeitnehmer hat viele Jahre im Unternehmen gearbeitet.",
-        "question": "Welche Aussagen zur Abfertigung ALT sind korrekt?",
+        "question": "Höhe der Abfertigung in der Abfertigung ALT\n\nEin Arbeitnehmer hat viele Jahre im Unternehmen gearbeitet.\n\nWelche Aussagen zur Abfertigung ALT sind korrekt?",
         "options": [
           {
             "text": "Die Höhe richtet sich nach der Dauer des Dienstverhältnisses",
@@ -8144,9 +8144,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "241. Grundprinzip der Pensionszusage (direkte Leistungszusage)",
+        "title": "241. Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "context": "Ein Arbeitgeber sagt einem Arbeitnehmer eine Altersversorgung zu, ohne eine externe Versorgungseinrichtung einzuschalten.",
-        "question": "Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
+        "question": "Grundprinzip der Pensionszusage (direkte Leistungszusage)\n\nEin Arbeitgeber sagt einem Arbeitnehmer eine Altersversorgung zu, ohne eine externe Versorgungseinrichtung einzuschalten.\n\nWelche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "options": [
           {
             "text": "Die Leistung wird vom Arbeitgeber selbst erbracht",
@@ -8168,9 +8168,9 @@ export const QUIZ_MODULES = {
         "explanation": "Begründung: Die Pensionszusage (direkte Leistungszusage) ist eine interne Verpflichtung des Arbeitgebers"
       },
       {
-        "title": "242. Finanzierung der Pensionszusage (direkte Leistungszusage)",
+        "title": "242. Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "context": "Ein Unternehmen verpflichtet sich zu künftigen Pensionszahlungen.",
-        "question": "Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
+        "question": "Finanzierung der Pensionszusage (direkte Leistungszusage)\n\nEin Unternehmen verpflichtet sich zu künftigen Pensionszahlungen.\n\nWelche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "options": [
           {
             "text": "Das Unternehmen bildet Rückstellungen in der Bilanz",
@@ -8192,9 +8192,9 @@ export const QUIZ_MODULES = {
         "explanation": "Begründung: Die Finanzierung erfolgt intern; Rückstellungen sichern die Verpflichtung ab"
       },
       {
-        "title": "243. Rechtsanspruch bei der Pensionszusage (direkte Leistungszusage)",
+        "title": "243. Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "context": "Ein Arbeitnehmer erhält eine schriftliche Pensionszusage.",
-        "question": "Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
+        "question": "Rechtsanspruch bei der Pensionszusage (direkte Leistungszusage)\n\nEin Arbeitnehmer erhält eine schriftliche Pensionszusage.\n\nWelche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "options": [
           {
             "text": "Der Arbeitnehmer hat einen rechtlich durchsetzbaren Anspruch",
@@ -8216,9 +8216,9 @@ export const QUIZ_MODULES = {
         "explanation": "Begründung: Die Zusage begründet einen Anspruch; ein Widerruf ist nicht frei möglich"
       },
       {
-        "title": "244. Rückstellungen bei der Pensionszusage (direkte Leistungszusage)",
+        "title": "244. Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "context": "Ein Unternehmen bildet Rückstellungen für Pensionsverpflichtungen.",
-        "question": "Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
+        "question": "Rückstellungen bei der Pensionszusage (direkte Leistungszusage)\n\nEin Unternehmen bildet Rückstellungen für Pensionsverpflichtungen.\n\nWelche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "options": [
           {
             "text": "Rückstellungen bilden zukünftige Verpflichtungen ab",
@@ -8240,9 +8240,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "245. Insolvenzrisiko bei der Pensionszusage (direkte Leistungszusage)",
+        "title": "245. Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "context": "Ein Unternehmen mit einer direkten Leistungszusage wird insolvent.",
-        "question": "Welche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
+        "question": "Insolvenzrisiko bei der Pensionszusage (direkte Leistungszusage)\n\nEin Unternehmen mit einer direkten Leistungszusage wird insolvent.\n\nWelche Aussagen zur Pensionszusage (direkte Leistungszusage) sind korrekt?",
         "options": [
           {
             "text": "Die Erfüllung der Pensionszusage ist vom Arbeitgeber abhängig",
@@ -8264,9 +8264,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "261. Pflichtversicherung in der Kfz-Haftpflichtversicherung",
+        "title": "261. Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "context": "Ein Fahrzeughalter meldet ein Kraftfahrzeug zum Verkehr an und nimmt dieses am Straßenverkehr teil.",
-        "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
+        "question": "Pflichtversicherung in der Kfz-Haftpflichtversicherung\n\nEin Fahrzeughalter meldet ein Kraftfahrzeug zum Verkehr an und nimmt dieses am Straßenverkehr teil.\n\nWelche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
             "text": "Für das Fahrzeug besteht eine gesetzliche Pflicht zum Abschluss einer Kfz- Haftpflichtversicherung",
@@ -8288,9 +8288,9 @@ export const QUIZ_MODULES = {
         "explanation": "Begründung: Pflichtversicherung zum Schutz geschädigter Dritter"
       },
       {
-        "title": "262. Versicherungsnehmer und Halter in der Kfz-Haftpflichtversicherung",
+        "title": "262. Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "context": "Ein Fahrzeug ist auf eine Person zugelassen, während eine andere Person den Versicherungsvertrag abgeschlossen hat.",
-        "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
+        "question": "Versicherungsnehmer und Halter in der Kfz-Haftpflichtversicherung\n\nEin Fahrzeug ist auf eine Person zugelassen, während eine andere Person den Versicherungsvertrag abgeschlossen hat.\n\nWelche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
             "text": "Versicherungsnehmer und Halter können unterschiedliche Personen sein",
@@ -8312,9 +8312,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "263. Versicherungsfall in der Kfz-Haftpflichtversicherung",
+        "title": "263. Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "context": "Ein Verkehrsunfall verursacht einen Schaden bei einem Dritten.",
-        "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
+        "question": "Versicherungsfall in der Kfz-Haftpflichtversicherung\n\nEin Verkehrsunfall verursacht einen Schaden bei einem Dritten.\n\nWelche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsfall ist das schädigende Ereignis",
@@ -8336,9 +8336,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "264. Deckungsumfang der Kfz-Haftpflichtversicherung",
+        "title": "264. Welche Schäden sind in der Kfz-Haftpflichtversicherung gedeckt?",
         "context": "Ein Lenker verursacht einen Unfall.",
-        "question": "Welche Schäden sind in der Kfz-Haftpflichtversicherung gedeckt?",
+        "question": "Deckungsumfang der Kfz-Haftpflichtversicherung\n\nEin Lenker verursacht einen Unfall.\n\nWelche Schäden sind in der Kfz-Haftpflichtversicherung gedeckt?",
         "options": [
           {
             "text": "Personenschäden Dritter",
@@ -8360,9 +8360,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Eigenschäden sind nicht von der Kfz-Haftpflichtversicherung gedeckt"
       },
       {
-        "title": "265. Haftungsgrundlage der Kfz-Haftpflichtversicherung",
+        "title": "265. Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "context": "Ein Fahrer verursacht fahrlässig einen Unfall.",
-        "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
+        "question": "Haftungsgrundlage der Kfz-Haftpflichtversicherung\n\nEin Fahrer verursacht fahrlässig einen Unfall.\n\nWelche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
             "text": "Die Kfz-Haftpflichtversicherung knüpft an die gesetzliche Haftung an",
@@ -8384,9 +8384,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "266. Obliegenheiten in der Kfz-Haftpflichtversicherung",
+        "title": "266. Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer meldet einen Schaden nicht rechtzeitig.",
-        "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
+        "question": "Obliegenheiten in der Kfz-Haftpflichtversicherung\n\nEin Versicherungsnehmer meldet einen Schaden nicht rechtzeitig.\n\nWelche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
             "text": "Es besteht eine Pflicht zur Schadenmeldung",
@@ -8408,9 +8408,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "267. Leistungsfreiheit in der Kfz-Haftpflichtversicherung",
+        "title": "267. Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer verletzt vorsätzlich Obliegenheiten.",
-        "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
+        "question": "Leistungsfreiheit in der Kfz-Haftpflichtversicherung\n\nEin Versicherungsnehmer verletzt vorsätzlich Obliegenheiten.\n\nWelche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Versicherer ist leistungsfrei",
@@ -8432,9 +8432,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "268. Regress in der Kfz-Haftpflichtversicherung",
+        "title": "268. Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "context": "Ein Versicherer zahlt an den Geschädigten und fordert danach Geld zurück.",
-        "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
+        "question": "Regress in der Kfz-Haftpflichtversicherung\n\nEin Versicherer zahlt an den Geschädigten und fordert danach Geld zurück.\n\nWelche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
             "text": "Regress gegenüber dem Versicherungsnehmer ist möglich",
@@ -8456,9 +8456,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "269. Deckungssumme in der Kfz-Haftpflichtversicherung",
+        "title": "269. Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
+        "question": "Deckungssumme in der Kfz-Haftpflichtversicherung\n\nWelche Aussagen zur Kfz-Haftpflichtversicherung sind korrekt?",
         "options": [
           {
             "text": "Die Deckungssumme ist vertraglich festgelegt",
@@ -8480,9 +8480,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-01. Grundprinzip der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer schließt eine Kfz-Kaskoversicherung für sein Fahrzeug ab, um sich gegen Schäden am eigenen Fahrzeug abzusichern.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Grundprinzip der Kfz-Kaskoversicherung\n\nEin Versicherungsnehmer schließt eine Kfz-Kaskoversicherung für sein Fahrzeug ab, um sich gegen Schäden am eigenen Fahrzeug abzusichern.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Die Kfz-Kaskoversicherung deckt Schäden am eigenen Fahrzeug",
@@ -8504,9 +8504,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Verwechslung mit Haftpflicht"
       },
       {
-        "title": "KASKO-02. Versicherungsfall in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Fahrzeug wird durch einen selbst verursachten Unfall beschädigt.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Versicherungsfall in der Kfz-Kaskoversicherung\n\nEin Fahrzeug wird durch einen selbst verursachten Unfall beschädigt.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Schaden am eigenen Fahrzeug stellt den Versicherungsfall dar",
@@ -8528,9 +8528,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-03. Teilkasko vs. Vollkasko in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer vergleicht verschiedene Deckungsarten.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Teilkasko vs. Vollkasko in der Kfz-Kaskoversicherung\n\nEin Versicherungsnehmer vergleicht verschiedene Deckungsarten.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Die Vollkasko umfasst mehr Risiken als die Teilkasko",
@@ -8552,9 +8552,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-04. Deckungsumfang der Teilkasko",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Fahrzeug wird durch einen Sturm beschädigt.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Deckungsumfang der Teilkasko\n\nEin Fahrzeug wird durch einen Sturm beschädigt.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Sturmschäden sind in der Teilkasko gedeckt",
@@ -8576,9 +8576,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-05. Deckungsumfang der Vollkasko",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Fahrer verursacht einen Unfall durch eigenes Verschulden.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Deckungsumfang der Vollkasko\n\nEin Fahrer verursacht einen Unfall durch eigenes Verschulden.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Vollkasko deckt selbstverschuldete Unfälle",
@@ -8600,9 +8600,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-06. Selbstbehalt in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer vereinbart einen Selbstbehalt.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Selbstbehalt in der Kfz-Kaskoversicherung\n\nEin Versicherungsnehmer vereinbart einen Selbstbehalt.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsnehmer trägt einen Teil des Schadens selbst",
@@ -8624,9 +8624,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-07. Obliegenheiten in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer meldet einen Schaden verspätet.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Obliegenheiten in der Kfz-Kaskoversicherung\n\nEin Versicherungsnehmer meldet einen Schaden verspätet.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Es besteht eine Pflicht zur Schadenmeldung",
@@ -8648,9 +8648,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-08. Leistungsfreiheit in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer verursacht vorsätzlich einen Schaden.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Leistungsfreiheit in der Kfz-Kaskoversicherung\n\nEin Versicherungsnehmer verursacht vorsätzlich einen Schaden.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Versicherer ist leistungsfrei",
@@ -8672,9 +8672,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-09. Grobe Fahrlässigkeit in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Schaden entsteht durch grob fahrlässiges Verhalten.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Grobe Fahrlässigkeit in der Kfz-Kaskoversicherung\n\nEin Schaden entsteht durch grob fahrlässiges Verhalten.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Grobe Fahrlässigkeit kann die Leistung beeinflussen",
@@ -8696,9 +8696,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-10. Diebstahl in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Fahrzeug wird gestohlen.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Diebstahl in der Kfz-Kaskoversicherung\n\nEin Fahrzeug wird gestohlen.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Diebstahl ist in der Teilkasko gedeckt",
@@ -8720,9 +8720,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-11. Glasbruch in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Eine Windschutzscheibe wird beschädigt.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Glasbruch in der Kfz-Kaskoversicherung\n\nEine Windschutzscheibe wird beschädigt.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Glasbruch ist typischer Teilkaskoschaden",
@@ -8744,9 +8744,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-12. Wildschäden in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Fahrzeug kollidiert mit einem Wildtier.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Wildschäden in der Kfz-Kaskoversicherung\n\nEin Fahrzeug kollidiert mit einem Wildtier.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Wildschäden sind in der Teilkasko gedeckt",
@@ -8768,9 +8768,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-13. Versicherungswert in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Fahrzeug erleidet einen Totalschaden.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Versicherungswert in der Kfz-Kaskoversicherung\n\nEin Fahrzeug erleidet einen Totalschaden.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Fahrzeugwert ist entscheidend",
@@ -8792,9 +8792,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-14. Totalschaden in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": "Ein Fahrzeug wird wirtschaftlich zerstört.",
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Totalschaden in der Kfz-Kaskoversicherung\n\nEin Fahrzeug wird wirtschaftlich zerstört.\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Ein Totalschaden liegt vor",
@@ -8816,9 +8816,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-15. Versicherungsdauer in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Versicherungsdauer in der Kfz-Kaskoversicherung\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Vertrag ist zeitlich begrenzt",
@@ -8840,9 +8840,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-16. Prämienhöhe in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Prämienhöhe in der Kfz-Kaskoversicherung\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Prämie hängt vom Risiko ab",
@@ -8864,9 +8864,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-17. Unterschied Haftpflicht vs. Kasko",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Unterschied Haftpflicht vs. Kasko\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Kasko deckt Eigenschäden",
@@ -8888,9 +8888,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-18. Zweck der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Zweck der Kfz-Kaskoversicherung\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Schutz des eigenen Fahrzeugs",
@@ -8912,9 +8912,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-19. Schadenmeldung in der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Schadenmeldung in der Kfz-Kaskoversicherung\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Schaden muss gemeldet werden",
@@ -8936,9 +8936,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "KASKO-20. Gesamtbewertung der Kfz-Kaskoversicherung",
+        "title": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
+        "question": "Gesamtbewertung der Kfz-Kaskoversicherung\n\nWelche Aussagen zur Kfz-Kaskoversicherung sind korrekt?",
         "options": [
           {
             "text": "Freiwillige Versicherung",
@@ -8960,9 +8960,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "301. Grundprinzip der Kfz-Zulassung",
+        "title": "301. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Eine Person möchte ein Fahrzeug im öffentlichen Straßenverkehr verwenden.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Grundprinzip der Kfz-Zulassung\n\nEine Person möchte ein Fahrzeug im öffentlichen Straßenverkehr verwenden.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Eine Zulassung ist Voraussetzung für die Teilnahme am Straßenverkehr",
@@ -8984,9 +8984,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Privatfahrzeuge brauchen auch Zulassung"
       },
       {
-        "title": "302. Zulassungsbesitzer in der Kfz-Zulassung",
+        "title": "302. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Ein Fahrzeug wird auf eine Person zugelassen.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Zulassungsbesitzer in der Kfz-Zulassung\n\nEin Fahrzeug wird auf eine Person zugelassen.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Der Zulassungsbesitzer ist im Zulassungsschein eingetragen",
@@ -9008,9 +9008,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "303. Zulassungsstelle in der Kfz-Zulassung",
+        "title": "303. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Eine Person beantragt die Zulassung eines Fahrzeugs.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Zulassungsstelle in der Kfz-Zulassung\n\nEine Person beantragt die Zulassung eines Fahrzeugs.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Die Zulassung erfolgt bei einer Zulassungsstelle",
@@ -9032,9 +9032,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "304. Voraussetzungen der Kfz-Zulassung",
+        "title": "304. Welche Voraussetzungen der Kfz-Zulassung sind korrekt?",
         "context": "Ein Fahrzeug soll zugelassen werden.",
-        "question": "Welche Voraussetzungen der Kfz-Zulassung sind korrekt?",
+        "question": "Voraussetzungen der Kfz-Zulassung\n\nEin Fahrzeug soll zugelassen werden.\n\nWelche Voraussetzungen der Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Bestehen einer Haftpflichtversicherung",
@@ -9056,9 +9056,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Führerschein ist NICHT Voraussetzung für Zulassung"
       },
       {
-        "title": "305. Versicherungsbestätigung in der Kfz-Zulassung",
+        "title": "305. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Ein Fahrzeug wird angemeldet.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Versicherungsbestätigung in der Kfz-Zulassung\n\nEin Fahrzeug wird angemeldet.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Eine Versicherungsbestätigung ist erforderlich",
@@ -9080,9 +9080,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "306. Kennzeichen in der Kfz-Zulassung",
+        "title": "306. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Ein Fahrzeug erhält ein Kennzeichen.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Kennzeichen in der Kfz-Zulassung\n\nEin Fahrzeug erhält ein Kennzeichen.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Das Kennzeichen identifiziert das Fahrzeug",
@@ -9104,9 +9104,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "307. Zulassungsschein in der Kfz-Zulassung",
+        "title": "307. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Ein Fahrzeug wird zugelassen.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Zulassungsschein in der Kfz-Zulassung\n\nEin Fahrzeug wird zugelassen.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Der Zulassungsschein dient als Nachweis",
@@ -9128,9 +9128,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "308. Abmeldung in der Kfz-Zulassung",
+        "title": "308. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Ein Fahrzeug wird außer Betrieb genommen.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Abmeldung in der Kfz-Zulassung\n\nEin Fahrzeug wird außer Betrieb genommen.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Eine Abmeldung ist erforderlich",
@@ -9152,9 +9152,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "309. Ummeldung in der Kfz-Zulassung",
+        "title": "309. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Ein Fahrzeug wechselt den Besitzer.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Ummeldung in der Kfz-Zulassung\n\nEin Fahrzeug wechselt den Besitzer.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Eine Ummeldung ist erforderlich",
@@ -9176,9 +9176,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "310. Wechselkennzeichen in der Kfz-Zulassung",
+        "title": "310. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Eine Person nutzt mehrere Fahrzeuge.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Wechselkennzeichen in der Kfz-Zulassung\n\nEine Person nutzt mehrere Fahrzeuge.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Ein Kennzeichen kann für mehrere Fahrzeuge verwendet werden",
@@ -9200,9 +9200,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Fahrzeuge NICHT gleichzeitig"
       },
       {
-        "title": "311. Probefahrtkennzeichen in der Kfz-Zulassung",
+        "title": "311. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Ein Händler testet ein Fahrzeug.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Probefahrtkennzeichen in der Kfz-Zulassung\n\nEin Händler testet ein Fahrzeug.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Probefahrtkennzeichen sind zeitlich begrenzt",
@@ -9224,9 +9224,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "312. Überstellungskennzeichen in der Kfz-Zulassung",
+        "title": "312. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Ein Fahrzeug wird überführt.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Überstellungskennzeichen in der Kfz-Zulassung\n\nEin Fahrzeug wird überführt.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Überstellungskennzeichen sind zeitlich begrenzt",
@@ -9248,9 +9248,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "313. Technische Voraussetzungen in der Kfz-Zulassung",
+        "title": "313. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Ein Fahrzeug wird geprüft.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Technische Voraussetzungen in der Kfz-Zulassung\n\nEin Fahrzeug wird geprüft.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Technische Genehmigung ist notwendig",
@@ -9272,9 +9272,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "314. Daten im Zulassungsschein",
+        "title": "314. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Daten im Zulassungsschein\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Halterdaten enthalten",
@@ -9296,9 +9296,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "315. Verantwortung bei der Kfz-Zulassung",
+        "title": "315. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Verantwortung bei der Kfz-Zulassung\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Zulassungsbesitzer trägt Verantwortung",
@@ -9320,9 +9320,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "316. Verwendung ohne Kfz-Zulassung",
+        "title": "316. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Ein Fahrzeug wird ohne Zulassung genutzt.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Verwendung ohne Kfz-Zulassung\n\nEin Fahrzeug wird ohne Zulassung genutzt.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Nutzung ist unzulässig",
@@ -9344,9 +9344,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "317. Kennzeichenmissbrauch",
+        "title": "317. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Ein falsches Kennzeichen wird verwendet.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Kennzeichenmissbrauch\n\nEin falsches Kennzeichen wird verwendet.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Missbrauch ist strafbar",
@@ -9368,9 +9368,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "318. Änderungen im Fahrzeug",
+        "title": "318. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": "Ein Fahrzeug wird technisch verändert.",
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Änderungen im Fahrzeug\n\nEin Fahrzeug wird technisch verändert.\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Änderungen können meldepflichtig sein",
@@ -9392,9 +9392,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "319. Zweck der Kfz-Zulassung",
+        "title": "319. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Zweck der Kfz-Zulassung\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Identifikation von Fahrzeugen",
@@ -9416,9 +9416,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "320. Gesamtbewertung der Kfz-Zulassung",
+        "title": "320. Welche Aussagen zur Kfz-Zulassung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Kfz-Zulassung sind korrekt?",
+        "question": "Gesamtbewertung der Kfz-Zulassung\n\nWelche Aussagen zur Kfz-Zulassung sind korrekt?",
         "options": [
           {
             "text": "Gesetzlich geregelt",
@@ -9440,9 +9440,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "321. Grundprinzip der Kfz-Insassenunfallversicherung",
+        "title": "321. Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "context": "Ein Fahrzeughalter schließt eine Versicherung ab, die alle Insassen bei einem Unfall absichert.",
-        "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
+        "question": "Grundprinzip der Kfz-Insassenunfallversicherung\n\nEin Fahrzeughalter schließt eine Versicherung ab, die alle Insassen bei einem Unfall absichert.\n\nWelche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
             "text": "Sie deckt Personenschäden der Insassen",
@@ -9464,9 +9464,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Keine Pflichtversicherung, keine Sachschäden"
       },
       {
-        "title": "322. Versicherte Personen in der Kfz-Insassenunfallversicherung",
+        "title": "322. Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "context": "Ein Unfall ereignet sich während der Fahrt.",
-        "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
+        "question": "Versicherte Personen in der Kfz-Insassenunfallversicherung\n\nEin Unfall ereignet sich während der Fahrt.\n\nWelche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
             "text": "Fahrer ist mitversichert",
@@ -9488,9 +9488,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "323. Versicherungsfall in der Kfz-Insassenunfallversicherung",
+        "title": "323. Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "context": "Ein Insasse wird bei einem Verkehrsunfall verletzt.",
-        "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
+        "question": "Versicherungsfall in der Kfz-Insassenunfallversicherung\n\nEin Insasse wird bei einem Verkehrsunfall verletzt.\n\nWelche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Unfall stellt den Versicherungsfall dar",
@@ -9512,9 +9512,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "324. Leistungsarten in der Kfz-Insassenunfallversicherung",
+        "title": "324. Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "context": "Nach einem Unfall werden Leistungen geprüft.",
-        "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
+        "question": "Leistungsarten in der Kfz-Insassenunfallversicherung\n\nNach einem Unfall werden Leistungen geprüft.\n\nWelche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
             "text": "Es gibt Invaliditätsleistungen",
@@ -9536,9 +9536,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "325. Verhältnis zur Kfz-Haftpflichtversicherung",
+        "title": "325. Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "context": "Ein Insasse wird bei einem selbstverschuldeten Unfall verletzt.",
-        "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
+        "question": "Verhältnis zur Kfz-Haftpflichtversicherung\n\nEin Insasse wird bei einem selbstverschuldeten Unfall verletzt.\n\nWelche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
             "text": "Sie leistet unabhängig von der Haftung",
@@ -9560,9 +9560,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Summenversicherung → unabhängig von Schuld"
       },
       {
-        "title": "326. Summenversicherung in der Kfz-Insassenunfallversicherung",
+        "title": "326. Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "context": "Ein Versicherter erhält eine Leistung nach einem Unfall.",
-        "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
+        "question": "Summenversicherung in der Kfz-Insassenunfallversicherung\n\nEin Versicherter erhält eine Leistung nach einem Unfall.\n\nWelche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
             "text": "Es handelt sich um eine Summenversicherung",
@@ -9584,9 +9584,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "327. Mitwirkung von Krankheiten in der Kfz-Insassenunfallversicherung",
+        "title": "327. Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "context": "Ein Insasse hat eine Vorerkrankung, die den Schaden verstärkt.",
-        "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
+        "question": "Mitwirkung von Krankheiten in der Kfz-Insassenunfallversicherung\n\nEin Insasse hat eine Vorerkrankung, die den Schaden verstärkt.\n\nWelche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
             "text": "Vorerkrankungen können die Leistung beeinflussen",
@@ -9608,9 +9608,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "328. Unfallbegriff in der Kfz-Insassenunfallversicherung",
+        "title": "328. Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "context": "Ein Insasse verletzt sich bei einem Unfall.",
-        "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
+        "question": "Unfallbegriff in der Kfz-Insassenunfallversicherung\n\nEin Insasse verletzt sich bei einem Unfall.\n\nWelche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
             "text": "Das Ereignis muss plötzlich sein",
@@ -9632,9 +9632,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "329. Geltungsbereich der Kfz-Insassenunfallversicherung",
+        "title": "329. Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "context": "Ein Unfall passiert im Ausland.",
-        "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
+        "question": "Geltungsbereich der Kfz-Insassenunfallversicherung\n\nEin Unfall passiert im Ausland.\n\nWelche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Geltungsbereich ist vertraglich geregelt",
@@ -9656,9 +9656,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "330. Zweck der Kfz-Insassenunfallversicherung",
+        "title": "330. Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
+        "question": "Zweck der Kfz-Insassenunfallversicherung\n\nWelche Aussagen zur Kfz-Insassenunfallversicherung sind korrekt?",
         "options": [
           {
             "text": "Absicherung von Insassen",
@@ -9680,9 +9680,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "331. Grundprinzip des Kfz-Leasings",
+        "title": "331. Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "context": "Eine Person nutzt ein Fahrzeug im Rahmen eines Leasingvertrags.",
-        "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
+        "question": "Grundprinzip des Kfz-Leasings\n\nEine Person nutzt ein Fahrzeug im Rahmen eines Leasingvertrags.\n\nWelche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
             "text": "Der Leasingnehmer ist Eigentümer des Fahrzeugs",
@@ -9704,9 +9704,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Eigentum bleibt beim Leasinggeber"
       },
       {
-        "title": "332. Vertragsparteien im Kfz-Leasing",
+        "title": "332. Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "context": "Ein Leasingvertrag wird abgeschlossen.",
-        "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
+        "question": "Vertragsparteien im Kfz-Leasing\n\nEin Leasingvertrag wird abgeschlossen.\n\nWelche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
             "text": "Leasinggeber stellt das Fahrzeug zur Verfügung",
@@ -9728,9 +9728,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "333. Leasingrate im Kfz-Leasing",
+        "title": "333. Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "context": "Ein Leasingnehmer zahlt monatliche Raten.",
-        "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
+        "question": "Leasingrate im Kfz-Leasing\n\nEin Leasingnehmer zahlt monatliche Raten.\n\nWelche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
             "text": "Leasingraten sind vertraglich festgelegt",
@@ -9752,9 +9752,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "334. Restwertleasing im Kfz-Leasing",
+        "title": "334. Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "context": "Ein Vertrag basiert auf einem kalkulierten Restwert.",
-        "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
+        "question": "Restwertleasing im Kfz-Leasing\n\nEin Vertrag basiert auf einem kalkulierten Restwert.\n\nWelche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
             "text": "Der Restwert wird im Vertrag festgelegt",
@@ -9776,9 +9776,9 @@ export const QUIZ_MODULES = {
         "explanation": "Falle: Risiko liegt oft beim Leasingnehmer"
       },
       {
-        "title": "335. Kilometerleasing im Kfz-Leasing",
+        "title": "335. Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "context": "Ein Leasingvertrag basiert auf einer vereinbarten Kilometerleistung.",
-        "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
+        "question": "Kilometerleasing im Kfz-Leasing\n\nEin Leasingvertrag basiert auf einer vereinbarten Kilometerleistung.\n\nWelche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
             "text": "Es wird eine Kilometerleistung vereinbart",
@@ -9800,9 +9800,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "336. Pflichten des Leasingnehmers im Kfz-Leasing",
+        "title": "336. Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "context": "Ein Leasingnehmer nutzt das Fahrzeug.",
-        "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
+        "question": "Pflichten des Leasingnehmers im Kfz-Leasing\n\nEin Leasingnehmer nutzt das Fahrzeug.\n\nWelche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
             "text": "Er muss das Fahrzeug sorgfältig behandeln",
@@ -9824,9 +9824,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "337. Versicherung im Kfz-Leasing",
+        "title": "337. Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "context": "Ein Leasingfahrzeug wird versichert.",
-        "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
+        "question": "Versicherung im Kfz-Leasing\n\nEin Leasingfahrzeug wird versichert.\n\nWelche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
             "text": "Eine Kfz-Haftpflichtversicherung ist erforderlich",
@@ -9848,9 +9848,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "338. Vertragsende im Kfz-Leasing",
+        "title": "338. Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "context": "Der Leasingvertrag läuft aus.",
-        "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
+        "question": "Vertragsende im Kfz-Leasing\n\nDer Leasingvertrag läuft aus.\n\nWelche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
             "text": "Fahrzeug wird zurückgegeben",
@@ -9872,9 +9872,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "339. Risiko im Kfz-Leasing",
+        "title": "339. Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "context": "Während der Laufzeit entstehen Schäden am Fahrzeug.",
-        "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
+        "question": "Risiko im Kfz-Leasing\n\nWährend der Laufzeit entstehen Schäden am Fahrzeug.\n\nWelche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
             "text": "Der Leasingnehmer trägt Nutzungsrisiken",
@@ -9896,9 +9896,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "340. Zweck des Kfz-Leasings",
+        "title": "340. Welche Aussagen zum Kfz-Leasing sind korrekt?",
         "context": null,
-        "question": "Welche Aussagen zum Kfz-Leasing sind korrekt?",
+        "question": "Zweck des Kfz-Leasings\n\nWelche Aussagen zum Kfz-Leasing sind korrekt?",
         "options": [
           {
             "text": "Nutzung eines Fahrzeugs ohne Kauf",
@@ -9925,9 +9925,9 @@ export const QUIZ_MODULES = {
     "title": "Band 3",
     "data": [
       {
-        "title": "1. Grundprinzip der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer schließt eine Sachversicherung (Feuerversicherung) für sein Wohnhaus ab. Nach einem Brand verlangt er eine Entschädigung, die deutlich über dem tatsächlichen Schaden liegt.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Grundprinzip der Sachversicherung\n\nEin Versicherungsnehmer schließt eine Sachversicherung (Feuerversicherung) für sein Wohnhaus ab. Nach einem Brand verlangt er eine Entschädigung, die deutlich über dem tatsächlichen Schaden liegt.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Die Sachversicherung dient dem Ausgleich eines konkret entstandenen Schadens",
@@ -9949,9 +9949,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Begründung: Sachversicherung = Schadensversicherung → nur realer Schaden wird ersetzt 💡 Falle: Verwechslung mit Lebens-/Unfallversicherung"
       },
       {
-        "title": "2. Abgrenzung innerhalb der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Kunde informiert sich über die Unterschiede zwischen einer Sachversicherung und einer Summenversicherung.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Abgrenzung innerhalb der Sachversicherung\n\nEin Kunde informiert sich über die Unterschiede zwischen einer Sachversicherung und einer Summenversicherung.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Die Sachversicherung gehört zur Schadensversicherung",
@@ -9973,9 +9973,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: B = Summenversicherung"
       },
       {
-        "title": "3. Versicherungsinteresse in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer schließt eine Sachversicherung für ein Gebäude ab, an dem er kein wirtschaftliches Interesse hat.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Versicherungsinteresse in der Sachversicherung\n\nEin Versicherungsnehmer schließt eine Sachversicherung für ein Gebäude ab, an dem er kein wirtschaftliches Interesse hat.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "In der Sachversicherung ist ein versicherbares Interesse erforderlich",
@@ -9997,9 +9997,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Eigentum ist NICHT zwingend"
       },
       {
-        "title": "4. Überversicherung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer versichert sein Haus im Rahmen einer Sachversicherung deutlich über dem tatsächlichen Wert.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Überversicherung in der Sachversicherung\n\nEin Versicherungsnehmer versichert sein Haus im Rahmen einer Sachversicherung deutlich über dem tatsächlichen Wert.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die volle Versicherungssumme wird immer ausbezahlt",
@@ -10021,9 +10021,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Mehr Versicherungssumme ≠ mehr Leistung"
       },
       {
-        "title": "5. Unterversicherung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Gebäude ist im Rahmen einer Sachversicherung unterversichert. Es kommt zu einem Teilschaden.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Unterversicherung in der Sachversicherung\n\nEin Gebäude ist im Rahmen einer Sachversicherung unterversichert. Es kommt zu einem Teilschaden.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Schaden wird immer vollständig ersetzt",
@@ -10045,9 +10045,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Unterversicherung wirkt auch bei Teilschäden"
       },
       {
-        "title": "6. Versicherung auf erstes Risiko (Sachversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer vereinbart in seiner Sachversicherung eine Versicherung auf erstes Risiko.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Versicherung auf erstes Risiko (Sachversicherung)\n\nEin Versicherungsnehmer vereinbart in seiner Sachversicherung eine Versicherung auf erstes Risiko.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Proportionalitätsregel wird nicht angewendet",
@@ -10069,9 +10069,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Über die Summe hinaus kein Schutz"
       },
       {
-        "title": "7. Mehrfachversicherung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer schließt für dieselbe Sache mehrere Sachversicherungen ab.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Mehrfachversicherung in der Sachversicherung\n\nEin Versicherungsnehmer schließt für dieselbe Sache mehrere Sachversicherungen ab.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Es liegt eine Mehrfachversicherung vor",
@@ -10093,9 +10093,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Keine doppelte Auszahlung!"
       },
       {
-        "title": "8. Obliegenheiten in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer verletzt im Rahmen seiner Sachversicherung eine vertragliche Obliegenheit.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Obliegenheiten in der Sachversicherung\n\nEin Versicherungsnehmer verletzt im Rahmen seiner Sachversicherung eine vertragliche Obliegenheit.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Obliegenheiten müssen eingehalten werden",
@@ -10117,9 +10117,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Obliegenheiten ≠ einklagbare Pflichten"
       },
       {
-        "title": "9. Grobe Fahrlässigkeit in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer verursacht einen Schaden durch grobe Fahrlässigkeit im Rahmen seiner Sachversicherung.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Grobe Fahrlässigkeit in der Sachversicherung\n\nEin Versicherungsnehmer verursacht einen Schaden durch grobe Fahrlässigkeit im Rahmen seiner Sachversicherung.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Versicherer kann leistungsfrei sein",
@@ -10141,9 +10141,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: leichte Fahrlässigkeit reicht nicht"
       },
       {
-        "title": "10. Schadenminderungspflicht in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Nach einem Schaden unternimmt der Versicherungsnehmer im Rahmen seiner Sachversicherung keine Maßnahmen zur Schadensbegrenzung.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Schadenminderungspflicht in der Sachversicherung\n\nNach einem Schaden unternimmt der Versicherungsnehmer im Rahmen seiner Sachversicherung keine Maßnahmen zur Schadensbegrenzung.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Es besteht eine Schadenminderungspflicht",
@@ -10165,9 +10165,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Pflicht gilt NACH dem Schaden"
       },
       {
-        "title": "11. Versicherungswert in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer schließt eine Sachversicherung für sein Einfamilienhaus ab. Bei Vertragsabschluss wird der Versicherungswert nicht korrekt ermittelt. Im Schadenfall stellt sich heraus, dass der tatsächliche Wert deutlich höher ist als die vereinbarte Versicherungssumme.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Versicherungswert in der Sachversicherung\n\nEin Versicherungsnehmer schließt eine Sachversicherung für sein Einfamilienhaus ab. Bei Vertragsabschluss wird der Versicherungswert nicht korrekt ermittelt. Im Schadenfall stellt sich heraus, dass der tatsächliche Wert deutlich höher ist als die vereinbarte Versicherungssumme.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungswert ist Grundlage für die richtige Versicherungssumme",
@@ -10189,9 +10189,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Begründung: Versicherungswert = zentrale Basis für Entschädigung 💡 Falle: C ist falsch wegen Unterversicherung"
       },
       {
-        "title": "12. Zeitwert vs. Neuwert in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Gebäude ist im Rahmen einer Sachversicherung zum Neuwert versichert. Nach einem Schaden wird geprüft, welche Entschädigung zu leisten ist.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Zeitwert vs. Neuwert in der Sachversicherung\n\nEin Gebäude ist im Rahmen einer Sachversicherung zum Neuwert versichert. Nach einem Schaden wird geprüft, welche Entschädigung zu leisten ist.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Neuwert entspricht den Kosten für die Wiederherstellung eines gleichartigen neuen Gegenstands",
@@ -10213,9 +10213,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: C ist falsch → abhängig vom Vertrag"
       },
       {
-        "title": "13. Selbstbehalt in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer vereinbart in seiner Sachversicherung einen Selbstbehalt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Selbstbehalt in der Sachversicherung\n\nEin Versicherungsnehmer vereinbart in seiner Sachversicherung einen Selbstbehalt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsnehmer trägt einen Teil des Schadens selbst",
@@ -10237,9 +10237,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Selbstbehalt senkt normalerweise die Prämie"
       },
       {
-        "title": "14. Gefahrerhöhung in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer lagert nach Vertragsabschluss leicht entzündliche Stoffe in seinem Gebäude, ohne dies dem Versicherer mitzuteilen.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Gefahrerhöhung in der Sachversicherung\n\nEin Versicherungsnehmer lagert nach Vertragsabschluss leicht entzündliche Stoffe in seinem Gebäude, ohne dies dem Versicherer mitzuteilen.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Es liegt eine Gefahrerhöhung vor",
@@ -10261,9 +10261,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Sehr häufige Prüfungsfrage!"
       },
       {
-        "title": "15. Versicherte Gefahr in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer hat eine Sachversicherung gegen Feuer abgeschlossen. Ein Schaden entsteht durch Hochwasser.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Versicherte Gefahr in der Sachversicherung\n\nEin Versicherungsnehmer hat eine Sachversicherung gegen Feuer abgeschlossen. Ein Schaden entsteht durch Hochwasser.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Es besteht Versicherungsschutz",
@@ -10285,9 +10285,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Gefahr ≠ allgemein alles versichert"
       },
       {
-        "title": "16. Totalschaden in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Gebäude wird durch ein Feuer vollständig zerstört und stellt einen Totalschaden dar.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Totalschaden in der Sachversicherung\n\nEin Gebäude wird durch ein Feuer vollständig zerstört und stellt einen Totalschaden dar.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Ein Totalschaden liegt vor, wenn Wiederherstellung wirtschaftlich nicht sinnvoll ist",
@@ -10309,9 +10309,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: B ist falsch → keine automatische volle Summe"
       },
       {
-        "title": "17. Teilschaden in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Sturm beschädigt nur Teile eines versicherten Gebäudes.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Teilschaden in der Sachversicherung\n\nEin Sturm beschädigt nur Teile eines versicherten Gebäudes.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Es handelt sich um einen Teilschaden",
@@ -10333,9 +10333,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: C ist klassischer Fehler"
       },
       {
-        "title": "18. Obliegenheiten nach dem Schaden in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Nach einem Schaden unterlässt der Versicherungsnehmer im Rahmen seiner Sachversicherung die Schadenmeldung über längere Zeit.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Obliegenheiten nach dem Schaden in der Sachversicherung\n\nNach einem Schaden unterlässt der Versicherungsnehmer im Rahmen seiner Sachversicherung die Schadenmeldung über längere Zeit.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Es besteht eine Pflicht zur unverzüglichen Schadenmeldung",
@@ -10357,9 +10357,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Viele vergessen Obliegenheiten nach Schaden"
       },
       {
-        "title": "19. Mitversicherung fremder Sachen in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer lagert fremde Gegenstände in seinem Gebäude, das über eine Sachversicherung versichert ist.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Mitversicherung fremder Sachen in der Sachversicherung\n\nEin Versicherungsnehmer lagert fremde Gegenstände in seinem Gebäude, das über eine Sachversicherung versichert ist.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Fremde Sachen können mitversichert sein",
@@ -10381,9 +10381,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Immer vertraglich prüfen!"
       },
       {
-        "title": "20. Vertragsgestaltung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer gestaltet seine Sachversicherung individuell.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Vertragsgestaltung in der Sachversicherung\n\nEin Versicherungsnehmer gestaltet seine Sachversicherung individuell.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Versicherungssumme wird vertraglich festgelegt",
@@ -10405,9 +10405,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Bedingungen sind extrem prüfungsrelevant"
       },
       {
-        "title": "21. Übergang von Ersatzansprüchen in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer hat eine Sachversicherung für sein Gebäude abgeschlossen. Ein Dritter verursacht fahrlässig einen Schaden am Gebäude. Der Versicherer ersetzt den Schaden und prüft anschließend weitere Schritte.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Übergang von Ersatzansprüchen in der Sachversicherung\n\nEin Versicherungsnehmer hat eine Sachversicherung für sein Gebäude abgeschlossen. Ein Dritter verursacht fahrlässig einen Schaden am Gebäude. Der Versicherer ersetzt den Schaden und prüft anschließend weitere Schritte.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Versicherer kann auf den Schädiger Rückgriff nehmen",
@@ -10429,9 +10429,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Begründung: Legalzession (Regress) 💡 Falle: Kein doppelter Anspruch!"
       },
       {
-        "title": "22. Wiederherstellungspflicht in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Gebäude wird durch einen Brand beschädigt. Der Versicherungsnehmer erhält eine Leistung aus seiner Sachversicherung, entscheidet sich jedoch gegen die Wiederherstellung.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Wiederherstellungspflicht in der Sachversicherung\n\nEin Gebäude wird durch einen Brand beschädigt. Der Versicherungsnehmer erhält eine Leistung aus seiner Sachversicherung, entscheidet sich jedoch gegen die Wiederherstellung.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Entschädigung kann vom tatsächlichen Wiederaufbau abhängen",
@@ -10453,9 +10453,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Neuwert oft an Wiederaufbau gebunden"
       },
       {
-        "title": "23. Gefahrtragung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Schaden entsteht während der Laufzeit einer Sachversicherung, jedoch wird strittig, ob dieser innerhalb der Versicherungsdauer eingetreten ist.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Gefahrtragung in der Sachversicherung\n\nEin Schaden entsteht während der Laufzeit einer Sachversicherung, jedoch wird strittig, ob dieser innerhalb der Versicherungsdauer eingetreten ist.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Maßgeblich ist der Zeitpunkt des Schadeneintritts",
@@ -10477,9 +10477,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Meldung ≠ Zeitpunkt des Schadens"
       },
       {
-        "title": "24. Anzeigeobliegenheit bei Vertragsabschluss in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer verschweigt beim Abschluss einer Sachversicherung eine wesentliche Information über das Risiko.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Anzeigeobliegenheit bei Vertragsabschluss in der Sachversicherung\n\nEin Versicherungsnehmer verschweigt beim Abschluss einer Sachversicherung eine wesentliche Information über das Risiko.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Es besteht eine vorvertragliche Anzeigepflicht",
@@ -10501,9 +10501,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Klassiker in Prüfungen"
       },
       {
-        "title": "25. Versicherte Sachen in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer hat eine Sachversicherung für sein Gebäude abgeschlossen. Ein Schaden betrifft bewegliche Gegenstände im Gebäude.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Versicherte Sachen in der Sachversicherung\n\nEin Versicherungsnehmer hat eine Sachversicherung für sein Gebäude abgeschlossen. Ein Schaden betrifft bewegliche Gegenstände im Gebäude.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Es kommt darauf an, welche Sachen versichert sind",
@@ -10525,9 +10525,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Gebäude ≠ Inhalt"
       },
       {
-        "title": "26. Ersatzleistung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Nach einem Schaden aus einer Sachversicherung wird die Höhe der Entschädigung ermittelt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Ersatzleistung in der Sachversicherung\n\nNach einem Schaden aus einer Sachversicherung wird die Höhe der Entschädigung ermittelt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Entschädigung richtet sich nach dem tatsächlichen Schaden",
@@ -10549,9 +10549,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Versicherungssumme = Obergrenze, nicht Fixbetrag"
       },
       {
-        "title": "27. Zufallsprinzip in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer beschädigt seine Sache absichtlich und verlangt Leistung aus seiner Sachversicherung.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Zufallsprinzip in der Sachversicherung\n\nEin Versicherungsnehmer beschädigt seine Sache absichtlich und verlangt Leistung aus seiner Sachversicherung.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Versicherungsschutz setzt ein zufälliges Ereignis voraus",
@@ -10573,9 +10573,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Vorsatz = kein Versicherungsschutz"
       },
       {
-        "title": "28. Versicherung mehrerer Gefahren in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer kombiniert mehrere Risiken in seiner Sachversicherung (z. B. Feuer, Sturm, Leitungswasser).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Versicherung mehrerer Gefahren in der Sachversicherung\n\nEin Versicherungsnehmer kombiniert mehrere Risiken in seiner Sachversicherung (z. B. Feuer, Sturm, Leitungswasser).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Mehrere Gefahren können kombiniert versichert werden",
@@ -10597,9 +10597,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Kein automatischer Rundumschutz"
       },
       {
-        "title": "29. Vertragsänderung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer möchte während der Laufzeit seiner Sachversicherung die Versicherungssumme erhöhen.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Vertragsänderung in der Sachversicherung\n\nEin Versicherungsnehmer möchte während der Laufzeit seiner Sachversicherung die Versicherungssumme erhöhen.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Vertragsänderungen sind möglich",
@@ -10621,9 +10621,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Keine einseitige Änderung"
       },
       {
-        "title": "30. Risikoausschlüsse in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Schaden tritt ein, der laut Vertrag ausdrücklich ausgeschlossen ist.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Risikoausschlüsse in der Sachversicherung\n\nEin Schaden tritt ein, der laut Vertrag ausdrücklich ausgeschlossen ist.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Ausschlüsse sind vertraglich geregelt",
@@ -10645,9 +10645,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Bedingungen IMMER lesen"
       },
       {
-        "title": "31. Sorgfaltspflichten in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer schließt eine Sachversicherung für ein Gebäude ab. Im Laufe der Zeit unterlässt er notwendige Wartungs- und Sicherungsmaßnahmen, wodurch sich das Risiko eines Schadens deutlich erhöht. Schließlich tritt ein Schaden ein.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Sorgfaltspflichten in der Sachversicherung\n\nEin Versicherungsnehmer schließt eine Sachversicherung für ein Gebäude ab. Im Laufe der Zeit unterlässt er notwendige Wartungs- und Sicherungsmaßnahmen, wodurch sich das Risiko eines Schadens deutlich erhöht. Schließlich tritt ein Schaden ein.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Die Einhaltung von Sorgfaltspflichten ist für den Versicherungsschutz relevant",
@@ -10669,9 +10669,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Versicherer muss nicht immer leisten"
       },
       {
-        "title": "32. Berücksichtigung von Vorschäden in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer hat eine Sachversicherung für sein Inventar abgeschlossen. Nach einem Schaden stellt sich heraus, dass einige Gegenstände bereits vorher beschädigt waren.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Berücksichtigung von Vorschäden in der Sachversicherung\n\nEin Versicherungsnehmer hat eine Sachversicherung für sein Inventar abgeschlossen. Nach einem Schaden stellt sich heraus, dass einige Gegenstände bereits vorher beschädigt waren.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Es wird nur der neu entstandene Schaden ersetzt",
@@ -10693,9 +10693,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Keine „Reparatur alter Schäden“"
       },
       {
-        "title": "33. Mitwirkungspflichten bei der Schadensermittlung in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Nach einem Schaden aus einer Sachversicherung verlangt der Versicherer Unterlagen und Informationen zur Klärung des Sachverhalts. Der Versicherungsnehmer verweigert die Mitwirkung.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Mitwirkungspflichten bei der Schadensermittlung in der Sachversicherung\n\nNach einem Schaden aus einer Sachversicherung verlangt der Versicherer Unterlagen und Informationen zur Klärung des Sachverhalts. Der Versicherungsnehmer verweigert die Mitwirkung.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsnehmer ist zur Mitwirkung verpflichtet",
@@ -10717,9 +10717,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Ohne Mitwirkung oft keine Leistung"
       },
       {
-        "title": "34. Versicherte und nicht versicherte Kosten in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Nach einem Schaden im Rahmen einer Sachversicherung entstehen neben dem eigentlichen Schaden zusätzliche Kosten.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Versicherte und nicht versicherte Kosten in der Sachversicherung\n\nNach einem Schaden im Rahmen einer Sachversicherung entstehen neben dem eigentlichen Schaden zusätzliche Kosten.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Es kommt darauf an, welche Kosten im Vertrag eingeschlossen sind",
@@ -10741,9 +10741,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Nicht alles ist automatisch gedeckt"
       },
       {
-        "title": "35. Gefahrtragung bei zeitlich unklaren Schäden in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Schaden wird im Rahmen einer Sachversicherung erst später entdeckt, obwohl er möglicherweise schon früher entstanden ist.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Gefahrtragung bei zeitlich unklaren Schäden in der Sachversicherung\n\nEin Schaden wird im Rahmen einer Sachversicherung erst später entdeckt, obwohl er möglicherweise schon früher entstanden ist.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Entscheidend ist der Zeitpunkt des Schadeneintritts",
@@ -10765,9 +10765,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Entdeckung ≠ Eintritt"
       },
       {
-        "title": "36. Wirtschaftliches Interesse in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer schließt eine Sachversicherung für eine Sache ab, an der er ein wirtschaftliches Interesse hat, obwohl er nicht Eigentümer ist.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Wirtschaftliches Interesse in der Sachversicherung\n\nEin Versicherungsnehmer schließt eine Sachversicherung für eine Sache ab, an der er ein wirtschaftliches Interesse hat, obwohl er nicht Eigentümer ist.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Ein wirtschaftliches Interesse ist ausreichend",
@@ -10789,9 +10789,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Eigentum ist NICHT Voraussetzung"
       },
       {
-        "title": "37. Einfluss der Vertragsbedingungen in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer liest die Bedingungen seiner Sachversicherung nicht genau und geht davon aus, dass alle Schäden gedeckt sind.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Einfluss der Vertragsbedingungen in der Sachversicherung\n\nEin Versicherungsnehmer liest die Bedingungen seiner Sachversicherung nicht genau und geht davon aus, dass alle Schäden gedeckt sind.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Vertragsbedingungen bestimmen den Umfang des Versicherungsschutzes",
@@ -10813,9 +10813,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Bedingungen sind entscheidend!"
       },
       {
-        "title": "38. Deckungsumfang bei mehreren Risiken in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer schließt eine Sachversicherung ab und geht davon aus, dass alle möglichen Gefahren automatisch versichert sind.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Deckungsumfang bei mehreren Risiken in der Sachversicherung\n\nEin Versicherungsnehmer schließt eine Sachversicherung ab und geht davon aus, dass alle möglichen Gefahren automatisch versichert sind.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Deckungsumfang hängt vom Vertrag ab",
@@ -10837,9 +10837,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Kein „All-Risk“ ohne Vereinbarung"
       },
       {
-        "title": "39. Leistungspflicht bei teilweisem Risikoausschluss in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Schaden tritt ein, der teilweise unter einen Risikoausschluss der Sachversicherung fällt.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Leistungspflicht bei teilweisem Risikoausschluss in der Sachversicherung\n\nEin Schaden tritt ein, der teilweise unter einen Risikoausschluss der Sachversicherung fällt.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Ausschlüsse sind vertraglich geregelt",
@@ -10861,9 +10861,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Teilweise Ausschlüsse sind möglich"
       },
       {
-        "title": "40. Verhalten im Schadenfall in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung sind korrekt?",
         "context": "Ein Versicherungsnehmer reagiert nach einem Schaden im Rahmen seiner Sachversicherung nicht angemessen und unterlässt wichtige Maßnahmen.",
-        "question": "Welche Aussagen zur Sachversicherung sind korrekt?",
+        "question": "Verhalten im Schadenfall in der Sachversicherung\n\nEin Versicherungsnehmer reagiert nach einem Schaden im Rahmen seiner Sachversicherung nicht angemessen und unterlässt wichtige Maßnahmen.\n\nWelche Aussagen zur Sachversicherung sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsnehmer muss im Schadenfall korrekt handeln",
@@ -10885,9 +10885,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Verhalten nach Schaden ist extrem wichtig"
       },
       {
-        "title": "41. Maschinenbruch in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung (Maschinenbruch) sind korrekt?",
         "context": "Ein Unternehmen betreibt eine Produktionsmaschine, die im Rahmen einer Sachversicherung (technische Sparte – Maschinenbruch) versichert ist. Während des Betriebs kommt es durch einen Bedienungsfehler zu einem plötzlichen Defekt der Maschine.",
-        "question": "Welche Aussagen zur Sachversicherung (Maschinenbruch) sind korrekt?",
+        "question": "Maschinenbruch in der Sachversicherung\n\nEin Unternehmen betreibt eine Produktionsmaschine, die im Rahmen einer Sachversicherung (technische Sparte – Maschinenbruch) versichert ist. Während des Betriebs kommt es durch einen Bedienungsfehler zu einem plötzlichen Defekt der Maschine.\n\nWelche Aussagen zur Sachversicherung (Maschinenbruch) sind korrekt?",
         "options": [
           {
             "text": "Bedienungsfehler können versichert sein",
@@ -10909,9 +10909,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Abnutzung ist typischer Ausschluss"
       },
       {
-        "title": "42. Abgrenzung Verschleiß in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Eine Maschine fällt aufgrund langjähriger Nutzung und Materialermüdung aus. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (technische Sparte).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Abgrenzung Verschleiß in der Sachversicherung\n\nEine Maschine fällt aufgrund langjähriger Nutzung und Materialermüdung aus. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (technische Sparte).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Verschleiß ist in der Regel nicht versichert",
@@ -10933,9 +10933,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Verschleiß ≠ Versicherungsfall"
       },
       {
-        "title": "43. Elektronikversicherung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen versichert seine IT-Anlage über eine Sachversicherung (technische Sparte – Elektronikversicherung). Durch eine Überspannung wird ein Server beschädigt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Elektronikversicherung in der Sachversicherung\n\nEin Unternehmen versichert seine IT-Anlage über eine Sachversicherung (technische Sparte – Elektronikversicherung). Durch eine Überspannung wird ein Server beschädigt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Elektronikversicherung kann auch Überspannungsschäden decken",
@@ -10957,9 +10957,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Nicht nur mechanische Schäden"
       },
       {
-        "title": "44. Allgefahrenprinzip in der Sachversicherung (technische Sparte)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer hat eine Sachversicherung (technische Sparte) abgeschlossen, die nach dem Allgefahrenprinzip funktioniert.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Allgefahrenprinzip in der Sachversicherung (technische Sparte)\n\nEin Versicherungsnehmer hat eine Sachversicherung (technische Sparte) abgeschlossen, die nach dem Allgefahrenprinzip funktioniert.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Grundsätzlich sind alle Gefahren gedeckt, die nicht ausgeschlossen sind",
@@ -10981,9 +10981,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Gegenteil von klassischen Sachversicherungen"
       },
       {
-        "title": "45. Montageversicherung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen errichtet eine große Industrieanlage, die über eine Sachversicherung (technische Sparte – Montageversicherung) abgesichert ist. Während der Montage entsteht ein Schaden.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Montageversicherung in der Sachversicherung\n\nEin Unternehmen errichtet eine große Industrieanlage, die über eine Sachversicherung (technische Sparte – Montageversicherung) abgesichert ist. Während der Montage entsteht ein Schaden.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Schäden während der Montage können versichert sein",
@@ -11005,9 +11005,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Schutz besteht gerade während der Bau-/Montagephase"
       },
       {
-        "title": "46. Bauwesenversicherung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Bauherr schließt eine Sachversicherung (technische Sparte – Bauwesenversicherung) für ein Bauprojekt ab. Während der Bauphase kommt es zu einem Schaden durch einen Sturm.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Bauwesenversicherung in der Sachversicherung\n\nEin Bauherr schließt eine Sachversicherung (technische Sparte – Bauwesenversicherung) für ein Bauprojekt ab. Während der Bauphase kommt es zu einem Schaden durch einen Sturm.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Schäden während der Bauphase können gedeckt sein",
@@ -11029,9 +11029,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Nur Bauphase abgesichert"
       },
       {
-        "title": "47. Selbstbehalt in technischen Sachversicherungen",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen vereinbart in seiner Sachversicherung (technische Sparte) einen Selbstbehalt für Maschinen.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Selbstbehalt in technischen Sachversicherungen\n\nEin Unternehmen vereinbart in seiner Sachversicherung (technische Sparte) einen Selbstbehalt für Maschinen.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Ein Teil des Schadens wird selbst getragen",
@@ -11053,9 +11053,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Klassiker!"
       },
       {
-        "title": "48. Versicherte Sachen in der technischen Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen versichert mehrere Maschinen im Rahmen einer Sachversicherung (technische Sparte). Nach einem Schaden stellt sich die Frage, ob alle Geräte gedeckt sind.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Versicherte Sachen in der technischen Sachversicherung\n\nEin Unternehmen versichert mehrere Maschinen im Rahmen einer Sachversicherung (technische Sparte). Nach einem Schaden stellt sich die Frage, ob alle Geräte gedeckt sind.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Es kommt darauf an, welche Sachen konkret versichert sind",
@@ -11077,9 +11077,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Keine automatische Deckung"
       },
       {
-        "title": "49. Betriebsbereitschaft in der Sachversicherung (technische Sparte)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Eine Maschine wird im Rahmen einer Sachversicherung (technische Sparte) versichert. Zum Zeitpunkt des Schadens ist sie noch nicht betriebsbereit.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Betriebsbereitschaft in der Sachversicherung (technische Sparte)\n\nEine Maschine wird im Rahmen einer Sachversicherung (technische Sparte) versichert. Zum Zeitpunkt des Schadens ist sie noch nicht betriebsbereit.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Betriebsbereitschaft kann Voraussetzung sein",
@@ -11101,9 +11101,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Zustand der Maschine entscheidend"
       },
       {
-        "title": "50. Schadenursachen in der technischen Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Eine Maschine wird durch einen Kurzschluss beschädigt. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (technische Sparte).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Schadenursachen in der technischen Sachversicherung\n\nEine Maschine wird durch einen Kurzschluss beschädigt. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (technische Sparte).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Elektrische Schäden können versichert sein",
@@ -11125,9 +11125,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Technische Versicherungen decken oft auch „innere Schäden“"
       },
       {
-        "title": "51. Bauwesenversicherung – unvorhergesehener Schaden in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung (Bauwesenversicherung) sind korrekt?",
         "context": "Ein Bauherr errichtet ein Wohngebäude und hat eine Sachversicherung (technische Sparte – Bauwesenversicherung) abgeschlossen. Während der Bauphase kommt es durch einen unerwarteten Starkregen zu erheblichen Schäden am Rohbau.",
-        "question": "Welche Aussagen zur Sachversicherung (Bauwesenversicherung) sind korrekt?",
+        "question": "Bauwesenversicherung – unvorhergesehener Schaden in der Sachversicherung\n\nEin Bauherr errichtet ein Wohngebäude und hat eine Sachversicherung (technische Sparte – Bauwesenversicherung) abgeschlossen. Während der Bauphase kommt es durch einen unerwarteten Starkregen zu erheblichen Schäden am Rohbau.\n\nWelche Aussagen zur Sachversicherung (Bauwesenversicherung) sind korrekt?",
         "options": [
           {
             "text": "Unvorhergesehene Schäden während der Bauphase können gedeckt sein",
@@ -11149,9 +11149,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Witterung ist oft mitversichert, wenn unvorhergesehen"
       },
       {
-        "title": "52. Bauwesenversicherung – versicherte Sachen in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Bauprojekt ist über eine Sachversicherung (Bauwesenversicherung) abgesichert. Es kommt zu Schäden an bereits eingebauten Materialien sowie an noch nicht verbauten Baustoffen auf der Baustelle.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Bauwesenversicherung – versicherte Sachen in der Sachversicherung\n\nEin Bauprojekt ist über eine Sachversicherung (Bauwesenversicherung) abgesichert. Es kommt zu Schäden an bereits eingebauten Materialien sowie an noch nicht verbauten Baustoffen auf der Baustelle.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Eingebaute Teile sind versichert",
@@ -11173,9 +11173,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Nicht nur fertige Teile sind gedeckt"
       },
       {
-        "title": "53. Bauwesenversicherung – Eigenleistung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Bauherr führt Teile des Baus selbst aus und verursacht dabei einen Schaden. Das Bauvorhaben ist über eine Sachversicherung (Bauwesenversicherung) versichert.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Bauwesenversicherung – Eigenleistung in der Sachversicherung\n\nEin Bauherr führt Teile des Baus selbst aus und verursacht dabei einen Schaden. Das Bauvorhaben ist über eine Sachversicherung (Bauwesenversicherung) versichert.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Eigenleistungen können mitversichert sein",
@@ -11197,9 +11197,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Eigenleistung ist oft eingeschlossen"
       },
       {
-        "title": "54. Bauwesenversicherung – Ausschluss von Verschleiß in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Während eines Bauprojekts treten Schäden durch mangelhafte Bauausführung auf. Der Bauherr fordert Leistung aus seiner Sachversicherung (Bauwesenversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Bauwesenversicherung – Ausschluss von Verschleiß in der Sachversicherung\n\nWährend eines Bauprojekts treten Schäden durch mangelhafte Bauausführung auf. Der Bauherr fordert Leistung aus seiner Sachversicherung (Bauwesenversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Reine Baumängel können ausgeschlossen sein",
@@ -11221,9 +11221,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Mängel ≠ Versicherungsfall"
       },
       {
-        "title": "55. Bauherrnhaftpflicht – Abgrenzung zur Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Bauherr schließt zusätzlich zur Sachversicherung (Bauwesenversicherung) eine Bauherrnhaftpflichtversicherung ab. Ein Dritter wird auf der Baustelle verletzt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Bauherrnhaftpflicht – Abgrenzung zur Sachversicherung\n\nEin Bauherr schließt zusätzlich zur Sachversicherung (Bauwesenversicherung) eine Bauherrnhaftpflichtversicherung ab. Ein Dritter wird auf der Baustelle verletzt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Bauherrnhaftpflicht deckt Schäden an Dritten",
@@ -11245,9 +11245,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Sachversicherung ≠ Haftpflicht"
       },
       {
-        "title": "56. Bauherrnhaftpflicht – Haftungsprinzip",
+        "title": "Welche Aussagen zur Sachversicherung (Abgrenzung Bauherrnhaftpflicht) sind korrekt?",
         "context": "Ein Bauherr sichert seine Baustelle nicht ausreichend ab. Ein Passant stürzt und verletzt sich.",
-        "question": "Welche Aussagen zur Sachversicherung (Abgrenzung Bauherrnhaftpflicht) sind korrekt?",
+        "question": "Bauherrnhaftpflicht – Haftungsprinzip\n\nEin Bauherr sichert seine Baustelle nicht ausreichend ab. Ein Passant stürzt und verletzt sich.\n\nWelche Aussagen zur Sachversicherung (Abgrenzung Bauherrnhaftpflicht) sind korrekt?",
         "options": [
           {
             "text": "Der Bauherr kann haftbar gemacht werden",
@@ -11269,9 +11269,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Sachversicherung zahlt KEINE Personenschäden"
       },
       {
-        "title": "57. Bauwesenversicherung – Bauphase in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Gebäude ist noch nicht fertiggestellt und wird durch ein unerwartetes Ereignis beschädigt. Es besteht eine Sachversicherung (Bauwesenversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Bauwesenversicherung – Bauphase in der Sachversicherung\n\nEin Gebäude ist noch nicht fertiggestellt und wird durch ein unerwartetes Ereignis beschädigt. Es besteht eine Sachversicherung (Bauwesenversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Bauphase ist versichert",
@@ -11293,9 +11293,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Bauwesen ≠ fertiges Gebäude"
       },
       {
-        "title": "58. Bauwesenversicherung – Mehrere Beteiligte in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "An einem Bauprojekt sind mehrere Unternehmen beteiligt. Es besteht eine Sachversicherung (Bauwesenversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Bauwesenversicherung – Mehrere Beteiligte in der Sachversicherung\n\nAn einem Bauprojekt sind mehrere Unternehmen beteiligt. Es besteht eine Sachversicherung (Bauwesenversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Mehrere Beteiligte können mitversichert sein",
@@ -11317,9 +11317,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Oft „alle am Bau Beteiligten“ mitversichert"
       },
       {
-        "title": "59. Bauherrnhaftpflicht – Schaden durch Bauarbeiten",
+        "title": "Welche Aussagen zur Sachversicherung (Abgrenzung Bauherrnhaftpflicht) sind korrekt?",
         "context": "Während Bauarbeiten fällt ein Gegenstand von der Baustelle und beschädigt ein parkendes Auto.",
-        "question": "Welche Aussagen zur Sachversicherung (Abgrenzung Bauherrnhaftpflicht) sind korrekt?",
+        "question": "Bauherrnhaftpflicht – Schaden durch Bauarbeiten\n\nWährend Bauarbeiten fällt ein Gegenstand von der Baustelle und beschädigt ein parkendes Auto.\n\nWelche Aussagen zur Sachversicherung (Abgrenzung Bauherrnhaftpflicht) sind korrekt?",
         "options": [
           {
             "text": "Der Bauherr kann haftbar sein",
@@ -11341,9 +11341,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Sachversicherung zahlt NICHT für fremde Sachen"
       },
       {
-        "title": "60. Bauwesenversicherung – Versicherungssumme in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Bauprojekt wird im Rahmen einer Sachversicherung (Bauwesenversicherung) zu niedrig versichert. Es tritt ein Schaden ein.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Bauwesenversicherung – Versicherungssumme in der Sachversicherung\n\nEin Bauprojekt wird im Rahmen einer Sachversicherung (Bauwesenversicherung) zu niedrig versichert. Es tritt ein Schaden ein.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Unterversicherung kann vorliegen",
@@ -11365,9 +11365,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Klassiker wie bei jeder Sachversicherung"
       },
       {
-        "title": "61. Montageversicherung – Grundprinzip in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung (Montageversicherung) sind korrekt?",
         "context": "Ein Unternehmen errichtet im Rahmen eines Projekts eine komplexe Industrieanlage. Für die Dauer der Montage besteht eine Sachversicherung (technische Sparte – Montageversicherung). Während der Installation wird ein bereits montiertes Bauteil durch einen Fehler beschädigt.",
-        "question": "Welche Aussagen zur Sachversicherung (Montageversicherung) sind korrekt?",
+        "question": "Montageversicherung – Grundprinzip in der Sachversicherung\n\nEin Unternehmen errichtet im Rahmen eines Projekts eine komplexe Industrieanlage. Für die Dauer der Montage besteht eine Sachversicherung (technische Sparte – Montageversicherung). Während der Installation wird ein bereits montiertes Bauteil durch einen Fehler beschädigt.\n\nWelche Aussagen zur Sachversicherung (Montageversicherung) sind korrekt?",
         "options": [
           {
             "text": "Schäden während der Montagephase können gedeckt sein",
@@ -11389,9 +11389,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Schutz gilt gerade während der Montage, nicht erst danach"
       },
       {
-        "title": "62. Montageversicherung – versicherte Sachen in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Im Rahmen einer Sachversicherung (Montageversicherung) werden sowohl bereits installierte Teile als auch noch nicht verbaute Komponenten auf der Baustelle beschädigt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Montageversicherung – versicherte Sachen in der Sachversicherung\n\nIm Rahmen einer Sachversicherung (Montageversicherung) werden sowohl bereits installierte Teile als auch noch nicht verbaute Komponenten auf der Baustelle beschädigt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Bereits montierte Teile können versichert sein",
@@ -11413,9 +11413,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Auch „noch nicht verbaute Teile“ sind oft gedeckt"
       },
       {
-        "title": "63. Montageversicherung – Ausschluss von Mängeln in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Während der Montage kommt es aufgrund eines Konstruktionsfehlers zu Schäden an der Anlage. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (Montageversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Montageversicherung – Ausschluss von Mängeln in der Sachversicherung\n\nWährend der Montage kommt es aufgrund eines Konstruktionsfehlers zu Schäden an der Anlage. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (Montageversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Reine Konstruktions- oder Materialmängel können ausgeschlossen sein",
@@ -11437,9 +11437,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Mängel ≠ versicherter Schaden"
       },
       {
-        "title": "64. Montageversicherung – Zeitraum des Versicherungsschutzes in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Schaden tritt kurz vor Abschluss der Montage auf. Es besteht eine Sachversicherung (Montageversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Montageversicherung – Zeitraum des Versicherungsschutzes in der Sachversicherung\n\nEin Schaden tritt kurz vor Abschluss der Montage auf. Es besteht eine Sachversicherung (Montageversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsschutz gilt während der Montagephase",
@@ -11461,9 +11461,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Nach Abnahme oft kein Schutz mehr"
       },
       {
-        "title": "65. Montageversicherung – Beteiligte Personen in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "An einem Montageprojekt sind mehrere Unternehmen beteiligt (z. B. Auftraggeber, Subunternehmer). Es besteht eine Sachversicherung (Montageversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Montageversicherung – Beteiligte Personen in der Sachversicherung\n\nAn einem Montageprojekt sind mehrere Unternehmen beteiligt (z. B. Auftraggeber, Subunternehmer). Es besteht eine Sachversicherung (Montageversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Mehrere am Projekt Beteiligte können mitversichert sein",
@@ -11485,9 +11485,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Oft „alle Beteiligten“ mitversichert – aber nur wenn vertraglich geregelt"
       },
       {
-        "title": "66. Maschinengarantieversicherung – Grundprinzip in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung (Maschinengarantieversicherung) sind korrekt?",
         "context": "Ein Unternehmen kauft eine neue Produktionsmaschine. Nach Ablauf der Herstellergarantie schließt es eine Sachversicherung (technische Sparte – Maschinengarantieversicherung) ab. Einige Monate später tritt ein Defekt auf, der auf einen Materialfehler zurückzuführen ist.",
-        "question": "Welche Aussagen zur Sachversicherung (Maschinengarantieversicherung) sind korrekt?",
+        "question": "Maschinengarantieversicherung – Grundprinzip in der Sachversicherung\n\nEin Unternehmen kauft eine neue Produktionsmaschine. Nach Ablauf der Herstellergarantie schließt es eine Sachversicherung (technische Sparte – Maschinengarantieversicherung) ab. Einige Monate später tritt ein Defekt auf, der auf einen Materialfehler zurückzuführen ist.\n\nWelche Aussagen zur Sachversicherung (Maschinengarantieversicherung) sind korrekt?",
         "options": [
           {
             "text": "Sie knüpft an die Herstellergarantie an",
@@ -11509,9 +11509,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Verschleiß bleibt meist ausgeschlossen"
       },
       {
-        "title": "67. Maschinengarantieversicherung – Abgrenzung zur Maschinenbruchversicherung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer vergleicht eine Sachversicherung (Maschinengarantieversicherung) mit einer Maschinenbruchversicherung.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Maschinengarantieversicherung – Abgrenzung zur Maschinenbruchversicherung in der Sachversicherung\n\nEin Versicherungsnehmer vergleicht eine Sachversicherung (Maschinengarantieversicherung) mit einer Maschinenbruchversicherung.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Maschinengarantieversicherung bezieht sich auf Garantie- bzw. Gewährleistungsrisiken",
@@ -11533,9 +11533,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Unterschied Garantie vs. „plötzliches Ereignis“"
       },
       {
-        "title": "68. Maschinengarantieversicherung – versicherte Ursachen in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Eine Maschine fällt im Rahmen einer Sachversicherung (Maschinengarantieversicherung) aufgrund eines versteckten Produktionsfehlers aus.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Maschinengarantieversicherung – versicherte Ursachen in der Sachversicherung\n\nEine Maschine fällt im Rahmen einer Sachversicherung (Maschinengarantieversicherung) aufgrund eines versteckten Produktionsfehlers aus.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Produktionsfehler können versichert sein",
@@ -11557,9 +11557,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Fokus liegt auf „inneren Schäden“"
       },
       {
-        "title": "69. Maschinengarantieversicherung – Vertragsabhängigkeit in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer geht davon aus, dass jede Art von Schaden automatisch durch seine Sachversicherung (Maschinengarantieversicherung) gedeckt ist.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Maschinengarantieversicherung – Vertragsabhängigkeit in der Sachversicherung\n\nEin Versicherungsnehmer geht davon aus, dass jede Art von Schaden automatisch durch seine Sachversicherung (Maschinengarantieversicherung) gedeckt ist.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Deckungsumfang ist vertraglich geregelt",
@@ -11581,9 +11581,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Kein Vollschutz!"
       },
       {
-        "title": "70. Maschinengarantieversicherung – zeitlicher Anwendungsbereich in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen nutzt eine Maschine mehrere Jahre. Die Herstellergarantie läuft ab und wird durch eine Sachversicherung (Maschinengarantieversicherung) ergänzt. Danach tritt ein Defekt auf.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Maschinengarantieversicherung – zeitlicher Anwendungsbereich in der Sachversicherung\n\nEin Unternehmen nutzt eine Maschine mehrere Jahre. Die Herstellergarantie läuft ab und wird durch eine Sachversicherung (Maschinengarantieversicherung) ergänzt. Danach tritt ein Defekt auf.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Maschinengarantieversicherung kann nach Ablauf der Herstellergarantie greifen",
@@ -11605,9 +11605,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Nicht jeder Schaden nach Garantie ist gedeckt"
       },
       {
-        "title": "71. Maschinenbruchversicherung – Grundprinzip in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung (Maschinenbruchversicherung) sind korrekt?",
         "context": "Ein Unternehmen betreibt eine große Produktionsmaschine, die über eine Sachversicherung (technische Sparte – Maschinenbruchversicherung) versichert ist. Während des laufenden Betriebs kommt es plötzlich zu einem mechanischen Defekt, wodurch die Maschine ausfällt.",
-        "question": "Welche Aussagen zur Sachversicherung (Maschinenbruchversicherung) sind korrekt?",
+        "question": "Maschinenbruchversicherung – Grundprinzip in der Sachversicherung\n\nEin Unternehmen betreibt eine große Produktionsmaschine, die über eine Sachversicherung (technische Sparte – Maschinenbruchversicherung) versichert ist. Während des laufenden Betriebs kommt es plötzlich zu einem mechanischen Defekt, wodurch die Maschine ausfällt.\n\nWelche Aussagen zur Sachversicherung (Maschinenbruchversicherung) sind korrekt?",
         "options": [
           {
             "text": "Die Maschinenbruchversicherung deckt unvorhergesehene Schäden",
@@ -11629,9 +11629,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Verschleiß ist ausgeschlossen"
       },
       {
-        "title": "72. Maschinenbruchversicherung – innere Ursachen in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Eine Maschine wird im Rahmen einer Sachversicherung (Maschinenbruchversicherung) versichert. Es kommt zu einem Schaden durch einen inneren Materialfehler.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Maschinenbruchversicherung – innere Ursachen in der Sachversicherung\n\nEine Maschine wird im Rahmen einer Sachversicherung (Maschinenbruchversicherung) versichert. Es kommt zu einem Schaden durch einen inneren Materialfehler.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Innere Ursachen können versichert sein",
@@ -11653,9 +11653,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Gegensatz zur klassischen Sachversicherung"
       },
       {
-        "title": "73. Maschinenbruchversicherung – Ausschluss von Verschleiß in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Eine Maschine fällt aufgrund langfristiger Abnutzung aus. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (Maschinenbruchversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Maschinenbruchversicherung – Ausschluss von Verschleiß in der Sachversicherung\n\nEine Maschine fällt aufgrund langfristiger Abnutzung aus. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (Maschinenbruchversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Verschleiß ist typischerweise ausgeschlossen",
@@ -11677,9 +11677,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Abnutzung ≠ Versicherungsfall"
       },
       {
-        "title": "74. Maschinenbruchversicherung – Bedienungsfehler in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Mitarbeiter verursacht durch falsche Bedienung einen Schaden an einer Maschine. Die Maschine ist durch eine Sachversicherung (Maschinenbruchversicherung) versichert.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Maschinenbruchversicherung – Bedienungsfehler in der Sachversicherung\n\nEin Mitarbeiter verursacht durch falsche Bedienung einen Schaden an einer Maschine. Die Maschine ist durch eine Sachversicherung (Maschinenbruchversicherung) versichert.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Bedienungsfehler können versichert sein",
@@ -11701,9 +11701,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Fahrlässigkeit ist oft gedeckt"
       },
       {
-        "title": "75. Maschinenbruchversicherung – Betriebsbereitschaft in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Eine Maschine wird im Rahmen einer Sachversicherung (Maschinenbruchversicherung) versichert. Zum Zeitpunkt des Schadens befindet sie sich noch in der Aufbauphase und ist nicht betriebsbereit.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Maschinenbruchversicherung – Betriebsbereitschaft in der Sachversicherung\n\nEine Maschine wird im Rahmen einer Sachversicherung (Maschinenbruchversicherung) versichert. Zum Zeitpunkt des Schadens befindet sie sich noch in der Aufbauphase und ist nicht betriebsbereit.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Betriebsbereitschaft kann Voraussetzung für den Versicherungsschutz sein",
@@ -11725,9 +11725,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Montagephase ≠ Maschinenbruchversicherung"
       },
       {
-        "title": "76. Elektrogeräteversicherung – Grundprinzip in der Sachversicherung",
+        "title": "Welche Aussagen zur Sachversicherung (Elektrogeräteversicherung) sind korrekt?",
         "context": "Ein Unternehmen betreibt eine IT-Infrastruktur (Server, Computer, Netzwerktechnik), die über eine Sachversicherung (technische Sparte – Elektrogeräteversicherung) abgesichert ist. Durch einen internen Kurzschluss fällt ein Server plötzlich aus.",
-        "question": "Welche Aussagen zur Sachversicherung (Elektrogeräteversicherung) sind korrekt?",
+        "question": "Elektrogeräteversicherung – Grundprinzip in der Sachversicherung\n\nEin Unternehmen betreibt eine IT-Infrastruktur (Server, Computer, Netzwerktechnik), die über eine Sachversicherung (technische Sparte – Elektrogeräteversicherung) abgesichert ist. Durch einen internen Kurzschluss fällt ein Server plötzlich aus.\n\nWelche Aussagen zur Sachversicherung (Elektrogeräteversicherung) sind korrekt?",
         "options": [
           {
             "text": "Elektronische Geräte können versichert sein",
@@ -11749,9 +11749,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Nicht nur äußere Einwirkungen zählen"
       },
       {
-        "title": "77. Elektrogeräteversicherung – Allgefahrenprinzip in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer schließt eine Sachversicherung (Elektrogeräteversicherung) ab, die nach dem Allgefahrenprinzip aufgebaut ist. Ein Gerät wird durch ein nicht ausdrücklich genanntes Ereignis beschädigt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Elektrogeräteversicherung – Allgefahrenprinzip in der Sachversicherung\n\nEin Versicherungsnehmer schließt eine Sachversicherung (Elektrogeräteversicherung) ab, die nach dem Allgefahrenprinzip aufgebaut ist. Ein Gerät wird durch ein nicht ausdrücklich genanntes Ereignis beschädigt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Grundsätzlich sind alle Gefahren gedeckt, die nicht ausgeschlossen sind",
@@ -11773,9 +11773,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Gegenteil von klassischen Gefahrenkatalogen"
       },
       {
-        "title": "78. Elektrogeräteversicherung – Bedienungsfehler in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Mitarbeiter verursacht durch falsche Handhabung einen Schaden an einem elektronischen Gerät, das über eine Sachversicherung (Elektrogeräteversicherung) versichert ist.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Elektrogeräteversicherung – Bedienungsfehler in der Sachversicherung\n\nEin Mitarbeiter verursacht durch falsche Handhabung einen Schaden an einem elektronischen Gerät, das über eine Sachversicherung (Elektrogeräteversicherung) versichert ist.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Bedienungsfehler können versichert sein",
@@ -11797,9 +11797,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Fahrlässigkeit ist oft gedeckt"
       },
       {
-        "title": "79. Elektrogeräteversicherung – Verschleiß und Alterung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein elektronisches Gerät fällt nach längerer Nutzung aufgrund von Alterung aus. Der Versicherungsnehmer fordert Leistung aus seiner Sachversicherung (Elektrogeräteversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Elektrogeräteversicherung – Verschleiß und Alterung in der Sachversicherung\n\nEin elektronisches Gerät fällt nach längerer Nutzung aufgrund von Alterung aus. Der Versicherungsnehmer fordert Leistung aus seiner Sachversicherung (Elektrogeräteversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Verschleiß ist typischerweise ausgeschlossen",
@@ -11821,9 +11821,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Alterung ≠ Versicherungsfall"
       },
       {
-        "title": "80. Elektrogeräteversicherung – Versicherte Sachen und Nutzung in der Sachversicherung",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen nutzt mobile elektronische Geräte, die über eine Sachversicherung (Elektrogeräteversicherung) versichert sind. Ein Schaden tritt außerhalb des Unternehmensstandorts ein.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Elektrogeräteversicherung – Versicherte Sachen und Nutzung in der Sachversicherung\n\nEin Unternehmen nutzt mobile elektronische Geräte, die über eine Sachversicherung (Elektrogeräteversicherung) versichert sind. Ein Schaden tritt außerhalb des Unternehmensstandorts ein.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Mobile Geräte können versichert sein",
@@ -11845,9 +11845,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Geltungsbereich ist vertraglich geregelt"
       },
       {
-        "title": "81. Kurzschluss im Serverraum in der Sachversicherung (Elektronikversicherung)",
+        "title": "Welche Aussagen zur Sachversicherung (Elektronikversicherung) sind korrekt?",
         "context": "Ein Unternehmen betreibt einen Serverraum, der über eine Sachversicherung (technische Sparte – Elektronikversicherung) abgesichert ist. Durch einen internen Kurzschluss fällt ein zentraler Server plötzlich aus und muss ersetzt werden.",
-        "question": "Welche Aussagen zur Sachversicherung (Elektronikversicherung) sind korrekt?",
+        "question": "Kurzschluss im Serverraum in der Sachversicherung (Elektronikversicherung)\n\nEin Unternehmen betreibt einen Serverraum, der über eine Sachversicherung (technische Sparte – Elektronikversicherung) abgesichert ist. Durch einen internen Kurzschluss fällt ein zentraler Server plötzlich aus und muss ersetzt werden.\n\nWelche Aussagen zur Sachversicherung (Elektronikversicherung) sind korrekt?",
         "options": [
           {
             "text": "Ein interner Kurzschluss stellt einen versicherten Schaden dar",
@@ -11869,9 +11869,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Elektronikversicherung deckt gerade auch innere Schäden"
       },
       {
-        "title": "82. Fehlbedienung eines medizinischen Geräts in der Sachversicherung (Elektronikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "In einem Krankenhaus wird ein diagnostisches Gerät durch falsche Bedienung beschädigt. Das Gerät ist über eine Sachversicherung (technische Sparte – Elektronikversicherung) versichert.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Fehlbedienung eines medizinischen Geräts in der Sachversicherung (Elektronikversicherung)\n\nIn einem Krankenhaus wird ein diagnostisches Gerät durch falsche Bedienung beschädigt. Das Gerät ist über eine Sachversicherung (technische Sparte – Elektronikversicherung) versichert.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Fehlbedienung kann versichert sein",
@@ -11893,9 +11893,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Fahrlässigkeit ≠ automatisch ausgeschlossen"
       },
       {
-        "title": "83. Diebstahl eines mobilen Geräts in der Sachversicherung (Elektronikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Mitarbeiter nimmt ein versichertes Notebook mit auf Dienstreise. Das Gerät wird gestohlen. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Diebstahl eines mobilen Geräts in der Sachversicherung (Elektronikversicherung)\n\nEin Mitarbeiter nimmt ein versichertes Notebook mit auf Dienstreise. Das Gerät wird gestohlen. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Mobile Geräte können versichert sein",
@@ -11917,9 +11917,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Ort/Geltungsbereich ist entscheidend"
       },
       {
-        "title": "84. Überspannungsschaden durch Blitz in der Sachversicherung (Elektronikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Blitz schlägt in die Nähe eines Betriebsgebäudes ein. Dadurch entsteht eine Überspannung, die mehrere elektronische Geräte beschädigt. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Überspannungsschaden durch Blitz in der Sachversicherung (Elektronikversicherung)\n\nEin Blitz schlägt in die Nähe eines Betriebsgebäudes ein. Dadurch entsteht eine Überspannung, die mehrere elektronische Geräte beschädigt. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Überspannungsschäden können gedeckt sein",
@@ -11941,9 +11941,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Auch indirekte Schäden sind relevant"
       },
       {
-        "title": "85. Softwarefehler vs. Hardwareschaden in der Sachversicherung (Elektronikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen hat eine Sachversicherung (technische Sparte – Elektronikversicherung) abgeschlossen. Ein Softwarefehler führt zu Datenverlust, ohne dass die Hardware beschädigt wird.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Softwarefehler vs. Hardwareschaden in der Sachversicherung (Elektronikversicherung)\n\nEin Unternehmen hat eine Sachversicherung (technische Sparte – Elektronikversicherung) abgeschlossen. Ein Softwarefehler führt zu Datenverlust, ohne dass die Hardware beschädigt wird.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Reine Softwareprobleme sind oft nicht gedeckt",
@@ -11965,9 +11965,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Daten ≠ automatisch versichert"
       },
       {
-        "title": "86. Transport eines Geräts in der Sachversicherung (Elektronikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein versichertes Gerät wird zu Wartungszwecken transportiert und dabei beschädigt. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Transport eines Geräts in der Sachversicherung (Elektronikversicherung)\n\nEin versichertes Gerät wird zu Wartungszwecken transportiert und dabei beschädigt. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Transportschäden sind nicht automatisch gedeckt",
@@ -11989,9 +11989,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Transport = eigener Risikobereich"
       },
       {
-        "title": "87. Alterung eines Geräts in der Sachversicherung (Elektronikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein elektronisches Gerät fällt aufgrund langfristiger Nutzung und Alterung aus. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (technische Sparte – Elektronikversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Alterung eines Geräts in der Sachversicherung (Elektronikversicherung)\n\nEin elektronisches Gerät fällt aufgrund langfristiger Nutzung und Alterung aus. Der Versicherungsnehmer verlangt Leistung aus seiner Sachversicherung (technische Sparte – Elektronikversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Alterung ist typischerweise ausgeschlossen",
@@ -12013,9 +12013,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Verschleiß ist immer Klassiker!"
       },
       {
-        "title": "88. Unklare Schadenursache in der Sachversicherung (Elektronikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Gerät fällt plötzlich aus, die genaue Ursache kann nicht eindeutig festgestellt werden. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Unklare Schadenursache in der Sachversicherung (Elektronikversicherung)\n\nEin Gerät fällt plötzlich aus, die genaue Ursache kann nicht eindeutig festgestellt werden. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsnehmer muss den Schaden nachweisen",
@@ -12037,9 +12037,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Beweislast!"
       },
       {
-        "title": "89. Teilbeschädigung eines Geräts in der Sachversicherung (Elektronikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Gerät wird beschädigt, kann jedoch repariert werden. Der Versicherungsnehmer verlangt den Ersatz eines neuen Geräts aus seiner Sachversicherung (technische Sparte – Elektronikversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Teilbeschädigung eines Geräts in der Sachversicherung (Elektronikversicherung)\n\nEin Gerät wird beschädigt, kann jedoch repariert werden. Der Versicherungsnehmer verlangt den Ersatz eines neuen Geräts aus seiner Sachversicherung (technische Sparte – Elektronikversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Es wird grundsätzlich der Reparaturschaden ersetzt",
@@ -12061,9 +12061,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Kein Upgrade durch Versicherung!"
       },
       {
-        "title": "90. Mehrere Schadensursachen in der Sachversicherung (Elektronikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein elektronisches Gerät wird durch eine Kombination aus Bedienungsfehler und Vorschaden beschädigt. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Mehrere Schadensursachen in der Sachversicherung (Elektronikversicherung)\n\nEin elektronisches Gerät wird durch eine Kombination aus Bedienungsfehler und Vorschaden beschädigt. Es besteht eine Sachversicherung (technische Sparte – Elektronikversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Mehrere Ursachen können berücksichtigt werden",
@@ -12085,9 +12085,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Kombinationen sind prüfungsrelevant!"
       },
       {
-        "title": "91. Sturmschaden an einer PV-Anlage in der Sachversicherung (Photovoltaikversicherung)",
+        "title": "Welche Aussagen zur Sachversicherung (Photovoltaikversicherung) sind korrekt?",
         "context": "Ein Betreiber hat seine Photovoltaikanlage über eine Sachversicherung (technische Sparte – Photovoltaikversicherung) abgesichert. Ein starker Sturm beschädigt mehrere Module auf dem Dach.",
-        "question": "Welche Aussagen zur Sachversicherung (Photovoltaikversicherung) sind korrekt?",
+        "question": "Sturmschaden an einer PV-Anlage in der Sachversicherung (Photovoltaikversicherung)\n\nEin Betreiber hat seine Photovoltaikanlage über eine Sachversicherung (technische Sparte – Photovoltaikversicherung) abgesichert. Ein starker Sturm beschädigt mehrere Module auf dem Dach.\n\nWelche Aussagen zur Sachversicherung (Photovoltaikversicherung) sind korrekt?",
         "options": [
           {
             "text": "Sturmschäden können vom Versicherungsschutz umfasst sein",
@@ -12109,9 +12109,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Witterung ist oft gedeckt, wenn unvorhergesehen"
       },
       {
-        "title": "92. Ertragsausfall bei PV-Anlage in der Sachversicherung (Photovoltaikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Nach einem versicherten Schaden fällt die Photovoltaikanlage mehrere Wochen aus. Der Betreiber verlangt Ersatz für entgangene Einspeiseerlöse aus seiner Sachversicherung (technische Sparte – Photovoltaikversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Ertragsausfall bei PV-Anlage in der Sachversicherung (Photovoltaikversicherung)\n\nNach einem versicherten Schaden fällt die Photovoltaikanlage mehrere Wochen aus. Der Betreiber verlangt Ersatz für entgangene Einspeiseerlöse aus seiner Sachversicherung (technische Sparte – Photovoltaikversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Ertragsausfälle sind nicht automatisch Teil der Sachversicherung",
@@ -12133,9 +12133,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Einnahmen ≠ automatisch versichert"
       },
       {
-        "title": "93. Diebstahl von PV-Komponenten in der Sachversicherung (Photovoltaikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Von einer frei zugänglichen Photovoltaikanlage werden mehrere Module entwendet. Die Anlage ist über eine Sachversicherung (technische Sparte – Photovoltaikversicherung) versichert.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Diebstahl von PV-Komponenten in der Sachversicherung (Photovoltaikversicherung)\n\nVon einer frei zugänglichen Photovoltaikanlage werden mehrere Module entwendet. Die Anlage ist über eine Sachversicherung (technische Sparte – Photovoltaikversicherung) versichert.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Diebstahl kann ein versichertes Risiko darstellen",
@@ -12157,9 +12157,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Sicherungspflichten sind wichtig!"
       },
       {
-        "title": "94. Technischer Defekt (Wechselrichter) in der Sachversicherung (Photovoltaikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Wechselrichter fällt aufgrund eines internen Defekts aus. Die Anlage ist über eine Sachversicherung (technische Sparte – Photovoltaikversicherung) abgesichert.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Technischer Defekt (Wechselrichter) in der Sachversicherung (Photovoltaikversicherung)\n\nEin Wechselrichter fällt aufgrund eines internen Defekts aus. Die Anlage ist über eine Sachversicherung (technische Sparte – Photovoltaikversicherung) abgesichert.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Technische Defekte können versichert sein",
@@ -12181,9 +12181,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Innere Schäden sind typisch gedeckt"
       },
       {
-        "title": "95. Verschleiß und Alterung in der Sachversicherung (Photovoltaikversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Nach mehreren Jahren sinkt die Leistung der Photovoltaikanlage aufgrund natürlicher Alterung. Der Betreiber verlangt Leistung aus seiner Sachversicherung (technische Sparte – Photovoltaikversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Verschleiß und Alterung in der Sachversicherung (Photovoltaikversicherung)\n\nNach mehreren Jahren sinkt die Leistung der Photovoltaikanlage aufgrund natürlicher Alterung. Der Betreiber verlangt Leistung aus seiner Sachversicherung (technische Sparte – Photovoltaikversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Alterung ist typischerweise ausgeschlossen",
@@ -12205,9 +12205,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Verschleiß ≠ Versicherungsfal"
       },
       {
-        "title": "96. Ransomware-Angriff und Kostenarten in der Sachversicherung (Cyberversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen wird Opfer eines gezielten Ransomware-Angriffs. Sämtliche Unternehmensdaten werden verschlüsselt. Es entstehen Kosten für IT-Forensik, Datenwiederherstellung sowie externe IT-Spezialisten. Eine Sachversicherung (technische Sparte – Cyberversicherung) besteht.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Ransomware-Angriff und Kostenarten in der Sachversicherung (Cyberversicherung)\n\nEin Unternehmen wird Opfer eines gezielten Ransomware-Angriffs. Sämtliche Unternehmensdaten werden verschlüsselt. Es entstehen Kosten für IT-Forensik, Datenwiederherstellung sowie externe IT-Spezialisten. Eine Sachversicherung (technische Sparte – Cyberversicherung) besteht.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Kosten für IT-Forensik können versichert sein",
@@ -12229,9 +12229,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Cyberversicherung deckt gerade NICHT nur Sachschäden"
       },
       {
-        "title": "97. Cyber-Erpressung (Lösegeld) in der Sachversicherung (Cyberversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen erhält nach einem Hackerangriff eine Lösegeldforderung zur Freigabe der Daten. Das Unternehmen hat eine Sachversicherung (technische Sparte – Cyberversicherung) abgeschlossen.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Cyber-Erpressung (Lösegeld) in der Sachversicherung (Cyberversicherung)\n\nEin Unternehmen erhält nach einem Hackerangriff eine Lösegeldforderung zur Freigabe der Daten. Das Unternehmen hat eine Sachversicherung (technische Sparte – Cyberversicherung) abgeschlossen.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Lösegeldzahlungen können unter bestimmten Voraussetzungen gedeckt sein",
@@ -12253,9 +12253,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Lösegeld ist NICHT automatisch gedeckt"
       },
       {
-        "title": "98. Datenwiederherstellung vs. Datenverlust in der Sachversicherung (Cyberversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Nach einem Cyberangriff sind wichtige Unternehmensdaten verloren gegangen. Eine Wiederherstellung ist nur teilweise möglich. Das Unternehmen verlangt Ersatz aus seiner Sachversicherung (technische Sparte – Cyberversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Datenwiederherstellung vs. Datenverlust in der Sachversicherung (Cyberversicherung)\n\nNach einem Cyberangriff sind wichtige Unternehmensdaten verloren gegangen. Eine Wiederherstellung ist nur teilweise möglich. Das Unternehmen verlangt Ersatz aus seiner Sachversicherung (technische Sparte – Cyberversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Kosten für Datenrekonstruktion können gedeckt sein",
@@ -12277,9 +12277,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Daten selbst haben oft keinen „Sachwert“"
       },
       {
-        "title": "99. Betriebsunterbrechung nach Cybervorfall in der Sachversicherung (Cyberversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Produktionsbetrieb muss nach einem Cyberangriff den Betrieb für mehrere Tage einstellen. Es entstehen erhebliche Umsatzausfälle. Es besteht eine Sachversicherung (technische Sparte – Cyberversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Betriebsunterbrechung nach Cybervorfall in der Sachversicherung (Cyberversicherung)\n\nEin Produktionsbetrieb muss nach einem Cyberangriff den Betrieb für mehrere Tage einstellen. Es entstehen erhebliche Umsatzausfälle. Es besteht eine Sachversicherung (technische Sparte – Cyberversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Betriebsunterbrechung kann Bestandteil der Cyberdeckung sein",
@@ -12301,9 +12301,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: BU ist NICHT automatisch inkludiert"
       },
       {
-        "title": "100. Datenschutzverletzung und Haftung in der Sachversicherung (Cyberversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Durch einen Cyberangriff werden personenbezogene Daten von Kunden veröffentlicht. Mehrere Betroffene machen Schadenersatzansprüche geltend. Das Unternehmen hat eine Sachversicherung (technische Sparte – Cyberversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Datenschutzverletzung und Haftung in der Sachversicherung (Cyberversicherung)\n\nDurch einen Cyberangriff werden personenbezogene Daten von Kunden veröffentlicht. Mehrere Betroffene machen Schadenersatzansprüche geltend. Das Unternehmen hat eine Sachversicherung (technische Sparte – Cyberversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Ansprüche Dritter können gedeckt sein",
@@ -12325,9 +12325,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Cyberversicherung = Mischform (Sach + Haftpflicht)"
       },
       {
-        "title": "101. Unterschlagung durch Mitarbeiter in der Sachversicherung (Vertrauensschadenversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein langjähriger Mitarbeiter eines Unternehmens überweist über mehrere Monate hinweg heimlich Geld auf sein eigenes Konto. Der Schaden wird erst spät entdeckt. Das Unternehmen hat eine Sachversicherung (technische Sparte – Vertrauensschadenversicherung) abgeschlossen.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Unterschlagung durch Mitarbeiter in der Sachversicherung (Vertrauensschadenversicherung)\n\nEin langjähriger Mitarbeiter eines Unternehmens überweist über mehrere Monate hinweg heimlich Geld auf sein eigenes Konto. Der Schaden wird erst spät entdeckt. Das Unternehmen hat eine Sachversicherung (technische Sparte – Vertrauensschadenversicherung) abgeschlossen.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Vorsätzliche Handlungen von Mitarbeitern können versichert sein",
@@ -12349,9 +12349,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Hier geht es gerade um vorsätzliche Handlungen Dritter"
       },
       {
-        "title": "102. Abgrenzung zur Diebstahlversicherung in der Sachversicherung (Vertrauensschadenversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Mitarbeiter entwendet Bargeld aus der Firmenkasse. Das Unternehmen fordert Leistung aus seiner Sachversicherung (technische Sparte – Vertrauensschadenversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Abgrenzung zur Diebstahlversicherung in der Sachversicherung (Vertrauensschadenversicherung)\n\nEin Mitarbeiter entwendet Bargeld aus der Firmenkasse. Das Unternehmen fordert Leistung aus seiner Sachversicherung (technische Sparte – Vertrauensschadenversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Vertrauensschadenversicherung deckt interne Täter",
@@ -12373,9 +12373,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: INTERN vs. EXTERN ist entscheidend"
       },
       {
-        "title": "103. Social Engineering in der Sachversicherung (Vertrauensschadenversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Mitarbeiter wird durch eine gefälschte E-Mail (CEO-Fraud) dazu gebracht, eine hohe Geldsumme auf ein fremdes Konto zu überweisen. Es besteht eine Sachversicherung (technische Sparte – Vertrauensschadenversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Social Engineering in der Sachversicherung (Vertrauensschadenversicherung)\n\nEin Mitarbeiter wird durch eine gefälschte E-Mail (CEO-Fraud) dazu gebracht, eine hohe Geldsumme auf ein fremdes Konto zu überweisen. Es besteht eine Sachversicherung (technische Sparte – Vertrauensschadenversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Social Engineering kann unter bestimmten Bedingungen gedeckt sein",
@@ -12397,9 +12397,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Nicht automatisch gedeckt – oft spezielle Klauseln nötig"
       },
       {
-        "title": "104. Mehrere Täter und Schadensermittlung in der Sachversicherung (Vertrauensschadenversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "In einem Unternehmen sind mehrere Mitarbeiter an einem Betrug beteiligt. Der Gesamtschaden ist schwer zu ermitteln. Das Unternehmen hat eine Sachversicherung (technische Sparte – Vertrauensschadenversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Mehrere Täter und Schadensermittlung in der Sachversicherung (Vertrauensschadenversicherung)\n\nIn einem Unternehmen sind mehrere Mitarbeiter an einem Betrug beteiligt. Der Gesamtschaden ist schwer zu ermitteln. Das Unternehmen hat eine Sachversicherung (technische Sparte – Vertrauensschadenversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Mehrere Täter können gleichzeitig erfasst sein",
@@ -12421,9 +12421,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Beweis und Schadensermittlung sind zentral"
       },
       {
-        "title": "105. Abgrenzung zur Haftpflicht in der Sachversicherung (Vertrauensschadenversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Mitarbeiter verursacht durch vorsätzliches Verhalten einen Vermögensschaden im eigenen Unternehmen. Es besteht eine Sachversicherung (technische Sparte – Vertrauensschadenversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Abgrenzung zur Haftpflicht in der Sachversicherung (Vertrauensschadenversicherung)\n\nEin Mitarbeiter verursacht durch vorsätzliches Verhalten einen Vermögensschaden im eigenen Unternehmen. Es besteht eine Sachversicherung (technische Sparte – Vertrauensschadenversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Es handelt sich um einen Eigenschaden",
@@ -12445,9 +12445,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Eigenschaden ≠ Haftpflichtfall"
       },
       {
-        "title": "106. Ausfall eines Cloud-Dienstleisters in der Sachversicherung (Cloud-Ausfallversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen nutzt ausschließlich cloudbasierte Software. Aufgrund eines technischen Ausfalls beim externen Cloud-Anbieter steht das System mehrere Stunden still. Es besteht eine Sachversicherung (technische Sparte – Cloud-Ausfallversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Ausfall eines Cloud-Dienstleisters in der Sachversicherung (Cloud-Ausfallversicherung)\n\nEin Unternehmen nutzt ausschließlich cloudbasierte Software. Aufgrund eines technischen Ausfalls beim externen Cloud-Anbieter steht das System mehrere Stunden still. Es besteht eine Sachversicherung (technische Sparte – Cloud-Ausfallversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Ausfälle externer IT-Dienstleister können versichert sein",
@@ -12469,9 +12469,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Schaden entsteht extern, wirkt aber intern"
       },
       {
-        "title": "107. Abgrenzung zur Cyberversicherung in der Sachversicherung (Cloud-Ausfallversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen vergleicht seine Sachversicherung (Cloud-Ausfallversicherung) mit einer Cyberversicherung.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Abgrenzung zur Cyberversicherung in der Sachversicherung (Cloud-Ausfallversicherung)\n\nEin Unternehmen vergleicht seine Sachversicherung (Cloud-Ausfallversicherung) mit einer Cyberversicherung.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Cloud-Ausfallversicherung deckt primär Ausfälle von IT-Dienstleistern",
@@ -12493,9 +12493,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Cloud = Verfügbarkeit, Cyber = Angriff"
       },
       {
-        "title": "108. Betriebsunterbrechung durch Cloud-Ausfall in der Sachversicherung (Cloud-Ausfallversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Online-Shop kann aufgrund eines Cloud-Ausfalls keine Bestellungen abwickeln. Es entstehen Umsatzausfälle. Eine Sachversicherung (technische Sparte – Cloud-Ausfallversicherung) besteht.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Betriebsunterbrechung durch Cloud-Ausfall in der Sachversicherung (Cloud-Ausfallversicherung)\n\nEin Online-Shop kann aufgrund eines Cloud-Ausfalls keine Bestellungen abwickeln. Es entstehen Umsatzausfälle. Eine Sachversicherung (technische Sparte – Cloud-Ausfallversicherung) besteht.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Umsatzausfälle können gedeckt sein",
@@ -12517,9 +12517,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Nicht jeder Ausfall ist gedeckt"
       },
       {
-        "title": "109. Technische Ursache vs. Fehlbedienung in der Sachversicherung (Cloud-Ausfallversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Cloud-System fällt aufgrund eines technischen Fehlers beim Anbieter aus. In einem anderen Fall liegt die Ursache in einer Fehlbedienung durch das Unternehmen selbst. Es besteht eine Sachversicherung (technische Sparte – Cloud-Ausfallversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Technische Ursache vs. Fehlbedienung in der Sachversicherung (Cloud-Ausfallversicherung)\n\nEin Cloud-System fällt aufgrund eines technischen Fehlers beim Anbieter aus. In einem anderen Fall liegt die Ursache in einer Fehlbedienung durch das Unternehmen selbst. Es besteht eine Sachversicherung (technische Sparte – Cloud-Ausfallversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Technische Ausfälle beim Anbieter können gedeckt sein",
@@ -12541,9 +12541,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Eigene Fehler ≠ automatisch gedeckt"
       },
       {
-        "title": "110. Mehrere Ausfallursachen in der Sachversicherung (Cloud-Ausfallversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Systemausfall entsteht durch eine Kombination aus externem Cloud-Problem und interner Fehlkonfiguration. Es besteht eine Sachversicherung (technische Sparte – Cloud-Ausfallversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Mehrere Ausfallursachen in der Sachversicherung (Cloud-Ausfallversicherung)\n\nEin Systemausfall entsteht durch eine Kombination aus externem Cloud-Problem und interner Fehlkonfiguration. Es besteht eine Sachversicherung (technische Sparte – Cloud-Ausfallversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Mehrere Ursachen können berücksichtigt werden",
@@ -12565,9 +12565,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Mitursachen sind prüfungsrelevant! Perfekt – jetzt Sachversicherung (Betriebsunterbrechungsversicherung) exakt im prüfungsnahen Stil deines Skripts: ➡ 20 sehr konkrete, voll ausformulierte Fragen ➡ immer „Sachversicherung (Betriebsunterbrechungsversicherung)“ enthalten ➡ klare, lange Fragestellungen ➡ 1–4 richtige Antworten möglich ➡ inkl. Begründung + typische Fallen ➡ keine Wiederholungen"
       },
       {
-        "title": "111. Abhängigkeit vom Sachschaden in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Produktionsbetrieb muss nach einem Brand die Tätigkeit einstellen. Es besteht eine Sachversicherung (Betriebsunterbrechungsversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Abhängigkeit vom Sachschaden in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Produktionsbetrieb muss nach einem Brand die Tätigkeit einstellen. Es besteht eine Sachversicherung (Betriebsunterbrechungsversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Voraussetzung ist ein versicherter Sachschaden",
@@ -12589,9 +12589,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: BU ohne Sachschaden meist kein Anspruch"
       },
       {
-        "title": "112. Versicherte Kostenarten in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen zur Sachversicherung (Betriebsunterbrechungsversicherung) sind korrekt?",
         "context": "Ein Unternehmen hat nach einem Schaden laufende Fixkosten und entgangenen Gewinn.",
-        "question": "Welche Aussagen zur Sachversicherung (Betriebsunterbrechungsversicherung) sind korrekt?",
+        "question": "Versicherte Kostenarten in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Unternehmen hat nach einem Schaden laufende Fixkosten und entgangenen Gewinn.\n\nWelche Aussagen zur Sachversicherung (Betriebsunterbrechungsversicherung) sind korrekt?",
         "options": [
           {
             "text": "Fixkosten können ersetzt werden",
@@ -12613,9 +12613,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "113. Haftzeit in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Betrieb steht nach einem Schaden mehrere Monate still.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Haftzeit in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Betrieb steht nach einem Schaden mehrere Monate still.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Haftzeit begrenzt die Leistungsdauer",
@@ -12637,9 +12637,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Haftzeit = Klassiker!"
       },
       {
-        "title": "114. Unterversicherung in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen setzt die Versicherungssumme zu niedrig an.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Unterversicherung in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Unternehmen setzt die Versicherungssumme zu niedrig an.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Unterversicherung kann eintreten",
@@ -12661,9 +12661,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "115. Beginn der Haftung in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Schaden tritt ein, die Produktion steht still.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Beginn der Haftung in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Schaden tritt ein, die Produktion steht still.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Leistung beginnt nach Eintritt des Schadens",
@@ -12685,9 +12685,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "116. Selbstbehalt / Karenzzeit in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen hat eine Karenzzeit vereinbart.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Selbstbehalt / Karenzzeit in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Unternehmen hat eine Karenzzeit vereinbart.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Während der Karenzzeit erfolgt keine Leistung",
@@ -12709,9 +12709,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "117. Mehrkosten in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen weicht auf Ersatzmaschinen aus.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Mehrkosten in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Unternehmen weicht auf Ersatzmaschinen aus.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Mehrkosten können ersetzt werden",
@@ -12733,9 +12733,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "118. Abhängigkeit von der Ursache in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Schaden entsteht durch ein nicht versichertes Risiko.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Abhängigkeit von der Ursache in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Schaden entsteht durch ein nicht versichertes Risiko.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Kein Versicherungsschutz ohne gedeckten Sachschaden",
@@ -12757,9 +12757,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "119. Deckungsbeitrag in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen berechnet seinen Schaden.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Deckungsbeitrag in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Unternehmen berechnet seinen Schaden.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Deckungsbeitrag ist relevant",
@@ -12781,9 +12781,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "120. Wiederaufnahme des Betriebs in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Der Betrieb nimmt früher als erwartet wieder auf.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Wiederaufnahme des Betriebs in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nDer Betrieb nimmt früher als erwartet wieder auf.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Leistung endet mit Wiederaufnahme",
@@ -12805,9 +12805,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "121. Teilausfall in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Nur ein Teil des Betriebs fällt aus.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Teilausfall in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nNur ein Teil des Betriebs fällt aus.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Teilunterbrechung ist möglich",
@@ -12829,9 +12829,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "122. Versicherungsort in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Schaden tritt an einem Nebenstandort auf.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Versicherungsort in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Schaden tritt an einem Nebenstandort auf.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Versicherungsort ist relevant",
@@ -12853,9 +12853,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "123. Zeitliche Verzögerung in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Die Wiederherstellung dauert länger als geplant.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Zeitliche Verzögerung in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nDie Wiederherstellung dauert länger als geplant.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Haftzeit begrenzt Leistung",
@@ -12877,9 +12877,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "124. Abhängigkeit von Lieferanten in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein wichtiger Lieferant fällt aus.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Abhängigkeit von Lieferanten in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin wichtiger Lieferant fällt aus.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Lieferantenabhängigkeit kann versichert sein",
@@ -12901,9 +12901,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "125. Abhängigkeit von Kunden in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Großkunde fällt weg.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Abhängigkeit von Kunden in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Großkunde fällt weg.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Kundenabhängigkeit kann versichert sein",
@@ -12925,9 +12925,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "126. Berechnung des Schadens in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen ermittelt den Schaden.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Berechnung des Schadens in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Unternehmen ermittelt den Schaden.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Fixkosten werden berücksichtigt",
@@ -12949,9 +12949,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "127. Versicherungssumme in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Die Versicherungssumme ist falsch gewählt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Versicherungssumme in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nDie Versicherungssumme ist falsch gewählt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Sie beeinflusst die Leistung",
@@ -12973,9 +12973,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "128. Schadenminderung in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen reagiert nicht optimal.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Schadenminderung in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Unternehmen reagiert nicht optimal.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Schadenminderungspflicht besteht",
@@ -12997,9 +12997,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "129. Mehrere Ursachen in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Schaden hat mehrere Ursachen.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Mehrere Ursachen in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Schaden hat mehrere Ursachen.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Ursache ist entscheidend",
@@ -13021,9 +13021,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "130. Vertragsabhängigkeit in der Sachversicherung (Betriebsunterbrechungsversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Versicherungsnehmer kennt die Bedingungen nicht.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Vertragsabhängigkeit in der Sachversicherung (Betriebsunterbrechungsversicherung)\n\nEin Versicherungsnehmer kennt die Bedingungen nicht.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Vertrag bestimmt Umfang",
@@ -13045,9 +13045,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "131. Unfall beim Straßentransport in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen transportiert Waren per LKW. Durch einen Verkehrsunfall wird die Ware beschädigt. Es besteht eine Sachversicherung (Transportversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Unfall beim Straßentransport in der Sachversicherung (Transportversicherung)\n\nEin Unternehmen transportiert Waren per LKW. Durch einen Verkehrsunfall wird die Ware beschädigt. Es besteht eine Sachversicherung (Transportversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Schaden ist grundsätzlich versichert",
@@ -13065,9 +13065,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Kein Verschulden erforderlich"
       },
       {
-        "title": "132. Verpackungsmangel in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ware wird unzureichend verpackt und während des Transports beschädigt. Es besteht eine Sachversicherung (Transportversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Verpackungsmangel in der Sachversicherung (Transportversicherung)\n\nWare wird unzureichend verpackt und während des Transports beschädigt. Es besteht eine Sachversicherung (Transportversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Schlechte Verpackung kann zum Leistungsausschluss führen",
@@ -13085,9 +13085,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Verpackung ist extrem prüfungsrelevant"
       },
       {
-        "title": "133. Eigenmangel der Ware in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Lebensmittel verderben während des Transports aufgrund ihrer natürlichen Eigenschaften. Es besteht eine Sachversicherung (Transportversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Eigenmangel der Ware in der Sachversicherung (Transportversicherung)\n\nLebensmittel verderben während des Transports aufgrund ihrer natürlichen Eigenschaften. Es besteht eine Sachversicherung (Transportversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Eigenmängel sind typischerweise ausgeschlossen",
@@ -13105,9 +13105,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Nicht jeder Schaden = Versicherungsfall"
       },
       {
-        "title": "134. Beginn des Versicherungsschutzes in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Transport beginnt im Lager des Absenders.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Beginn des Versicherungsschutzes in der Sachversicherung (Transportversicherung)\n\nEin Transport beginnt im Lager des Absenders.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsschutz beginnt mit dem Transportbeginn",
@@ -13125,9 +13125,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "135. Zwischenlagerung in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ware wird während des Transports zwischengelagert und beschädigt. Es besteht eine Sachversicherung (Transportversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Zwischenlagerung in der Sachversicherung (Transportversicherung)\n\nWare wird während des Transports zwischengelagert und beschädigt. Es besteht eine Sachversicherung (Transportversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Zwischenlagerung kann mitversichert sein",
@@ -13145,9 +13145,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "136. Kriegsausschluss in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ware wird durch politische Unruhen beschädigt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Kriegsausschluss in der Sachversicherung (Transportversicherung)\n\nWare wird durch politische Unruhen beschädigt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Krieg ist meist ausgeschlossen",
@@ -13165,9 +13165,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "137. Teilschaden in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Teil der Ware wird beschädigt, der Rest bleibt intakt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Teilschaden in der Sachversicherung (Transportversicherung)\n\nEin Teil der Ware wird beschädigt, der Rest bleibt intakt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Teilschäden sind ersatzfähig",
@@ -13185,9 +13185,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "138. Unterversicherung in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Der Warenwert wurde zu niedrig angegeben.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Unterversicherung in der Sachversicherung (Transportversicherung)\n\nDer Warenwert wurde zu niedrig angegeben.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Entschädigung kann gekürzt werden",
@@ -13205,9 +13205,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "139. Mehrere Ursachen in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Schaden entsteht durch Unfall und schlechte Verpackung.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Mehrere Ursachen in der Sachversicherung (Transportversicherung)\n\nSchaden entsteht durch Unfall und schlechte Verpackung.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Beide Ursachen werden berücksichtigt",
@@ -13225,9 +13225,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Mitverschulden reduziert Leistung"
       },
       {
-        "title": "140. Ende des Versicherungsschutzes in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Die Ware wird beim Empfänger abgeladen.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Ende des Versicherungsschutzes in der Sachversicherung (Transportversicherung)\n\nDie Ware wird beim Empfänger abgeladen.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsschutz endet mit der Ablieferung",
@@ -13245,9 +13245,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "141. Verspätete Lieferung ohne Sachschaden in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Eine Ware trifft verspätet beim Empfänger ein, ohne beschädigt zu sein. Es besteht eine Sachversicherung (Transportversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Verspätete Lieferung ohne Sachschaden in der Sachversicherung (Transportversicherung)\n\nEine Ware trifft verspätet beim Empfänger ein, ohne beschädigt zu sein. Es besteht eine Sachversicherung (Transportversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Es liegt kein versicherter Schaden vor",
@@ -13265,9 +13265,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Reine Verzögerung ist nicht gedeckt"
       },
       {
-        "title": "142. Unsachgemäße Verladung in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Die Ware wird unsachgemäß verladen und während des Transports beschädigt. Es besteht eine Sachversicherung (Transportversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Unsachgemäße Verladung in der Sachversicherung (Transportversicherung)\n\nDie Ware wird unsachgemäß verladen und während des Transports beschädigt. Es besteht eine Sachversicherung (Transportversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Verladefehler beeinflussen die Leistung",
@@ -13285,9 +13285,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Verladung gehört zu den Pflichten"
       },
       {
-        "title": "143. Diebstahl während des Transports in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Während eines Transports wird die Ware gestohlen. Es besteht eine Sachversicherung (Transportversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Diebstahl während des Transports in der Sachversicherung (Transportversicherung)\n\nWährend eines Transports wird die Ware gestohlen. Es besteht eine Sachversicherung (Transportversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Diebstahl ist ein versichertes Risiko",
@@ -13305,9 +13305,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "144. Temperaturabweichung bei Kühlware in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Kühlware verdirbt aufgrund falscher Temperatur während des Transports. Es besteht eine Sachversicherung (Transportversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Temperaturabweichung bei Kühlware in der Sachversicherung (Transportversicherung)\n\nKühlware verdirbt aufgrund falscher Temperatur während des Transports. Es besteht eine Sachversicherung (Transportversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Falsche Temperaturführung führt zum Schaden",
@@ -13325,9 +13325,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Kühlketten sind kritisch"
       },
       {
-        "title": "145. Falsche Deklaration der Ware in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Der Versicherungsnehmer gibt einen falschen Warenwert an.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Falsche Deklaration der Ware in der Sachversicherung (Transportversicherung)\n\nDer Versicherungsnehmer gibt einen falschen Warenwert an.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Entschädigung richtet sich nach dem tatsächlichen Wert",
@@ -13345,9 +13345,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "146. Transport durch mehrere Verkehrsmittel in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Eine Ware wird per LKW und Schiff transportiert. Während des Seetransports entsteht ein Schaden. Es besteht eine Sachversicherung (Transportversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Transport durch mehrere Verkehrsmittel in der Sachversicherung (Transportversicherung)\n\nEine Ware wird per LKW und Schiff transportiert. Während des Seetransports entsteht ein Schaden. Es besteht eine Sachversicherung (Transportversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der gesamte Transport ist versichert",
@@ -13365,9 +13365,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "147. Beschädigung beim Be- und Entladen in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Die Ware wird beim Entladen beschädigt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Beschädigung beim Be- und Entladen in der Sachversicherung (Transportversicherung)\n\nDie Ware wird beim Entladen beschädigt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Be- und Entladevorgänge gehören zum Transport",
@@ -13385,9 +13385,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "148. Unbekannter Schadeneintritt in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Die Ware kommt beschädigt an, die Ursache bleibt unklar.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Unbekannter Schadeneintritt in der Sachversicherung (Transportversicherung)\n\nDie Ware kommt beschädigt an, die Ursache bleibt unklar.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsnehmer muss den Schaden nachweisen",
@@ -13405,9 +13405,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Beweislast!"
       },
       {
-        "title": "149. Naturereignis während des Transports in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Eine Ware wird durch ein Naturereignis während des Transports beschädigt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Naturereignis während des Transports in der Sachversicherung (Transportversicherung)\n\nEine Ware wird durch ein Naturereignis während des Transports beschädigt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Naturereignisse fallen unter typische Transportrisiken",
@@ -13425,9 +13425,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "150. Verlust einzelner Teile der Sendung in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Teil der Lieferung geht verloren.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Verlust einzelner Teile der Sendung in der Sachversicherung (Transportversicherung)\n\nEin Teil der Lieferung geht verloren.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Teilverluste sind versichert",
@@ -13445,9 +13445,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "151. Beginn des Versicherungsschutzes laut Polizze in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Die Polizze einer Sachversicherung (Transportversicherung) legt fest, dass der Versicherungsschutz mit dem Verlassen des Lagers beginnt. Die Ware wird bereits im Lager beschädigt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Beginn des Versicherungsschutzes laut Polizze in der Sachversicherung (Transportversicherung)\n\nDie Polizze einer Sachversicherung (Transportversicherung) legt fest, dass der Versicherungsschutz mit dem Verlassen des Lagers beginnt. Die Ware wird bereits im Lager beschädigt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Es besteht kein Versicherungsschutz",
@@ -13465,9 +13465,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Zeitpunkt laut Polizze entscheidend"
       },
       {
-        "title": "152. Ende des Versicherungsschutzes in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Die Polizze bestimmt, dass der Versicherungsschutz mit Ablieferung beim Empfänger endet. Nach der Ablieferung wird die Ware beschädigt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Ende des Versicherungsschutzes in der Sachversicherung (Transportversicherung)\n\nDie Polizze bestimmt, dass der Versicherungsschutz mit Ablieferung beim Empfänger endet. Nach der Ablieferung wird die Ware beschädigt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsschutz ist beendet",
@@ -13485,9 +13485,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Nach Ablieferung kein Schutz"
       },
       {
-        "title": "153. Verspäteter Transportbeginn in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Die Polizze nennt einen fixen Zeitraum für den Transport. Der Versand erfolgt später als vorgesehen, und es tritt ein Schaden auf.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Verspäteter Transportbeginn in der Sachversicherung (Transportversicherung)\n\nDie Polizze nennt einen fixen Zeitraum für den Transport. Der Versand erfolgt später als vorgesehen, und es tritt ein Schaden auf.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der zeitliche Rahmen der Polizze ist relevant",
@@ -13505,9 +13505,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Zeitliche Bindung!"
       },
       {
-        "title": "154. Generalpolizze in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Unternehmen verwendet eine Generalpolizze für laufende Transporte. Ein einzelner Transport wird nicht gemeldet.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Generalpolizze in der Sachversicherung (Transportversicherung)\n\nEin Unternehmen verwendet eine Generalpolizze für laufende Transporte. Ein einzelner Transport wird nicht gemeldet.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Generalpolizze deckt mehrere Transporte ab",
@@ -13525,9 +13525,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Meldung ist entscheidend!"
       },
       {
-        "title": "155. Einzelpolizze in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Für einen konkreten Transport wird eine Einzelpolizze abgeschlossen. Der Transport weicht vom vereinbarten Ablauf ab.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Einzelpolizze in der Sachversicherung (Transportversicherung)\n\nFür einen konkreten Transport wird eine Einzelpolizze abgeschlossen. Der Transport weicht vom vereinbarten Ablauf ab.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Einzelpolizze gilt nur für den vereinbarten Transport",
@@ -13545,9 +13545,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Einzelpolizze = genau definiert!"
       },
       {
-        "title": "156. Grundprinzip der Frachtführerhaftpflicht in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Frachtführer übernimmt eine Sendung und beschädigt diese während des Transports.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Grundprinzip der Frachtführerhaftpflicht in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)\n\nEin Frachtführer übernimmt eine Sendung und beschädigt diese während des Transports.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Frachtführer haftet für den Schaden",
@@ -13565,9 +13565,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Haftung ≠ unbegrenzt"
       },
       {
-        "title": "157. Haftungsbegrenzung in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Schaden übersteigt den Wert der gesetzlich vorgesehenen Haftungsgrenze.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Haftungsbegrenzung in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)\n\nEin Schaden übersteigt den Wert der gesetzlich vorgesehenen Haftungsgrenze.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Haftung des Frachtführers ist begrenzt",
@@ -13585,9 +13585,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Begrenzung ist Standard!"
       },
       {
-        "title": "158. Haftungsausschluss in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Schaden entsteht durch unzureichende Verpackung durch den Absender.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Haftungsausschluss in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)\n\nEin Schaden entsteht durch unzureichende Verpackung durch den Absender.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Frachtführer haftet nicht",
@@ -13605,9 +13605,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Verpackung = Klassiker"
       },
       {
-        "title": "159. Beginn und Ende der Haftung in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Der Frachtführer übernimmt die Ware und liefert sie später ab.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Beginn und Ende der Haftung in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)\n\nDer Frachtführer übernimmt die Ware und liefert sie später ab.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Haftung beginnt mit der Übernahme",
@@ -13625,9 +13625,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "160. Haftung bei unbekannter Schadensursache in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Die Ware wird beschädigt abgeliefert, die genaue Ursache bleibt unklar.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Haftung bei unbekannter Schadensursache in der Sachversicherung (Transportversicherung – Frachtführerhaftpflicht)\n\nDie Ware wird beschädigt abgeliefert, die genaue Ursache bleibt unklar.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Frachtführer haftet grundsätzlich während der Obhut",
@@ -13645,9 +13645,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Obhut = zentraler Begriff!"
       },
       {
-        "title": "161. Hakenlastversicherung – Schaden beim Hebevorgang in der Sachversicherung (Transportversicherung – Hakenlastversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Kran hebt eine schwere Maschine. Während des Hebevorgangs löst sich die Last und wird beschädigt. Es besteht eine Sachversicherung (Transportversicherung – Hakenlastversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Hakenlastversicherung – Schaden beim Hebevorgang in der Sachversicherung (Transportversicherung – Hakenlastversicherung)\n\nEin Kran hebt eine schwere Maschine. Während des Hebevorgangs löst sich die Last und wird beschädigt. Es besteht eine Sachversicherung (Transportversicherung – Hakenlastversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die gehobene Last ist versichert",
@@ -13665,9 +13665,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Es geht um die Last, nicht um den Kran"
       },
       {
-        "title": "162. Hakenlastversicherung – Abgrenzung zur Maschinenversicherung in der Sachversicherung (Transportversicherung – Hakenlastversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Beim Heben einer Last wird nicht die Last, sondern der Kran beschädigt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Hakenlastversicherung – Abgrenzung zur Maschinenversicherung in der Sachversicherung (Transportversicherung – Hakenlastversicherung)\n\nBeim Heben einer Last wird nicht die Last, sondern der Kran beschädigt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Hakenlastversicherung deckt den Schaden nicht",
@@ -13685,9 +13685,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Objekt der Versicherung genau beachten!"
       },
       {
-        "title": "163. Wechselbrückenversicherung – versicherte Sachen in der Sachversicherung (Transportversicherung – Wechselbrückenversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Ein Transportunternehmen verwendet Wechselbrücken. Eine Wechselbrücke wird beim Abstellen beschädigt. Es besteht eine Sachversicherung (Transportversicherung – Wechselbrückenversicherung).",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Wechselbrückenversicherung – versicherte Sachen in der Sachversicherung (Transportversicherung – Wechselbrückenversicherung)\n\nEin Transportunternehmen verwendet Wechselbrücken. Eine Wechselbrücke wird beim Abstellen beschädigt. Es besteht eine Sachversicherung (Transportversicherung – Wechselbrückenversicherung).\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Die Wechselbrücke ist versichert",
@@ -13705,9 +13705,9 @@ export const QUIZ_MODULES = {
         "explanation": ""
       },
       {
-        "title": "164. Wechselbrückenversicherung – Schaden ohne Transport in der Sachversicherung (Transportversicherung – Wechselbrückenversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Eine Wechselbrücke wird im Stand beschädigt, ohne dass ein Transport stattfindet.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Wechselbrückenversicherung – Schaden ohne Transport in der Sachversicherung (Transportversicherung – Wechselbrückenversicherung)\n\nEine Wechselbrücke wird im Stand beschädigt, ohne dass ein Transport stattfindet.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Versicherungsschutz besteht auch außerhalb der Fahrt",
@@ -13725,9 +13725,9 @@ export const QUIZ_MODULES = {
         "explanation": "💡 Falle: Nicht nur während Bewegung!"
       },
       {
-        "title": "165. Abgrenzung Hakenlast vs. Wechselbrücke in der Sachversicherung (Transportversicherung)",
+        "title": "Welche Aussagen sind korrekt?",
         "context": "Beim Umladen fällt eine transportierte Einheit von der Hebevorrichtung und wird beschädigt. Gleichzeitig wird die Wechselbrücke nicht beschädigt.",
-        "question": "Welche Aussagen sind korrekt?",
+        "question": "Abgrenzung Hakenlast vs. Wechselbrücke in der Sachversicherung (Transportversicherung)\n\nBeim Umladen fällt eine transportierte Einheit von der Hebevorrichtung und wird beschädigt. Gleichzeitig wird die Wechselbrücke nicht beschädigt.\n\nWelche Aussagen sind korrekt?",
         "options": [
           {
             "text": "Der Schaden fällt unter die Hakenlastversicherung",
@@ -13743,6 +13743,8939 @@ export const QUIZ_MODULES = {
           }
         ],
         "explanation": "💡 Falle: Immer genau prüfen, was beschädigt wurde!"
+      }
+    ]
+  },
+  "band4": {
+    "title": "Band 4",
+    "data": [
+      {
+        "title": "1. Welche Aufgaben hat ein Versicherungsmakler?",
+        "context": null,
+        "question": "Pflichten des Versicherungsmaklers\n\nWelche Aufgaben hat ein Versicherungsmakler?",
+        "options": [
+          {
+            "text": "Vermittlung des bestmöglichen Versicherungsschutzes",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertretung ausschließlich der Interessen des Versicherers",
+            "isCorrect": false
+          },
+          {
+            "text": "Unterstützung im Schadenfall",
+            "isCorrect": true
+          },
+          {
+            "text": "Laufende Überprüfung bestehender Verträge",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "➡ Makler ist Interessenvertreter des Kunden."
+      },
+      {
+        "title": "2. Welche Aussagen sind korrekt?",
+        "context": null,
+        "question": "Stellung des Versicherungsmaklers\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Makler ist Sachwalter des Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler arbeitet im Auftrag des Versicherers",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler muss eine Risikoanalyse durchführen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler darf nur ein Produkt anbieten",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "➡ Marktanalysepflicht ist zentral für die Prüfung"
+      },
+      {
+        "title": "3. Welche Aussagen treffen zu?",
+        "context": null,
+        "question": "Versicherungsvertrag – Merkmale\n\nWelche Aussagen treffen zu?",
+        "options": [
+          {
+            "text": "Zweiseitiges Rechtsgeschäft",
+            "isCorrect": true
+          },
+          {
+            "text": "Entgeltlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Einseitig verpflichtend",
+            "isCorrect": false
+          },
+          {
+            "text": "Dauerschuldverhältnis",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "➡ Beide Parteien haben Pflichten (Prämie vs. Leistung)."
+      },
+      {
+        "title": "4. Was beschreibt das Risiko im Versicherungsrecht?",
+        "context": null,
+        "question": "Versicherungsrisiko\n\nWas beschreibt das Risiko im Versicherungsrecht?",
+        "options": [
+          {
+            "text": "Sicher eintretendes Ereignis",
+            "isCorrect": false
+          },
+          {
+            "text": "Möglichkeit eines ungewissen Ereignisses",
+            "isCorrect": true
+          },
+          {
+            "text": "Höhe des Schadens ist immer fix",
+            "isCorrect": false
+          },
+          {
+            "text": "Zeitpunkt ist ungewiss",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "➡ Ungewissheit ist entscheidend."
+      },
+      {
+        "title": "5. Wer gehört zu den typischen Beteiligten?",
+        "context": null,
+        "question": "Parteien im Versicherungsvertrag\n\nWer gehört zu den typischen Beteiligten?",
+        "options": [
+          {
+            "text": "Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Makler",
+            "isCorrect": false
+          },
+          {
+            "text": "Begünstigter",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "➡ Makler ist Vermittler, nicht Vertragspartei."
+      },
+      {
+        "title": "6. Welche Tätigkeiten sind korrekt?",
+        "context": null,
+        "question": "Aufgaben des Maklers im Vertragsverlauf\n\nWelche Tätigkeiten sind korrekt?",
+        "options": [
+          {
+            "text": "Polizzenprüfung",
+            "isCorrect": true
+          },
+          {
+            "text": "Schadenbearbeitung unterstützen",
+            "isCorrect": true
+          },
+          {
+            "text": "Prämien festlegen",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsoptimierung vorschlagen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "➡ Prämie legt der Versicherer fest."
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": null,
+        "question": "Versicherungsaufsicht\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Ziel ist Schutz der Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Ziel ist nur Kontrolle der Gewinne",
+            "isCorrect": false
+          },
+          {
+            "text": "Sicherstellung der Leistungsfähigkeit der Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Aufsicht erfolgt durch FMA",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "➡ Sehr typische Prüfungsfrage."
+      },
+      {
+        "title": "8. Was muss ein Makler beachten?",
+        "context": null,
+        "question": "DSGVO im Maklerbetrieb\n\nWas muss ein Makler beachten?",
+        "options": [
+          {
+            "text": "Verarbeitung personenbezogener Daten dokumentieren",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Einwilligung notwendig",
+            "isCorrect": false
+          },
+          {
+            "text": "Datensicherheit gewährleisten",
+            "isCorrect": true
+          },
+          {
+            "text": "Verarbeitungsverzeichnis führen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "➡ Datenschutz ist extrem prüfungsrelevant."
+      },
+      {
+        "title": "9. Wann leistet der Versicherer?",
+        "context": null,
+        "question": "Versicherungsleistung\n\nWann leistet der Versicherer?",
+        "options": [
+          {
+            "text": "Bei Eintritt des versicherten Risikos",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer bei Schaden",
+            "isCorrect": false
+          },
+          {
+            "text": "Nur wenn Prämie bezahlt wurde",
+            "isCorrect": true
+          },
+          {
+            "text": "Wenn vertraglich gedeckt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen sind richtig?",
+        "context": null,
+        "question": "Beratungspflichten des Maklers\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Bedarfsgerechte Beratung ist Pflicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Dokumentationspflicht besteht",
+            "isCorrect": true
+          },
+          {
+            "text": "Empfehlung muss begründet sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Kunde trägt allein das Risiko der Auswahl",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen zur Rechtsstellung des Versicherungsmaklers sind korrekt?",
+        "context": null,
+        "question": "Rechtsstellung des Maklers\n\nWelche Aussagen zur Rechtsstellung des Versicherungsmaklers sind korrekt?",
+        "options": [
+          {
+            "text": "Der Makler ist gesetzlicher Vertreter des Kunden",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler ist Interessenvertreter des Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler ist ständig vom Versicherer abhängig",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler schuldet eine bestmögliche Beratung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Wann kann ein Makler haftbar werden?",
+        "context": null,
+        "question": "Pflichtenverletzung des Maklers\n\nWann kann ein Makler haftbar werden?",
+        "options": [
+          {
+            "text": "Wenn er keine Risikoanalyse durchführt",
+            "isCorrect": true
+          },
+          {
+            "text": "Wenn er dem Kunden ein ungeeignetes Produkt empfiehlt",
+            "isCorrect": true
+          },
+          {
+            "text": "Wenn der Versicherer später insolvent wird",
+            "isCorrect": false
+          },
+          {
+            "text": "Wenn er Fristen im Schadenfall versäumt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": null,
+        "question": "Marktanalysepflicht\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler muss eine ausreichende Marktanalyse durchführen",
+            "isCorrect": true
+          },
+          {
+            "text": "Er darf sich ohne Begründung auf einen Versicherer beschränken",
+            "isCorrect": false
+          },
+          {
+            "text": "Einschränkungen sind zulässig, wenn sie offengelegt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Er muss immer alle Versicherer vergleichen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "➡ Klassische Prüfungsfalle!"
+      },
+      {
+        "title": "4. Wann kommt ein Versicherungsvertrag zustande?",
+        "context": null,
+        "question": "Versicherungsvertrag – Konsens\n\nWann kommt ein Versicherungsvertrag zustande?",
+        "options": [
+          {
+            "text": "Bei übereinstimmenden Willenserklärungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Durch Schweigen des Kunden",
+            "isCorrect": false
+          },
+          {
+            "text": "Durch Angebot und Annahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Automatisch nach Beratung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "➡ Schweigen = grundsätzlich keine Annahme"
+      },
+      {
+        "title": "5. Welche Aussagen sind korrekt?",
+        "context": null,
+        "question": "Risiko im Versicherungsrecht\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Risiko bedeutet sichere Schadenseintrittswahrscheinlichkeit",
+            "isCorrect": false
+          },
+          {
+            "text": "Risiko ist ein ungewisses Ereignis",
+            "isCorrect": true
+          },
+          {
+            "text": "Zeitpunkt und Eintritt können ungewiss sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko muss bereits eingetreten sein",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aufgaben hat der Makler im Schadenfall?",
+        "context": null,
+        "question": "Pflichten im Schadenfall\n\nWelche Aufgaben hat der Makler im Schadenfall?",
+        "options": [
+          {
+            "text": "Unterstützung bei der Schadenmeldung",
+            "isCorrect": true
+          },
+          {
+            "text": "Entscheidung über die Leistungspflicht",
+            "isCorrect": false
+          },
+          {
+            "text": "Hinweis auf Fristen",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertretung gegenüber dem Versicherer",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "➡ Entscheidung trifft immer der Versicherer!"
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": null,
+        "question": "Polizzenprüfung\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler muss die Polizze prüfen",
+            "isCorrect": true
+          },
+          {
+            "text": "Er muss Abweichungen erkennen",
+            "isCorrect": true
+          },
+          {
+            "text": "Er haftet nie für Fehler in der Polizze",
+            "isCorrect": false
+          },
+          {
+            "text": "Er muss den Kunden informieren",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "➡ Sehr beliebte Prüfungsfrage!"
+      },
+      {
+        "title": "8. Welche Aussagen sind korrekt?",
+        "context": null,
+        "question": "Beratungsdokumentation\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Dokumentation ist verpflichtend",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie dient dem Kundenschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist nur intern relevant",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie kann im Haftungsfall entscheidend sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen treffen zu?",
+        "context": null,
+        "question": "Versicherungsaufsicht (FMA)\n\nWelche Aussagen treffen zu?",
+        "options": [
+          {
+            "text": "Die FMA überwacht Versicherungsunternehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Ziel ist der Schutz der Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Die FMA setzt Prämien fest",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie überwacht die Solvenz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Was gehört zwingend zum Versicherungsvertrag?",
+        "context": null,
+        "question": "Vertragsinhalt\n\nWas gehört zwingend zum Versicherungsvertrag?",
+        "options": [
+          {
+            "text": "Versicherte Gefahr",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Prämie",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn des Versicherers",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen sind richtig?",
+        "context": null,
+        "question": "Dauer des Versicherungsvertrags\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Versicherungsverträge sind oft Dauerschuldverhältnisse",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie enden automatisch nach Schaden",
+            "isCorrect": false
+          },
+          {
+            "text": "Kündigung ist möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie bestehen nur einmalig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen sind korrekt?",
+        "context": null,
+        "question": "Datenschutz im Maklerbetrieb\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Personenbezogene Daten müssen geschützt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Einwilligung ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Daten dürfen frei weitergegeben werden",
+            "isCorrect": false
+          },
+          {
+            "text": "Sicherheitsmaßnahmen sind Pflicht",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen zur Rechtsfähigkeit sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Rechtsfähigkeit sind richtig?",
+        "options": [
+          {
+            "text": "Sie beginnt mit der Geburt",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie endet mit dem Tod",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie setzt Geschäftsfähigkeit voraus",
+            "isCorrect": false
+          },
+          {
+            "text": "Auch juristische Personen sind rechtsfähig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen zur Geschäftsfähigkeit sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Geschäftsfähigkeit sind korrekt?",
+        "options": [
+          {
+            "text": "Minderjährige sind immer geschäftsunfähig",
+            "isCorrect": false
+          },
+          {
+            "text": "Geschäftsfähigkeit ist Voraussetzung für gültige Verträge",
+            "isCorrect": true
+          },
+          {
+            "text": "Volljährige sind grundsätzlich voll geschäftsfähig",
+            "isCorrect": true
+          },
+          {
+            "text": "Geschäftsunfähigkeit führt zur Nichtigkeit eines Vertrags",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Wann kommt ein Vertrag zustande?",
+        "context": null,
+        "question": "Wann kommt ein Vertrag zustande?",
+        "options": [
+          {
+            "text": "Durch Angebot und Annahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Durch übereinstimmende Willenserklärungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Durch einseitige Erklärung",
+            "isCorrect": false
+          },
+          {
+            "text": "Durch bloßes Schweigen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen zum Konsens sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zum Konsens sind richtig?",
+        "options": [
+          {
+            "text": "Beide Parteien müssen denselben Inhalt wollen",
+            "isCorrect": true
+          },
+          {
+            "text": "Widerspruch führt zu Dissens",
+            "isCorrect": true
+          },
+          {
+            "text": "Dissens macht den Vertrag unwirksam",
+            "isCorrect": true
+          },
+          {
+            "text": "Konsens ist für Verträge irrelevant",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "➡ Klassiker aus dem Skript!"
+      },
+      {
+        "title": "5. Welche Voraussetzungen müssen erfüllt sein?",
+        "context": null,
+        "question": "Welche Voraussetzungen müssen erfüllt sein?",
+        "options": [
+          {
+            "text": "Geschäftsfähigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Gesetzmäßiger Inhalt",
+            "isCorrect": true
+          },
+          {
+            "text": "Schriftform immer erforderlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Freie Willenserklärung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Wann ist ein Vertrag nichtig?",
+        "context": null,
+        "question": "Wann ist ein Vertrag nichtig?",
+        "options": [
+          {
+            "text": "Bei Gesetzesverstoß",
+            "isCorrect": true
+          },
+          {
+            "text": "Bei Sittenwidrigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Bei fehlender Schriftform (immer)",
+            "isCorrect": false
+          },
+          {
+            "text": "Bei unmöglichem Inhalt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen zum Eigentum sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Eigentum sind korrekt?",
+        "options": [
+          {
+            "text": "Eigentum ist ein absolutes Recht",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigentümer darf immer alles tun",
+            "isCorrect": false
+          },
+          {
+            "text": "Eigentum ist gesetzlich geschützt",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigentum kann beschränkt sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Was gilt für Sachen?",
+        "context": null,
+        "question": "Was gilt für Sachen?",
+        "options": [
+          {
+            "text": "Alles, was von der Person verschieden ist",
+            "isCorrect": true
+          },
+          {
+            "text": "Tiere sind Sachen",
+            "isCorrect": false
+          },
+          {
+            "text": "Tiere sind rechtlich Sonderfall",
+            "isCorrect": true
+          },
+          {
+            "text": "Sachen dienen dem menschlichen Gebrauch",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "➡ Wichtige Prüfungsfalle!"
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Eintragungen gelten als richtig",
+            "isCorrect": true
+          },
+          {
+            "text": "Reihenfolge spielt keine Rolle",
+            "isCorrect": false
+          },
+          {
+            "text": "Prioritätsprinzip gilt",
+            "isCorrect": true
+          },
+          {
+            "text": "Nicht Eingetragenes ist irrelevant",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "➡ Grundbuch = absoluter Prüfungsfavorit!"
+      },
+      {
+        "title": "10. Was ist ein Schaden?",
+        "context": null,
+        "question": "Was ist ein Schaden?",
+        "options": [
+          {
+            "text": "Vermögensnachteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Körperverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Verlust einer Sache",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur finanzielle Verluste",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "➡ Definition aus ABGB!"
+      },
+      {
+        "title": "11. Welche Aussagen zum Schadenersatz sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zum Schadenersatz sind richtig?",
+        "options": [
+          {
+            "text": "Grundsätzlich trägt jeder seinen Schaden selbst",
+            "isCorrect": true
+          },
+          {
+            "text": "Es gibt Ausnahmen mit Ersatzpflicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Schadenersatz dient auch Prävention",
+            "isCorrect": true
+          },
+          {
+            "text": "Schadenersatz ist immer verschuldensunabhängig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es gibt Vorsatz- und Fahrlässigkeitsdelikte",
+            "isCorrect": true
+          },
+          {
+            "text": "Erfolgsdelikte setzen einen Erfolg voraus",
+            "isCorrect": true
+          },
+          {
+            "text": "Tätigkeitsdelikte benötigen keinen Erfolg",
+            "isCorrect": true
+          },
+          {
+            "text": "Alle Delikte erfordern Vorsatz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "➡ Sehr theoretisch – aber prüfungsrelevant!"
+      },
+      {
+        "title": "13. Welche Aufgaben hat die Gläubigerversammlung?",
+        "context": null,
+        "question": "Welche Aufgaben hat die Gläubigerversammlung?",
+        "options": [
+          {
+            "text": "Enthebung des Insolvenzverwalters",
+            "isCorrect": true
+          },
+          {
+            "text": "Annahme eines Sanierungsplans",
+            "isCorrect": true
+          },
+          {
+            "text": "Festsetzung von Versicherungsprämien",
+            "isCorrect": false
+          },
+          {
+            "text": "Einsetzung eines Gläubigerausschusses",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen beschreiben die Stellung des Versicherungsmaklers zutreffend?",
+        "context": null,
+        "question": "Welche Aussagen beschreiben die Stellung des Versicherungsmaklers zutreffend?",
+        "options": [
+          {
+            "text": "Der Versicherungsmakler ist Interessenvertreter des Versicherungsunternehmens",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherungsmakler ist verpflichtet, die Interessen des Kunden zu wahren",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsmakler ist nicht an ein bestimmtes Versicherungsunternehmen gebunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsmakler ist Vertragspartei des Versicherungsvertrags",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Tätigkeiten zählen zu den gesetzlichen Hauptpflichten eines Versicherungsmaklers?",
+        "context": null,
+        "question": "Welche Tätigkeiten zählen zu den gesetzlichen Hauptpflichten eines Versicherungsmaklers?",
+        "options": [
+          {
+            "text": "Durchführung einer Risikoanalyse",
+            "isCorrect": true
+          },
+          {
+            "text": "Vermittlung eines geeigneten Versicherungsschutzes",
+            "isCorrect": true
+          },
+          {
+            "text": "Festlegung der Versicherungsprämie",
+            "isCorrect": false
+          },
+          {
+            "text": "Laufende Betreuung des Kunden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen zur Betreuungspflicht des Maklers sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Betreuungspflicht des Maklers sind korrekt?",
+        "options": [
+          {
+            "text": "Die Betreuungspflicht endet mit Vertragsabschluss",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler muss den Kunden auch im Schadenfall unterstützen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler muss bestehende Verträge regelmäßig überprüfen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler ist verpflichtet, Fristen zu überwachen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Wann verletzt ein Versicherungsmakler seine Beratungspflichten?",
+        "context": null,
+        "question": "Wann verletzt ein Versicherungsmakler seine Beratungspflichten?",
+        "options": [
+          {
+            "text": "Wenn keine ausreichende Bedarfserhebung erfolgt",
+            "isCorrect": true
+          },
+          {
+            "text": "Wenn ein ungeeignetes Produkt empfohlen wird",
+            "isCorrect": true
+          },
+          {
+            "text": "Wenn der Kunde eine falsche Entscheidung trifft",
+            "isCorrect": false
+          },
+          {
+            "text": "Wenn Risiken nicht ausreichend erklärt werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen zur Haftung des Maklers sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Haftung des Maklers sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler haftet für Beratungsfehler",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler haftet automatisch für Schäden des Versicherers",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler kann bei Pflichtverletzung schadenersatzpflichtig werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine fehlende Dokumentation kann die Haftung erhöhen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen zur Beratungsdokumentation sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Beratungsdokumentation sind korrekt?",
+        "options": [
+          {
+            "text": "Sie ist gesetzlich vorgeschrieben",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie dient dem Nachweis der ordnungsgemäßen Beratung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist nur für interne Zwecke bestimmt",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie kann im Streitfall als Beweismittel dienen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Voraussetzungen müssen für das Zustandekommen eines Versicherungsvertrags erfüllt sein?",
+        "context": null,
+        "question": "Welche Voraussetzungen müssen für das Zustandekommen eines Versicherungsvertrags erfüllt sein?",
+        "options": [
+          {
+            "text": "Angebot und Annahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Übereinstimmende Willenserklärungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Schriftform ist immer zwingend erforderlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Geschäftsfähigkeit der Parteien",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen zum Versicherungsvertrag sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Versicherungsvertrag sind korrekt?",
+        "options": [
+          {
+            "text": "Es handelt sich um ein zweiseitiges Rechtsgeschäft",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Vertrag ist unentgeltlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Beide Parteien haben Leistungspflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt regelmäßig ein Dauerschuldverhältnis vor",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Inhalte gehören zwingend zu einem Versicherungsvertrag?",
+        "context": null,
+        "question": "Welche Inhalte gehören zwingend zu einem Versicherungsvertrag?",
+        "options": [
+          {
+            "text": "Versicherte Gefahr",
+            "isCorrect": true
+          },
+          {
+            "text": "Prämie",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn des Versicherers",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Was versteht man unter dem versicherten Risiko?",
+        "context": null,
+        "question": "Was versteht man unter dem versicherten Risiko?",
+        "options": [
+          {
+            "text": "Ein bereits eingetretener Schaden",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Möglichkeit eines zukünftigen Schadens",
+            "isCorrect": true
+          },
+          {
+            "text": "Ein ungewisses Ereignis",
+            "isCorrect": true
+          },
+          {
+            "text": "Ein sicher eintretendes Ereignis",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen zur Ungewissheit im Versicherungsrecht sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Ungewissheit im Versicherungsrecht sind richtig?",
+        "options": [
+          {
+            "text": "Es muss ungewiss sein, ob ein Schaden eintritt",
+            "isCorrect": true
+          },
+          {
+            "text": "Es muss ungewiss sein, wann ein Schaden eintritt",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Schadenshöhe kann ungewiss sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Das Ereignis muss sicher eintreten",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Personen können Rechte aus einem Versicherungsvertrag haben?",
+        "context": null,
+        "question": "Welche Personen können Rechte aus einem Versicherungsvertrag haben?",
+        "options": [
+          {
+            "text": "Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Begünstigter",
+            "isCorrect": true
+          },
+          {
+            "text": "Geschädigter Dritter",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Aussage zur Rolle des Maklers ist korrekt?",
+        "context": null,
+        "question": "Welche Aussage zur Rolle des Maklers ist korrekt?",
+        "options": [
+          {
+            "text": "Der Makler ist Vertragspartei",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler ist Vermittler zwischen Kunde und Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler ist Erfüllungsgehilfe des Versicherers",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler steht auf Seite des Kunden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Welche Aufgaben hat der Makler nach Vertragsabschluss?",
+        "context": null,
+        "question": "Welche Aufgaben hat der Makler nach Vertragsabschluss?",
+        "options": [
+          {
+            "text": "Polizzenprüfung",
+            "isCorrect": true
+          },
+          {
+            "text": "Unterstützung bei Schadenfällen",
+            "isCorrect": true
+          },
+          {
+            "text": "Anpassung der Prämie",
+            "isCorrect": false
+          },
+          {
+            "text": "Laufende Vertragsanalyse",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Welche Aussagen zur Polizzenprüfung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Polizzenprüfung sind korrekt?",
+        "options": [
+          {
+            "text": "Der Makler muss die Polizze prüfen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler muss Abweichungen erkennen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler haftet nie für Fehler",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Kunde muss über Abweichungen informiert werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "16. Welche Aufgaben hat die Versicherungsaufsicht?",
+        "context": null,
+        "question": "Welche Aufgaben hat die Versicherungsaufsicht?",
+        "options": [
+          {
+            "text": "Schutz der Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Sicherstellung der Zahlungsfähigkeit der Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Festlegung der Versicherungsprämien",
+            "isCorrect": false
+          },
+          {
+            "text": "Kontrolle der Finanzlage der Versicherer",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "17. Welche Aussagen zur FMA sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur FMA sind korrekt?",
+        "options": [
+          {
+            "text": "Sie ist die Aufsichtsbehörde",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie überwacht Versicherungsunternehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie vermittelt Versicherungsverträge",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie sorgt für Stabilität des Finanzsystems",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "18. Welche Pflichten ergeben sich aus der DSGVO für Makler?",
+        "context": null,
+        "question": "Welche Pflichten ergeben sich aus der DSGVO für Makler?",
+        "options": [
+          {
+            "text": "Schutz personenbezogener Daten",
+            "isCorrect": true
+          },
+          {
+            "text": "Einholung von Einwilligungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Freie Weitergabe von Daten",
+            "isCorrect": false
+          },
+          {
+            "text": "Dokumentation der Datenverarbeitung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "19. Welche Aussagen zur Datenverarbeitung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Datenverarbeitung sind korrekt?",
+        "options": [
+          {
+            "text": "Daten dürfen nur zweckgebunden verarbeitet werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Jede Verarbeitung muss dokumentiert werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Sicherheitsmaßnahmen sind erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Daten dürfen unbegrenzt gespeichert werden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen zur Rechtsfähigkeit sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Rechtsfähigkeit sind richtig?",
+        "options": [
+          {
+            "text": "Sie beginnt mit der Geburt",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie endet mit dem Tod",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie setzt Geschäftsfähigkeit voraus",
+            "isCorrect": false
+          },
+          {
+            "text": "Juristische Personen sind ebenfalls rechtsfähig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Wann ist ein Vertrag wirksam zustande gekommen?",
+        "context": null,
+        "question": "Wann ist ein Vertrag wirksam zustande gekommen?",
+        "options": [
+          {
+            "text": "Bei übereinstimmenden Willenserklärungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Durch Angebot und Annahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Durch Schweigen des Empfängers",
+            "isCorrect": false
+          },
+          {
+            "text": "Wenn beide Parteien geschäftsfähig sind",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Umstände führen zur Nichtigkeit eines Vertrags?",
+        "context": null,
+        "question": "Welche Umstände führen zur Nichtigkeit eines Vertrags?",
+        "options": [
+          {
+            "text": "Gesetzesverstoß",
+            "isCorrect": true
+          },
+          {
+            "text": "Sittenwidrigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Fehlende Schriftform (immer)",
+            "isCorrect": false
+          },
+          {
+            "text": "Unmöglicher Vertragsinhalt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen zum Sachenrecht sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Sachenrecht sind korrekt?",
+        "options": [
+          {
+            "text": "Eigentum ist ein absolutes Recht",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigentümer darf uneingeschränkt handeln",
+            "isCorrect": false
+          },
+          {
+            "text": "Eigentum ist gesetzlich geschützt",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigentum kann beschränkt sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen zum Grundbuch sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zum Grundbuch sind richtig?",
+        "options": [
+          {
+            "text": "Eintragungen gelten als richtig",
+            "isCorrect": true
+          },
+          {
+            "text": "Reihenfolge der Eintragung ist irrelevant",
+            "isCorrect": false
+          },
+          {
+            "text": "Prioritätsprinzip gilt",
+            "isCorrect": true
+          },
+          {
+            "text": "Nicht eingetragene Rechte können nicht geltend gemacht werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen zum Versicherungsvertrag sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Versicherungsvertrag sind korrekt?",
+        "options": [
+          {
+            "text": "Zweiseitiges Rechtsgeschäft",
+            "isCorrect": true
+          },
+          {
+            "text": "Entgeltlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Einseitig verpflichtend",
+            "isCorrect": false
+          },
+          {
+            "text": "Dauerschuldverhältnis",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Was sind wesentliche Merkmale einer Versicherung?",
+        "context": null,
+        "question": "Was sind wesentliche Merkmale einer Versicherung?",
+        "options": [
+          {
+            "text": "Risikoübernahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Risikogemeinschaft",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinnmaximierung",
+            "isCorrect": false
+          },
+          {
+            "text": "Finanzierung durch Prämien",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Was beschreibt das versicherte Risiko?",
+        "context": null,
+        "question": "Was beschreibt das versicherte Risiko?",
+        "options": [
+          {
+            "text": "Ein sicher eintretendes Ereignis",
+            "isCorrect": false
+          },
+          {
+            "text": "Ein ungewisses Ereignis",
+            "isCorrect": true
+          },
+          {
+            "text": "Möglichkeit eines Schadens",
+            "isCorrect": true
+          },
+          {
+            "text": "Bereits eingetretener Schaden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen zum Vertragsinhalt sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zum Vertragsinhalt sind richtig?",
+        "options": [
+          {
+            "text": "Versicherte Gefahr muss definiert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Prämie muss festgelegt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherungsnehmer muss bestimmt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn des Versicherers ist Vertragsbestandteil",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Personen können Rechte aus dem Versicherungsvertrag haben?",
+        "context": null,
+        "question": "Welche Personen können Rechte aus dem Versicherungsvertrag haben?",
+        "options": [
+          {
+            "text": "Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Begünstigter",
+            "isCorrect": true
+          },
+          {
+            "text": "Geschädigter Dritter",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen zur Stellung des Maklers sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Stellung des Maklers sind korrekt?",
+        "options": [
+          {
+            "text": "Interessenvertreter des Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertreter des Versicherers",
+            "isCorrect": false
+          },
+          {
+            "text": "Unabhängig vom Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragspartei",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aufgaben hat der Makler?",
+        "context": null,
+        "question": "Welche Aufgaben hat der Makler?",
+        "options": [
+          {
+            "text": "Risikoanalyse",
+            "isCorrect": true
+          },
+          {
+            "text": "Vermittlung des bestmöglichen Schutzes",
+            "isCorrect": true
+          },
+          {
+            "text": "Festlegung der Prämie",
+            "isCorrect": false
+          },
+          {
+            "text": "Unterstützung im Schadenfall",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Pflichten bestehen nach Vertragsabschluss?",
+        "context": null,
+        "question": "Welche Pflichten bestehen nach Vertragsabschluss?",
+        "options": [
+          {
+            "text": "Polizzenprüfung",
+            "isCorrect": true
+          },
+          {
+            "text": "Laufende Betreuung",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsanpassung durch Makler",
+            "isCorrect": false
+          },
+          {
+            "text": "Unterstützung bei Schaden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Wann verletzt ein Makler seine Pflichten?",
+        "context": null,
+        "question": "Wann verletzt ein Makler seine Pflichten?",
+        "options": [
+          {
+            "text": "Fehlende Risikoanalyse",
+            "isCorrect": true
+          },
+          {
+            "text": "Falsche Produktempfehlung",
+            "isCorrect": true
+          },
+          {
+            "text": "Insolvenz des Versicherers",
+            "isCorrect": false
+          },
+          {
+            "text": "Nichtbeachtung von Fristen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Welche Aussagen zur Marktanalysepflicht sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Marktanalysepflicht sind richtig?",
+        "options": [
+          {
+            "text": "Ausreichende Marktanalyse erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Einschränkung ist zulässig mit Offenlegung",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur ein Versicherer darf angeboten werden ohne Begründung",
+            "isCorrect": false
+          },
+          {
+            "text": "Alle Versicherer müssen zwingend geprüft werden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "16. Welche Aufgaben hat der Makler im Schadenfall?",
+        "context": null,
+        "question": "Welche Aufgaben hat der Makler im Schadenfall?",
+        "options": [
+          {
+            "text": "Unterstützung bei Schadenmeldung",
+            "isCorrect": true
+          },
+          {
+            "text": "Entscheidung über Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Fristenüberwachung",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertretung des Kunden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "17. Welche Aussagen zur Polizzenprüfung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Polizzenprüfung sind korrekt?",
+        "options": [
+          {
+            "text": "Pflicht des Maklers",
+            "isCorrect": true
+          },
+          {
+            "text": "Abweichungen müssen erkannt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Haftung bei Fehlern",
+            "isCorrect": false
+          },
+          {
+            "text": "Kunde muss informiert werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "18. Welche Ziele hat die Versicherungsaufsicht?",
+        "context": null,
+        "question": "Welche Ziele hat die Versicherungsaufsicht?",
+        "options": [
+          {
+            "text": "Schutz der Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Kontrolle der Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinnsteigerung",
+            "isCorrect": false
+          },
+          {
+            "text": "Stabilität des Finanzsystems",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "19. Welche Aussagen zur FMA sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur FMA sind korrekt?",
+        "options": [
+          {
+            "text": "Aufsichtsbehörde",
+            "isCorrect": true
+          },
+          {
+            "text": "Kontrolliert Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Vermittelt Verträge",
+            "isCorrect": false
+          },
+          {
+            "text": "Sichert Stabilität",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "20. Welche DSGVO-Pflichten hat ein Makler?",
+        "context": null,
+        "question": "Welche DSGVO-Pflichten hat ein Makler?",
+        "options": [
+          {
+            "text": "Datenschutz sicherstellen",
+            "isCorrect": true
+          },
+          {
+            "text": "Einwilligungen einholen",
+            "isCorrect": true
+          },
+          {
+            "text": "Daten frei weitergeben",
+            "isCorrect": false
+          },
+          {
+            "text": "Verarbeitung dokumentieren",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "21. Welche Aussagen zur Rolle des Versicherungsmaklers sind zutreffend?",
+        "context": null,
+        "question": "Welche Aussagen zur Rolle des Versicherungsmaklers sind zutreffend?",
+        "options": [
+          {
+            "text": "Der Makler ist verpflichtet, die Interessen des Kunden bestmöglich zu wahren",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler ist an Weisungen des Versicherers gebunden",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler ist grundsätzlich unabhängig",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler handelt im Namen des Versicherers",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "22. Welche Aussagen zur Risikoanalyse sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Risikoanalyse sind korrekt?",
+        "options": [
+          {
+            "text": "Sie ist Grundlage jeder Beratung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie kann entfallen, wenn der Kunde darauf verzichtet",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie muss die individuellen Bedürfnisse des Kunden berücksichtigen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist nur bei Großkunden erforderlich",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "23. Welche Aussagen zur Dokumentationspflicht sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Dokumentationspflicht sind richtig?",
+        "options": [
+          {
+            "text": "Sie dient dem Nachweis der Beratung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist gesetzlich vorgeschrieben",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie kann durch mündliche Beratung ersetzt werden",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie ist im Haftungsfall von Bedeutung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "24. Welche Aussagen zur Vertragsdauer sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Vertragsdauer sind korrekt?",
+        "options": [
+          {
+            "text": "Versicherungsverträge sind häufig Dauerschuldverhältnisse",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie enden automatisch nach Eintritt eines Schadens",
+            "isCorrect": false
+          },
+          {
+            "text": "Eine Kündigung ist möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie bestehen nur einmalig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "25. Welche Aussagen zur Prämie sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Prämie sind richtig?",
+        "options": [
+          {
+            "text": "Sie ist vom Versicherungsnehmer zu zahlen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist Voraussetzung für den Versicherungsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie wird vom Makler festgelegt",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie ist Teil des Versicherungsvertrags",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "26. Welche Aussagen zum Versicherer sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Versicherer sind korrekt?",
+        "options": [
+          {
+            "text": "Er trägt das Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Er ist verpflichtet, im Schadenfall zu leisten",
+            "isCorrect": true
+          },
+          {
+            "text": "Er ist immer eine natürliche Person",
+            "isCorrect": false
+          },
+          {
+            "text": "Er ist Vertragspartner des Versicherungsnehmers",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "27. Welche Aussagen zur Beratungspflicht sind zutreffend?",
+        "context": null,
+        "question": "Welche Aussagen zur Beratungspflicht sind zutreffend?",
+        "options": [
+          {
+            "text": "Sie umfasst die Aufklärung über Risiken",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie umfasst die Empfehlung geeigneter Produkte",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie entfällt bei erfahrenen Kunden",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie muss nachvollziehbar sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "28. Welche Aussagen zum Zustandekommen eines Vertrags sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Zustandekommen eines Vertrags sind korrekt?",
+        "options": [
+          {
+            "text": "Angebot und Annahme sind erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Schweigen gilt grundsätzlich als Zustimmung",
+            "isCorrect": false
+          },
+          {
+            "text": "Beide Parteien müssen geschäftsfähig sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es braucht übereinstimmende Willenserklärungen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "29. Welche Aussagen zur Polizze sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Polizze sind richtig?",
+        "options": [
+          {
+            "text": "Sie dokumentiert den Versicherungsvertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie muss vom Makler geprüft werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ersetzt den Vertrag vollständig",
+            "isCorrect": false
+          },
+          {
+            "text": "Abweichungen müssen erkannt werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "30. Welche Aussagen zum Schadenfall sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Schadenfall sind korrekt?",
+        "options": [
+          {
+            "text": "Der Makler unterstützt den Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler entscheidet über die Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Fristen müssen eingehalten werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer prüft den Anspruch",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "31. Welche Aussagen zur Haftung des Maklers sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Haftung des Maklers sind richtig?",
+        "options": [
+          {
+            "text": "Er haftet für Beratungsfehler",
+            "isCorrect": true
+          },
+          {
+            "text": "Er haftet für jedes Risiko des Kunden",
+            "isCorrect": false
+          },
+          {
+            "text": "Er haftet bei Verletzung seiner Pflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Dokumentationsmängel können nachteilig sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "32. Welche Aussagen zum Versicherungsfall sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Versicherungsfall sind korrekt?",
+        "options": [
+          {
+            "text": "Er ist Voraussetzung für die Leistungspflicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Er muss im Vertrag definiert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Er tritt immer sicher ein",
+            "isCorrect": false
+          },
+          {
+            "text": "Er ist ein ungewisses Ereignis",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "33. Welche Aussagen zur FMA sind zutreffend?",
+        "context": null,
+        "question": "Welche Aussagen zur FMA sind zutreffend?",
+        "options": [
+          {
+            "text": "Sie ist die Aufsichtsbehörde",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie kontrolliert Versicherungsunternehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie vermittelt Versicherungen",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie überwacht die Finanzlage",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "34. Welche Aussagen zur DSGVO sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur DSGVO sind richtig?",
+        "options": [
+          {
+            "text": "Daten müssen geschützt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Verarbeitung muss dokumentiert werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Daten dürfen frei verkauft werden",
+            "isCorrect": false
+          },
+          {
+            "text": "Sicherheitsmaßnahmen sind erforderlich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "35. Welche Aussagen zur Risikogemeinschaft sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Risikogemeinschaft sind korrekt?",
+        "options": [
+          {
+            "text": "Viele Versicherte tragen gemeinsam Risiken",
+            "isCorrect": true
+          },
+          {
+            "text": "Schäden werden aus Prämien finanziert",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Versicherte trägt nur sein eigenes Risiko",
+            "isCorrect": false
+          },
+          {
+            "text": "Es erfolgt ein Risikoausgleich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "36. Welche Aussagen zur Vertragsfreiheit sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Vertragsfreiheit sind richtig?",
+        "options": [
+          {
+            "text": "Verträge können grundsätzlich frei gestaltet werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Gesetzliche Vorschriften setzen Grenzen",
+            "isCorrect": true
+          },
+          {
+            "text": "Konsumentenschutz kann Einschränkungen bringen",
+            "isCorrect": true
+          },
+          {
+            "text": "Verträge sind immer vollständig frei",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "37. Welche Aussagen zur Kündigung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Kündigung sind korrekt?",
+        "options": [
+          {
+            "text": "Versicherungsverträge können gekündigt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Kündigungsfristen müssen eingehalten werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Kündigung ist immer jederzeit möglich",
+            "isCorrect": false
+          },
+          {
+            "text": "Kündigung kann an Voraussetzungen gebunden sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "38. Welche Aussagen zur Beratungshaftung sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Beratungshaftung sind richtig?",
+        "options": [
+          {
+            "text": "Sie entsteht bei Pflichtverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist unabhängig von Verschulden",
+            "isCorrect": false
+          },
+          {
+            "text": "Falsche Empfehlungen können haftungsrelevant sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Dokumentation kann entlastend wirken",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "39. Welche Aussagen zur Vermittlung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Vermittlung sind korrekt?",
+        "options": [
+          {
+            "text": "Der Makler vermittelt zwischen Kunde und Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Er handelt im eigenen Namen",
+            "isCorrect": true
+          },
+          {
+            "text": "Er ist unabhängig",
+            "isCorrect": true
+          },
+          {
+            "text": "Er ist Teil des Versicherungsvertrags",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "40. Welche Aussagen zur Vertragsprüfung sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Vertragsprüfung sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler muss den Vertrag prüfen",
+            "isCorrect": true
+          },
+          {
+            "text": "Er muss den Kunden informieren",
+            "isCorrect": true
+          },
+          {
+            "text": "Er kann Fehler ignorieren",
+            "isCorrect": true
+          },
+          {
+            "text": "Er muss Abweichungen erkennen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "41. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde möchte eine günstige Haushaltsversicherung. Der Makler empfiehlt ohne weitere Analyse die billigste Variante. Nach einem Schaden stellt sich heraus, dass wichtige Risiken nicht gedeckt sind.",
+        "question": "Fallbeispiel – Beratungspflicht\n\nEin Kunde möchte eine günstige Haushaltsversicherung. Der Makler empfiehlt ohne weitere Analyse die billigste Variante. Nach einem Schaden stellt sich heraus, dass wichtige Risiken nicht gedeckt sind.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler hat seine Beratungspflicht verletzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde trägt allein das Risiko seiner Entscheidung",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler hätte eine Bedarfserhebung durchführen müssen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler haftet jedenfalls nicht, da der Kunde „günstig“ wollte",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "42. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsvertrag wird abgeschlossen. Die Polizze weicht vom Antrag ab. Der Makler prüft diese nicht und informiert den Kunden nicht.",
+        "question": "Fallbeispiel – Polizzenprüfung\n\nEin Versicherungsvertrag wird abgeschlossen. Die Polizze weicht vom Antrag ab. Der Makler prüft diese nicht und informiert den Kunden nicht.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Makler verletzt seine Pflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer ist allein verantwortlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler kann haftbar werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde muss die Polizze selbst prüfen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "43. Welche Aussagen zum Risiko sind korrekt?",
+        "context": null,
+        "question": "extrem schwer – Risiko\n\nWelche Aussagen zum Risiko sind korrekt?",
+        "options": [
+          {
+            "text": "Risiko ist die Möglichkeit eines Schadens",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko kann auch die Ungewissheit über den Zeitpunkt betreffen",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiko liegt nur vor, wenn der Schaden wahrscheinlich ist",
+            "isCorrect": false
+          },
+          {
+            "text": "Risiko ist Voraussetzung für Versicherungsschutz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "44. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde meldet einen Schaden verspätet, weil der Makler ihn nicht über Fristen informiert hat.",
+        "question": "Fallbeispiel – Schadenfall\n\nEin Kunde meldet einen Schaden verspätet, weil der Makler ihn nicht über Fristen informiert hat.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler hat eine Pflicht verletzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss trotzdem leisten",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler kann haftbar sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Fristen sind irrelevant",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "45. Welche Aussagen zur Marktanalysepflicht sind korrekt?",
+        "context": null,
+        "question": "extrem schwer – Marktanalyse\n\nWelche Aussagen zur Marktanalysepflicht sind korrekt?",
+        "options": [
+          {
+            "text": "Der Makler muss eine hinreichende Marktanalyse durchführen",
+            "isCorrect": true
+          },
+          {
+            "text": "Er darf sich ohne Begründung auf wenige Versicherer beschränken",
+            "isCorrect": false
+          },
+          {
+            "text": "Eine Einschränkung ist zulässig, wenn sie offengelegt wird",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler muss immer alle Anbieter vergleichen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "46. Welche Aussagen sind richtig?",
+        "context": "Ein Makler empfiehlt bewusst ein Produkt mit höherer Provision, obwohl es schlechter ist.",
+        "question": "Fallbeispiel – falsche Empfehlung\n\nEin Makler empfiehlt bewusst ein Produkt mit höherer Provision, obwohl es schlechter ist.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Verletzung der Interessenwahrungspflicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein Problem, solange der Vertrag gültig ist",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftungsrisiko besteht",
+            "isCorrect": true
+          },
+          {
+            "text": "Verstoß gegen Beratungspflichten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "47. Welche Aussagen sind korrekt?",
+        "context": null,
+        "question": "extrem schwer – Vertragsrecht\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Ein Vertrag erfordert Konsens",
+            "isCorrect": true
+          },
+          {
+            "text": "Schweigen gilt grundsätzlich als Zustimmung",
+            "isCorrect": false
+          },
+          {
+            "text": "Dissens führt zur Unwirksamkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Geschäftsfähigkeit ist Voraussetzung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "48. Welche Aussagen sind richtig?",
+        "context": "Ein Makler berät korrekt, dokumentiert dies aber nicht. Im Streitfall behauptet der Kunde Falschberatung.",
+        "question": "Fallbeispiel – Dokumentation\n\nEin Makler berät korrekt, dokumentiert dies aber nicht. Im Streitfall behauptet der Kunde Falschberatung.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Dokumentation dient als Beweis",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler hat ein erhöhtes Risiko zu haften",
+            "isCorrect": true
+          },
+          {
+            "text": "Ohne Dokumentation ist keine Haftung möglich",
+            "isCorrect": false
+          },
+          {
+            "text": "Dokumentationspflicht ist irrelevant",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "49. Welche Aussagen sind korrekt?",
+        "context": null,
+        "question": "extrem schwer – Versicherungsvertrag\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungsvertrag ist entgeltlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur der Versicherer hat Pflichten",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um ein Dauerschuldverhältnis",
+            "isCorrect": true
+          },
+          {
+            "text": "Beide Parteien sind verpflichtet",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "50. Welche Aussagen sind richtig?",
+        "context": "Der Versicherer stellt eine falsche Polizze aus. Der Makler erkennt dies, sagt aber nichts.",
+        "question": "Fallbeispiel – falsche Polizze\n\nDer Versicherer stellt eine falsche Polizze aus. Der Makler erkennt dies, sagt aber nichts.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Pflichtverletzung des Maklers",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Verantwortung des Maklers",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftungsrisiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Kunde muss alles selbst prüfen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "51. Welche Aussagen sind korrekt?",
+        "context": null,
+        "question": "extrem schwer – Aufsicht\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die FMA schützt Versicherungsnehmer",
+            "isCorrect": true
+          },
+          {
+            "text": "Die FMA legt Prämien fest",
+            "isCorrect": false
+          },
+          {
+            "text": "Die FMA überwacht Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Ziel ist auch Finanzmarktstabilität",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "52. Welche Aussagen sind richtig?",
+        "context": "Ein Makler gibt Kundendaten ohne Zustimmung an Dritte weiter.",
+        "question": "Fallbeispiel – DSGVO\n\nEin Makler gibt Kundendaten ohne Zustimmung an Dritte weiter.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Verstoß gegen DSGVO",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein Problem bei Versicherungen",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftungs- und Strafrisiko möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Einwilligung wäre erforderlich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "53. Welche Aussagen sind korrekt?",
+        "context": null,
+        "question": "extrem schwer – Schaden\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Schaden ist jeder Nachteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Schaden betrifft nur Vermögen",
+            "isCorrect": false
+          },
+          {
+            "text": "Körperverletzung ist Schaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Rechte können verletzt sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "54. Welche Aussagen sind richtig?",
+        "context": "Ein Makler betreut den Kunden nach Vertragsabschluss nicht mehr. Eine Deckungslücke bleibt unentdeckt.",
+        "question": "Fallbeispiel – fehlende Betreuung\n\nEin Makler betreut den Kunden nach Vertragsabschluss nicht mehr. Eine Deckungslücke bleibt unentdeckt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Betreuungspflicht verletzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Pflicht nach Abschluss",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftung möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Kunde trägt immer alles selbst",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "55. Welche Aussagen sind korrekt?",
+        "context": null,
+        "question": "Vertragsinhalt\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Versicherte Gefahr muss definiert sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Prämie ist Bestandteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn des Versicherers ist notwendig",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsparteien müssen feststehen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen zur Stellung des Versicherungsmaklers sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Stellung des Versicherungsmaklers sind korrekt?",
+        "options": [
+          {
+            "text": "Er ist Interessenvertreter des Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Er ist Erfüllungsgehilfe des Versicherers",
+            "isCorrect": false
+          },
+          {
+            "text": "Er ist unabhängig",
+            "isCorrect": true
+          },
+          {
+            "text": "Er ist Vertragspartei",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen zur Beratungspflicht sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Beratungspflicht sind richtig?",
+        "options": [
+          {
+            "text": "Bedarfserhebung ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Beratung kann entfallen, wenn Kunde verzichtet",
+            "isCorrect": false
+          },
+          {
+            "text": "Empfehlung muss nachvollziehbar sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Risiken müssen erklärt werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Wann kommt ein Versicherungsvertrag zustande?",
+        "context": null,
+        "question": "Wann kommt ein Versicherungsvertrag zustande?",
+        "options": [
+          {
+            "text": "Angebot und Annahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Schweigen des Kunden",
+            "isCorrect": false
+          },
+          {
+            "text": "Übereinstimmende Willenserklärungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Automatisch bei Beratung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen zum Versicherungsvertrag sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Versicherungsvertrag sind korrekt?",
+        "options": [
+          {
+            "text": "Zweiseitiges Rechtsgeschäft",
+            "isCorrect": true
+          },
+          {
+            "text": "Unentgeltlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Dauerschuldverhältnis",
+            "isCorrect": true
+          },
+          {
+            "text": "Einseitig verpflichtend",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen zur Risikoanalyse sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Risikoanalyse sind richtig?",
+        "options": [
+          {
+            "text": "Grundlage der Beratung",
+            "isCorrect": true
+          },
+          {
+            "text": "Optional",
+            "isCorrect": false
+          },
+          {
+            "text": "Muss kundenbezogen sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur bei großen Verträgen notwendig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aufgaben hat der Makler im Schadenfall?",
+        "context": null,
+        "question": "Welche Aufgaben hat der Makler im Schadenfall?",
+        "options": [
+          {
+            "text": "Unterstützung",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistungsentscheidung",
+            "isCorrect": false
+          },
+          {
+            "text": "Fristenhinweis",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertretung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen zur Polizze sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Polizze sind korrekt?",
+        "options": [
+          {
+            "text": "Dokumentiert Vertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Muss geprüft werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Ersetzt immer den Antrag",
+            "isCorrect": false
+          },
+          {
+            "text": "Abweichungen sind relevant",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen zur Haftung des Maklers sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Haftung des Maklers sind richtig?",
+        "options": [
+          {
+            "text": "Haftung bei Beratungsfehlern",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Haftung bei fehlender Dokumentation",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftung bei Pflichtverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung für Versicherer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen zum Risiko sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Risiko sind korrekt?",
+        "options": [
+          {
+            "text": "Ungewisses Ereignis",
+            "isCorrect": true
+          },
+          {
+            "text": "Muss sicher eintreten",
+            "isCorrect": false
+          },
+          {
+            "text": "Zeitpunkt kann ungewiss sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Voraussetzung für Versicherung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen zur Prämie sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Prämie sind richtig?",
+        "options": [
+          {
+            "text": "Vom Kunden zu zahlen",
+            "isCorrect": true
+          },
+          {
+            "text": "Vom Makler festgelegt",
+            "isCorrect": false
+          },
+          {
+            "text": "Bestandteil des Vertrags",
+            "isCorrect": true
+          },
+          {
+            "text": "Voraussetzung für Deckung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen zur FMA sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur FMA sind korrekt?",
+        "options": [
+          {
+            "text": "Aufsichtsbehörde",
+            "isCorrect": true
+          },
+          {
+            "text": "Vermittelt Versicherungen",
+            "isCorrect": false
+          },
+          {
+            "text": "Kontrolliert Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Sichert Stabilität",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen zur DSGVO sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur DSGVO sind richtig?",
+        "options": [
+          {
+            "text": "Daten müssen geschützt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Dokumentation erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Freie Weitergabe erlaubt",
+            "isCorrect": false
+          },
+          {
+            "text": "Sicherheitsmaßnahmen notwendig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Aussagen zur Marktanalyse sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Marktanalyse sind korrekt?",
+        "options": [
+          {
+            "text": "Ausreichend erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Einschränkung möglich mit Offenlegung",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer alle Anbieter prüfen",
+            "isCorrect": false
+          },
+          {
+            "text": "Keine Analyse notwendig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Welche Aussagen zur Betreuungspflicht sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Betreuungspflicht sind richtig?",
+        "options": [
+          {
+            "text": "Endet mit Vertragsabschluss",
+            "isCorrect": false
+          },
+          {
+            "text": "Umfasst Schadenfall",
+            "isCorrect": true
+          },
+          {
+            "text": "Laufende Prüfung erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Fristenüberwachung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Welche Aussagen zum Versicherer sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Versicherer sind korrekt?",
+        "options": [
+          {
+            "text": "Trägt Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistet im Schadenfall",
+            "isCorrect": true
+          },
+          {
+            "text": "Ist immer natürliche Person",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragspartner",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "16. Welche Aussagen zum Vertragsinhalt sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zum Vertragsinhalt sind richtig?",
+        "options": [
+          {
+            "text": "Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Prämie",
+            "isCorrect": true
+          },
+          {
+            "text": "Parteien",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinn",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "17. Welche Aussagen zum Schaden sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Schaden sind korrekt?",
+        "options": [
+          {
+            "text": "Jeder Nachteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur Vermögen",
+            "isCorrect": false
+          },
+          {
+            "text": "Körperverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Rechtsverletzung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "18. Welche Aussagen zur Dokumentation sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Dokumentation sind richtig?",
+        "options": [
+          {
+            "text": "Pflicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Beweisfunktion",
+            "isCorrect": true
+          },
+          {
+            "text": "Unwichtig",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftungsrelevant",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "19. Welche Aussagen zur Kündigung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Kündigung sind korrekt?",
+        "options": [
+          {
+            "text": "Möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Fristen beachten",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer jederzeit",
+            "isCorrect": false
+          },
+          {
+            "text": "Voraussetzungen möglich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "20. Welche Aussagen zur Beratungshaftung sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Beratungshaftung sind richtig?",
+        "options": [
+          {
+            "text": "Bei Pflichtverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Immer verschuldensunabhängig",
+            "isCorrect": false
+          },
+          {
+            "text": "Falsche Empfehlung relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Dokumentation hilft",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "21. Fall: Makler empfiehlt ungeeignetes Produkt.",
+        "context": null,
+        "question": "Fall: Makler empfiehlt ungeeignetes Produkt.",
+        "options": [
+          {
+            "text": "Pflichtverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein Problem",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftung möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Kunde trägt alles",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "22. Fall: Polizze weicht ab, Makler prüft nicht.",
+        "context": null,
+        "question": "Fall: Polizze weicht ab, Makler prüft nicht.",
+        "options": [
+          {
+            "text": "Pflichtverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherer allein verantwortlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftung möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Kunde muss prüfen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "23. Fall: Schaden verspätet gemeldet wegen Makler.",
+        "context": null,
+        "question": "Fall: Schaden verspätet gemeldet wegen Makler.",
+        "options": [
+          {
+            "text": "Pflichtverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherer muss leisten",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftung möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Fristen egal",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "24. Welche Aussagen zur Risikogemeinschaft sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Risikogemeinschaft sind richtig?",
+        "options": [
+          {
+            "text": "Gemeinsames Tragen",
+            "isCorrect": true
+          },
+          {
+            "text": "Ausgleich durch Prämien",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder allein",
+            "isCorrect": false
+          },
+          {
+            "text": "Kollektiv",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "25. Welche Aussagen zum Vertrag sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Vertrag sind korrekt?",
+        "options": [
+          {
+            "text": "Konsens notwendig",
+            "isCorrect": true
+          },
+          {
+            "text": "Schweigen Zustimmung",
+            "isCorrect": false
+          },
+          {
+            "text": "Geschäftsfähigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Dissens unwirksam",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "26. Welche Aussagen zur Vermittlung sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Vermittlung sind richtig?",
+        "options": [
+          {
+            "text": "Makler vermittelt",
+            "isCorrect": true
+          },
+          {
+            "text": "Im eigenen Namen",
+            "isCorrect": true
+          },
+          {
+            "text": "Unabhängig",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragspartei",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "27. Fall: Keine Dokumentation vorhanden",
+        "context": null,
+        "question": "Fall: Keine Dokumentation vorhanden",
+        "options": [
+          {
+            "text": "Risiko steigt",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein Problem",
+            "isCorrect": false
+          },
+          {
+            "text": "Beweis fehlt",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung wahrscheinlicher",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "28. Welche Aussagen zur Aufsicht sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Aufsicht sind korrekt?",
+        "options": [
+          {
+            "text": "Schutz VN",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewinnmaximierung",
+            "isCorrect": false
+          },
+          {
+            "text": "Kontrolle Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Stabilität",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "29. Welche Aussagen zur Datenverarbeitung sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Datenverarbeitung sind richtig?",
+        "options": [
+          {
+            "text": "Zweckbindung",
+            "isCorrect": true
+          },
+          {
+            "text": "Dokumentation",
+            "isCorrect": true
+          },
+          {
+            "text": "Unbegrenzt speichern",
+            "isCorrect": false
+          },
+          {
+            "text": "Sicherheit",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "30. Fall: Makler verschweigt bessere Alternative",
+        "context": null,
+        "question": "Fall: Makler verschweigt bessere Alternative",
+        "options": [
+          {
+            "text": "Pflichtverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein Problem",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftung möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Verstoß gegen Interessenwahrung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde verursacht durch einen Fehler in seiner Arbeit einen finanziellen Schaden beim Auftraggeber, ohne dass eine Sache beschädigt oder eine Person verletzt wurde.",
+        "question": "Ein Kunde verursacht durch einen Fehler in seiner Arbeit einen finanziellen Schaden beim Auftraggeber, ohne dass eine Sache beschädigt oder eine Person verletzt wurde.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um einen reinen Vermögensschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein Sachschaden vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Eine Haftpflichtversicherung kann grundsätzlich Deckung bieten",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich automatisch um einen Personenschaden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen sind korrekt?",
+        "context": "Ein Elektriker beschädigt bei der Arbeit eine Leitung, wodurch ein Betrieb stillsteht und Umsatzausfälle entstehen.",
+        "question": "Ein Elektriker beschädigt bei der Arbeit eine Leitung, wodurch ein Betrieb stillsteht und Umsatzausfälle entstehen.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der beschädigte Gegenstand stellt einen Sachschaden dar",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Umsatzausfall ist ein Vermögensschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Vermögensschaden ist ein Folgeschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ausschließlich ein Vermögensschaden vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Steuerberater macht einen Rechenfehler, wodurch dem Kunden ein finanzieller Nachteil entsteht.",
+        "question": "Ein Steuerberater macht einen Rechenfehler, wodurch dem Kunden ein finanzieller Nachteil entsteht.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt ein echter Vermögensschaden vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein Sachschaden vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Eine Berufshaftpflichtversicherung ist relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine Privathaftpflicht deckt das immer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen sind korrekt?",
+        "context": "Ein Kunde hat eine Haftpflichtversicherung und verursacht einen finanziellen Schaden ohne Sach- oder Personenschaden.",
+        "question": "Ein Kunde hat eine Haftpflichtversicherung und verursacht einen finanziellen Schaden ohne Sach- oder Personenschaden.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Haftpflichtversicherung deckt solche Schäden immer",
+            "isCorrect": false
+          },
+          {
+            "text": "Reine Vermögensschäden sind häufig ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Spezielle Versicherungen können erforderlich sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Deckung hängt vom konkreten Vertrag ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde verursacht einen Wasserschaden. Dadurch entsteht zusätzlich ein Nutzungsausfall beim Geschädigten.",
+        "question": "Ein Kunde verursacht einen Wasserschaden. Dadurch entsteht zusätzlich ein Nutzungsausfall beim Geschädigten.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Wasserschaden ist ein Sachschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Nutzungsausfall ist ein Vermögensschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Nutzungsausfall ist ein Folgeschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt nur ein Vermögensschaden vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen sind korrekt?",
+        "context": "Ein Makler empfiehlt keine Vermögensschadenhaftpflicht, obwohl der Kunde diese beruflich benötigt.",
+        "question": "Ein Makler empfiehlt keine Vermögensschadenhaftpflicht, obwohl der Kunde diese beruflich benötigt.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Makler verletzt seine Beratungspflicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht kein Risiko für den Makler",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler kann haftbar werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde trägt immer allein das Risiko",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde zerstört fremdes Eigentum. Zusätzlich entstehen Einnahmeverluste beim Geschädigten.",
+        "question": "Ein Kunde zerstört fremdes Eigentum. Zusätzlich entstehen Einnahmeverluste beim Geschädigten.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Zerstörung ist ein Sachschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Einnahmeverlust ist ein Vermögensschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Einnahmeverlust ist ein Folgeschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein reiner Vermögensschaden vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen sind korrekt?",
+        "context": "Ein Unternehmen verursacht durch falsche Beratung einen finanziellen Schaden beim Kunden.",
+        "question": "Ein Unternehmen verursacht durch falsche Beratung einen finanziellen Schaden beim Kunden.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es handelt sich um einen echten Vermögensschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine Betriebshaftpflicht deckt das immer",
+            "isCorrect": false
+          },
+          {
+            "text": "Eine Vermögensschadenhaftpflicht ist relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein Sachschaden vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde hat nur eine Privathaftpflicht und verursacht beruflich einen Vermögensschaden.",
+        "question": "Ein Kunde hat nur eine Privathaftpflicht und verursacht beruflich einen Vermögensschaden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Privathaftpflicht deckt das automatisch",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht eine Deckungslücke",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine spezielle Versicherung wäre notwendig",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss leisten",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen sind korrekt?",
+        "context": "Ein Kunde verletzt eine Person. Diese kann dadurch nicht arbeiten und verliert Einkommen.",
+        "question": "Ein Kunde verletzt eine Person. Diese kann dadurch nicht arbeiten und verliert Einkommen.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die Körperverletzung ist ein Personenschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Einkommensverlust ist ein Vermögensschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Einkommensverlust ist ein Folgeschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt nur ein Vermögensschaden vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Geschäftsführer trifft eine unternehmerische Entscheidung, die sich später als wirtschaftlich nachteilig herausstellt. Das Unternehmen erleidet einen finanziellen Schaden und macht Ansprüche gegen den Geschäftsführer geltend.",
+        "question": "Ein Geschäftsführer trifft eine unternehmerische Entscheidung, die sich später als wirtschaftlich nachteilig herausstellt. Das Unternehmen erleidet einen finanziellen Schaden und macht Ansprüche gegen den Geschäftsführer geltend.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um einen Vermögensschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine D&O-Versicherung kann grundsätzlich Deckung bieten",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein Sachschaden vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Geschäftsführer haftet grundsätzlich persönlich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen sind korrekt?",
+        "context": "Ein Vorstand verletzt seine Sorgfaltspflichten und verursacht dadurch einen finanziellen Schaden beim Unternehmen.",
+        "question": "Ein Vorstand verletzt seine Sorgfaltspflichten und verursacht dadurch einen finanziellen Schaden beim Unternehmen.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es liegt ein echter Vermögensschaden vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine D&O-Versicherung ist typischerweise relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein Personenschaden vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Eine Privathaftpflicht ist ausreichend",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Geschäftsführer handelt vorsätzlich und verursacht dadurch einen Schaden.",
+        "question": "Ein Geschäftsführer handelt vorsätzlich und verursacht dadurch einen Schaden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Vorsatz ist grundsätzlich nicht versicherbar",
+            "isCorrect": true
+          },
+          {
+            "text": "Die D&O-Versicherung muss immer leisten",
+            "isCorrect": false
+          },
+          {
+            "text": "Es kann ein Deckungsausschluss vorliegen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Geschäftsführer haftet persönlich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen sind korrekt?",
+        "context": "Ein Manager wird von einem Dritten aufgrund einer Pflichtverletzung geklagt.",
+        "question": "Ein Manager wird von einem Dritten aufgrund einer Pflichtverletzung geklagt.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Die D&O-Versicherung kann Abwehrkosten übernehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherung zahlt immer den Schaden",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht auch Schutz bei unbegründeten Ansprüchen",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherung prüft die Haftung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Geschäftsführer unterlässt es, rechtzeitig einen Insolvenzantrag zu stellen. Es entsteht ein finanzieller Schaden.",
+        "question": "Ein Geschäftsführer unterlässt es, rechtzeitig einen Insolvenzantrag zu stellen. Es entsteht ein finanzieller Schaden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt eine Pflichtverletzung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um einen Vermögensschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine D&O-Versicherung kann relevant sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein Sachschaden vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen sind korrekt?",
+        "context": "Ein Manager trifft eine Entscheidung im Rahmen seines unternehmerischen Ermessens, die sich später als falsch herausstellt.",
+        "question": "Ein Manager trifft eine Entscheidung im Rahmen seines unternehmerischen Ermessens, die sich später als falsch herausstellt.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Jede Fehlentscheidung führt automatisch zur Haftung",
+            "isCorrect": false
+          },
+          {
+            "text": "Es kann dennoch eine Haftung bestehen",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Business Judgement Rule kann relevant sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine D&O-Versicherung kann Schutz bieten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Geschäftsführer wird zu Unrecht beschuldigt und muss sich verteidigen.",
+        "question": "Ein Geschäftsführer wird zu Unrecht beschuldigt und muss sich verteidigen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die D&O-Versicherung kann Verteidigungskosten übernehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es muss ein tatsächlicher Schaden vorliegen",
+            "isCorrect": false
+          },
+          {
+            "text": "Auch unbegründete Ansprüche können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen sind korrekt?",
+        "context": "Ein Unternehmen schließt eine D&O-Versicherung für seine Organe ab.",
+        "question": "Ein Unternehmen schließt eine D&O-Versicherung für seine Organe ab.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Versicherungsnehmer ist meist das Unternehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherte Personen sind die Organe",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Schutz gilt nur für das Unternehmen",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um eine Vermögensversicherung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Geschäftsführer verursacht fahrlässig einen Schaden.",
+        "question": "Ein Geschäftsführer verursacht fahrlässig einen Schaden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Fahrlässigkeit ist grundsätzlich versicherbar",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht automatisch keine Deckung",
+            "isCorrect": false
+          },
+          {
+            "text": "D&O kann Schutz bieten",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um einen Vermögensschaden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen sind korrekt?",
+        "context": "Ein Manager nutzt Unternehmensmittel für private Zwecke.",
+        "question": "Ein Manager nutzt Unternehmensmittel für private Zwecke.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es kann sich um vorsätzliches Verhalten handeln",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung kann ausgeschlossen sein",
+            "isCorrect": true
+          },
+          {
+            "text": "D&O zahlt immer",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht Haftungsrisiko",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Beamter verursacht in Ausübung seiner Tätigkeit einen Schaden bei einem Bürger.",
+        "question": "Ein Beamter verursacht in Ausübung seiner Tätigkeit einen Schaden bei einem Bürger.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Staat haftet grundsätzlich gegenüber dem Geschädigten",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Beamte haftet direkt gegenüber dem Geschädigten",
+            "isCorrect": false
+          },
+          {
+            "text": "Es kann ein Regress gegen den Beamten erfolgen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein Vermögensschaden vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen zur Amtshaftung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Amtshaftung sind korrekt?",
+        "options": [
+          {
+            "text": "Der Geschädigte wendet sich an den Staat",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Beamte haftet immer persönlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Staat kann Regress nehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es geht um Schäden in Ausübung hoheitlicher Tätigkeit",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Beamter handelt grob fahrlässig und verursacht einen Schaden.",
+        "question": "Ein Beamter handelt grob fahrlässig und verursacht einen Schaden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Staat haftet nach außen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Beamte kann intern regresspflichtig werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht immer vollständiger Versicherungsschutz",
+            "isCorrect": false
+          },
+          {
+            "text": "Es liegt kein Haftungsfall vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen zur Organhaftpflicht sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Organhaftpflicht sind korrekt?",
+        "options": [
+          {
+            "text": "Sie betrifft Organe juristischer Personen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um eine Vermögensschadenhaftpflicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist ident mit der D&O-Versicherung",
+            "isCorrect": false
+          },
+          {
+            "text": "Es geht um Pflichtverletzungen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Organ einer Körperschaft verursacht durch Pflichtverletzung einen finanziellen Schaden.",
+        "question": "Ein Organ einer Körperschaft verursacht durch Pflichtverletzung einen finanziellen Schaden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt ein Vermögensschaden vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine Organhaftpflichtversicherung kann relevant sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein Sachschaden vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht ein Haftungsrisiko",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen zur Haftung von Organen sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Haftung von Organen sind korrekt?",
+        "options": [
+          {
+            "text": "Organe können persönlich haften",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung besteht nur bei Vorsatz",
+            "isCorrect": false
+          },
+          {
+            "text": "Fahrlässigkeit kann ausreichen",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung ist ausgeschlossen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Bürgermeister verursacht durch eine Fehlentscheidung einen finanziellen Schaden.",
+        "question": "Ein Bürgermeister verursacht durch eine Fehlentscheidung einen finanziellen Schaden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es kann Amtshaftung vorliegen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Staat haftet gegenüber dem Geschädigten",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Bürgermeister haftet direkt gegenüber dem Bürger",
+            "isCorrect": false
+          },
+          {
+            "text": "Ein Regress kann möglich sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen zur Abgrenzung Amtshaftung vs. D&O sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Abgrenzung Amtshaftung vs. D&O sind korrekt?",
+        "options": [
+          {
+            "text": "Amtshaftung betrifft hoheitliche Tätigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "D&O betrifft private Unternehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Beide sind ident",
+            "isCorrect": false
+          },
+          {
+            "text": "Beide betreffen Vermögensschäden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Beamter verursacht vorsätzlich einen Schaden.",
+        "question": "Ein Beamter verursacht vorsätzlich einen Schaden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Staat haftet grundsätzlich nach außen",
+            "isCorrect": true
+          },
+          {
+            "text": "Regress gegen den Beamten ist möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsatz ist immer versichert",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht ein persönliches Haftungsrisiko",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen zur Organhaftpflichtversicherung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Organhaftpflichtversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Sie deckt Vermögensschäden",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie schützt Organe",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ersetzt die D&O vollständig",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie betrifft Pflichtverletzungen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Unternehmen liefert Waren auf Ziel. Der Kunde zahlt nicht.",
+        "question": "Ein Unternehmen liefert Waren auf Ziel. Der Kunde zahlt nicht.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt ein Kreditrisiko vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine Kreditversicherung kann Deckung bieten",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um einen Sachschaden",
+            "isCorrect": false
+          },
+          {
+            "text": "Es liegt ein Vermögensschaden vor",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Risiken deckt eine Kreditversicherung typischerweise ab?",
+        "context": null,
+        "question": "Welche Risiken deckt eine Kreditversicherung typischerweise ab?",
+        "options": [
+          {
+            "text": "Zahlungsunfähigkeit des Schuldners",
+            "isCorrect": true
+          },
+          {
+            "text": "Zahlungsverzug",
+            "isCorrect": true
+          },
+          {
+            "text": "Beschädigung von Waren",
+            "isCorrect": false
+          },
+          {
+            "text": "Insolvenz des Schuldners",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind korrekt?",
+        "context": "Ein Kunde wird insolvent und kann offene Rechnungen nicht mehr bezahlen.",
+        "question": "Ein Kunde wird insolvent und kann offene Rechnungen nicht mehr bezahlen.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es liegt ein Versicherungsfall vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um einen Vermögensschaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein Personenschaden vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Eine Kreditversicherung kann leisten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen zur Kreditversicherung sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Kreditversicherung sind richtig?",
+        "options": [
+          {
+            "text": "Sie schützt vor Forderungsausfällen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist eine Sachversicherung",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie ist eine Vermögensversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie betrifft Handelsgeschäfte",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind korrekt?",
+        "context": "Ein Unternehmen hat keine Kreditversicherung. Ein Großkunde fällt aus.",
+        "question": "Ein Unternehmen hat keine Kreditversicherung. Ein Großkunde fällt aus.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Das Unternehmen trägt den Schaden selbst",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein Vermögensschaden vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine Versicherung hätte schützen können",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Staat übernimmt automatisch den Schaden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen zum Versicherungsfall in der Kreditversicherung sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zum Versicherungsfall in der Kreditversicherung sind richtig?",
+        "options": [
+          {
+            "text": "Zahlungsverzug kann relevant sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Insolvenz des Schuldners kann relevant sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Jede verspätete Zahlung ist automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragliche Bedingungen sind entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Unternehmen liefert ins Ausland. Der Kunde kann wegen politischer Ereignisse nicht zahlen.",
+        "question": "Ein Unternehmen liefert ins Ausland. Der Kunde kann wegen politischer Ereignisse nicht zahlen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es kann sich um ein politisches Risiko handeln",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine Kreditversicherung kann solche Risiken abdecken",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um einen Sachschaden",
+            "isCorrect": false
+          },
+          {
+            "text": "Es liegt ein Vermögensschaden vor",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen zur Forderung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Forderung sind korrekt?",
+        "options": [
+          {
+            "text": "Sie ist Grundlage der Kreditversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie muss bestehen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie muss immer sofort fällig sein",
+            "isCorrect": false
+          },
+          {
+            "text": "Ihr Ausfall führt zu einem Vermögensschaden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Schuldner zahlt verspätet, aber vollständig.",
+        "question": "Ein Schuldner zahlt verspätet, aber vollständig.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt immer ein Versicherungsfall vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Es kann ein gedeckter Fall sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsbedingungen sind entscheidend",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt automatisch ein Schaden vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen zur Kreditversicherung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Kreditversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Sie dient der Absicherung von Forderungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie schützt vor Zahlungsausfällen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie deckt Sachschäden",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie ist im internationalen Handel wichtig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Bauunternehmen muss für einen Auftrag eine Sicherheit stellen und nutzt dafür eine Kautionsversicherung.",
+        "question": "Ein Bauunternehmen muss für einen Auftrag eine Sicherheit stellen und nutzt dafür eine Kautionsversicherung.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Versicherung stellt eine Garantie gegenüber dem Auftraggeber",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um eine Form der Bürgschaft",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherung übernimmt endgültig den Schaden",
+            "isCorrect": false
+          },
+          {
+            "text": "Das Unternehmen bleibt zur Rückzahlung verpflichtet",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen zur Kautionsversicherung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Kautionsversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Sie ersetzt eine Bankgarantie",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist eine Vermögensversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie dient der Absicherung von Verpflichtungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie deckt Sachschäden",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherer zahlt aus einer Kautionsversicherung an den Auftraggeber.",
+        "question": "Ein Versicherer zahlt aus einer Kautionsversicherung an den Auftraggeber.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Versicherer hat ein Regressrecht",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsnehmer muss zurückzahlen",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Zahlung ist endgültig ohne Rückforderung",
+            "isCorrect": false
+          },
+          {
+            "text": "Es liegt ein Kreditähnliches Geschäft vor",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen zur Funktion der Kautionsversicherung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Funktion der Kautionsversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Sie stellt Sicherheiten",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie schützt vor Zahlungsausfällen",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie ersetzt Bürgschaften",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie dient dem Vertrauen im Geschäftsverkehr",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Unternehmen erfüllt seine vertragliche Leistung nicht, und der Auftraggeber zieht die Kaution.",
+        "question": "Ein Unternehmen erfüllt seine vertragliche Leistung nicht, und der Auftraggeber zieht die Kaution.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Versicherung muss leisten",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsnehmer bleibt zur Rückzahlung verpflichtet",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um einen Sachschaden",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht ein Vermögensschaden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen zur Abgrenzung Bankgarantie und Kautionsversicherung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Abgrenzung Bankgarantie und Kautionsversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Beide dienen als Sicherheit",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Bankgarantie belastet die Kreditlinie",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Kautionsversicherung kann Liquidität schonen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht kein Unterschied",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer glaubt, dass die Kautionsversicherung ihn vor Verlusten schützt.",
+        "question": "Ein Versicherungsnehmer glaubt, dass die Kautionsversicherung ihn vor Verlusten schützt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Das ist falsch",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherung zahlt zwar, fordert aber zurück",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um eine klassische Schadensversicherung",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht ein Regress",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen zur Haftung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Haftung sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherer haftet gegenüber dem Begünstigten",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsnehmer haftet gegenüber dem Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht keine Rückzahlungspflicht",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um ein Sicherungsgeschäft",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Auftraggeber verlangt eine Vertragserfüllungsgarantie.",
+        "question": "Ein Auftraggeber verlangt eine Vertragserfüllungsgarantie.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Eine Kautionsversicherung kann diese stellen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um eine typische Anwendung",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein Sachschaden vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Es geht um Sicherstellung der Leistung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen zur Kautionsversicherung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Kautionsversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Sie ist kreditähnlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie dient der Absicherung von Verpflichtungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ersetzt jede Haftpflichtversicherung",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie beinhaltet ein Regresssystem",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer möchte eine Klage führen, obwohl die Erfolgsaussichten sehr gering sind.",
+        "question": "Ein Versicherungsnehmer möchte eine Klage führen, obwohl die Erfolgsaussichten sehr gering sind.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Versicherer kann die Deckung ablehnen",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Versicherung muss immer leisten",
+            "isCorrect": false
+          },
+          {
+            "text": "Erfolgsaussichten sind relevant für die Deckung",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht automatisch Anspruch auf Rechtsschutz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Kosten übernimmt eine Rechtsschutzversicherung typischerweise?",
+        "context": null,
+        "question": "Welche Kosten übernimmt eine Rechtsschutzversicherung typischerweise?",
+        "options": [
+          {
+            "text": "Anwaltskosten",
+            "isCorrect": true
+          },
+          {
+            "text": "Gerichtskosten",
+            "isCorrect": true
+          },
+          {
+            "text": "Kosten des Gegners bei Unterliegen",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsstrafen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind korrekt?",
+        "context": "Ein Streit entsteht aus einem Vertrag, der vor Abschluss der Rechtsschutzversicherung geschlossen wurde.",
+        "question": "Ein Streit entsteht aus einem Vertrag, der vor Abschluss der Rechtsschutzversicherung geschlossen wurde.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es kann eine Wartefrist relevant sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss leisten",
+            "isCorrect": false
+          },
+          {
+            "text": "Vorvertragliche Ereignisse sind oft ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung ist immer gegeben",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen zur Wartefrist sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Wartefrist sind richtig?",
+        "options": [
+          {
+            "text": "Sie verhindert sofortigen Versicherungsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie gilt für bestimmte Leistungsarten",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie gilt immer und ohne Ausnahme",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie soll Missbrauch verhindern",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer begeht vorsätzlich eine Straftat.",
+        "question": "Ein Versicherungsnehmer begeht vorsätzlich eine Straftat.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Vorsatz ist grundsätzlich nicht gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss trotzdem leisten",
+            "isCorrect": false
+          },
+          {
+            "text": "Es kann zu einem Deckungsausschluss kommen",
+            "isCorrect": true
+          },
+          {
+            "text": "Fahrlässigkeit wäre anders zu beurteilen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen zur Rechtsschutzversicherung sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Rechtsschutzversicherung sind richtig?",
+        "options": [
+          {
+            "text": "Sie ist eine Vermögensversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie deckt Sachschäden",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie übernimmt Kosten der Rechtsdurchsetzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie schützt vor finanziellen Folgen von Rechtsstreitigkeiten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer verliert einen Prozess.",
+        "question": "Ein Versicherungsnehmer verliert einen Prozess.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Versicherer übernimmt eigene Kosten",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer kann auch gegnerische Kosten übernehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer zahlt immer alle Kosten",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsbedingungen sind entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen zur Deckungsprüfung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Deckungsprüfung sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherer prüft Erfolgsaussichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer prüft den Sachverhalt",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss immer Deckung geben",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherer kann Deckung ablehnen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer möchte einen bereits bestehenden Streit versichern.",
+        "question": "Ein Versicherungsnehmer möchte einen bereits bestehenden Streit versichern.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Das ist grundsätzlich ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherungsschutz beginnt erst nach Abschluss",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um ein bekanntes Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss leisten",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen zu Leistungsarten sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zu Leistungsarten sind korrekt?",
+        "options": [
+          {
+            "text": "Schadenersatz-Rechtsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Straf-Rechtsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrags-Rechtsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftpflicht-Rechtsschutz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer schließt eine Rechtsschutzversicherung ab und meldet zwei Wochen später einen bereits bestehenden Streit.",
+        "question": "Ein Versicherungsnehmer schließt eine Rechtsschutzversicherung ab und meldet zwei Wochen später einen bereits bestehenden Streit.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Versicherer kann Deckung ablehnen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um einen vorvertraglichen Fall",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung besteht automatisch",
+            "isCorrect": false
+          },
+          {
+            "text": "Wartefristen können relevant sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer wird fahrlässig beschuldigt.",
+        "question": "Ein Versicherungsnehmer wird fahrlässig beschuldigt.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Strafrechtsschutz kann greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsatz wäre anders zu beurteilen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht automatisch keine Deckung",
+            "isCorrect": false
+          },
+          {
+            "text": "Versicherung kann Kosten übernehmen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde möchte gegen eine offensichtlich unbegründete Forderung vorgehen.",
+        "question": "Ein Kunde möchte gegen eine offensichtlich unbegründete Forderung vorgehen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Rechtsschutz kann greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Erfolgsaussichten sind zu prüfen",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherer muss immer zahlen",
+            "isCorrect": false
+          },
+          {
+            "text": "Deckung kann abgelehnt werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer wird zu einer Geldstrafe verurteilt.",
+        "question": "Ein Versicherungsnehmer wird zu einer Geldstrafe verurteilt.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Geldstrafen werden nicht übernommen",
+            "isCorrect": true
+          },
+          {
+            "text": "Verteidigungskosten können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherung zahlt alles",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um eine Vermögensleistung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat keine Rechtsschutzversicherung und muss einen Prozess führen.",
+        "question": "Ein Versicherungsnehmer hat keine Rechtsschutzversicherung und muss einen Prozess führen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Er trägt die Kosten selbst",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht ein Vermögensrisiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherung hätte schützen können",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Staat übernimmt automatisch",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "16. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer verliert einen Prozess aufgrund vorsätzlichen Handelns.",
+        "question": "Ein Versicherungsnehmer verliert einen Prozess aufgrund vorsätzlichen Handelns.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Vorsatz kann zum Ausschluss führen",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherung muss zahlen",
+            "isCorrect": false
+          },
+          {
+            "text": "Kosten können nicht übernommen werden",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsbedingungen sind entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "17. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer will sich scheiden lassen.",
+        "question": "Ein Versicherungsnehmer will sich scheiden lassen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Familienrecht ist oft eingeschränkt",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung hängt vom Tarif ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherung zahlt immer",
+            "isCorrect": false
+          },
+          {
+            "text": "Wartefristen können gelten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "18. Welche Aussagen sind korrekt?",
+        "context": "Ein Unternehmen nutzt Rechtsschutz für Vertragsstreitigkeiten.",
+        "question": "Ein Unternehmen nutzt Rechtsschutz für Vertragsstreitigkeiten.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Vertragsrechtsschutz kann greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um Vermögensrisiken",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung ist immer gegeben",
+            "isCorrect": false
+          },
+          {
+            "text": "Bedingungen sind entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "19. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer möchte den Anwalt frei wählen.",
+        "question": "Ein Versicherungsnehmer möchte den Anwalt frei wählen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Freie Anwaltswahl ist üblich",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherung bestimmt immer den Anwalt",
+            "isCorrect": false
+          },
+          {
+            "text": "Einschränkungen können bestehen",
+            "isCorrect": true
+          },
+          {
+            "text": "Kostenübernahme bleibt relevant",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "20. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer hat einen Streit aus einem Bauprojekt.",
+        "question": "Ein Versicherungsnehmer hat einen Streit aus einem Bauprojekt.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Bauangelegenheiten sind oft eingeschränkt",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung ist automatisch",
+            "isCorrect": false
+          },
+          {
+            "text": "Spezielle Tarife können erforderlich sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht immer Versicherungsschutz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat nur einen Fahrzeug-Rechtsschutz. Er wird nach einem Verkehrsunfall verklagt und möchte zusätzlich Schadenersatz wegen eines Vertragsstreits mit seiner Werkstatt einklagen.",
+        "question": "Ein Versicherungsnehmer hat nur einen Fahrzeug-Rechtsschutz. Er wird nach einem Verkehrsunfall verklagt und möchte zusätzlich Schadenersatz wegen eines Vertragsstreits mit seiner Werkstatt einklagen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Verkehrsunfall fällt unter den Fahrzeug-Rechtsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Streit mit der Werkstatt ist automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsstreitigkeiten können nicht gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsschutz hängt vom konkreten Baustein ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer hat Privat-Rechtsschutz, aber keinen Berufs-Rechtsschutz. Er wird von seinem Arbeitgeber gekündigt und möchte dagegen klagen.",
+        "question": "Ein Versicherungsnehmer hat Privat-Rechtsschutz, aber keinen Berufs-Rechtsschutz. Er wird von seinem Arbeitgeber gekündigt und möchte dagegen klagen.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Fall ist gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Berufsrechtsschutz wäre erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht keine Deckung",
+            "isCorrect": true
+          },
+          {
+            "text": "Privat-Rechtsschutz reicht aus",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Familien-Rechtsschutz. Er möchte sich scheiden lassen und verlangt Kostenübernahme.",
+        "question": "Ein Versicherungsnehmer hat Familien-Rechtsschutz. Er möchte sich scheiden lassen und verlangt Kostenübernahme.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Familienrecht ist oft eingeschränkt",
+            "isCorrect": true
+          },
+          {
+            "text": "Scheidung ist immer gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Wartefristen können gelten",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung hängt vom Tarif ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer hat Fahrzeug-Rechtsschutz. Er hat einen Streit wegen eines Kaufvertrags über ein Auto.",
+        "question": "Ein Versicherungsnehmer hat Fahrzeug-Rechtsschutz. Er hat einen Streit wegen eines Kaufvertrags über ein Auto.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Fahrzeug-Rechtsschutz kann greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsstreitigkeiten sind immer gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Deckung hängt vom Umfang ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht automatisch kein Versicherungsschutz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat keinen Mietrechtsschutz. Er hat einen Streit mit seinem Vermieter über Mietzahlungen.",
+        "question": "Ein Versicherungsnehmer hat keinen Mietrechtsschutz. Er hat einen Streit mit seinem Vermieter über Mietzahlungen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es besteht Deckung",
+            "isCorrect": false
+          },
+          {
+            "text": "Mietrechtsschutz wäre erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Deckung vorhanden",
+            "isCorrect": true
+          },
+          {
+            "text": "Privat-Rechtsschutz deckt das immer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer hat Berufs-Rechtsschutz. Er wird wegen fahrlässigen Fehlverhaltens strafrechtlich verfolgt.",
+        "question": "Ein Versicherungsnehmer hat Berufs-Rechtsschutz. Er wird wegen fahrlässigen Fehlverhaltens strafrechtlich verfolgt.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Straf-Rechtsschutz kann greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Fahrlässigkeit kann gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsatz wäre anders zu beurteilen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht automatisch keine Deckung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Privat- und Fahrzeug-Rechtsschutz. Er wird nach einem Unfall strafrechtlich verfolgt und hat zusätzlich einen Streit mit seinem Arbeitgeber.",
+        "question": "Ein Versicherungsnehmer hat Privat- und Fahrzeug-Rechtsschutz. Er wird nach einem Unfall strafrechtlich verfolgt und hat zusätzlich einen Streit mit seinem Arbeitgeber.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Verkehrsteil kann gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Der arbeitsrechtliche Teil ist automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Berufs-Rechtsschutz wäre notwendig",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt eine Deckungslücke vor",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer hat Familien-Rechtsschutz. Ein Streit entsteht wegen Unterhaltszahlungen.",
+        "question": "Ein Versicherungsnehmer hat Familien-Rechtsschutz. Ein Streit entsteht wegen Unterhaltszahlungen.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Familienrecht kann eingeschränkt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung hängt vom Tarif ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht immer Deckung",
+            "isCorrect": false
+          },
+          {
+            "text": "Wartefristen können gelten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Fahrzeug-Rechtsschutz. Er wird als Fußgänger in einen Unfall verwickelt.",
+        "question": "Ein Versicherungsnehmer hat Fahrzeug-Rechtsschutz. Er wird als Fußgänger in einen Unfall verwickelt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Fahrzeug-Rechtsschutz deckt nur Fahrzeugnutzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Fall kann nicht gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Privat-Rechtsschutz wäre relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht automatisch Deckung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer hat umfassenden Privat-, Berufs- und Fahrzeug-Rechtsschutz. Er hat gleichzeitig: • einen Verkehrsunfall • eine Kündigung • einen Streit mit seinem Vermieter",
+        "question": "Ein Versicherungsnehmer hat umfassenden Privat-, Berufs- und Fahrzeug-Rechtsschutz. Er hat gleichzeitig: • einen Verkehrsunfall • eine Kündigung • einen Streit mit seinem Vermieter\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Verkehrsunfall ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Kündigung ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Mietstreit ist automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Deckung hängt von den vereinbarten Bausteinen ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer schließt am 1. März eine Rechtsschutzversicherung mit Privat- und Berufsrechtsschutz ab. Am 10. März wird ihm gekündigt. Er klagt dagegen.",
+        "question": "Ein Versicherungsnehmer schließt am 1. März eine Rechtsschutzversicherung mit Privat- und Berufsrechtsschutz ab. Am 10. März wird ihm gekündigt. Er klagt dagegen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall kann unter Berufsrechtsschutz fallen",
+            "isCorrect": true
+          },
+          {
+            "text": "Wartefristen können die Deckung ausschließen",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung besteht automatisch",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Zeitpunkt des auslösenden Ereignisses ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer hat Fahrzeug-Rechtsschutz. Er kauft ein Auto privat und hat später Streit wegen versteckter Mängel.",
+        "question": "Ein Versicherungsnehmer hat Fahrzeug-Rechtsschutz. Er kauft ein Auto privat und hat später Streit wegen versteckter Mängel.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Fahrzeug-Rechtsschutz kann greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um Vertragsrechtsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung hängt vom Tarif ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht automatisch Deckung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer wird vorsätzlich einer Straftat beschuldigt, später aber freigesprochen.",
+        "question": "Ein Versicherungsnehmer wird vorsätzlich einer Straftat beschuldigt, später aber freigesprochen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Straf-Rechtsschutz kann greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsatz ist immer ausgeschlossen",
+            "isCorrect": false
+          },
+          {
+            "text": "Freispruch kann Einfluss auf Deckung haben",
+            "isCorrect": true
+          },
+          {
+            "text": "Verteidigungskosten können übernommen werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer meldet einen Streit, der bereits vor Vertragsabschluss begonnen hat.",
+        "question": "Ein Versicherungsnehmer meldet einen Streit, der bereits vor Vertragsabschluss begonnen hat.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Vorvertraglichkeit kann zur Ablehnung führen",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung besteht trotzdem",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherer kann ablehnen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Zeitpunkt des Streits ist entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Privat-Rechtsschutz. Er hat einen Streit mit seinem Nachbarn wegen Lärmbelästigung.",
+        "question": "Ein Versicherungsnehmer hat Privat-Rechtsschutz. Er hat einen Streit mit seinem Nachbarn wegen Lärmbelästigung.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Privat-Rechtsschutz kann greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um Vertragsrechtsschutz",
+            "isCorrect": false
+          },
+          {
+            "text": "Deckung hängt vom Tarif ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht automatisch Deckung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer verliert einen Zivilprozess.",
+        "question": "Ein Versicherungsnehmer verliert einen Zivilprozess.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Eigene Anwaltskosten können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Gerichtskosten können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Gegnerkosten können übernommen werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Geldstrafen werden übernommen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat keinen Berufsrechtsschutz. Er klagt wegen Überstunden gegen seinen Arbeitgeber.",
+        "question": "Ein Versicherungsnehmer hat keinen Berufsrechtsschutz. Er klagt wegen Überstunden gegen seinen Arbeitgeber.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall ist gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht keine Deckung",
+            "isCorrect": true
+          },
+          {
+            "text": "Berufsrechtsschutz wäre notwendig",
+            "isCorrect": true
+          },
+          {
+            "text": "Privat-Rechtsschutz reicht aus",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer hat Rechtsschutz, aber der Fall hat kaum Erfolgsaussichten.",
+        "question": "Ein Versicherungsnehmer hat Rechtsschutz, aber der Fall hat kaum Erfolgsaussichten.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherer kann Deckung ablehnen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer muss zahlen",
+            "isCorrect": false
+          },
+          {
+            "text": "Erfolgsaussichten werden geprüft",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung ist unabhängig vom Erfolg",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer möchte einen Anwalt frei wählen.",
+        "question": "Ein Versicherungsnehmer möchte einen Anwalt frei wählen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Freie Anwaltswahl ist üblich",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherung bestimmt immer den Anwalt",
+            "isCorrect": false
+          },
+          {
+            "text": "Einschränkungen sind möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Kostenübernahme bleibt relevant",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer hat Familien-Rechtsschutz. Er führt einen Streit um Unterhalt.",
+        "question": "Ein Versicherungsnehmer hat Familien-Rechtsschutz. Er führt einen Streit um Unterhalt.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Familienrecht kann eingeschränkt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung hängt vom Tarif ab",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht immer Deckung",
+            "isCorrect": false
+          },
+          {
+            "text": "Wartefristen können gelten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat: • Fahrzeug-Rechtsschutz • Privat-Rechtsschutz Er wird: • in einen Unfall verwickelt • von seinem Arbeitgeber gekündigt • hat Streit mit seinem Vermieter",
+        "question": "Ein Versicherungsnehmer hat: • Fahrzeug-Rechtsschutz • Privat-Rechtsschutz Er wird: • in einen Unfall verwickelt • von seinem Arbeitgeber gekündigt • hat Streit mit seinem Vermieter\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Verkehrsunfall ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Kündigung ist gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Mietstreit ist gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Es bestehen Deckungslücken",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer schließt eine Versicherung ab und meldet kurz danach einen Streit.",
+        "question": "Ein Versicherungsnehmer schließt eine Versicherung ab und meldet kurz danach einen Streit.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Wartefrist kann greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung besteht automatisch",
+            "isCorrect": false
+          },
+          {
+            "text": "Vorvertraglichkeit ist relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Versicherer prüft den Zeitpunkt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer wird wegen fahrlässiger Körperverletzung im Straßenverkehr angezeigt.",
+        "question": "Ein Versicherungsnehmer wird wegen fahrlässiger Körperverletzung im Straßenverkehr angezeigt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Straf-Rechtsschutz kann greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Fahrzeug-Rechtsschutz kann relevant sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsatz wäre ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung ist ausgeschlossen",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Welche Aussagen sind korrekt?",
+        "context": "Ein Versicherungsnehmer verliert einen Prozess und muss zahlen.",
+        "question": "Ein Versicherungsnehmer verliert einen Prozess und muss zahlen.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Gegnerkosten können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Eigene Kosten können gedeckt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Strafen werden übernommen",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsbedingungen sind entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat umfassenden Rechtsschutz. Er hat mehrere Streitigkeiten gleichzeitig.",
+        "question": "Ein Versicherungsnehmer hat umfassenden Rechtsschutz. Er hat mehrere Streitigkeiten gleichzeitig.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Jeder Fall wird einzeln geprüft",
+            "isCorrect": true
+          },
+          {
+            "text": "Alle Fälle sind automatisch gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Bausteine sind entscheidend",
+            "isCorrect": true
+          },
+          {
+            "text": "Deckung hängt vom jeweiligen Bereich ab",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat ausschließlich Fahrzeug-Rechtsschutz. Er wird nach einem Verkehrsunfall geklagt.",
+        "question": "Ein Versicherungsnehmer hat ausschließlich Fahrzeug-Rechtsschutz. Er wird nach einem Verkehrsunfall geklagt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt ein verkehrsbezogener Fall vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Privat-Rechtsschutz ist erforderlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat ausschließlich Fahrzeug-Rechtsschutz. Er hat einen Streit mit seinem Arbeitgeber wegen Kündigung.",
+        "question": "Ein Versicherungsnehmer hat ausschließlich Fahrzeug-Rechtsschutz. Er hat einen Streit mit seinem Arbeitgeber wegen Kündigung.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall ist gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Berufs-Rechtsschutz ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Fahrzeug-Rechtsschutz reicht aus",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Privat-Rechtsschutz ohne Berufs-Rechtsschutz. Er klagt wegen ausstehendem Gehalt.",
+        "question": "Ein Versicherungsnehmer hat Privat-Rechtsschutz ohne Berufs-Rechtsschutz. Er klagt wegen ausstehendem Gehalt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall ist gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Berufs-Rechtsschutz ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Privat-Rechtsschutz deckt das",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Privat-Rechtsschutz. Er hat einen Streit mit seinem Nachbarn wegen Lärm.",
+        "question": "Ein Versicherungsnehmer hat Privat-Rechtsschutz. Er hat einen Streit mit seinem Nachbarn wegen Lärm.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um einen privaten Lebensbereich",
+            "isCorrect": true
+          },
+          {
+            "text": "Berufs-Rechtsschutz ist erforderlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Familien-Rechtsschutz. Er führt ein Scheidungsverfahren.",
+        "question": "Ein Versicherungsnehmer hat Familien-Rechtsschutz. Er führt ein Scheidungsverfahren.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall ist eingeschränkt gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Familienrecht unterliegt besonderen Regelungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht immer voller Versicherungsschutz",
+            "isCorrect": false
+          },
+          {
+            "text": "Wartefristen sind relevant",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat keinen Mietrechtsschutz. Er hat einen Streit mit seinem Vermieter.",
+        "question": "Ein Versicherungsnehmer hat keinen Mietrechtsschutz. Er hat einen Streit mit seinem Vermieter.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall ist gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Mietrechtsschutz ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Privat-Rechtsschutz reicht aus",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Fahrzeug-Rechtsschutz. Er hat einen Streit über den Kauf eines Autos.",
+        "question": "Ein Versicherungsnehmer hat Fahrzeug-Rechtsschutz. Er hat einen Streit über den Kauf eines Autos.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um einen fahrzeugbezogenen Fall",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsrecht ist umfasst",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Berufs-Rechtsschutz. Er wird wegen fahrlässigen Fehlverhaltens strafrechtlich verfolgt.",
+        "question": "Ein Versicherungsnehmer hat Berufs-Rechtsschutz. Er wird wegen fahrlässigen Fehlverhaltens strafrechtlich verfolgt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Straf-Rechtsschutz ist umfasst",
+            "isCorrect": true
+          },
+          {
+            "text": "Fahrlässigkeit ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsatz ist ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Fahrzeug-Rechtsschutz. Er wird als Fußgänger in einen Unfall verwickelt.",
+        "question": "Ein Versicherungsnehmer hat Fahrzeug-Rechtsschutz. Er wird als Fußgänger in einen Unfall verwickelt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall ist gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Fahrzeugbezug fehlt",
+            "isCorrect": true
+          },
+          {
+            "text": "Privat-Rechtsschutz ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Privat-, Berufs- und Fahrzeug-Rechtsschutz. Er hat gleichzeitig: • Verkehrsunfall • Kündigung • Nachbarschaftsstreit",
+        "question": "Ein Versicherungsnehmer hat Privat-, Berufs- und Fahrzeug-Rechtsschutz. Er hat gleichzeitig: • Verkehrsunfall • Kündigung • Nachbarschaftsstreit\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Verkehrsunfall ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Kündigung ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Nachbarschaftsstreit ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Alle Fälle sind vom Versicherungsschutz umfasst",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Privat- und Fahrzeug-Rechtsschutz. Er hat einen Verkehrsunfall und gleichzeitig einen Streit mit seinem Arbeitgeber.",
+        "question": "Ein Versicherungsnehmer hat Privat- und Fahrzeug-Rechtsschutz. Er hat einen Verkehrsunfall und gleichzeitig einen Streit mit seinem Arbeitgeber.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Verkehrsunfall ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Arbeitsstreit ist gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Berufs-Rechtsschutz fehlt",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht eine Deckungslücke",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat nur Berufs-Rechtsschutz. Er hat einen Streit mit seinem Vermieter.",
+        "question": "Ein Versicherungsnehmer hat nur Berufs-Rechtsschutz. Er hat einen Streit mit seinem Vermieter.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall ist gedeckt",
+            "isCorrect": false
+          },
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": true
+          },
+          {
+            "text": "Mietrechtsschutz ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Berufs-Rechtsschutz reicht aus",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Privat-Rechtsschutz. Er wird wegen einer fahrlässigen Straftat im Alltag verfolgt.",
+        "question": "Ein Versicherungsnehmer hat Privat-Rechtsschutz. Er wird wegen einer fahrlässigen Straftat im Alltag verfolgt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Straf-Rechtsschutz ist umfasst",
+            "isCorrect": true
+          },
+          {
+            "text": "Fahrlässigkeit ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Vorsatz wäre ausgeschlossen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Familien-Rechtsschutz. Er führt einen Streit über Unterhalt.",
+        "question": "Ein Versicherungsnehmer hat Familien-Rechtsschutz. Er führt einen Streit über Unterhalt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall ist eingeschränkt gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Familienrecht ist besonders geregelt",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht immer voller Schutz",
+            "isCorrect": false
+          },
+          {
+            "text": "Bedingungen sind entscheidend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat Fahrzeug-Rechtsschutz. Er klagt wegen eines Werkstattvertrags.",
+        "question": "Ein Versicherungsnehmer hat Fahrzeug-Rechtsschutz. Er klagt wegen eines Werkstattvertrags.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Fall ist gedeckt",
+            "isCorrect": true
+          },
+          {
+            "text": "Zusammenhang mit Fahrzeug liegt vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertragsrecht ist umfasst",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht kein Versicherungsschutz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherer sichert einen Teil seines Risikos bei einem anderen Versicherer ab.",
+        "question": "Ein Versicherer sichert einen Teil seines Risikos bei einem anderen Versicherer ab.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um Rückversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsnehmer hat direkten Anspruch gegen den Rückversicherer",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Erstversicherer bleibt Vertragspartner des Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Das Risiko wird weitergegeben",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen zur Rückversicherung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Rückversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Sie dient der Risikoverteilung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie schützt den Versicherungsnehmer direkt",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie stabilisiert Versicherungsunternehmen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist ein Vertrag zwischen Versicherern",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Schaden tritt ein. Der Erstversicherer hat eine Rückversicherung abgeschlossen.",
+        "question": "Ein Schaden tritt ein. Der Erstversicherer hat eine Rückversicherung abgeschlossen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Kunde wendet sich an den Erstversicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Rückversicherer zahlt direkt an den Kunden",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Erstversicherer bleibt leistungspflichtig",
+            "isCorrect": true
+          },
+          {
+            "text": "Rückversicherung ist für den Kunden nicht sichtbar",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen zur Mitversicherung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Mitversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Mehrere Versicherer teilen sich ein Risiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Versicherer haftet für seinen Anteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Es gibt meist einen führenden Versicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um Rückversicherung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Großrisiko wird von mehreren Versicherern gemeinsam übernommen.",
+        "question": "Ein Großrisiko wird von mehreren Versicherern gemeinsam übernommen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um Mitversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Versicherer trägt einen Anteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Ein Versicherer trägt das gesamte Risiko",
+            "isCorrect": false
+          },
+          {
+            "text": "Es liegt Rückversicherung vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen zur Abgrenzung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Abgrenzung sind korrekt?",
+        "options": [
+          {
+            "text": "Rückversicherung betrifft Versicherer untereinander",
+            "isCorrect": true
+          },
+          {
+            "text": "Mitversicherung betrifft mehrere Versicherer gegenüber dem Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Rückversicherung ist für den Kunden sichtbar",
+            "isCorrect": false
+          },
+          {
+            "text": "Mitversicherung ist im Vertrag erkennbar",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherer beteiligt mehrere andere Versicherer an einem Vertrag.",
+        "question": "Ein Versicherer beteiligt mehrere andere Versicherer an einem Vertrag.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um Mitversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde hat mehrere Vertragspartner",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Versicherer haftet anteilig",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um Rückversicherung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen sind korrekt?",
+        "context": "Ein Rückversicherungsvertrag besteht.",
+        "question": "Ein Rückversicherungsvertrag besteht.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Der Versicherungsnehmer hat keinen direkten Anspruch",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Erstversicherer bleibt verantwortlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Rückversicherer tritt gegenüber dem Kunden auf",
+            "isCorrect": false
+          },
+          {
+            "text": "Es handelt sich um ein internes Geschäft",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen zur Mitversicherung sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Mitversicherung sind richtig?",
+        "options": [
+          {
+            "text": "Sie wird bei großen Risiken eingesetzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie dient der Risikostreuung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie betrifft nur interne Versicherungsverhältnisse",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie ist für den Kunden erkennbar",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen zur Rückversicherung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Rückversicherung sind korrekt?",
+        "options": [
+          {
+            "text": "Sie ist ein Vertrag zwischen Versicherern",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie dient der Risikoentlastung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie begründet einen direkten Anspruch des Kunden",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie stabilisiert das Versicherungssystem",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde hat einen Versicherungsvertrag mit einem Versicherer. Dieser hat das Risiko teilweise rückversichert.",
+        "question": "Ein Kunde hat einen Versicherungsvertrag mit einem Versicherer. Dieser hat das Risiko teilweise rückversichert.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Kunde fordert Leistung vom Erstversicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Rückversicherer zahlt direkt an den Kunden",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Erstversicherer bleibt verantwortlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Rückversicherung ist für den Kunden nicht relevant",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen sind korrekt?",
+        "context": "Ein Industriebetrieb wird von drei Versicherern gemeinsam versichert.",
+        "question": "Ein Industriebetrieb wird von drei Versicherern gemeinsam versichert.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es handelt sich um Mitversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Versicherer haftet anteilig",
+            "isCorrect": true
+          },
+          {
+            "text": "Ein Versicherer ist führend",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um Rückversicherung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherer möchte sein Risiko reduzieren und gibt einen Teil weiter.",
+        "question": "Ein Versicherer möchte sein Risiko reduzieren und gibt einen Teil weiter.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um Rückversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde merkt nichts davon",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde erhält einen neuen Vertragspartner",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Erstversicherer bleibt zuständig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Welche Aussagen sind korrekt?",
+        "context": "Ein Kunde hat einen Vertrag mit mehreren Versicherern.",
+        "question": "Ein Kunde hat einen Vertrag mit mehreren Versicherern.\n\nWelche Aussagen sind korrekt?",
+        "options": [
+          {
+            "text": "Es handelt sich um Mitversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Versicherer ist Vertragspartner",
+            "isCorrect": true
+          },
+          {
+            "text": "Rückversicherung liegt vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftung erfolgt anteilig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherer zahlt einen Schaden und erhält anschließend Geld vom Rückversicherer.",
+        "question": "Ein Versicherer zahlt einen Schaden und erhält anschließend Geld vom Rückversicherer.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um Rückversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde hat Anspruch gegen den Rückversicherer",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Rückversicherer erstattet intern",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Erstversicherer bleibt verantwortlich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsunternehmen übernimmt ein großes Industrie-Risiko. Um das eigene Risiko zu reduzieren, schließt es einen Vertrag mit einem Rückversicherer ab, der einen Teil des Risikos übernimmt. Ein Schaden tritt ein und der Versicherungsnehmer verlangt Leistung.",
+        "question": "Ein Versicherungsunternehmen übernimmt ein großes Industrie-Risiko. Um das eigene Risiko zu reduzieren, schließt es einen Vertrag mit einem Rückversicherer ab, der einen Teil des Risikos übernimmt. Ein Schaden tritt ein und der Versicherungsnehmer verlangt Leistung.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Versicherungsnehmer hat ausschließlich Anspruch gegen den Erstversicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Rückversicherer wird direkter Vertragspartner des Versicherungsnehmers",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Erstversicherer bleibt voll leistungspflichtig gegenüber dem Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Rückversicherer gleicht den Schaden intern gegenüber dem Erstversicherer aus",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen sind richtig?",
+        "context": "Ein großes Bauprojekt wird von vier Versicherungsunternehmen gemeinsam versichert. Im Versicherungsvertrag ist festgelegt, dass jeder Versicherer einen bestimmten Prozentsatz des Risikos übernimmt. Ein Versicherer übernimmt die Koordination.",
+        "question": "Ein großes Bauprojekt wird von vier Versicherungsunternehmen gemeinsam versichert. Im Versicherungsvertrag ist festgelegt, dass jeder Versicherer einen bestimmten Prozentsatz des Risikos übernimmt. Ein Versicherer übernimmt die Koordination.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um eine Mitversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Versicherer haftet entsprechend seinem Anteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Der koordinierende Versicherer ist alleiniger Vertragspartner",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherungsnehmer hat mehrere Vertragspartner",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer meldet einen Schaden bei seinem Versicherer. Dieser hat das Risiko teilweise rückversichert. Der Versicherungsnehmer verlangt, dass der Rückversicherer direkt leistet.",
+        "question": "Ein Versicherungsnehmer meldet einen Schaden bei seinem Versicherer. Dieser hat das Risiko teilweise rückversichert. Der Versicherungsnehmer verlangt, dass der Rückversicherer direkt leistet.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Versicherungsnehmer hat keinen direkten Anspruch gegen den Rückversicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Rückversicherer ist verpflichtet, direkt an den Versicherungsnehmer zu zahlen",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Erstversicherer bleibt Ansprechpartner für den Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Rückversicherung ist ein internes Sicherungsgeschäft",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen sind richtig?",
+        "context": "Ein Industriebetrieb schließt eine Versicherung ab, bei der mehrere Versicherer gemeinsam im Vertrag genannt sind. Jeder Versicherer übernimmt einen bestimmten Anteil des Risikos.",
+        "question": "Ein Industriebetrieb schließt eine Versicherung ab, bei der mehrere Versicherer gemeinsam im Vertrag genannt sind. Jeder Versicherer übernimmt einen bestimmten Anteil des Risikos.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt eine Mitversicherung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Versicherer ist eigenständiger Vertragspartner",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsnehmer kann sich nur an einen Versicherer wenden",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Haftung erfolgt anteilig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherer gibt einen Teil seiner Risiken an einen Rückversicherer weiter. Der Versicherungsnehmer wird darüber nicht informiert.",
+        "question": "Ein Versicherer gibt einen Teil seiner Risiken an einen Rückversicherer weiter. Der Versicherungsnehmer wird darüber nicht informiert.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um Rückversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Rückversicherung ist für den Kunden rechtlich irrelevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsnehmer hat zusätzliche Vertragspartner",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Erstversicherer bleibt alleiniger Ansprechpartner",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat einen Vertrag mit mehreren Versicherern abgeschlossen. Nach einem Schaden verlangt er die gesamte Leistung von nur einem Versicherer.",
+        "question": "Ein Versicherungsnehmer hat einen Vertrag mit mehreren Versicherern abgeschlossen. Nach einem Schaden verlangt er die gesamte Leistung von nur einem Versicherer.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt eine Mitversicherung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer haftet nur für seinen Anteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsnehmer kann die gesamte Summe von einem Versicherer verlangen",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Haftung ist auf den jeweiligen Anteil beschränkt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsunternehmen übernimmt ein Risiko und sichert dieses vollständig durch Rückversicherung ab.",
+        "question": "Ein Versicherungsunternehmen übernimmt ein Risiko und sichert dieses vollständig durch Rückversicherung ab.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Erstversicherer bleibt Vertragspartner des Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Rückversicherer tritt gegenüber dem Kunden auf",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherungsnehmer hat keinen direkten Anspruch gegen den Rückversicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Rückversicherung verändert nichts am Außenverhältnis",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen sind richtig?",
+        "context": "Ein Großschaden tritt ein. Mehrere Versicherer sind im Rahmen einer Mitversicherung beteiligt.",
+        "question": "Ein Großschaden tritt ein. Mehrere Versicherer sind im Rahmen einer Mitversicherung beteiligt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Jeder Versicherer zahlt entsprechend seinem Anteil",
+            "isCorrect": true
+          },
+          {
+            "text": "Ein Versicherer übernimmt automatisch die gesamte Leistung",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Versicherungsnehmer hat mehrere Anspruchsgegner",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Mitversicherung dient der Risikostreuung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherer schließt eine Rückversicherung ab, um seine Eigenkapitalbelastung zu reduzieren.",
+        "question": "Ein Versicherer schließt eine Rückversicherung ab, um seine Eigenkapitalbelastung zu reduzieren.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Rückversicherung dient der finanziellen Stabilisierung",
+            "isCorrect": true
+          },
+          {
+            "text": "Rückversicherung schützt den Versicherungsnehmer direkt",
+            "isCorrect": false
+          },
+          {
+            "text": "Rückversicherung ist ein Vertrag zwischen Versicherern",
+            "isCorrect": true
+          },
+          {
+            "text": "Rückversicherung reduziert das Risiko des Erstversicherers",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat eine Police, in der mehrere Versicherer mit ihren Anteilen angeführt sind.",
+        "question": "Ein Versicherungsnehmer hat eine Police, in der mehrere Versicherer mit ihren Anteilen angeführt sind.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um Mitversicherung",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Versicherer haftet anteilig",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt Rückversicherung vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Beteiligung ist für den Kunden erkennbar",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherer übernimmt ein Risiko allein gegenüber dem Kunden, verteilt dieses Risiko aber intern auf mehrere Rückversicherer.",
+        "question": "Ein Versicherer übernimmt ein Risiko allein gegenüber dem Kunden, verteilt dieses Risiko aber intern auf mehrere Rückversicherer.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt Rückversicherung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde hat mehrere Vertragspartner",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Erstversicherer bleibt allein verantwortlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Risikoverteilung erfolgt intern",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer hat einen Vertrag mit drei Versicherern, die jeweils 30 %, 30 % und 40 % des Risikos tragen.",
+        "question": "Ein Versicherungsnehmer hat einen Vertrag mit drei Versicherern, die jeweils 30 %, 30 % und 40 % des Risikos tragen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt Mitversicherung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Versicherer haftet nur in Höhe seines Anteils",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherungsnehmer hat mehrere Vertragspartner",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um Rückversicherung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsnehmer kennt den Rückversicherer seines Versicherers und möchte sich direkt an ihn wenden.",
+        "question": "Ein Versicherungsnehmer kennt den Rückversicherer seines Versicherers und möchte sich direkt an ihn wenden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Rückversicherer ist kein Vertragspartner des Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde hat keinen direkten Anspruch",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Erstversicherer bleibt verantwortlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Rückversicherer muss direkt leisten",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherer beteiligt andere Versicherer direkt am Versicherungsvertrag mit dem Kunden.",
+        "question": "Ein Versicherer beteiligt andere Versicherer direkt am Versicherungsvertrag mit dem Kunden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt Mitversicherung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Mehrere Versicherer sind Vertragspartner",
+            "isCorrect": true
+          },
+          {
+            "text": "Jeder Versicherer haftet anteilig",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt Rückversicherung vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherer zahlt einen Schaden vollständig an den Kunden und erhält anschließend eine anteilige Erstattung vom Rückversicherer.",
+        "question": "Ein Versicherer zahlt einen Schaden vollständig an den Kunden und erhält anschließend eine anteilige Erstattung vom Rückversicherer.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt Rückversicherung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Rückversicherer leistet intern",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde hat keinen Anspruch gegen den Rückversicherer",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Erstversicherer bleibt alleiniger Ansprechpartner",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsmakler empfiehlt einem Kunden eine Versicherung, ohne zuvor eine Risikoanalyse durchzuführen. Nach einem Schaden stellt sich heraus, dass wesentliche Risiken nicht gedeckt sind.",
+        "question": "Ein Versicherungsmakler empfiehlt einem Kunden eine Versicherung, ohne zuvor eine Risikoanalyse durchzuführen. Nach einem Schaden stellt sich heraus, dass wesentliche Risiken nicht gedeckt sind.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler hat seine Beratungspflicht verletzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler haftet für den entstandenen Schaden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde trägt allein die Verantwortung",
+            "isCorrect": false
+          },
+          {
+            "text": "Eine Risikoanalyse ist zwingende Grundlage der Beratung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen sind richtig?",
+        "context": "Ein Makler vermittelt eine Versicherung und erhält dafür eine Provision vom Versicherer.",
+        "question": "Ein Makler vermittelt eine Versicherung und erhält dafür eine Provision vom Versicherer.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler handelt im Interesse des Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Provision beeinflusst nicht die Stellung des Maklers",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler ist Vertreter des Versicherers",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler ist unabhängig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Makler unterlässt es, den Kunden über eine Deckungslücke zu informieren.",
+        "question": "Ein Makler unterlässt es, den Kunden über eine Deckungslücke zu informieren.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt eine Pflichtverletzung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler kann haftbar werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler ist nicht verantwortlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Aufklärungspflichten bestehen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde schließt eine Versicherung ab. Die Polizze weicht vom Antrag ab. Der Makler überprüft diese nicht.",
+        "question": "Ein Kunde schließt eine Versicherung ab. Die Polizze weicht vom Antrag ab. Der Makler überprüft diese nicht.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler verletzt seine Pflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler muss die Polizze prüfen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler haftet nie für solche Fehler",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Kunde muss informiert werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Makler betreut einen Kunden langfristig und überprüft bestehende Verträge nicht.",
+        "question": "Ein Makler betreut einen Kunden langfristig und überprüft bestehende Verträge nicht.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Betreuungspflicht besteht laufend",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler kann haftbar werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Pflicht endet mit Vertragsabschluss",
+            "isCorrect": false
+          },
+          {
+            "text": "Vertragsüberprüfung gehört zu den Aufgaben",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen sind richtig?",
+        "context": "Ein Makler empfiehlt bewusst ein Produkt mit höherer Provision, obwohl ein besser geeignetes Produkt existiert.",
+        "question": "Ein Makler empfiehlt bewusst ein Produkt mit höherer Provision, obwohl ein besser geeignetes Produkt existiert.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Verletzung der Interessenwahrung",
+            "isCorrect": true
+          },
+          {
+            "text": "Pflichtverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein Problem, solange Vertrag besteht",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftung möglich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde meldet einen Schaden verspätet, weil der Makler ihn nicht auf Fristen hingewiesen hat.",
+        "question": "Ein Kunde meldet einen Schaden verspätet, weil der Makler ihn nicht auf Fristen hingewiesen hat.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler hat eine Pflicht verletzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler kann haftbar werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Fristen sind irrelevant",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Kunde trägt immer allein die Verantwortung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen sind richtig?",
+        "context": "Ein Makler führt keine Dokumentation seiner Beratung.",
+        "question": "Ein Makler führt keine Dokumentation seiner Beratung.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Dokumentationspflicht besteht",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler hat ein erhöhtes Haftungsrisiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Dokumentation ist freiwillig",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie dient als Beweismittel",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Makler schränkt seine Marktanalyse auf wenige Versicherer ein, ohne dies offenzulegen.",
+        "question": "Ein Makler schränkt seine Marktanalyse auf wenige Versicherer ein, ohne dies offenzulegen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Pflichtverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Einschränkung ist nur mit Offenlegung zulässig",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht kein Problem",
+            "isCorrect": false
+          },
+          {
+            "text": "Marktanalyse ist verpflichtend",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen sind richtig?",
+        "context": "Ein Makler vermittelt eine Versicherung, ohne den Kunden über Risiken aufzuklären.",
+        "question": "Ein Makler vermittelt eine Versicherung, ohne den Kunden über Risiken aufzuklären.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Aufklärungspflicht verletzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Beratungspflicht besteht",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Pflichtverletzung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen sind richtig?",
+        "context": "Ein Makler empfiehlt eine Versicherung, dokumentiert die Beratung nicht und es entsteht später ein Schaden.",
+        "question": "Ein Makler empfiehlt eine Versicherung, dokumentiert die Beratung nicht und es entsteht später ein Schaden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler trägt ein erhöhtes Haftungsrisiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Die fehlende Dokumentation wirkt sich negativ aus",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler ist automatisch haftungsfrei",
+            "isCorrect": false
+          },
+          {
+            "text": "Dokumentation dient als Beweis",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen sind richtig?",
+        "context": "Ein Makler vermittelt eine ungeeignete Versicherung, weil er die Bedürfnisse des Kunden nicht ermittelt hat.",
+        "question": "Ein Makler vermittelt eine ungeeignete Versicherung, weil er die Bedürfnisse des Kunden nicht ermittelt hat.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Pflichtverletzung liegt vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Risikoanalyse fehlt",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde trägt allein die Verantwortung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Aussagen sind richtig?",
+        "context": "Ein Makler prüft die Polizze, erkennt eine Abweichung, informiert den Kunden aber nicht.",
+        "question": "Ein Makler prüft die Polizze, erkennt eine Abweichung, informiert den Kunden aber nicht.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Pflichtverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Verantwortung",
+            "isCorrect": false
+          },
+          {
+            "text": "Informationspflicht besteht",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Welche Aussagen sind richtig?",
+        "context": "Ein Makler betreut einen Kunden nicht mehr nach Vertragsabschluss.",
+        "question": "Ein Makler betreut einen Kunden nicht mehr nach Vertragsabschluss.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Betreuungspflicht besteht weiter",
+            "isCorrect": true
+          },
+          {
+            "text": "Pflichtverletzung möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Verpflichtung nach Abschluss",
+            "isCorrect": false
+          },
+          {
+            "text": "Haftung möglich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Welche Aussagen sind richtig?",
+        "context": "Ein Makler empfiehlt eine Versicherung korrekt, dokumentiert dies und informiert den Kunden umfassend.",
+        "question": "Ein Makler empfiehlt eine Versicherung korrekt, dokumentiert dies und informiert den Kunden umfassend.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler erfüllt seine Pflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Dokumentation wirkt entlastend",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftungsrisiko wird reduziert",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt eine Pflichtverletzung vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "16. Welche Aussagen sind richtig?",
+        "context": "Ein Makler führt keine Risikoanalyse durch, empfiehlt ein ungeeignetes Produkt und dokumentiert die Beratung nicht. Nach einem Schaden behauptet der Kunde Falschberatung.",
+        "question": "Ein Makler führt keine Risikoanalyse durch, empfiehlt ein ungeeignetes Produkt und dokumentiert die Beratung nicht. Nach einem Schaden behauptet der Kunde Falschberatung.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Mehrere Pflichtverletzungen liegen vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Die fehlende Dokumentation verschlechtert die Position des Maklers",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler haftet jedenfalls nicht",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Risikoanalyse wäre erforderlich gewesen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "17. Welche Aussagen sind richtig?",
+        "context": "Ein Makler führt eine Risikoanalyse durch, empfiehlt ein geeignetes Produkt, dokumentiert alles korrekt, informiert den Kunden aber nicht über eine kleine Deckungslücke.",
+        "question": "Ein Makler führt eine Risikoanalyse durch, empfiehlt ein geeignetes Produkt, dokumentiert alles korrekt, informiert den Kunden aber nicht über eine kleine Deckungslücke.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt eine Pflichtverletzung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Dokumentation entlastet teilweise",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler haftet nicht",
+            "isCorrect": false
+          },
+          {
+            "text": "Aufklärungspflichten bestehen auch bei kleinen Risiken",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "18. Welche Aussagen sind richtig?",
+        "context": "Ein Makler betreut einen Kunden seit Jahren nicht mehr aktiv. Eine bestehende Versicherung wird aufgrund geänderter Umstände ungeeignet, was zu einem Schaden führt.",
+        "question": "Ein Makler betreut einen Kunden seit Jahren nicht mehr aktiv. Eine bestehende Versicherung wird aufgrund geänderter Umstände ungeeignet, was zu einem Schaden führt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Betreuungspflicht wurde verletzt",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler kann haftbar sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Pflicht nach Vertragsabschluss",
+            "isCorrect": false
+          },
+          {
+            "text": "Laufende Überprüfung ist Teil der Maklerpflicht",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "19. Welche Aussagen sind richtig?",
+        "context": "Ein Makler beschränkt seine Marktanalyse auf zwei Versicherer, legt dies offen und begründet die Auswahl nachvollziehbar.",
+        "question": "Ein Makler beschränkt seine Marktanalyse auf zwei Versicherer, legt dies offen und begründet die Auswahl nachvollziehbar.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Einschränkung ist zulässig",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Offenlegung ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt eine Pflichtverletzung vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Eine vollständige Marktanalyse ist zwingend",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "20. Welche Aussagen sind richtig?",
+        "context": "Ein Makler empfiehlt ein Produkt mit höherer Provision, obwohl ein besser geeignetes Produkt existiert, und verschweigt dies.",
+        "question": "Ein Makler empfiehlt ein Produkt mit höherer Provision, obwohl ein besser geeignetes Produkt existiert, und verschweigt dies.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Verletzung der Interessenwahrung",
+            "isCorrect": true
+          },
+          {
+            "text": "Pflichtverletzung liegt vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung ist möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Provision ist irrelevant",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "21. Welche Aussagen sind richtig?",
+        "context": "Ein Makler prüft die Polizze nicht, obwohl diese vom Antrag abweicht. Der Kunde erleidet dadurch einen Schaden.",
+        "question": "Ein Makler prüft die Polizze nicht, obwohl diese vom Antrag abweicht. Der Kunde erleidet dadurch einen Schaden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Pflichtverletzung liegt vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler muss Polizzen prüfen",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung ist möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Versicherer trägt allein die Verantwortung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "22. Welche Aussagen sind richtig?",
+        "context": "Ein Makler informiert den Kunden korrekt, dokumentiert alles, übersieht jedoch eine wichtige Vertragsklausel.",
+        "question": "Ein Makler informiert den Kunden korrekt, dokumentiert alles, übersieht jedoch eine wichtige Vertragsklausel.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt eine Pflichtverletzung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Dokumentation schützt nicht vollständig",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung ist möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler ist automatisch entlastet",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "23. Welche Aussagen sind richtig?",
+        "context": "Ein Makler weist den Kunden nicht auf Fristen im Schadenfall hin. Der Kunde meldet den Schaden verspätet.",
+        "question": "Ein Makler weist den Kunden nicht auf Fristen im Schadenfall hin. Der Kunde meldet den Schaden verspätet.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Pflichtverletzung liegt vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler kann haftbar sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Fristenhinweis gehört zu den Pflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde trägt allein die Verantwortung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "24. Welche Aussagen sind richtig?",
+        "context": "Ein Makler vermittelt eine Versicherung korrekt, dokumentiert die Beratung und betreut den Kunden laufend.",
+        "question": "Ein Makler vermittelt eine Versicherung korrekt, dokumentiert die Beratung und betreut den Kunden laufend.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler erfüllt seine Pflichten",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftungsrisiko wird reduziert",
+            "isCorrect": true
+          },
+          {
+            "text": "Dokumentation wirkt entlastend",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt eine Pflichtverletzung vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "25. Welche Aussagen sind richtig?",
+        "context": "Ein Makler führt eine Beratung durch, dokumentiert diese aber nur unvollständig. Später kommt es zu einem Streitfall.",
+        "question": "Ein Makler führt eine Beratung durch, dokumentiert diese aber nur unvollständig. Später kommt es zu einem Streitfall.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Dokumentation ist mangelhaft",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler trägt ein erhöhtes Haftungsrisiko",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Beratung gilt als nicht erfolgt",
+            "isCorrect": false
+          },
+          {
+            "text": "Dokumentation dient als Beweis",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "26. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • führt keine Risikoanalyse durch • dokumentiert nicht • empfiehlt ein ungeeignetes Produkt • betreut den Kunden danach nicht",
+        "question": "Ein Makler: • führt keine Risikoanalyse durch • dokumentiert nicht • empfiehlt ein ungeeignetes Produkt • betreut den Kunden danach nicht\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Mehrere Pflichtverletzungen liegen vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung ist sehr wahrscheinlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler ist nicht verantwortlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Es liegt ein systematisches Fehlverhalten vor",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "27. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • führt eine gute Risikoanalyse durch • empfiehlt korrekt • dokumentiert alles • übersieht jedoch eine wichtige Deckungslücke",
+        "question": "Ein Makler: • führt eine gute Risikoanalyse durch • empfiehlt korrekt • dokumentiert alles • übersieht jedoch eine wichtige Deckungslücke\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Teilweise Pflichtverletzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung ist möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Dokumentation entlastet teilweise",
+            "isCorrect": true
+          },
+          {
+            "text": "Keine Pflichtverletzung liegt vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "28. Welche Aussagen sind richtig?",
+        "context": "Ein Makler informiert den Kunden über Risiken, dokumentiert dies aber nicht. Der Kunde bestreitet die Aufklärung.",
+        "question": "Ein Makler informiert den Kunden über Risiken, dokumentiert dies aber nicht. Der Kunde bestreitet die Aufklärung.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Dokumentation fehlt",
+            "isCorrect": true
+          },
+          {
+            "text": "Beweisproblem entsteht",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftungsrisiko steigt",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler ist automatisch geschützt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "29. Welche Aussagen sind richtig?",
+        "context": "Ein Makler schränkt seine Marktanalyse ein, legt dies offen und berät korrekt.",
+        "question": "Ein Makler schränkt seine Marktanalyse ein, legt dies offen und berät korrekt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Verhalten ist zulässig",
+            "isCorrect": true
+          },
+          {
+            "text": "Offenlegung ist entscheidend",
+            "isCorrect": true
+          },
+          {
+            "text": "Pflichtverletzung liegt vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Beratungspflicht wurde erfüllt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "30. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • informiert korrekt • dokumentiert • prüft die Polizze • betreut laufend",
+        "question": "Ein Makler: • informiert korrekt • dokumentiert • prüft die Polizze • betreut laufend\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Pflichten werden erfüllt",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftungsrisiko ist gering",
+            "isCorrect": true
+          },
+          {
+            "text": "Verhalten entspricht den gesetzlichen Anforderungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Pflichtverletzung liegt vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Voraussetzungen müssen erfüllt sein?",
+        "context": "Eine Person möchte als Versicherungsmakler tätig werden.",
+        "question": "Eine Person möchte als Versicherungsmakler tätig werden.\n\nWelche Voraussetzungen müssen erfüllt sein?",
+        "options": [
+          {
+            "text": "Gewerbeberechtigung",
+            "isCorrect": true
+          },
+          {
+            "text": "Befähigungsnachweis",
+            "isCorrect": true
+          },
+          {
+            "text": "Zuverlässigkeit",
+            "isCorrect": true
+          },
+          {
+            "text": "Volljährigkeit",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen zur Gewerbeberechtigung sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Gewerbeberechtigung sind richtig?",
+        "options": [
+          {
+            "text": "Sie ist Voraussetzung für die Ausübung eines Gewerbes",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie wird durch Anmeldung erlangt",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist immer befristet",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie kann entzogen werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen zur Zuverlässigkeit sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Zuverlässigkeit sind korrekt?",
+        "options": [
+          {
+            "text": "Sie ist Voraussetzung für die Gewerbeausübung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie betrifft die persönliche Eignung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist irrelevant für das Gewerbe",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie kann bei bestimmten Verurteilungen fehlen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen sind richtig?",
+        "context": "Ein Antragsteller wurde wegen eines Vermögensdelikts verurteilt.",
+        "question": "Ein Antragsteller wurde wegen eines Vermögensdelikts verurteilt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Zuverlässigkeit kann fehlen",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Gewerbeberechtigung wird automatisch erteilt",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Behörde prüft die persönliche Eignung",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Tätigkeit kann untersagt werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen zum Befähigungsnachweis sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zum Befähigungsnachweis sind korrekt?",
+        "options": [
+          {
+            "text": "Er ist bei reglementierten Gewerben erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Er kann durch Prüfung nachgewiesen werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Er ist immer entbehrlich",
+            "isCorrect": false
+          },
+          {
+            "text": "Er dient dem Nachweis fachlicher Qualifikation",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen sind richtig?",
+        "context": "Eine Person möchte ein reglementiertes Gewerbe ausüben, verfügt aber über keinen Befähigungsnachweis.",
+        "question": "Eine Person möchte ein reglementiertes Gewerbe ausüben, verfügt aber über keinen Befähigungsnachweis.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Das Gewerbe darf nicht ausgeübt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Ein gewerberechtlicher Geschäftsführer kann bestellt werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Befähigungsnachweis ist irrelevant",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Behörde kann die Ausübung untersagen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Gewerbetreibender verliert nachträglich seine Zuverlässigkeit.",
+        "question": "Ein Gewerbetreibender verliert nachträglich seine Zuverlässigkeit.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Gewerbeberechtigung kann entzogen werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Tätigkeit darf uneingeschränkt weitergeführt werden",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Behörde kann einschreiten",
+            "isCorrect": true
+          },
+          {
+            "text": "Zuverlässigkeit ist laufend erforderlich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen sind richtig?",
+        "context": "Ein Unternehmen bestellt einen gewerberechtlichen Geschäftsführer.",
+        "question": "Ein Unternehmen bestellt einen gewerberechtlichen Geschäftsführer.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Dieser muss zuverlässig sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Er muss den Befähigungsnachweis erbringen",
+            "isCorrect": true
+          },
+          {
+            "text": "Er trägt Verantwortung für die Gewerbeausübung",
+            "isCorrect": true
+          },
+          {
+            "text": "Er ist nicht relevant für das Gewerbe",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Gewerbetreibender beginnt seine Tätigkeit ohne Gewerbeberechtigung.",
+        "question": "Ein Gewerbetreibender beginnt seine Tätigkeit ohne Gewerbeberechtigung.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt eine Verwaltungsübertretung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Tätigkeit ist unzulässig",
+            "isCorrect": true
+          },
+          {
+            "text": "Es bestehen keine Konsequenzen",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Behörde kann einschreiten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen sind richtig?",
+        "context": "Ein Gewerbetreibender erfüllt alle Voraussetzungen, meldet das Gewerbe jedoch nicht an.",
+        "question": "Ein Gewerbetreibender erfüllt alle Voraussetzungen, meldet das Gewerbe jedoch nicht an.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Gewerbeberechtigung entsteht nicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Tätigkeit ist unzulässig",
+            "isCorrect": true
+          },
+          {
+            "text": "Anmeldung ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht automatisch Berechtigung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen zu reglementierten Gewerben sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zu reglementierten Gewerben sind richtig?",
+        "options": [
+          {
+            "text": "Befähigungsnachweis ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie unterliegen besonderen Voraussetzungen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie sind frei ausübbar",
+            "isCorrect": false
+          },
+          {
+            "text": "Fachliche Qualifikation ist notwendig",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen zu freien Gewerben sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zu freien Gewerben sind korrekt?",
+        "options": [
+          {
+            "text": "Kein Befähigungsnachweis erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Gewerbeberechtigung ist notwendig",
+            "isCorrect": true
+          },
+          {
+            "text": "Zuverlässigkeit ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Fachkenntnisse sind irrelevant",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Aussagen zur Gewerbeausübung sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Gewerbeausübung sind richtig?",
+        "options": [
+          {
+            "text": "Sie darf nur mit Berechtigung erfolgen",
+            "isCorrect": true
+          },
+          {
+            "text": "Voraussetzungen müssen dauerhaft erfüllt sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Einmalige Erfüllung reicht aus",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Behörde kann kontrollieren",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Makler empfiehlt eine Versicherung, ohne zuvor eine Risikoanalyse durchzuführen.",
+        "question": "Ein Makler empfiehlt eine Versicherung, ohne zuvor eine Risikoanalyse durchzuführen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Risikoanalyse ist Grundlage der Beratung",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt eine Pflichtverletzung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Empfehlung ist trotzdem korrekt",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler kann haftbar werden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen zur Risikoanalyse sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Risikoanalyse sind richtig?",
+        "options": [
+          {
+            "text": "Sie erfasst individuelle Risiken des Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist Voraussetzung für eine bedarfsgerechte Beratung",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist optional",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie dient der Auswahl geeigneter Versicherungen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Maßnahmen sind Teil des Risk Managements?",
+        "context": "Ein Unternehmen analysiert seine Risiken und erkennt ein hohes Brandrisiko.",
+        "question": "Ein Unternehmen analysiert seine Risiken und erkennt ein hohes Brandrisiko.\n\nWelche Maßnahmen sind Teil des Risk Managements?",
+        "options": [
+          {
+            "text": "Risikovermeidung",
+            "isCorrect": true
+          },
+          {
+            "text": "Risikoreduktion",
+            "isCorrect": true
+          },
+          {
+            "text": "Risikoübertragung",
+            "isCorrect": true
+          },
+          {
+            "text": "Risikoignorierung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen sind richtig?",
+        "context": "Ein Risiko wird durch eine Versicherung abgesichert.",
+        "question": "Ein Risiko wird durch eine Versicherung abgesichert.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um Risikoübertragung",
+            "isCorrect": true
+          },
+          {
+            "text": "Das Risiko verschwindet vollständig",
+            "isCorrect": false
+          },
+          {
+            "text": "Das finanzielle Risiko wird übertragen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es ist Teil des Risk Managements",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Unternehmen entscheidet sich bewusst, ein Risiko selbst zu tragen.",
+        "question": "Ein Unternehmen entscheidet sich bewusst, ein Risiko selbst zu tragen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um Risikoübernahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Es ist eine Form des Risk Managements",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt keine Entscheidung vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Es kann wirtschaftlich sinnvoll sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen sind richtig?",
+        "context": "Ein Makler führt eine Risikoanalyse durch, übersieht jedoch ein wesentliches Risiko. Dieses tritt später ein und ist nicht versichert.",
+        "question": "Ein Makler führt eine Risikoanalyse durch, übersieht jedoch ein wesentliches Risiko. Dieses tritt später ein und ist nicht versichert.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Risikoanalyse ist unvollständig",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt eine Pflichtverletzung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler kann haftbar werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Risikoanalyse erfüllt ihre Funktion vollständig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Unternehmen erkennt ein hohes Risiko, entscheidet sich aber gegen eine Versicherung.",
+        "question": "Ein Unternehmen erkennt ein hohes Risiko, entscheidet sich aber gegen eine Versicherung.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um bewusste Risikoübernahme",
+            "isCorrect": true
+          },
+          {
+            "text": "Es ist Teil des Risk Managements",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt keine Entscheidung vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Es kann wirtschaftlich begründet sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen sind richtig?",
+        "context": "Ein Makler analysiert die Risiken eines Kunden korrekt und empfiehlt passende Versicherungen.",
+        "question": "Ein Makler analysiert die Risiken eines Kunden korrekt und empfiehlt passende Versicherungen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Beratung ist bedarfsgerecht",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Risikoanalyse erfüllt ihre Funktion",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftungsrisiko wird reduziert",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt eine Pflichtverletzung vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Unternehmen reduziert ein Risiko durch Sicherheitsmaßnahmen.",
+        "question": "Ein Unternehmen reduziert ein Risiko durch Sicherheitsmaßnahmen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um Risikoreduktion",
+            "isCorrect": true
+          },
+          {
+            "text": "Das Risiko wird vollständig beseitigt",
+            "isCorrect": false
+          },
+          {
+            "text": "Es ist Teil des Risk Managements",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um Risikoübertragung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen sind richtig?",
+        "context": "Ein Risiko wird vollständig vermieden, indem eine Tätigkeit nicht durchgeführt wird.",
+        "question": "Ein Risiko wird vollständig vermieden, indem eine Tätigkeit nicht durchgeführt wird.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um Risikovermeidung",
+            "isCorrect": true
+          },
+          {
+            "text": "Das Risiko tritt nicht ein",
+            "isCorrect": true
+          },
+          {
+            "text": "Es ist eine Maßnahme des Risk Managements",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um Risikoübertragung",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • führt keine Risikoanalyse durch • empfiehlt ein Standardprodukt • übersieht mehrere Risiken",
+        "question": "Ein Makler: • führt keine Risikoanalyse durch • empfiehlt ein Standardprodukt • übersieht mehrere Risiken\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Mehrere Pflichtverletzungen liegen vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Beratung ist nicht bedarfsgerecht",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftung ist möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Analyse ist ausreichend",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen sind richtig?",
+        "context": "Ein Unternehmen: • erkennt Risiken • reduziert einige • versichert andere • trägt den Rest selbst",
+        "question": "Ein Unternehmen: • erkennt Risiken • reduziert einige • versichert andere • trägt den Rest selbst\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es handelt sich um strukturiertes Risk Management",
+            "isCorrect": true
+          },
+          {
+            "text": "Mehrere Maßnahmen werden kombiniert",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt keine Strategie vor",
+            "isCorrect": false
+          },
+          {
+            "text": "Risikoübertragung ist enthalten",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Aussagen sind richtig?",
+        "context": "Ein Makler erkennt alle Risiken, dokumentiert diese und empfiehlt passende Lösungen.",
+        "question": "Ein Makler erkennt alle Risiken, dokumentiert diese und empfiehlt passende Lösungen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Risikoanalyse ist vollständig",
+            "isCorrect": true
+          },
+          {
+            "text": "Beratung ist korrekt",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftungsrisiko sinkt",
+            "isCorrect": true
+          },
+          {
+            "text": "Pflichtverletzung liegt vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Welche Aussagen sind richtig?",
+        "context": "Ein Unternehmen ignoriert ein bekanntes Risiko.",
+        "question": "Ein Unternehmen ignoriert ein bekanntes Risiko.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt keine aktive Risikosteuerung vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Es ist kein Risk Management",
+            "isCorrect": true
+          },
+          {
+            "text": "Es kann zu Schäden führen",
+            "isCorrect": true
+          },
+          {
+            "text": "Es handelt sich um bewusste Risikoübernahme",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Welche Aussagen sind richtig?",
+        "context": "Ein Risiko wird versichert, aber nicht analysiert.",
+        "question": "Ein Risiko wird versichert, aber nicht analysiert.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Risikoanalyse fehlt",
+            "isCorrect": true
+          },
+          {
+            "text": "Beratung ist unvollständig",
+            "isCorrect": true
+          },
+          {
+            "text": "Haftungsrisiko besteht",
+            "isCorrect": true
+          },
+          {
+            "text": "Risk Management ist vollständig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde unterschreibt einen Maklervertrag, ohne ihn vollständig zu lesen.",
+        "question": "Ein Kunde unterschreibt einen Maklervertrag, ohne ihn vollständig zu lesen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Vertrag ist grundsätzlich wirksam",
+            "isCorrect": true
+          },
+          {
+            "text": "Unkenntnis schützt nicht vor Rechtsfolgen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Vertrag ist automatisch unwirksam",
+            "isCorrect": false
+          },
+          {
+            "text": "AGB können Bestandteil sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen sind richtig?",
+        "context": "Ein Makler verwendet AGB, die der Kunde nicht zur Kenntnis nehmen konnte.",
+        "question": "Ein Makler verwendet AGB, die der Kunde nicht zur Kenntnis nehmen konnte.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "AGB werden nicht wirksam einbezogen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Vertrag bleibt insgesamt gültig",
+            "isCorrect": true
+          },
+          {
+            "text": "AGB gelten automatisch",
+            "isCorrect": false
+          },
+          {
+            "text": "Einbeziehung setzt Kenntnis voraus",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Maklervertrag enthält eine Klausel, die den Kunden unangemessen benachteiligt.",
+        "question": "Ein Maklervertrag enthält eine Klausel, die den Kunden unangemessen benachteiligt.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Klausel ist unwirksam",
+            "isCorrect": true
+          },
+          {
+            "text": "Der gesamte Vertrag ist automatisch unwirksam",
+            "isCorrect": false
+          },
+          {
+            "text": "Der restliche Vertrag bleibt bestehen",
+            "isCorrect": true
+          },
+          {
+            "text": "AGB unterliegen einer Inhaltskontrolle",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde erteilt dem Makler eine Vollmacht.",
+        "question": "Ein Kunde erteilt dem Makler eine Vollmacht.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Makler kann den Kunden vertreten",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Vollmacht erweitert die Handlungsmöglichkeiten",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler wird dadurch Vertragspartner",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Vollmacht ist rechtlich relevant",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Makler schließt ohne Vollmacht einen Vertrag im Namen des Kunden ab.",
+        "question": "Ein Makler schließt ohne Vollmacht einen Vertrag im Namen des Kunden ab.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Vertrag ist schwebend unwirksam",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde kann genehmigen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Vertrag ist automatisch gültig",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Makler handelt ohne Vertretungsmacht",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen sind richtig?",
+        "context": "Ein Makler verwendet AGB, die dem Kunden nicht ausgehändigt werden. Der Kunde unterschreibt den Vertrag.",
+        "question": "Ein Makler verwendet AGB, die dem Kunden nicht ausgehändigt werden. Der Kunde unterschreibt den Vertrag.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "AGB sind nicht wirksam einbezogen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Vertrag bleibt grundsätzlich gültig",
+            "isCorrect": true
+          },
+          {
+            "text": "AGB gelten automatisch",
+            "isCorrect": false
+          },
+          {
+            "text": "Einbeziehung setzt Kenntnis voraus",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Makler erhält eine umfassende Vollmacht und schließt einen Versicherungsvertrag im Namen des Kunden ab.",
+        "question": "Ein Makler erhält eine umfassende Vollmacht und schließt einen Versicherungsvertrag im Namen des Kunden ab.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Vertrag wirkt für den Kunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler handelt als Vertreter",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler wird Vertragspartner",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Vollmacht ermöglicht rechtswirksames Handeln",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen sind richtig?",
+        "context": "Ein Maklervertrag enthält mehrere unwirksame AGB-Klauseln.",
+        "question": "Ein Maklervertrag enthält mehrere unwirksame AGB-Klauseln.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die unwirksamen Klauseln entfallen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der gesamte Vertrag ist unwirksam",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Vertrag bleibt im Übrigen bestehen",
+            "isCorrect": true
+          },
+          {
+            "text": "AGB unterliegen einer Inhaltskontrolle",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Makler überschreitet seine Vollmacht und handelt im Namen des Kunden.",
+        "question": "Ein Makler überschreitet seine Vollmacht und handelt im Namen des Kunden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt Handeln ohne Vertretungsmacht vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde ist nicht gebunden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde kann genehmigen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Vertrag ist automatisch gültig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen sind richtig?",
+        "context": "Ein Kunde widerruft seine Vollmacht gegenüber dem Makler.",
+        "question": "Ein Kunde widerruft seine Vollmacht gegenüber dem Makler.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Die Vollmacht endet",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler darf nicht mehr handeln",
+            "isCorrect": true
+          },
+          {
+            "text": "Bereits geschlossene Verträge bleiben bestehen",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Vollmacht wirkt weiterhin",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • verwendet unwirksame AGB • hat keine Vollmacht • schließt dennoch einen Vertrag",
+        "question": "Ein Makler: • verwendet unwirksame AGB • hat keine Vollmacht • schließt dennoch einen Vertrag\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Mehrere rechtliche Probleme liegen vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Vertrag ist schwebend unwirksam",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Kunde ist automatisch gebunden",
+            "isCorrect": false
+          },
+          {
+            "text": "AGB sind nicht wirksam",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • hat eine Vollmacht • verwendet wirksame AGB • informiert den Kunden korrekt",
+        "question": "Ein Makler: • hat eine Vollmacht • verwendet wirksame AGB • informiert den Kunden korrekt\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Vertrag ist wirksam",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler handelt rechtmäßig",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Vollmacht wirkt",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt eine Pflichtverletzung vor",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • verwendet AGB • informiert den Kunden nicht • schließt einen Vertrag",
+        "question": "Ein Makler: • verwendet AGB • informiert den Kunden nicht • schließt einen Vertrag\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "AGB sind nicht wirksam einbezogen",
+            "isCorrect": true
+          },
+          {
+            "text": "Vertrag bleibt grundsätzlich gültig",
+            "isCorrect": true
+          },
+          {
+            "text": "Einbeziehung setzt Kenntnis voraus",
+            "isCorrect": true
+          },
+          {
+            "text": "AGB gelten automatisch",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • hat Vollmacht • überschreitet diese teilweise",
+        "question": "Ein Makler: • hat Vollmacht • überschreitet diese teilweise\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Teilweise unwirksames Handeln",
+            "isCorrect": true
+          },
+          {
+            "text": "Kunde ist nicht gebunden für überschrittene Teile",
+            "isCorrect": true
+          },
+          {
+            "text": "Genehmigung ist möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Alles ist automatisch gültig",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Welche Aussagen sind richtig?",
+        "context": "Ein Maklervertrag wird abgeschlossen und enthält wirksame AGB sowie eine gültige Vollmacht.",
+        "question": "Ein Maklervertrag wird abgeschlossen und enthält wirksame AGB sowie eine gültige Vollmacht.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Vertrag ist wirksam",
+            "isCorrect": true
+          },
+          {
+            "text": "AGB gelten",
+            "isCorrect": true
+          },
+          {
+            "text": "Vollmacht ermöglicht Vertretung",
+            "isCorrect": true
+          },
+          {
+            "text": "Es liegt kein rechtliches Problem vor",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Wann entsteht der Anspruch auf Provision für einen Versicherungsmakler?",
+        "context": null,
+        "question": "Wann entsteht der Anspruch auf Provision für einen Versicherungsmakler?",
+        "options": [
+          {
+            "text": "Mit Abschluss des Versicherungsvertrags",
+            "isCorrect": true
+          },
+          {
+            "text": "Bereits mit der Beratung",
+            "isCorrect": false
+          },
+          {
+            "text": "Wenn ein wirksamer Vertrag zustande kommt",
+            "isCorrect": true
+          },
+          {
+            "text": "Unabhängig vom Erfolg",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen zur Provision sind richtig?",
+        "context": null,
+        "question": "Welche Aussagen zur Provision sind richtig?",
+        "options": [
+          {
+            "text": "Sie ist erfolgsabhängig",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie wird meist vom Versicherer bezahlt",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie steht dem Makler immer zu",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie ist an die Vermittlung gebunden",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Makler berät einen Kunden, es kommt jedoch zu keinem Vertragsabschluss.",
+        "question": "Ein Makler berät einen Kunden, es kommt jedoch zu keinem Vertragsabschluss.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Kein Anspruch auf Provision",
+            "isCorrect": true
+          },
+          {
+            "text": "Anspruch besteht trotzdem",
+            "isCorrect": false
+          },
+          {
+            "text": "Provision ist erfolgsabhängig",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler erhält automatisch Entgelt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsvertrag wird abgeschlossen und später storniert.",
+        "question": "Ein Versicherungsvertrag wird abgeschlossen und später storniert.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Provision kann zurückgefordert werden",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Makler behält die Provision immer",
+            "isCorrect": false
+          },
+          {
+            "text": "Stornohaftung kann bestehen",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Anspruch kann entfallen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen zur Stornohaftung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Stornohaftung sind korrekt?",
+        "options": [
+          {
+            "text": "Der Makler haftet für vorzeitige Vertragsbeendigung",
+            "isCorrect": true
+          },
+          {
+            "text": "Provision kann zurückgezahlt werden müssen",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist irrelevant",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie betrifft die Provision",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "6. Welche Aussagen sind richtig?",
+        "context": "Ein Makler vermittelt erfolgreich eine Versicherung. Nach kurzer Zeit wird der Vertrag aufgehoben.",
+        "question": "Ein Makler vermittelt erfolgreich eine Versicherung. Nach kurzer Zeit wird der Vertrag aufgehoben.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Provision wurde zunächst verdient",
+            "isCorrect": true
+          },
+          {
+            "text": "Stornohaftung kann greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Rückforderung ist möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Provision bleibt immer beim Makler",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "7. Welche Aussagen sind richtig?",
+        "context": "Ein Makler vermittelt einen Vertrag ohne gültige Gewerbeberechtigung.",
+        "question": "Ein Makler vermittelt einen Vertrag ohne gültige Gewerbeberechtigung.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Der Provisionsanspruch kann entfallen",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Vermittlung ist unzulässig",
+            "isCorrect": true
+          },
+          {
+            "text": "Provision steht trotzdem zu",
+            "isCorrect": false
+          },
+          {
+            "text": "Es liegt ein Rechtsverstoß vor",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "8. Welche Aussagen sind richtig?",
+        "context": "Ein Makler vermittelt einen Vertrag, der später als unwirksam erkannt wird.",
+        "question": "Ein Makler vermittelt einen Vertrag, der später als unwirksam erkannt wird.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Kein wirksamer Vertrag → kein Provisionsanspruch",
+            "isCorrect": true
+          },
+          {
+            "text": "Provision bleibt bestehen",
+            "isCorrect": false
+          },
+          {
+            "text": "Wirksamkeit ist Voraussetzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Anspruch entfällt",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "9. Welche Aussagen sind richtig?",
+        "context": "Ein Makler hat einen Vertrag vermittelt, der Kunde zahlt jedoch die Prämie nicht.",
+        "question": "Ein Makler hat einen Vertrag vermittelt, der Kunde zahlt jedoch die Prämie nicht.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Provision kann gefährdet sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Der Anspruch bleibt immer bestehen",
+            "isCorrect": false
+          },
+          {
+            "text": "Storno kann eintreten",
+            "isCorrect": true
+          },
+          {
+            "text": "Zusammenhang mit Vertrag besteht",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "10. Welche Aussagen sind richtig?",
+        "context": "Ein Makler vermittelt mehrere Versicherungen für denselben Kunden.",
+        "question": "Ein Makler vermittelt mehrere Versicherungen für denselben Kunden.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Provision entsteht je Vertrag",
+            "isCorrect": true
+          },
+          {
+            "text": "Provision ist erfolgsabhängig",
+            "isCorrect": true
+          },
+          {
+            "text": "Nur eine Provision steht zu",
+            "isCorrect": false
+          },
+          {
+            "text": "Jeder Abschluss ist relevant",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "11. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • vermittelt erfolgreich • Vertrag wird später storniert • Kunde zahlt keine Prämie",
+        "question": "Ein Makler: • vermittelt erfolgreich • Vertrag wird später storniert • Kunde zahlt keine Prämie\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Provision kann verloren gehen",
+            "isCorrect": true
+          },
+          {
+            "text": "Stornohaftung ist relevant",
+            "isCorrect": true
+          },
+          {
+            "text": "Anspruch bleibt sicher bestehen",
+            "isCorrect": false
+          },
+          {
+            "text": "Rückforderung ist möglich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "12. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • berät intensiv • dokumentiert alles • es kommt kein Vertrag zustande",
+        "question": "Ein Makler: • berät intensiv • dokumentiert alles • es kommt kein Vertrag zustande\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Kein Provisionsanspruch",
+            "isCorrect": true
+          },
+          {
+            "text": "Erfolg fehlt",
+            "isCorrect": true
+          },
+          {
+            "text": "Provision entsteht nicht",
+            "isCorrect": true
+          },
+          {
+            "text": "Beratung allein genügt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "13. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • vermittelt korrekt • Vertrag ist wirksam • Kunde kündigt frühzeitig",
+        "question": "Ein Makler: • vermittelt korrekt • Vertrag ist wirksam • Kunde kündigt frühzeitig\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Provision entsteht zunächst",
+            "isCorrect": true
+          },
+          {
+            "text": "Stornohaftung kann greifen",
+            "isCorrect": true
+          },
+          {
+            "text": "Rückzahlung möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Provision bleibt immer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "14. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • vermittelt ohne Vollmacht • Vertrag kommt zustande",
+        "question": "Ein Makler: • vermittelt ohne Vollmacht • Vertrag kommt zustande\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Provisionsanspruch kann problematisch sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Rechtslage ist unsicher",
+            "isCorrect": true
+          },
+          {
+            "text": "Vollmacht ist irrelevant",
+            "isCorrect": false
+          },
+          {
+            "text": "Anspruch kann entfallen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "15. Welche Aussagen sind richtig?",
+        "context": "Ein Makler: • hat Gewerbeberechtigung • vermittelt erfolgreich • Vertrag bleibt bestehen",
+        "question": "Ein Makler: • hat Gewerbeberechtigung • vermittelt erfolgreich • Vertrag bleibt bestehen\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Provisionsanspruch besteht",
+            "isCorrect": true
+          },
+          {
+            "text": "Voraussetzungen sind erfüllt",
+            "isCorrect": true
+          },
+          {
+            "text": "Provision ist verdient",
+            "isCorrect": true
+          },
+          {
+            "text": "Kein rechtliches Problem",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "1. Welche Aussagen sind richtig?",
+        "context": "Ein Versicherungsmakler vereinbart mit seinem Kunden ein Honorar für Beratungsleistungen, unabhängig vom Abschluss eines Versicherungsvertrags.",
+        "question": "Ein Versicherungsmakler vereinbart mit seinem Kunden ein Honorar für Beratungsleistungen, unabhängig vom Abschluss eines Versicherungsvertrags.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Ein Honorar ist grundsätzlich möglich",
+            "isCorrect": true
+          },
+          {
+            "text": "Das Honorar ist erfolgsunabhängig",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine Provision darf zusätzlich immer verlangt werden",
+            "isCorrect": false
+          },
+          {
+            "text": "Die Vereinbarung muss transparent sein",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "2. Welche Aussagen sind richtig?",
+        "context": "Ein Makler erhält sowohl eine Provision vom Versicherer als auch ein Honorar vom Kunden, ohne dies offenzulegen.",
+        "question": "Ein Makler erhält sowohl eine Provision vom Versicherer als auch ein Honorar vom Kunden, ohne dies offenzulegen.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Es liegt ein Interessenkonflikt vor",
+            "isCorrect": true
+          },
+          {
+            "text": "Offenlegung ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Es besteht kein Problem",
+            "isCorrect": false
+          },
+          {
+            "text": "Es kann eine Pflichtverletzung vorliegen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "3. Welche Aussagen sind richtig?",
+        "context": "Ein Makler stellt eine Rechnung für Beratungsleistungen, obwohl keine entsprechende Vereinbarung mit dem Kunden besteht.",
+        "question": "Ein Makler stellt eine Rechnung für Beratungsleistungen, obwohl keine entsprechende Vereinbarung mit dem Kunden besteht.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Kein Anspruch auf Honorar",
+            "isCorrect": true
+          },
+          {
+            "text": "Eine Vereinbarung ist erforderlich",
+            "isCorrect": true
+          },
+          {
+            "text": "Die Rechnung ist automatisch wirksam",
+            "isCorrect": false
+          },
+          {
+            "text": "Der Kunde muss nicht zahlen",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "4. Welche Aussagen zur Leistungsabrechnung sind korrekt?",
+        "context": null,
+        "question": "Welche Aussagen zur Leistungsabrechnung sind korrekt?",
+        "options": [
+          {
+            "text": "Sie muss nachvollziehbar sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie muss transparent sein",
+            "isCorrect": true
+          },
+          {
+            "text": "Sie ist formfrei ohne Anforderungen",
+            "isCorrect": false
+          },
+          {
+            "text": "Sie dient der Dokumentation der Leistung",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "title": "5. Welche Aussagen sind richtig?",
+        "context": "Ein Makler vereinbart ein Honorar, erbringt jedoch keine Leistung.",
+        "question": "Ein Makler vereinbart ein Honorar, erbringt jedoch keine Leistung.\n\nWelche Aussagen sind richtig?",
+        "options": [
+          {
+            "text": "Kein Anspruch auf Honorar",
+            "isCorrect": true
+          },
+          {
+            "text": "Leistung ist Voraussetzung",
+            "isCorrect": true
+          },
+          {
+            "text": "Honorar steht trotzdem zu",
+            "isCorrect": false
+          },
+          {
+            "text": "Rückforderung ist möglich",
+            "isCorrect": true
+          }
+        ],
+        "explanation": ""
       }
     ]
   }
