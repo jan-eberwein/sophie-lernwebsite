@@ -1,4 +1,7 @@
+import { hypermediaModule } from './hypermediaModule.js';
+
 export const QUIZ_MODULES = {
+  "hypermedia": hypermediaModule,
   "band1": {
     "title": "Band 1",
     "data": [

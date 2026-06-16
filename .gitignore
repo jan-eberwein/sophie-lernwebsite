@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Lecture source material — questions are generated into src/data/hypermediaModule.js
+src/data/Hypermedia/

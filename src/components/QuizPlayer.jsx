@@ -1,10 +1,405 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { saveProgress, calcAccuracy } from '../utils/progressService';
-import { ArrowLeft, Check, X, HelpCircle, Trophy, RefreshCcw, ArrowRight, Clock, StopCircle, Shuffle, RotateCcw, Layers } from 'lucide-react';
+import { ArrowLeft, Check, X, HelpCircle, Trophy, RefreshCcw, ArrowRight, Clock, StopCircle, Shuffle, RotateCcw, Layers, GripVertical, ChevronUp, ChevronDown, AlertTriangle } from 'lucide-react';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
+import { computeCorrect, matchAccept, shuffleArray, INTERACTIVE_TYPES, SELF_GRADED_TYPES } from '../utils/answerCheck';
 
 function cn(...inputs) { return twMerge(clsx(inputs)); }
+
+// ── i18n ───────────────────────────────────────────────────────────────────────
+// The whole quiz player renders in the module's language (module.lang). Modules
+// without a lang default to German; the Hypermedia Frameworks module is 'en'.
+const UI = {
+  de: {
+    back: 'Zurück',
+    cancel: 'Abbrechen',
+    questions: 'Fragen',
+    alreadyAnswered: 'bereits beantwortet',
+    chooseMode: 'Lernmodus wählen',
+    startBtn: (l) => `${l} starten`,
+    reviewBadge: (n) => n > 0 ? `${n} falsche Fragen in deiner Liste` : 'Noch keine falschen Fragen – spiele erst eine Runde!',
+    howItWorksTitle: 'Wie funktioniert das Lernsystem?',
+    howItWorksBody: 'Dein Fortschritt wird nach jeder Antwort automatisch gespeichert. Falsch beantwortete Fragen landen in deiner persönlichen Fehlerliste und werden im Modus „Wiederholen" und „Gemischt" bevorzugt wiederholt – so schließt du Wissenslücken gezielt.',
+    resultTitle: 'Ergebnis',
+    finishedPre: 'Du hast das Modul ',
+    finishedPost: ' beendet.',
+    time: 'Zeit',
+    accuracy: 'Genauigkeit',
+    correct: 'Richtig',
+    wrong: 'Falsch',
+    retry: 'Nochmal versuchen',
+    toDashboard: 'Zum Dashboard',
+    question: 'Frage',
+    of: 'von',
+    scenario: 'Szenario',
+    showAnswer: 'Antwort anzeigen',
+    answer: 'Antwort',
+    howWell: 'Wie gut wusstest du die Antwort?',
+    wrongKnew: 'Falsch / Nicht gewusst',
+    rightKnew: 'Richtig gewusst',
+    explanation: 'Erklärung',
+    check: 'Antwort prüfen',
+    next: 'Nächste Frage',
+    showResult: 'Ergebnis anzeigen',
+    orderInstruction: 'Ziehe die Einträge in die richtige Reihenfolge – oder nutze die Pfeile.',
+    correctOrder: 'Richtige Reihenfolge',
+    categorizeInstruction: 'Tippe einen Eintrag an und dann eine Kategorie – oder ziehe ihn per Drag & Drop in die passende Box.',
+    correctPrefix: 'richtig:',
+    solution: 'Lösung',
+    blank: 'Lücke',
+    codeInstruction: 'Klicke die Zeile(n) mit dem Fehler an.',
+    correction: 'Korrektur',
+    yourAnswer: 'Deine Antwort …',
+    sampleAnswer: 'Musterlösung',
+    modes: {
+      normal: { label: 'Zufällig', tagline: 'Optimales Lernen – empfohlen für den Alltag', desc: 'Alle Fragen werden intelligent gemischt. Fragen, die du in der Vergangenheit falsch beantwortet hast, erscheinen öfter – richtig beantwortete Fragen seltener.', bullets: ['Falsch beantwortete Fragen bekommen mehr Gewicht', 'Bereits gut gelernte Fragen tauchen seltener auf', 'Alle Fragen aus dem Modul werden berücksichtigt'] },
+      review: { label: 'Wiederholen', tagline: 'Gezielte Wiederholung deiner Schwächen', desc: 'Du siehst ausschließlich Fragen, die du in früheren Runden falsch beantwortet hast. Perfekt, um gezielt Lücken zu schließen.', bullets: ['Nur Fragen aus deiner Fehlerliste', 'Fragen werden zufällig gemischt', 'Richtig beantwortete Fragen werden nach 2× aus der Liste entfernt'] },
+      mixed: { label: 'Gemischt', tagline: 'Das Beste aus beiden Welten', desc: 'Du lernst hauptsächlich neue Fragen, aber ca. 30 % der Fragen kommen aus deiner Fehlerliste. So bleibt das Wiederholen im Fluss.', bullets: ['~70 % neue oder zufällige Fragen', '~30 % aus deinen falsch beantworteten Fragen', 'Reihenfolge wird nochmals zufällig gemischt'] },
+    },
+  },
+  en: {
+    back: 'Back',
+    cancel: 'Cancel',
+    questions: 'questions',
+    alreadyAnswered: 'already answered',
+    chooseMode: 'Choose learning mode',
+    startBtn: (l) => `Start ${l}`,
+    reviewBadge: (n) => n > 0 ? `${n} wrong questions in your list` : 'No wrong questions yet – play a round first!',
+    howItWorksTitle: 'How does the learning system work?',
+    howItWorksBody: 'Your progress is saved automatically after every answer. Incorrectly answered questions go into your personal error list and are shown more often in "Review" and "Mixed" mode – so you close knowledge gaps in a targeted way.',
+    resultTitle: 'Result',
+    finishedPre: 'You finished the module ',
+    finishedPost: '.',
+    time: 'Time',
+    accuracy: 'Accuracy',
+    correct: 'Correct',
+    wrong: 'Wrong',
+    retry: 'Try again',
+    toDashboard: 'Back to dashboard',
+    question: 'Question',
+    of: 'of',
+    scenario: 'Scenario',
+    showAnswer: 'Show answer',
+    answer: 'Answer',
+    howWell: 'How well did you know the answer?',
+    wrongKnew: "Wrong / Didn't know",
+    rightKnew: 'Knew it',
+    explanation: 'Explanation',
+    check: 'Check answer',
+    next: 'Next question',
+    showResult: 'Show result',
+    orderInstruction: 'Drag the entries into the correct order – or use the arrows.',
+    correctOrder: 'Correct order',
+    categorizeInstruction: 'Tap an entry and then a category – or drag it into the matching box.',
+    correctPrefix: 'correct:',
+    solution: 'Solution',
+    blank: 'Blank',
+    codeInstruction: 'Click the line(s) containing the error.',
+    correction: 'Correction',
+    yourAnswer: 'Your answer …',
+    sampleAnswer: 'Sample answer',
+    modes: {
+      normal: { label: 'Shuffle', tagline: 'Optimal learning – recommended for everyday use', desc: 'All questions are mixed intelligently. Questions you answered incorrectly in the past appear more often – correctly answered ones less often.', bullets: ['Incorrectly answered questions get more weight', 'Already well-learned questions appear less often', 'All questions from the module are included'] },
+      review: { label: 'Review', tagline: 'Targeted review of your weak spots', desc: 'You only see questions you answered incorrectly in earlier rounds. Perfect for closing gaps in a targeted way.', bullets: ['Only questions from your error list', 'Questions are shuffled randomly', 'Correctly answered questions are removed from the list after 2×'] },
+      mixed: { label: 'Mixed', tagline: 'The best of both worlds', desc: 'You mainly learn new questions, but about 30% come from your error list. That keeps reviewing in the flow.', bullets: ['~70% new or random questions', '~30% from your incorrectly answered questions', 'Order is shuffled again randomly'] },
+    },
+  },
+};
+const resolveLang = (l) => (l === 'en' ? 'en' : 'de');
+
+// ── Interactive answer components ──────────────────────────────────────────────
+// Each manages its own answer state and reports { answer, canSubmit } upward via
+// onChange. They are remounted (via key) whenever the question changes.
+
+function OrderQuestion({ q, showResult, onChange, lang = 'de' }) {
+  const t = UI[lang];
+  const [order, setOrder] = useState(() => {
+    let s = shuffleArray(q.items.map((t, i) => ({ id: i, text: t })));
+    if (q.items.length > 1 && s.every((o, i) => o.text === q.items[i])) s = [...s.slice(1), s[0]];
+    return s;
+  });
+  const [dragIndex, setDragIndex] = useState(null);
+
+  useEffect(() => { onChange({ answer: order.map(o => o.text), canSubmit: true }); }, [order, onChange]);
+
+  const move = (from, to) => {
+    if (showResult || to < 0 || to >= order.length) return;
+    setOrder(prev => {
+      const a = [...prev];
+      const [it] = a.splice(from, 1);
+      a.splice(to, 0, it);
+      return a;
+    });
+  };
+
+  return (
+    <div className="space-y-3">
+      <p className="text-sm text-text-muted mb-2 flex items-center gap-2">
+        <GripVertical className="w-4 h-4" /> {t.orderInstruction}
+      </p>
+      {order.map((it, i) => {
+        const correct = showResult && it.text === q.items[i];
+        const wrong = showResult && it.text !== q.items[i];
+        return (
+          <div
+            key={it.id}
+            draggable={!showResult}
+            onDragStart={() => setDragIndex(i)}
+            onDragOver={(e) => e.preventDefault()}
+            onDrop={(e) => { e.preventDefault(); if (dragIndex !== null) move(dragIndex, i); setDragIndex(null); }}
+            className={cn(
+              'flex items-center gap-3 p-4 rounded-xl border-2 bg-black/5 dark:bg-white/5 transition-all',
+              !showResult && 'border-black/5 dark:border-white/5 cursor-grab active:cursor-grabbing hover:border-primary/40',
+              correct && 'border-green-500 bg-green-500/10',
+              wrong && 'border-red-500 bg-red-500/10',
+            )}
+          >
+            <span className="flex items-center justify-center w-7 h-7 rounded-lg bg-primary/10 text-primary font-bold text-sm shrink-0">{i + 1}</span>
+            {!showResult && <GripVertical className="w-5 h-5 text-text-muted shrink-0" />}
+            <span className="flex-1 font-medium text-text font-mono text-sm md:text-base break-words min-w-0">{it.text}</span>
+            {showResult
+              ? (correct ? <Check className="w-5 h-5 text-green-500 shrink-0" /> : <X className="w-5 h-5 text-red-500 shrink-0" />)
+              : (
+                <span className="flex flex-col shrink-0">
+                  <button onClick={() => move(i, i - 1)} disabled={i === 0} className="p-0.5 text-text-muted hover:text-primary disabled:opacity-30"><ChevronUp className="w-5 h-5" /></button>
+                  <button onClick={() => move(i, i + 1)} disabled={i === order.length - 1} className="p-0.5 text-text-muted hover:text-primary disabled:opacity-30"><ChevronDown className="w-5 h-5" /></button>
+                </span>
+              )}
+          </div>
+        );
+      })}
+      {showResult && (
+        <div className="mt-4 p-4 rounded-xl bg-green-500/5 border border-green-500/20">
+          <p className="text-xs font-bold uppercase tracking-wider text-green-600 dark:text-green-400 mb-2">{t.correctOrder}</p>
+          <ol className="list-decimal list-inside space-y-1 font-mono text-sm text-text">
+            {q.items.map((t, i) => <li key={i}>{t}</li>)}
+          </ol>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function CategorizeQuestion({ q, showResult, onChange, lang = 'de' }) {
+  const t = UI[lang];
+  const [assign, setAssign] = useState({});
+  const [selected, setSelected] = useState(null);
+  const [dragItem, setDragItem] = useState(null);
+
+  useEffect(() => {
+    const allAssigned = q.items.every((_, i) => assign[i] != null);
+    onChange({ answer: assign, canSubmit: allAssigned });
+  }, [assign, onChange, q.items]);
+
+  const assignTo = (itemIdx, cat) => { if (showResult) return; setAssign(prev => ({ ...prev, [itemIdx]: cat })); setSelected(null); };
+  const unassign = (itemIdx) => { if (showResult) return; setAssign(prev => { const n = { ...prev }; delete n[itemIdx]; return n; }); setSelected(null); };
+
+  const pool = q.items.map((it, i) => ({ it, i })).filter(({ i }) => assign[i] == null);
+
+  const Chip = ({ entry, inBox }) => {
+    const { it, i } = entry;
+    const correct = showResult && assign[i] === it.category;
+    const wrong = showResult && assign[i] != null && assign[i] !== it.category;
+    return (
+      <button
+        draggable={!showResult}
+        onDragStart={() => setDragItem(i)}
+        onClick={(e) => { e.stopPropagation(); if (showResult) return; if (inBox) unassign(i); else setSelected(selected === i ? null : i); }}
+        className={cn(
+          'px-3 py-2 rounded-lg border-2 text-sm font-medium transition-all text-left',
+          selected === i && !showResult && 'ring-2 ring-primary ring-offset-1 ring-offset-bg',
+          correct && 'border-green-500 bg-green-500/10 text-green-700 dark:text-green-400',
+          wrong && 'border-red-500 bg-red-500/10 text-red-700 dark:text-red-400',
+          !showResult && 'cursor-pointer border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5 hover:border-primary/40',
+          showResult && assign[i] == null && 'border-black/10 dark:border-white/10',
+        )}
+      >
+        {it.text}
+        {showResult && wrong && <span className="block text-[10px] mt-0.5 opacity-80">{t.correctPrefix} {it.category}</span>}
+      </button>
+    );
+  };
+
+  return (
+    <div className="space-y-5">
+      <p className="text-sm text-text-muted">
+        {t.categorizeInstruction}
+      </p>
+      {pool.length > 0 && (
+        <div className="flex flex-wrap gap-2 p-4 rounded-xl bg-black/5 dark:bg-white/5 border-2 border-dashed border-black/10 dark:border-white/10 min-h-[3.5rem]">
+          {pool.map(entry => <Chip key={entry.i} entry={entry} inBox={false} />)}
+        </div>
+      )}
+      <div className={cn('grid gap-4', q.categories.length >= 3 ? 'sm:grid-cols-2 lg:grid-cols-3' : 'sm:grid-cols-2')}>
+        {q.categories.map(cat => {
+          const inBox = q.items.map((it, i) => ({ it, i })).filter(({ i }) => assign[i] === cat);
+          return (
+            <div
+              key={cat}
+              onDragOver={(e) => e.preventDefault()}
+              onDrop={(e) => { e.preventDefault(); if (dragItem != null) assignTo(dragItem, cat); setDragItem(null); }}
+              onClick={() => { if (selected != null) assignTo(selected, cat); }}
+              className={cn(
+                'p-4 rounded-2xl border-2 min-h-[7rem] transition-all',
+                selected != null && !showResult
+                  ? 'border-primary/60 bg-primary/5 cursor-pointer'
+                  : 'border-black/10 dark:border-white/10 bg-black/[0.02] dark:bg-white/[0.02]',
+              )}
+            >
+              <p className="font-bold text-sm uppercase tracking-wider text-primary/80 mb-3">{cat}</p>
+              <div className="flex flex-wrap gap-2">{inBox.map(entry => <Chip key={entry.i} entry={entry} inBox />)}</div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function FillBlankQuestion({ q, showResult, onChange, lang = 'de' }) {
+  const t = UI[lang];
+  const [vals, setVals] = useState(() => new Array(q.blanks.length).fill(''));
+
+  useEffect(() => {
+    onChange({ answer: vals, canSubmit: vals.every(v => v.trim() !== '') });
+  }, [vals, onChange]);
+
+  const parts = [];
+  const re = /\{\{(\d+)\}\}/g;
+  let last = 0, m;
+  while ((m = re.exec(q.template)) !== null) {
+    if (m.index > last) parts.push({ t: q.template.slice(last, m.index) });
+    parts.push({ b: parseInt(m[1], 10) });
+    last = m.index + m[0].length;
+  }
+  if (last < q.template.length) parts.push({ t: q.template.slice(last) });
+
+  const setVal = (i, v) => setVals(prev => { const a = [...prev]; a[i] = v; return a; });
+
+  return (
+    <div className="space-y-4">
+      <div className="p-5 rounded-2xl bg-[#0d1117] text-gray-100 font-mono text-sm md:text-base leading-relaxed whitespace-pre-wrap overflow-x-auto">
+        {parts.map((p, idx) => {
+          if (p.t != null) return <span key={idx}>{p.t}</span>;
+          const i = p.b;
+          const ok = showResult && matchAccept(vals[i], q.blanks[i]?.accept);
+          const bad = showResult && !ok;
+          return (
+            <input
+              key={idx}
+              type="text"
+              value={vals[i] ?? ''}
+              disabled={showResult}
+              onChange={(e) => setVal(i, e.target.value)}
+              size={Math.max(6, (vals[i]?.length || 6))}
+              spellCheck={false}
+              autoCapitalize="off"
+              autoCorrect="off"
+              className={cn(
+                'inline-block mx-1 px-2 py-0.5 rounded border-2 bg-black/40 text-center font-mono outline-none',
+                !showResult && 'border-primary/50 focus:border-primary text-white',
+                ok && 'border-green-500 text-green-300',
+                bad && 'border-red-500 text-red-300',
+              )}
+            />
+          );
+        })}
+      </div>
+      {showResult && (
+        <div className="p-4 rounded-xl bg-green-500/5 border border-green-500/20 text-sm">
+          <p className="font-bold uppercase tracking-wider text-green-600 dark:text-green-400 mb-2 text-xs">{t.solution}</p>
+          <ul className="space-y-1">
+            {q.blanks.map((b, i) => (
+              <li key={i} className="font-mono text-text">{t.blank} {i + 1}: <span className="text-green-600 dark:text-green-400">{b.accept?.[0]}</span></li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function CodeFindBugQuestion({ q, showResult, onChange, lang = 'de' }) {
+  const t = UI[lang];
+  const [sel, setSel] = useState([]);
+  useEffect(() => { onChange({ answer: sel, canSubmit: sel.length > 0 }); }, [sel, onChange]);
+  const toggle = (i) => { if (showResult) return; setSel(prev => prev.includes(i) ? prev.filter(x => x !== i) : [...prev, i]); };
+  const buggy = new Set(q.buggyLines || []);
+  return (
+    <div className="space-y-4">
+      <p className="text-sm text-text-muted flex items-center gap-2">
+        <AlertTriangle className="w-4 h-4 text-amber-500" /> {t.codeInstruction}{q.language ? ` (${q.language})` : ''}
+      </p>
+      <div className="rounded-2xl bg-[#0d1117] overflow-hidden font-mono text-sm md:text-base">
+        {q.codeLines.map((line, i) => {
+          const isSel = sel.includes(i);
+          const isBuggy = showResult && buggy.has(i);
+          const isWrongPick = showResult && isSel && !buggy.has(i);
+          return (
+            <div
+              key={i}
+              onClick={() => toggle(i)}
+              className={cn(
+                'flex items-stretch transition-colors',
+                !showResult && (isSel ? 'bg-primary/25 cursor-pointer' : 'cursor-pointer hover:bg-white/5'),
+                isBuggy && 'bg-green-500/25',
+                isWrongPick && 'bg-red-500/25',
+                showResult && 'cursor-default',
+              )}
+            >
+              <span className="select-none w-10 shrink-0 text-right pr-3 py-1 text-gray-500 bg-black/30">{i + 1}</span>
+              <code className="flex-1 px-3 py-1 whitespace-pre text-gray-100 overflow-x-auto">{line === '' ? ' ' : line}</code>
+              {isBuggy && <Check className="w-4 h-4 text-green-400 self-center mr-2 shrink-0" />}
+              {isWrongPick && <X className="w-4 h-4 text-red-400 self-center mr-2 shrink-0" />}
+            </div>
+          );
+        })}
+      </div>
+      {showResult && (
+        <div className="p-4 rounded-xl bg-green-500/5 border border-green-500/20 text-sm">
+          <p className="font-bold uppercase tracking-wider text-green-600 dark:text-green-400 mb-1 text-xs">{t.correction}</p>
+          <p className="text-text whitespace-pre-wrap">{q.fix}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function OpenQuestion({ q, showResult, onChange, lang = 'de' }) {
+  const t = UI[lang];
+  const [val, setVal] = useState('');
+  useEffect(() => { onChange({ answer: val, canSubmit: val.trim() !== '' }); }, [val, onChange]);
+  const ok = showResult && matchAccept(val, q.accept);
+  return (
+    <div className="space-y-4">
+      <input
+        type="text"
+        value={val}
+        disabled={showResult}
+        onChange={(e) => setVal(e.target.value)}
+        placeholder={t.yourAnswer}
+        spellCheck={false}
+        autoCapitalize="off"
+        autoCorrect="off"
+        className={cn(
+          'w-full p-4 rounded-2xl border-2 bg-black/5 dark:bg-white/5 text-lg text-text outline-none transition-all',
+          !showResult && 'border-black/10 dark:border-white/10 focus:border-primary',
+          showResult && ok && 'border-green-500 bg-green-500/10',
+          showResult && !ok && 'border-red-500 bg-red-500/10',
+        )}
+      />
+      {showResult && (
+        <div className={cn('p-4 rounded-xl border text-sm', ok ? 'bg-green-500/5 border-green-500/20' : 'bg-amber-500/5 border-amber-500/20')}>
+          <p className={cn('font-bold uppercase tracking-wider mb-1 text-xs', ok ? 'text-green-600 dark:text-green-400' : 'text-amber-600 dark:text-amber-400')}>
+            {ok ? t.correct : t.sampleAnswer}
+          </p>
+          <p className="text-text">{q.sampleAnswer}</p>
+        </div>
+      )}
+    </div>
+  );
+}
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -62,48 +457,14 @@ function buildQuestionList(mod, mode) {
 // ── Component ─────────────────────────────────────────────────────────────────
 
 const MODES = [
-  {
-    key:   'normal',
-    label: 'Zufällig',
-    icon:  Shuffle,
-    color: 'primary',
-    tagline: 'Optimales Lernen – empfohlen für den Alltag',
-    desc: 'Alle Fragen werden intelligent gemischt. Fragen, die du in der Vergangenheit falsch beantwortet hast, erscheinen öfter – richtig beantwortete Fragen seltener.',
-    bullets: [
-      'Falsch beantwortete Fragen bekommen mehr Gewicht',
-      'Bereits gut gelernte Fragen tauchen seltener auf',
-      'Alle Fragen aus dem Modul werden berücksichtigt',
-    ],
-  },
-  {
-    key:   'review',
-    label: 'Wiederholen',
-    icon:  RotateCcw,
-    color: 'red',
-    tagline: 'Gezielte Wiederholung deiner Schwächen',
-    desc: 'Du siehst ausschließlich Fragen, die du in früheren Runden falsch beantwortet hast. Perfekt, um gezielt Lücken zu schließen.',
-    bullets: [
-      'Nur Fragen aus deiner Fehlerliste',
-      'Fragen werden zufällig gemischt',
-      'Richtig beantwortete Fragen werden nach 2× aus der Liste entfernt',
-    ],
-  },
-  {
-    key:   'mixed',
-    label: 'Gemischt',
-    icon:  Layers,
-    color: 'amber',
-    tagline: 'Das Beste aus beiden Welten',
-    desc: 'Du lernst hauptsächlich neue Fragen, aber ca. 30 % der Fragen kommen aus deiner Fehlerliste. So bleibt das Wiederholen im Fluss.',
-    bullets: [
-      '~70 % neue oder zufällige Fragen',
-      '~30 % aus deinen falsch beantworteten Fragen',
-      'Reihenfolge wird nochmals zufällig gemischt',
-    ],
-  },
+  { key: 'normal', icon: Shuffle,  color: 'primary' },
+  { key: 'review', icon: RotateCcw, color: 'red' },
+  { key: 'mixed',  icon: Layers,   color: 'amber' },
 ];
 
 const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
+  const lang = resolveLang(module.lang);
+  const t = UI[lang];
   const [mode, setMode]                     = useState(null); // null = mode picker screen
   const [shuffledQuestions, setShuffled]    = useState([]);
   const [currentIndex, setCurrentIndex]     = useState(0);
@@ -114,6 +475,15 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
   const [quizFinished, setQuizFinished]     = useState(false);
   const [showFlashcardAnswer, setFCAnswer]  = useState(false);
   const [elapsedSeconds, setElapsed]        = useState(0);
+
+  // Generic answer state for the interactive question types (order, categorize,
+  // fill-blank, code-find-bug, open). Reported upward by each sub-component.
+  const [currentAnswer, setCurrentAnswer]   = useState(null);
+  const [canSubmit, setCanSubmit]           = useState(false);
+  const handleAnswerChange = useCallback(({ answer, canSubmit: cs }) => {
+    setCurrentAnswer(answer);
+    setCanSubmit(cs);
+  }, []);
 
   // Track which originalIndexes were answered THIS session (prevent double-count)
   const answeredThisSession = useRef(new Set());
@@ -206,14 +576,11 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
   };
 
   const handleCheckAnswer = () => {
+    const q = shuffledQuestions[currentIndex];
     setShowResult(true);
-    const correctOpts = shuffledQuestions[currentIndex].options
-      .map((o, i) => o.isCorrect ? i : null).filter(i => i !== null);
-    const isCorrect =
-      selectedOptions.length === correctOpts.length &&
-      selectedOptions.every(i => correctOpts.includes(i));
+    const isCorrect = computeCorrect(q, { selectedOptions, currentAnswer });
     if (isCorrect) setScore(s => s + 1); else setIncorrect(s => s + 1);
-    updateStats(shuffledQuestions[currentIndex].originalIndex, isCorrect);
+    updateStats(q.originalIndex, isCorrect);
   };
 
   const handleNext = () => {
@@ -222,6 +589,8 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
       setSelectedOpts([]);
       setShowResult(false);
       setFCAnswer(false);
+      setCurrentAnswer(null);
+      setCanSubmit(false);
     } else {
       setQuizFinished(true);
     }
@@ -237,6 +606,7 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
     answeredThisSession.current = new Set();
     setCurrentIndex(0); setScore(0); setIncorrect(0); setElapsed(0);
     setQuizFinished(false); setSelectedOpts([]); setShowResult(false); setFCAnswer(false);
+    setCurrentAnswer(null); setCanSubmit(false);
     setShuffled(buildQuestionList(module, mode));
   };
 
@@ -282,25 +652,26 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
       <div className="max-w-3xl mx-auto py-10 px-4 animate-fade-in">
         {/* Back */}
         <button onClick={onBack} className="flex items-center gap-2 text-text-muted hover:text-primary mb-10 transition-colors font-semibold">
-          <ArrowLeft className="w-5 h-5" /> Zurück
+          <ArrowLeft className="w-5 h-5" /> {t.back}
         </button>
 
         {/* Header */}
         <div className="mb-3">
           <h2 className="text-3xl md:text-4xl font-black">{module.title}</h2>
           <p className="text-text-muted mt-2">
-            {totalQ} Fragen {answered > 0 && `· ${answered} bereits beantwortet`}
+            {totalQ} {t.questions} {answered > 0 && `· ${answered} ${t.alreadyAnswered}`}
           </p>
         </div>
 
         {/* Section title */}
         <p className="text-sm font-bold uppercase tracking-widest text-text-muted mb-6 mt-8">
-          Lernmodus wählen
+          {t.chooseMode}
         </p>
 
         {/* Mode cards */}
         <div className="space-y-5">
-          {MODES.map(({ key, label, icon: Icon, color, tagline, desc, bullets }) => {
+          {MODES.map(({ key, icon: Icon, color }) => {
+            const { label, tagline, desc, bullets } = t.modes[key];
             const disabled = key === 'review' && wrongCount === 0;
             const c = colorMap[color];
 
@@ -354,9 +725,7 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
                       wrongCount > 0 ? 'bg-red-500/10 text-red-500' : 'bg-black/5 dark:bg-white/5 text-text-muted'
                     )}>
                       <RotateCcw className="w-3.5 h-3.5" />
-                      {wrongCount > 0
-                        ? `${wrongCount} falsche Fragen in deiner Liste`
-                        : 'Noch keine falschen Fragen – spiele erst eine Runde!'}
+                      {t.reviewBadge(wrongCount)}
                     </div>
                   )}
 
@@ -369,7 +738,7 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
                         c.btn
                       )}
                     >
-                      {label} starten
+                      {t.startBtn(label)}
                       <ArrowRight className="w-4 h-4" />
                     </button>
                   )}
@@ -383,11 +752,8 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
         <div className="mt-8 p-4 rounded-2xl bg-black/5 dark:bg-white/5 flex items-start gap-3">
           <HelpCircle className="w-5 h-5 text-primary shrink-0 mt-0.5" />
           <p className="text-sm text-text-muted leading-relaxed">
-            <span className="font-bold text-text">Wie funktioniert das Lernsystem?</span>{' '}
-            Dein Fortschritt wird nach jeder Antwort automatisch gespeichert. Falsch beantwortete
-            Fragen landen in deiner persönlichen Fehlerliste und werden im Modus
-            &ldquo;Wiederholen&rdquo; und &ldquo;Gemischt&rdquo; bevorzugt wiederholt – so
-            schließt du Wissenslücken gezielt.
+            <span className="font-bold text-text">{t.howItWorksTitle}</span>{' '}
+            {t.howItWorksBody}
           </p>
         </div>
       </div>
@@ -405,30 +771,30 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
           <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-8">
             <Trophy className="text-primary w-12 h-12" />
           </div>
-          <h2 className="text-4xl md:text-5xl font-black mb-4 tracking-tight">Ergebnis</h2>
+          <h2 className="text-4xl md:text-5xl font-black mb-4 tracking-tight">{t.resultTitle}</h2>
           <p className="text-text-muted mb-10 text-xl">
-            Du hast das Modul <span className="font-semibold text-text">{module.title}</span> beendet.
+            {t.finishedPre}<span className="font-semibold text-text">{module.title}</span>{t.finishedPost}
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-12">
             <div className="bg-black/5 dark:bg-white/5 p-6 rounded-2xl flex flex-col items-center">
-              <span className="text-text-muted font-semibold mb-2">Zeit</span>
+              <span className="text-text-muted font-semibold mb-2">{t.time}</span>
               <div className="flex items-center gap-2 text-2xl font-black text-blue-500">
                 <Clock className="w-6 h-6" /><span>{formatTime(elapsedSeconds)}</span>
               </div>
             </div>
             <div className="bg-black/5 dark:bg-white/5 p-6 rounded-2xl flex flex-col items-center">
-              <span className="text-text-muted font-semibold mb-2">Genauigkeit</span>
+              <span className="text-text-muted font-semibold mb-2">{t.accuracy}</span>
               <div className="text-2xl font-black text-primary">{accuracy}%</div>
             </div>
             <div className="bg-green-500/10 p-6 rounded-2xl flex flex-col items-center">
-              <span className="text-green-600 dark:text-green-400 font-semibold mb-2">Richtig</span>
+              <span className="text-green-600 dark:text-green-400 font-semibold mb-2">{t.correct}</span>
               <div className="flex items-center gap-2 text-2xl font-black text-green-500">
                 <Check className="w-6 h-6" /><span>{score}</span>
               </div>
             </div>
             <div className="bg-red-500/10 p-6 rounded-2xl flex flex-col items-center">
-              <span className="text-red-600 dark:text-red-400 font-semibold mb-2">Falsch</span>
+              <span className="text-red-600 dark:text-red-400 font-semibold mb-2">{t.wrong}</span>
               <div className="flex items-center gap-2 text-2xl font-black text-red-500">
                 <X className="w-6 h-6" /><span>{incorrectCount}</span>
               </div>
@@ -446,10 +812,10 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button onClick={handleRetry} className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-2xl font-bold transition-all flex items-center justify-center gap-3 text-lg shadow-lg shadow-primary/20">
-              <RefreshCcw className="w-6 h-6" /><span>Nochmal versuchen</span>
+              <RefreshCcw className="w-6 h-6" /><span>{t.retry}</span>
             </button>
             <button onClick={onBack} className="bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10 text-text px-8 py-4 rounded-2xl font-bold transition-all text-lg">
-              Zum Dashboard
+              {t.toDashboard}
             </button>
           </div>
         </div>
@@ -467,10 +833,10 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
       {/* Top bar */}
       <div className="flex justify-between items-center mb-8">
         <button onClick={onBack} className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors p-2 -ml-2 rounded-lg font-semibold text-lg">
-          <ArrowLeft className="w-5 h-5" /> Zurück
+          <ArrowLeft className="w-5 h-5" /> {t.back}
         </button>
         <button onClick={() => setQuizFinished(true)} className="flex items-center gap-2 text-red-500 hover:text-red-600 bg-red-500/10 hover:bg-red-500/20 transition-colors px-4 py-2 rounded-xl font-bold">
-          <StopCircle className="w-5 h-5" /><span>Abbrechen</span>
+          <StopCircle className="w-5 h-5" /><span>{t.cancel}</span>
         </button>
       </div>
 
@@ -480,7 +846,7 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
           <div>
             <span className="text-primary font-bold text-sm md:text-base uppercase tracking-wider">{module.title}</span>
             <h2 className="text-2xl md:text-3xl font-black mt-2">
-              Frage {currentIndex + 1} <span className="text-text-muted font-medium">von {totalQuestions}</span>
+              {t.question} {currentIndex + 1} <span className="text-text-muted font-medium">{t.of} {totalQuestions}</span>
             </h2>
           </div>
           <div className="flex flex-col items-end gap-2">
@@ -520,7 +886,7 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
         {/* Context / scenario box */}
         {currentQuestion.context && (
           <div className="mb-6 p-4 bg-black/5 dark:bg-white/5 border-l-4 border-primary/40 rounded-r-xl">
-            <span className="block text-xs font-bold uppercase tracking-wider text-primary/70 mb-1">Szenario</span>
+            <span className="block text-xs font-bold uppercase tracking-wider text-primary/70 mb-1">{t.scenario}</span>
             <p className="text-base md:text-lg leading-relaxed text-text whitespace-pre-wrap">
               {currentQuestion.context}
             </p>
@@ -544,27 +910,27 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
           </div>
         )}
 
-        {/* Flashcard type */}
-        {currentQuestion.type === 'flashcard' ? (
+        {/* Self-graded types (flashcard / self-assess) */}
+        {SELF_GRADED_TYPES.includes(currentQuestion.type) ? (
           <div className="space-y-6">
             {!showFlashcardAnswer ? (
               <button onClick={() => setFCAnswer(true)} className="w-full bg-primary/10 hover:bg-primary/20 text-primary border-2 border-primary/30 p-8 rounded-2xl font-bold text-xl transition-all">
-                Antwort anzeigen
+                {t.showAnswer}
               </button>
             ) : (
               <div className="animate-fade-in space-y-8">
                 <div className="p-8 bg-black/5 dark:bg-white/5 rounded-2xl border border-black/10 dark:border-white/10">
-                  <h4 className="font-bold text-lg uppercase tracking-wider mb-4 text-text-muted">Antwort</h4>
+                  <h4 className="font-bold text-lg uppercase tracking-wider mb-4 text-text-muted">{t.answer}</h4>
                   <p className="text-xl md:text-2xl leading-relaxed text-text whitespace-pre-wrap">{currentQuestion.answer}</p>
                 </div>
                 <div className="flex flex-col space-y-4">
-                  <h4 className="text-center font-semibold text-lg text-text-muted">Wie gut wusstest du die Antwort?</h4>
+                  <h4 className="text-center font-semibold text-lg text-text-muted">{t.howWell}</h4>
                   <div className="flex sm:flex-row flex-col gap-4">
                     <button onClick={() => handleFlashcardEval(false)} className="flex-1 bg-red-500/10 hover:bg-red-500/20 text-red-600 dark:text-red-400 border-2 border-red-500/30 p-5 rounded-2xl font-bold text-lg transition-all flex items-center justify-center gap-3">
-                      <X className="w-6 h-6" /> Falsch / Nicht gewusst
+                      <X className="w-6 h-6" /> {t.wrongKnew}
                     </button>
                     <button onClick={() => handleFlashcardEval(true)} className="flex-1 bg-green-500/10 hover:bg-green-500/20 text-green-600 dark:text-green-400 border-2 border-green-500/30 p-5 rounded-2xl font-bold text-lg transition-all flex items-center justify-center gap-3">
-                      <Check className="w-6 h-6" /> Richtig gewusst
+                      <Check className="w-6 h-6" /> {t.rightKnew}
                     </button>
                   </div>
                 </div>
@@ -573,7 +939,18 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
           </div>
         ) : (
           <>
-            {/* Multiple choice options */}
+            {currentQuestion.type === 'order' ? (
+              <OrderQuestion key={`q-${currentIndex}`} q={currentQuestion} showResult={showResult} onChange={handleAnswerChange} lang={lang} />
+            ) : currentQuestion.type === 'categorize' ? (
+              <CategorizeQuestion key={`q-${currentIndex}`} q={currentQuestion} showResult={showResult} onChange={handleAnswerChange} lang={lang} />
+            ) : currentQuestion.type === 'fill-blank' ? (
+              <FillBlankQuestion key={`q-${currentIndex}`} q={currentQuestion} showResult={showResult} onChange={handleAnswerChange} lang={lang} />
+            ) : currentQuestion.type === 'code-find-bug' ? (
+              <CodeFindBugQuestion key={`q-${currentIndex}`} q={currentQuestion} showResult={showResult} onChange={handleAnswerChange} lang={lang} />
+            ) : currentQuestion.type === 'open' ? (
+              <OpenQuestion key={`q-${currentIndex}`} q={currentQuestion} showResult={showResult} onChange={handleAnswerChange} lang={lang} />
+            ) : (
+            /* Multiple choice options (default) */
             <div className="space-y-4 md:space-y-6">
               {currentQuestion.options.map((option, index) => {
                 const isSelected = selectedOptions.includes(index);
@@ -600,8 +977,9 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
                 );
               })}
             </div>
+            )}
 
-            {/* Explanation */}
+            {/* Explanation (shared across all auto-graded types) */}
             {showResult && currentQuestion.explanation && currentQuestion.explanation.trim() !== '' && (
               <div className="mt-10 p-8 bg-primary/5 rounded-2xl border border-primary/20 animate-fade-in">
                 <div className="flex items-start gap-4">
@@ -609,7 +987,7 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
                     <HelpCircle className="text-primary w-6 h-6" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg uppercase tracking-wider mb-3 text-primary">Erklärung</h4>
+                    <h4 className="font-bold text-lg uppercase tracking-wider mb-3 text-primary">{t.explanation}</h4>
                     <p className="text-text leading-relaxed text-lg italic opacity-90">{currentQuestion.explanation}</p>
                   </div>
                 </div>
@@ -621,21 +999,21 @@ const QuizPlayer = ({ module, onBack, user, onProgressUpdate }) => {
 
       {/* Action button */}
       <div className="flex justify-end mb-12">
-        {currentQuestion.type !== 'flashcard' && (
+        {!SELF_GRADED_TYPES.includes(currentQuestion.type) && (
           !showResult ? (
             <button
               onClick={handleCheckAnswer}
-              disabled={selectedOptions.length === 0}
+              disabled={INTERACTIVE_TYPES.includes(currentQuestion.type) ? !canSubmit : selectedOptions.length === 0}
               className="bg-primary hover:bg-primary-dark disabled:opacity-50 disabled:cursor-not-allowed text-white px-12 py-5 rounded-2xl font-black text-xl transition-all shadow-xl shadow-primary/30 w-full md:w-auto"
             >
-              Antwort prüfen
+              {t.check}
             </button>
           ) : (
             <button
               onClick={handleNext}
               className="bg-text text-background hover:opacity-90 px-12 py-5 rounded-2xl font-black text-xl transition-all flex items-center justify-center gap-3 w-full md:w-auto"
             >
-              <span>{currentIndex < totalQuestions - 1 ? 'Nächste Frage' : 'Ergebnis anzeigen'}</span>
+              <span>{currentIndex < totalQuestions - 1 ? t.next : t.showResult}</span>
               <ArrowRight className="w-6 h-6" />
             </button>
           )
